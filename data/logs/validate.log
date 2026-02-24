@@ -1,0 +1,47 @@
+==== validate SRR1299496 ====
+2026-02-24T04:37:16 vdb-validate.3.2.1 info: Database 'SRR1299496.sra' metadata: md5 ok
+2026-02-24T04:37:16 vdb-validate.3.2.1 info: Table 'SEQUENCE' metadata: md5 ok
+2026-02-24T04:37:29 vdb-validate.3.2.1 info: Column 'QUALITY': md5 ok
+2026-02-24T04:37:29 vdb-validate.3.2.1 info: Column 'RD_FILTER': md5 ok
+2026-02-24T04:37:38 vdb-validate.3.2.1 info: Column 'READ': md5 ok
+2026-02-24T04:37:39 vdb-validate.3.2.1 info: Column 'READ_LEN': md5 ok
+2026-02-24T04:37:39 vdb-validate.3.2.1 info: Column 'READ_START': md5 ok
+2026-02-24T04:37:39 vdb-validate.3.2.1 info: Column 'READ_TYPE': md5 ok
+2026-02-24T04:37:39 vdb-validate.3.2.1 info: Column 'SPOT_GROUP': md5 ok
+2026-02-24T04:37:39 vdb-validate.3.2.1 info: Database '/mnt/dv/wid/projects7/Roy-singlecell2/multispecies_singlecell/swathi_work/data/phylo_proj/Botany653/data/raw_downloads/SRR1299496/SRR1299496.sra' contains only unaligned reads
+2026-02-24T04:37:39 vdb-validate.3.2.1 info: Database 'SRR1299496.sra' is consistent
+==== validate SRR1299090 ====
+2026-02-24T04:37:39 vdb-validate.3.2.1 info: Database 'SRR1299090.sra' metadata: md5 ok
+2026-02-24T04:37:39 vdb-validate.3.2.1 info: Table 'SEQUENCE' metadata: md5 ok
+2026-02-24T04:37:39 vdb-validate.3.2.1 info: Column 'ALTREAD': md5 ok
+2026-02-24T04:37:49 vdb-validate.3.2.1 info: Column 'QUALITY': md5 ok
+2026-02-24T04:38:04 vdb-validate.3.2.1 info: Column 'READ': md5 ok
+2026-02-24T04:38:04 vdb-validate.3.2.1 info: Column 'SPOT_GROUP': md5 ok
+2026-02-24T04:38:04 vdb-validate.3.2.1 info: Database '/mnt/dv/wid/projects7/Roy-singlecell2/multispecies_singlecell/swathi_work/data/phylo_proj/Botany653/data/raw_downloads/SRR1299090/SRR1299090.sra' contains only unaligned reads
+2026-02-24T04:38:04 vdb-validate.3.2.1 info: Database 'SRR1299090.sra' is consistent
+==== validate SRR1299083 ====
+2026-02-24T04:38:04 vdb-validate.3.2.1 info: Table 'SRR1299083.sra' metadata: md5 ok
+2026-02-24T04:38:04 vdb-validate.3.2.1 info: Column 'ALTREAD': md5 ok
+2026-02-24T04:38:46 vdb-validate.3.2.1 info: Column 'QUALITY': md5 ok
+2026-02-24T04:39:07 vdb-validate.3.2.1 info: Column 'READ': md5 ok
+2026-02-24T04:39:09 vdb-validate.3.2.1 info: Column 'X': md5 ok
+2026-02-24T04:39:09 vdb-validate.3.2.1 info: Column 'Y': md5 ok
+2026-02-24T04:39:09 vdb-validate.3.2.1 info: Table 'SRR1299083.sra' is consistent
+==== validate SRR1299088 ====
+2026-02-24T04:39:10 vdb-validate.3.2.1 info: Database 'SRR1299088.sra' metadata: md5 ok
+2026-02-24T04:39:10 vdb-validate.3.2.1 info: Table 'SEQUENCE' metadata: md5 ok
+2026-02-24T04:39:10 vdb-validate.3.2.1 info: Column 'ALTREAD': md5 ok
+2026-02-24T04:41:08 vdb-validate.3.2.1 info: Column 'QUALITY': md5 ok
+2026-02-24T04:42:15 vdb-validate.3.2.1 info: Column 'READ': md5 ok
+2026-02-24T04:42:15 vdb-validate.3.2.1 info: Database '/mnt/dv/wid/projects7/Roy-singlecell2/multispecies_singlecell/swathi_work/data/phylo_proj/Botany653/data/raw_downloads/SRR1299088/SRR1299088.sra' contains only unaligned reads
+2026-02-24T04:42:15 vdb-validate.3.2.1 info: Database 'SRR1299088.sra' is consistent
+==== validate SRR1299492 ====
+2026-02-24T04:42:16 vdb-validate.3.2.1 info: Database 'SRR1299492.sra' metadata: md5 ok
+2026-02-24T04:42:16 vdb-validate.3.2.1 info: Table 'SEQUENCE' metadata: md5 ok
+2026-02-24T04:42:16 vdb-validate.3.2.1 info: Column 'ALTREAD': md5 ok
+2026-02-24T04:44:58 vdb-validate.3.2.1 info: Column 'QUALITY': md5 ok
+2026-02-24T04:44:59 vdb-validate.3.2.1 info: Column 'RD_FILTER': md5 ok
+2026-02-24T04:46:28 vdb-validate.3.2.1 info: Column 'READ': md5 ok
+2026-02-24T04:46:29 vdb-validate.3.2.1 info: Database '/mnt/dv/wid/projects7/Roy-singlecell2/multispecies_singlecell/swathi_work/data/phylo_proj/Botany653/data/raw_downloads/SRR1299492/SRR1299492.sra' contains only unaligned reads
+2026-02-24T04:46:29 vdb-validate.3.2.1 info: Database 'SRR1299492.sra' is consistent
+
