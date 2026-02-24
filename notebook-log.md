@@ -103,3 +103,5 @@ while read -r srr; do
 
 done < "$PROJ/data/raw_downloads/srr_list.txt"
 ```
+
+Four of the SRA's have paired reads and 1 has single reads.
