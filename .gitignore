@@ -1,10 +1,7 @@
 # Ignore the following files and directories when using git. This is a standard .gitignore file for a project.
 old_data/
-data/ncbi_genome_downloads/Bb_assembly_BBRACH_0.4
-data/ncbi_genome_downloads/Bg_assembly_BGAUD_0.2
-data/ncbi_genome_downloads/Ee_genome_ASM4190279v1_2024
-data/ncbi_genome_downloads/Ip_assembly_Coco_2.0
-data/ncbi_genome_downloads/Pk_assembly_PKINGS_0.4
+data/ncbi_genome_downloads/zipped/
+data/ncbi_genome_downloads/*/
 
 ## scripts
 scripts/data_process/old_data_background_preprocessing.md
