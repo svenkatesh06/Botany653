@@ -55,11 +55,11 @@ The working logic is:
 
 With that in mind, the updated species list is:
 
-1. *Electrophorus electricus* — **electric eel**
-2. *Brachyhypopomus gauderio* — **brown ghost knifefish**
-3. *Paramormyrops kingsleyae* — **weakly electric mormyrid**
-4. *Brienomyrus brachyistius* — **baby whale fish**
-5. *Ictalurus punctatus* — **channel catfish** *(non-electric outgroup)*
+1. *Electrophorus electricus* - **electric eel**
+2. *Brachyhypopomus gauderio* - **brown ghost knifefish**
+3. *Paramormyrops kingsleyae* - **weakly electric mormyrid**
+4. *Brienomyrus brachyistius* - **baby whale fish**
+5. *Ictalurus punctatus* - **channel catfish** *(non-electric outgroup)*
 
 This species list was revised after excluding *Electrophorus voltai* from the project because its current annotation was not convenient for linking sequences to common gene names in a clean and uniform way for downstream analysis. *Brachyhypopomus gauderio* was added instead because it remains biologically relevant as an electric gymnotiform and has a more practical annotation framework for an updated coding-sequence-based comparison.
 
@@ -131,8 +131,6 @@ conda install -c conda-forge numpy pandas openpyxl -y
 cd scripts/data_process
 python split_metadata.py
 ```
-
-### Fetch TOP 50 EO genes of interest
 
 ### Selecting a representative subset of EO-associated genes
 
