@@ -1,0 +1,3273 @@
+MAFFT alignment started at Wed Apr 22 20:36:46 CDT 2026
+Output directory: ../../results/msa_mafft
+
+################################ Processing: ../../data/input_to_MSA_perGene_fa/abrab.fna
+outputhat23=16
+treein = 0
+compacttree = 0
+stacksize: 8192 kb
+generating a scoring matrix for nucleotide (dist=200) ... done
+All-to-all alignment.
+    0 / 5    1 / 5    2 / 5    3 / 5tbfast-pair (nuc) Version 7.526
+alg=L, model=DNA200 (2), 2.00 (6.00), -0.10 (-0.30), noshift, amax=0.0
+0 thread(s)
+
+outputhat23=16
+Loading 'hat3.seed' ... 
+done.
+Writing hat3 for iterative refinement
+generating a scoring matrix for nucleotide (dist=200) ... done
+Gap Penalty = -1.53, +0.00, +0.00
+tbutree = 1, compacttree = 0
+Constructing a UPGMA tree ... 
+    0 / 5
+done.
+
+Progressive alignment ... 
+STEP     1 /4 STEP     2 /4 STEP     3 /4 STEP     4 /4 
+done.
+tbfast (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+1 thread(s)
+
+minimumweight = 0.000010
+autosubalignment = 0.000000
+nthread = 0
+randomseed = 0
+blosum 62 / kimura 200
+poffset = 0
+niter = 16
+sueff_global = 0.100000
+nadd = 16
+Loading 'hat3' ... done.
+generating a scoring matrix for nucleotide (dist=200) ... done
+
+    0 / 5
+Segment   1/  1    1-1258
+STEP 001-001-0  identical.   STEP 001-001-1  identical.   STEP 001-002-0  identical.   STEP 001-002-1  identical.   STEP 001-003-0  accepted.STEP 001-003-1  rejected.STEP 001-004-1  identical.   STEP 002-004-1  identical.   STEP 002-003-0  identical.   STEP 002-003-1  rejected.STEP 002-002-0  identical.   STEP 002-002-1  identical.   STEP 002-001-0  identical.   STEP 002-001-1  identical.   STEP 003-001-0  identical.   
+Converged.
+
+done
+dvtditr (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+0 thread(s)
+
+
+Strategy:
+ L-INS-i (Probably most accurate, very slow)
+ Iterative refinement method (<16) with LOCAL pairwise alignment information
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+
+alignment done for ../../data/input_to_MSA_perGene_fa/abrab.fna
+
+################################ Processing: ../../data/input_to_MSA_perGene_fa/ache.fna
+outputhat23=16
+treein = 0
+compacttree = 0
+stacksize: 8192 kb
+generating a scoring matrix for nucleotide (dist=200) ... done
+All-to-all alignment.
+    0 / 5    1 / 5    2 / 5    3 / 5tbfast-pair (nuc) Version 7.526
+alg=L, model=DNA200 (2), 2.00 (6.00), -0.10 (-0.30), noshift, amax=0.0
+0 thread(s)
+
+outputhat23=16
+Loading 'hat3.seed' ... 
+done.
+Writing hat3 for iterative refinement
+generating a scoring matrix for nucleotide (dist=200) ... done
+Gap Penalty = -1.53, +0.00, +0.00
+tbutree = 1, compacttree = 0
+Constructing a UPGMA tree ... 
+    0 / 5
+done.
+
+Progressive alignment ... 
+STEP     1 /4 STEP     2 /4 STEP     3 /4 STEP     4 /4 
+done.
+tbfast (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+1 thread(s)
+
+minimumweight = 0.000010
+autosubalignment = 0.000000
+nthread = 0
+randomseed = 0
+blosum 62 / kimura 200
+poffset = 0
+niter = 16
+sueff_global = 0.100000
+nadd = 16
+Loading 'hat3' ... done.
+generating a scoring matrix for nucleotide (dist=200) ... done
+
+    0 / 5
+Segment   1/  1    1-1918
+STEP 001-001-0  identical.   STEP 001-001-1  identical.   STEP 001-002-0  identical.   STEP 001-002-1  identical.   STEP 001-003-0  identical.   STEP 001-003-1  accepted.STEP 001-004-1  identical.   STEP 002-004-1  identical.   STEP 002-003-0  identical.   STEP 002-003-1  identical.   STEP 002-002-0  identical.   STEP 002-002-1  identical.   STEP 002-001-0  identical.   STEP 002-001-1  identical.   STEP 003-001-0  identical.   
+Oscillating.
+
+done
+dvtditr (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+0 thread(s)
+
+
+Strategy:
+ L-INS-i (Probably most accurate, very slow)
+ Iterative refinement method (<16) with LOCAL pairwise alignment information
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+
+alignment done for ../../data/input_to_MSA_perGene_fa/ache.fna
+
+################################ Processing: ../../data/input_to_MSA_perGene_fa/ankrd28b.fna
+outputhat23=16
+treein = 0
+compacttree = 0
+stacksize: 8192 kb
+generating a scoring matrix for nucleotide (dist=200) ... done
+All-to-all alignment.
+    0 / 5    1 / 5    2 / 5    3 / 5tbfast-pair (nuc) Version 7.526
+alg=L, model=DNA200 (2), 2.00 (6.00), -0.10 (-0.30), noshift, amax=0.0
+0 thread(s)
+
+outputhat23=16
+Loading 'hat3.seed' ... 
+done.
+Writing hat3 for iterative refinement
+generating a scoring matrix for nucleotide (dist=200) ... done
+Gap Penalty = -1.53, +0.00, +0.00
+tbutree = 1, compacttree = 0
+Constructing a UPGMA tree ... 
+    0 / 5
+done.
+
+Progressive alignment ... 
+STEP     1 /4 STEP     2 /4 STEP     3 /4 STEP     4 /4 
+done.
+tbfast (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+1 thread(s)
+
+minimumweight = 0.000010
+autosubalignment = 0.000000
+nthread = 0
+randomseed = 0
+blosum 62 / kimura 200
+poffset = 0
+niter = 16
+sueff_global = 0.100000
+nadd = 16
+Loading 'hat3' ... done.
+generating a scoring matrix for nucleotide (dist=200) ... done
+
+    0 / 5
+Segment   1/  1    1-3371
+STEP 001-001-0  identical.   STEP 001-001-1  identical.   STEP 001-002-0  identical.   STEP 001-002-1  identical.   STEP 001-003-0  identical.   STEP 001-003-1  identical.   STEP 001-004-1  identical.   STEP 002-004-1  identical.   STEP 002-003-0  identical.   STEP 002-003-1  identical.   
+Converged.
+
+done
+dvtditr (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+0 thread(s)
+
+
+Strategy:
+ L-INS-i (Probably most accurate, very slow)
+ Iterative refinement method (<16) with LOCAL pairwise alignment information
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+
+alignment done for ../../data/input_to_MSA_perGene_fa/ankrd28b.fna
+
+################################ Processing: ../../data/input_to_MSA_perGene_fa/arl13a.fna
+outputhat23=16
+treein = 0
+compacttree = 0
+stacksize: 8192 kb
+generating a scoring matrix for nucleotide (dist=200) ... done
+All-to-all alignment.
+    0 / 5    1 / 5    2 / 5    3 / 5tbfast-pair (nuc) Version 7.526
+alg=L, model=DNA200 (2), 2.00 (6.00), -0.10 (-0.30), noshift, amax=0.0
+0 thread(s)
+
+outputhat23=16
+Loading 'hat3.seed' ... 
+done.
+Writing hat3 for iterative refinement
+generating a scoring matrix for nucleotide (dist=200) ... done
+Gap Penalty = -1.53, +0.00, +0.00
+tbutree = 1, compacttree = 0
+Constructing a UPGMA tree ... 
+    0 / 5
+done.
+
+Progressive alignment ... 
+STEP     1 /4 STEP     2 /4 STEP     3 /4 
+Reallocating..done. *alloclen = 3760
+STEP     4 /4 
+done.
+tbfast (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+1 thread(s)
+
+minimumweight = 0.000010
+autosubalignment = 0.000000
+nthread = 0
+randomseed = 0
+blosum 62 / kimura 200
+poffset = 0
+niter = 16
+sueff_global = 0.100000
+nadd = 16
+Loading 'hat3' ... done.
+generating a scoring matrix for nucleotide (dist=200) ... done
+
+    0 / 5
+Segment   1/  1    1-1435
+STEP 001-001-0  identical.   STEP 001-001-1  identical.   STEP 001-002-0  identical.   STEP 001-002-1  accepted.STEP 001-003-0  accepted.STEP 001-003-1  rejected.STEP 001-004-1  accepted.STEP 002-004-1  identical.   STEP 002-003-0  rejected.STEP 002-003-1  accepted.STEP 002-002-0  rejected.STEP 002-002-1  accepted.STEP 002-001-0  rejected.STEP 002-001-1  accepted.STEP 003-001-0  rejected.STEP 003-001-1  identical.   STEP 003-002-0  identical.   STEP 003-002-1  identical.   STEP 003-003-0  rejected.STEP 003-003-1  identical.   STEP 003-004-1  rejected.STEP 004-004-1  rejected.STEP 004-003-0  rejected.STEP 004-003-1  identical.   
+Converged.
+
+done
+dvtditr (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+0 thread(s)
+
+
+Strategy:
+ L-INS-i (Probably most accurate, very slow)
+ Iterative refinement method (<16) with LOCAL pairwise alignment information
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+
+alignment done for ../../data/input_to_MSA_perGene_fa/arl13a.fna
+
+################################ Processing: ../../data/input_to_MSA_perGene_fa/asb10.fna
+outputhat23=16
+treein = 0
+compacttree = 0
+stacksize: 8192 kb
+generating a scoring matrix for nucleotide (dist=200) ... done
+All-to-all alignment.
+    0 / 5    1 / 5    2 / 5    3 / 5tbfast-pair (nuc) Version 7.526
+alg=L, model=DNA200 (2), 2.00 (6.00), -0.10 (-0.30), noshift, amax=0.0
+0 thread(s)
+
+outputhat23=16
+Loading 'hat3.seed' ... 
+done.
+Writing hat3 for iterative refinement
+generating a scoring matrix for nucleotide (dist=200) ... done
+Gap Penalty = -1.53, +0.00, +0.00
+tbutree = 1, compacttree = 0
+Constructing a UPGMA tree ... 
+    0 / 5
+done.
+
+Progressive alignment ... 
+STEP     1 /4 STEP     2 /4 STEP     3 /4 STEP     4 /4 
+done.
+tbfast (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+1 thread(s)
+
+minimumweight = 0.000010
+autosubalignment = 0.000000
+nthread = 0
+randomseed = 0
+blosum 62 / kimura 200
+poffset = 0
+niter = 16
+sueff_global = 0.100000
+nadd = 16
+Loading 'hat3' ... done.
+generating a scoring matrix for nucleotide (dist=200) ... done
+
+    0 / 5
+Segment   1/  1    1-1423
+STEP 001-001-0  accepted.STEP 001-001-1  accepted.STEP 001-002-0  identical.   STEP 001-002-1  identical.   STEP 001-003-0  identical.   STEP 001-003-1  identical.   STEP 001-004-1  rejected.STEP 002-004-1  rejected.STEP 002-003-0  identical.   STEP 002-003-1  identical.   STEP 002-002-0  identical.   STEP 002-002-1  identical.   
+Converged.
+
+done
+dvtditr (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+0 thread(s)
+
+
+Strategy:
+ L-INS-i (Probably most accurate, very slow)
+ Iterative refinement method (<16) with LOCAL pairwise alignment information
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+
+alignment done for ../../data/input_to_MSA_perGene_fa/asb10.fna
+
+################################ Processing: ../../data/input_to_MSA_perGene_fa/atp1a2a.fna
+outputhat23=16
+treein = 0
+compacttree = 0
+stacksize: 8192 kb
+generating a scoring matrix for nucleotide (dist=200) ... done
+All-to-all alignment.
+    0 / 5    1 / 5    2 / 5    3 / 5tbfast-pair (nuc) Version 7.526
+alg=L, model=DNA200 (2), 2.00 (6.00), -0.10 (-0.30), noshift, amax=0.0
+0 thread(s)
+
+outputhat23=16
+Loading 'hat3.seed' ... 
+done.
+Writing hat3 for iterative refinement
+generating a scoring matrix for nucleotide (dist=200) ... done
+Gap Penalty = -1.53, +0.00, +0.00
+tbutree = 1, compacttree = 0
+Constructing a UPGMA tree ... 
+    0 / 5
+done.
+
+Progressive alignment ... 
+STEP     1 /4 STEP     2 /4 STEP     3 /4 STEP     4 /4 
+done.
+tbfast (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+1 thread(s)
+
+minimumweight = 0.000010
+autosubalignment = 0.000000
+nthread = 0
+randomseed = 0
+blosum 62 / kimura 200
+poffset = 0
+niter = 16
+sueff_global = 0.100000
+nadd = 16
+Loading 'hat3' ... done.
+generating a scoring matrix for nucleotide (dist=200) ... done
+
+    0 / 5
+Segment   1/  1    1-3172
+STEP 001-001-0  identical.   STEP 001-001-1  identical.   STEP 001-002-0  identical.   STEP 001-002-1  identical.   STEP 001-003-0  identical.   STEP 001-003-1  rejected.STEP 001-004-1  identical.   STEP 002-004-1  identical.   STEP 002-003-0  identical.   STEP 002-003-1  rejected.
+Converged.
+
+done
+dvtditr (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+0 thread(s)
+
+
+Strategy:
+ L-INS-i (Probably most accurate, very slow)
+ Iterative refinement method (<16) with LOCAL pairwise alignment information
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+
+alignment done for ../../data/input_to_MSA_perGene_fa/atp1a2a.fna
+
+################################ Processing: ../../data/input_to_MSA_perGene_fa/best2.fna
+outputhat23=16
+treein = 0
+compacttree = 0
+stacksize: 8192 kb
+generating a scoring matrix for nucleotide (dist=200) ... done
+All-to-all alignment.
+    0 / 5    1 / 5    2 / 5    3 / 5tbfast-pair (nuc) Version 7.526
+alg=L, model=DNA200 (2), 2.00 (6.00), -0.10 (-0.30), noshift, amax=0.0
+0 thread(s)
+
+outputhat23=16
+Loading 'hat3.seed' ... 
+done.
+Writing hat3 for iterative refinement
+generating a scoring matrix for nucleotide (dist=200) ... done
+Gap Penalty = -1.53, +0.00, +0.00
+tbutree = 1, compacttree = 0
+Constructing a UPGMA tree ... 
+    0 / 5
+done.
+
+Progressive alignment ... 
+STEP     1 /4 STEP     2 /4 STEP     3 /4 STEP     4 /4 
+done.
+tbfast (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+1 thread(s)
+
+minimumweight = 0.000010
+autosubalignment = 0.000000
+nthread = 0
+randomseed = 0
+blosum 62 / kimura 200
+poffset = 0
+niter = 16
+sueff_global = 0.100000
+nadd = 16
+Loading 'hat3' ... done.
+generating a scoring matrix for nucleotide (dist=200) ... done
+
+    0 / 5
+Segment   1/  1    1-2039
+STEP 001-001-0  identical.   STEP 001-001-1  rejected.STEP 001-002-0  accepted.STEP 001-002-1  accepted.STEP 001-003-0  rejected.STEP 001-003-1  accepted.STEP 001-004-1  rejected.STEP 002-004-1  rejected.STEP 002-003-0  rejected.STEP 002-003-1  identical.   STEP 002-002-0  accepted.STEP 002-002-1  rejected.STEP 002-001-0  identical.   STEP 002-001-1  rejected.STEP 003-001-0  identical.   
+Oscillating.
+
+done
+dvtditr (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+0 thread(s)
+
+
+Strategy:
+ L-INS-i (Probably most accurate, very slow)
+ Iterative refinement method (<16) with LOCAL pairwise alignment information
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+
+alignment done for ../../data/input_to_MSA_perGene_fa/best2.fna
+
+################################ Processing: ../../data/input_to_MSA_perGene_fa/casq1b.fna
+outputhat23=16
+treein = 0
+compacttree = 0
+stacksize: 8192 kb
+generating a scoring matrix for nucleotide (dist=200) ... done
+All-to-all alignment.
+    0 / 5    1 / 5    2 / 5    3 / 5tbfast-pair (nuc) Version 7.526
+alg=L, model=DNA200 (2), 2.00 (6.00), -0.10 (-0.30), noshift, amax=0.0
+0 thread(s)
+
+outputhat23=16
+Loading 'hat3.seed' ... 
+done.
+Writing hat3 for iterative refinement
+generating a scoring matrix for nucleotide (dist=200) ... done
+Gap Penalty = -1.53, +0.00, +0.00
+tbutree = 1, compacttree = 0
+Constructing a UPGMA tree ... 
+    0 / 5
+done.
+
+Progressive alignment ... 
+STEP     1 /4 STEP     2 /4 STEP     3 /4 
+Reallocating..done. *alloclen = 3871
+STEP     4 /4 
+done.
+tbfast (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+1 thread(s)
+
+minimumweight = 0.000010
+autosubalignment = 0.000000
+nthread = 0
+randomseed = 0
+blosum 62 / kimura 200
+poffset = 0
+niter = 16
+sueff_global = 0.100000
+nadd = 16
+Loading 'hat3' ... done.
+generating a scoring matrix for nucleotide (dist=200) ... done
+
+    0 / 5
+Segment   1/  1    1-1498
+STEP 001-001-0  accepted.STEP 001-001-1  identical.   STEP 001-002-0  accepted.STEP 001-002-1  identical.   STEP 001-003-0  accepted.STEP 001-003-1  rejected.STEP 001-004-1  rejected.STEP 002-004-1  rejected.STEP 002-003-0  identical.   STEP 002-003-1  rejected.STEP 002-002-0  identical.   STEP 002-002-1  accepted.STEP 002-001-0  identical.   STEP 002-001-1  identical.   STEP 003-001-0  identical.   STEP 003-001-1  identical.   STEP 003-002-0  identical.   STEP 003-002-1  identical.   STEP 003-003-0  identical.   STEP 003-003-1  rejected.STEP 003-004-1  rejected.STEP 004-004-1  rejected.
+Converged.
+
+done
+dvtditr (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+0 thread(s)
+
+
+Strategy:
+ L-INS-i (Probably most accurate, very slow)
+ Iterative refinement method (<16) with LOCAL pairwise alignment information
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+
+alignment done for ../../data/input_to_MSA_perGene_fa/casq1b.fna
+
+################################ Processing: ../../data/input_to_MSA_perGene_fa/cpm.fna
+outputhat23=16
+treein = 0
+compacttree = 0
+stacksize: 8192 kb
+generating a scoring matrix for nucleotide (dist=200) ... done
+All-to-all alignment.
+    0 / 5    1 / 5    2 / 5    3 / 5tbfast-pair (nuc) Version 7.526
+alg=L, model=DNA200 (2), 2.00 (6.00), -0.10 (-0.30), noshift, amax=0.0
+0 thread(s)
+
+outputhat23=16
+Loading 'hat3.seed' ... 
+done.
+Writing hat3 for iterative refinement
+generating a scoring matrix for nucleotide (dist=200) ... done
+Gap Penalty = -1.53, +0.00, +0.00
+tbutree = 1, compacttree = 0
+Constructing a UPGMA tree ... 
+    0 / 5
+done.
+
+Progressive alignment ... 
+STEP     1 /4 STEP     2 /4 STEP     3 /4 STEP     4 /4 
+done.
+tbfast (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+1 thread(s)
+
+minimumweight = 0.000010
+autosubalignment = 0.000000
+nthread = 0
+randomseed = 0
+blosum 62 / kimura 200
+poffset = 0
+niter = 16
+sueff_global = 0.100000
+nadd = 16
+Loading 'hat3' ... done.
+generating a scoring matrix for nucleotide (dist=200) ... done
+
+    0 / 5
+Segment   1/  1    1-1414
+STEP 001-001-0  identical.   STEP 001-001-1  identical.   STEP 001-002-0  accepted.STEP 001-002-1  accepted.STEP 001-003-0  identical.   STEP 001-003-1  identical.   STEP 001-004-1  accepted.STEP 002-004-1  identical.   STEP 002-003-0  identical.   STEP 002-003-1  accepted.STEP 002-002-0  identical.   STEP 002-002-1  identical.   STEP 002-001-0  identical.   STEP 002-001-1  identical.   STEP 003-001-0  identical.   STEP 003-001-1  identical.   STEP 003-002-0  identical.   STEP 003-002-1  identical.   STEP 003-003-0  identical.   STEP 003-003-1  identical.   
+Converged.
+
+done
+dvtditr (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+0 thread(s)
+
+
+Strategy:
+ L-INS-i (Probably most accurate, very slow)
+ Iterative refinement method (<16) with LOCAL pairwise alignment information
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+
+alignment done for ../../data/input_to_MSA_perGene_fa/cpm.fna
+
+################################ Processing: ../../data/input_to_MSA_perGene_fa/dnajb5.fna
+outputhat23=16
+treein = 0
+compacttree = 0
+stacksize: 8192 kb
+generating a scoring matrix for nucleotide (dist=200) ... done
+All-to-all alignment.
+    0 / 5    1 / 5    2 / 5    3 / 5tbfast-pair (nuc) Version 7.526
+alg=L, model=DNA200 (2), 2.00 (6.00), -0.10 (-0.30), noshift, amax=0.0
+0 thread(s)
+
+outputhat23=16
+Loading 'hat3.seed' ... 
+done.
+Writing hat3 for iterative refinement
+generating a scoring matrix for nucleotide (dist=200) ... done
+Gap Penalty = -1.53, +0.00, +0.00
+tbutree = 1, compacttree = 0
+Constructing a UPGMA tree ... 
+    0 / 5
+done.
+
+Progressive alignment ... 
+STEP     1 /4 STEP     2 /4 STEP     3 /4 STEP     4 /4 
+done.
+tbfast (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+1 thread(s)
+
+minimumweight = 0.000010
+autosubalignment = 0.000000
+nthread = 0
+randomseed = 0
+blosum 62 / kimura 200
+poffset = 0
+niter = 16
+sueff_global = 0.100000
+nadd = 16
+Loading 'hat3' ... done.
+generating a scoring matrix for nucleotide (dist=200) ... done
+
+    0 / 5
+Segment   1/  1    1-1253
+STEP 001-001-0  identical.   STEP 001-001-1  identical.   STEP 001-002-0  accepted.STEP 001-002-1  identical.   STEP 001-003-0  accepted.STEP 001-003-1  identical.   STEP 001-004-1  accepted.STEP 002-004-1  identical.   STEP 002-003-0  identical.   STEP 002-003-1  identical.   STEP 002-002-0  identical.   STEP 002-002-1  identical.   STEP 002-001-0  identical.   STEP 002-001-1  identical.   STEP 003-001-0  identical.   STEP 003-001-1  identical.   STEP 003-002-0  identical.   
+Converged.
+
+done
+dvtditr (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+0 thread(s)
+
+
+Strategy:
+ L-INS-i (Probably most accurate, very slow)
+ Iterative refinement method (<16) with LOCAL pairwise alignment information
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+
+alignment done for ../../data/input_to_MSA_perGene_fa/dnajb5.fna
+
+################################ Processing: ../../data/input_to_MSA_perGene_fa/dusp2.fna
+outputhat23=16
+treein = 0
+compacttree = 0
+stacksize: 8192 kb
+generating a scoring matrix for nucleotide (dist=200) ... done
+All-to-all alignment.
+    0 / 5    1 / 5    2 / 5    3 / 5tbfast-pair (nuc) Version 7.526
+alg=L, model=DNA200 (2), 2.00 (6.00), -0.10 (-0.30), noshift, amax=0.0
+0 thread(s)
+
+outputhat23=16
+Loading 'hat3.seed' ... 
+done.
+Writing hat3 for iterative refinement
+generating a scoring matrix for nucleotide (dist=200) ... done
+Gap Penalty = -1.53, +0.00, +0.00
+tbutree = 1, compacttree = 0
+Constructing a UPGMA tree ... 
+    0 / 5
+done.
+
+Progressive alignment ... 
+STEP     1 /4 STEP     2 /4 STEP     3 /4 STEP     4 /4 
+done.
+tbfast (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+1 thread(s)
+
+minimumweight = 0.000010
+autosubalignment = 0.000000
+nthread = 0
+randomseed = 0
+blosum 62 / kimura 200
+poffset = 0
+niter = 16
+sueff_global = 0.100000
+nadd = 16
+Loading 'hat3' ... done.
+generating a scoring matrix for nucleotide (dist=200) ... done
+
+    0 / 5
+Segment   1/  1    1-1082
+STEP 001-001-0  identical.   STEP 001-001-1  identical.   STEP 001-002-0  identical.   STEP 001-002-1  identical.   STEP 001-003-0  accepted.STEP 001-003-1  accepted.STEP 001-004-1  accepted.STEP 002-004-1  identical.   STEP 002-003-0  identical.   STEP 002-003-1  rejected.STEP 002-002-0  identical.   STEP 002-002-1  identical.   STEP 002-001-0  identical.   STEP 002-001-1  identical.   STEP 003-001-0  identical.   STEP 003-001-1  identical.   STEP 003-002-0  identical.   
+Converged.
+
+done
+dvtditr (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+0 thread(s)
+
+
+Strategy:
+ L-INS-i (Probably most accurate, very slow)
+ Iterative refinement method (<16) with LOCAL pairwise alignment information
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+
+alignment done for ../../data/input_to_MSA_perGene_fa/dusp2.fna
+
+################################ Processing: ../../data/input_to_MSA_perGene_fa/egr3.fna
+outputhat23=16
+treein = 0
+compacttree = 0
+stacksize: 8192 kb
+generating a scoring matrix for nucleotide (dist=200) ... done
+All-to-all alignment.
+    0 / 5    1 / 5    2 / 5    3 / 5tbfast-pair (nuc) Version 7.526
+alg=L, model=DNA200 (2), 2.00 (6.00), -0.10 (-0.30), noshift, amax=0.0
+0 thread(s)
+
+outputhat23=16
+Loading 'hat3.seed' ... 
+done.
+Writing hat3 for iterative refinement
+generating a scoring matrix for nucleotide (dist=200) ... done
+Gap Penalty = -1.53, +0.00, +0.00
+tbutree = 1, compacttree = 0
+Constructing a UPGMA tree ... 
+    0 / 5
+done.
+
+Progressive alignment ... 
+STEP     1 /4 STEP     2 /4 STEP     3 /4 STEP     4 /4 
+done.
+tbfast (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+1 thread(s)
+
+minimumweight = 0.000010
+autosubalignment = 0.000000
+nthread = 0
+randomseed = 0
+blosum 62 / kimura 200
+poffset = 0
+niter = 16
+sueff_global = 0.100000
+nadd = 16
+Loading 'hat3' ... done.
+generating a scoring matrix for nucleotide (dist=200) ... done
+
+    0 / 5
+Segment   1/  1    1-1426
+STEP 001-001-0  identical.   STEP 001-001-1  identical.   STEP 001-002-0  identical.   STEP 001-002-1  accepted.STEP 001-003-0  accepted.STEP 001-003-1  identical.   STEP 001-004-1  identical.   STEP 002-004-1  identical.   STEP 002-003-0  identical.   STEP 002-003-1  identical.   STEP 002-002-0  identical.   STEP 002-002-1  identical.   STEP 002-001-0  identical.   STEP 002-001-1  identical.   STEP 003-001-0  identical.   
+Converged.
+
+done
+dvtditr (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+0 thread(s)
+
+
+Strategy:
+ L-INS-i (Probably most accurate, very slow)
+ Iterative refinement method (<16) with LOCAL pairwise alignment information
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+
+alignment done for ../../data/input_to_MSA_perGene_fa/egr3.fna
+
+################################ Processing: ../../data/input_to_MSA_perGene_fa/epha7.fna
+outputhat23=16
+treein = 0
+compacttree = 0
+stacksize: 8192 kb
+generating a scoring matrix for nucleotide (dist=200) ... done
+All-to-all alignment.
+    0 / 5    1 / 5    2 / 5    3 / 5tbfast-pair (nuc) Version 7.526
+alg=L, model=DNA200 (2), 2.00 (6.00), -0.10 (-0.30), noshift, amax=0.0
+0 thread(s)
+
+outputhat23=16
+Loading 'hat3.seed' ... 
+done.
+Writing hat3 for iterative refinement
+generating a scoring matrix for nucleotide (dist=200) ... done
+Gap Penalty = -1.53, +0.00, +0.00
+tbutree = 1, compacttree = 0
+Constructing a UPGMA tree ... 
+    0 / 5
+done.
+
+Progressive alignment ... 
+STEP     1 /4 STEP     2 /4 STEP     3 /4 STEP     4 /4 
+done.
+tbfast (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+1 thread(s)
+
+minimumweight = 0.000010
+autosubalignment = 0.000000
+nthread = 0
+randomseed = 0
+blosum 62 / kimura 200
+poffset = 0
+niter = 16
+sueff_global = 0.100000
+nadd = 16
+Loading 'hat3' ... done.
+generating a scoring matrix for nucleotide (dist=200) ... done
+
+    0 / 5
+Segment   1/  1    1-3088
+STEP 001-001-0  identical.   STEP 001-001-1  identical.   STEP 001-002-0  identical.   STEP 001-002-1  identical.   STEP 001-003-0  identical.   STEP 001-003-1  accepted.STEP 001-004-1  accepted.STEP 002-004-1  identical.   STEP 002-003-0  identical.   STEP 002-003-1  rejected.STEP 002-002-0  identical.   STEP 002-002-1  identical.   STEP 002-001-0  identical.   STEP 002-001-1  identical.   STEP 003-001-0  identical.   STEP 003-001-1  identical.   STEP 003-002-0  identical.   
+Converged.
+
+done
+dvtditr (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+0 thread(s)
+
+
+Strategy:
+ L-INS-i (Probably most accurate, very slow)
+ Iterative refinement method (<16) with LOCAL pairwise alignment information
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+
+alignment done for ../../data/input_to_MSA_perGene_fa/epha7.fna
+
+################################ Processing: ../../data/input_to_MSA_perGene_fa/foxd2.fna
+outputhat23=16
+treein = 0
+compacttree = 0
+stacksize: 8192 kb
+generating a scoring matrix for nucleotide (dist=200) ... done
+All-to-all alignment.
+    0 / 5    1 / 5    2 / 5    3 / 5tbfast-pair (nuc) Version 7.526
+alg=L, model=DNA200 (2), 2.00 (6.00), -0.10 (-0.30), noshift, amax=0.0
+0 thread(s)
+
+outputhat23=16
+Loading 'hat3.seed' ... 
+done.
+Writing hat3 for iterative refinement
+generating a scoring matrix for nucleotide (dist=200) ... done
+Gap Penalty = -1.53, +0.00, +0.00
+tbutree = 1, compacttree = 0
+Constructing a UPGMA tree ... 
+    0 / 5
+done.
+
+Progressive alignment ... 
+STEP     1 /4 STEP     2 /4 STEP     3 /4 STEP     4 /4 
+done.
+tbfast (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+1 thread(s)
+
+minimumweight = 0.000010
+autosubalignment = 0.000000
+nthread = 0
+randomseed = 0
+blosum 62 / kimura 200
+poffset = 0
+niter = 16
+sueff_global = 0.100000
+nadd = 16
+Loading 'hat3' ... done.
+generating a scoring matrix for nucleotide (dist=200) ... done
+
+    0 / 5
+Segment   1/  1    1-1165
+STEP 001-001-0  identical.   STEP 001-001-1  identical.   STEP 001-002-0  rejected.STEP 001-002-1  accepted.STEP 001-003-0  accepted.STEP 001-003-1  identical.   STEP 001-004-1  rejected.STEP 002-004-1  rejected.STEP 002-003-0  identical.   STEP 002-003-1  identical.   STEP 002-002-0  identical.   STEP 002-002-1  identical.   STEP 002-001-0  identical.   STEP 002-001-1  identical.   STEP 003-001-0  identical.   
+Converged.
+
+done
+dvtditr (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+0 thread(s)
+
+
+Strategy:
+ L-INS-i (Probably most accurate, very slow)
+ Iterative refinement method (<16) with LOCAL pairwise alignment information
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+
+alignment done for ../../data/input_to_MSA_perGene_fa/foxd2.fna
+
+################################ Processing: ../../data/input_to_MSA_perGene_fa/foxj3.fna
+outputhat23=16
+treein = 0
+compacttree = 0
+stacksize: 8192 kb
+generating a scoring matrix for nucleotide (dist=200) ... done
+All-to-all alignment.
+    0 / 5    1 / 5    2 / 5    3 / 5tbfast-pair (nuc) Version 7.526
+alg=L, model=DNA200 (2), 2.00 (6.00), -0.10 (-0.30), noshift, amax=0.0
+0 thread(s)
+
+outputhat23=16
+Loading 'hat3.seed' ... 
+done.
+Writing hat3 for iterative refinement
+generating a scoring matrix for nucleotide (dist=200) ... done
+Gap Penalty = -1.53, +0.00, +0.00
+tbutree = 1, compacttree = 0
+Constructing a UPGMA tree ... 
+    0 / 5
+done.
+
+Progressive alignment ... 
+STEP     1 /4 STEP     2 /4 STEP     3 /4 
+Reallocating..done. *alloclen = 5011
+STEP     4 /4 
+done.
+tbfast (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+1 thread(s)
+
+minimumweight = 0.000010
+autosubalignment = 0.000000
+nthread = 0
+randomseed = 0
+blosum 62 / kimura 200
+poffset = 0
+niter = 16
+sueff_global = 0.100000
+nadd = 16
+Loading 'hat3' ... done.
+generating a scoring matrix for nucleotide (dist=200) ... done
+
+    0 / 5
+Segment   1/  1    1-2188
+STEP 001-001-0  identical.   STEP 001-001-1  identical.   STEP 001-002-0  accepted.STEP 001-002-1  identical.   STEP 001-003-0  rejected.STEP 001-003-1  accepted.STEP 001-004-1  rejected.STEP 002-004-1  rejected.STEP 002-003-0  rejected.STEP 002-003-1  identical.   STEP 002-002-0  identical.   STEP 002-002-1  identical.   STEP 002-001-0  identical.   STEP 002-001-1  identical.   STEP 003-001-0  identical.   STEP 003-001-1  identical.   
+Converged.
+
+done
+dvtditr (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+0 thread(s)
+
+
+Strategy:
+ L-INS-i (Probably most accurate, very slow)
+ Iterative refinement method (<16) with LOCAL pairwise alignment information
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+
+alignment done for ../../data/input_to_MSA_perGene_fa/foxj3.fna
+
+################################ Processing: ../../data/input_to_MSA_perGene_fa/gdnfa.fna
+outputhat23=16
+treein = 0
+compacttree = 0
+stacksize: 8192 kb
+generating a scoring matrix for nucleotide (dist=200) ... done
+All-to-all alignment.
+    0 / 5    1 / 5    2 / 5    3 / 5tbfast-pair (nuc) Version 7.526
+alg=L, model=DNA200 (2), 2.00 (6.00), -0.10 (-0.30), noshift, amax=0.0
+0 thread(s)
+
+outputhat23=16
+Loading 'hat3.seed' ... 
+done.
+Writing hat3 for iterative refinement
+generating a scoring matrix for nucleotide (dist=200) ... done
+Gap Penalty = -1.53, +0.00, +0.00
+tbutree = 1, compacttree = 0
+Constructing a UPGMA tree ... 
+    0 / 5
+done.
+
+Progressive alignment ... 
+STEP     1 /4 STEP     2 /4 STEP     3 /4 STEP     4 /4 
+done.
+tbfast (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+1 thread(s)
+
+minimumweight = 0.000010
+autosubalignment = 0.000000
+nthread = 0
+randomseed = 0
+blosum 62 / kimura 200
+poffset = 0
+niter = 16
+sueff_global = 0.100000
+nadd = 16
+Loading 'hat3' ... done.
+generating a scoring matrix for nucleotide (dist=200) ... done
+
+    0 / 5
+Segment   1/  1    1- 933
+STEP 001-001-0  identical.   STEP 001-001-1  identical.   STEP 001-002-0  rejected.STEP 001-002-1  identical.   STEP 001-003-0  rejected.STEP 001-003-1  accepted.STEP 001-004-1  rejected.STEP 002-004-1  rejected.STEP 002-003-0  rejected.STEP 002-003-1  identical.   STEP 002-002-0  rejected.STEP 002-002-1  identical.   STEP 002-001-0  rejected.STEP 002-001-1  identical.   STEP 003-001-0  rejected.STEP 003-001-1  identical.   
+Converged.
+
+done
+dvtditr (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+0 thread(s)
+
+
+Strategy:
+ L-INS-i (Probably most accurate, very slow)
+ Iterative refinement method (<16) with LOCAL pairwise alignment information
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+
+alignment done for ../../data/input_to_MSA_perGene_fa/gdnfa.fna
+
+################################ Processing: ../../data/input_to_MSA_perGene_fa/gprc5c.fna
+outputhat23=16
+treein = 0
+compacttree = 0
+stacksize: 8192 kb
+generating a scoring matrix for nucleotide (dist=200) ... done
+All-to-all alignment.
+    0 / 5    1 / 5    2 / 5    3 / 5tbfast-pair (nuc) Version 7.526
+alg=L, model=DNA200 (2), 2.00 (6.00), -0.10 (-0.30), noshift, amax=0.0
+0 thread(s)
+
+outputhat23=16
+Loading 'hat3.seed' ... 
+done.
+Writing hat3 for iterative refinement
+generating a scoring matrix for nucleotide (dist=200) ... done
+Gap Penalty = -1.53, +0.00, +0.00
+tbutree = 1, compacttree = 0
+Constructing a UPGMA tree ... 
+    0 / 5
+done.
+
+Progressive alignment ... 
+STEP     1 /4 STEP     2 /4 STEP     3 /4 
+Reallocating..done. *alloclen = 3970
+STEP     4 /4 
+done.
+tbfast (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+1 thread(s)
+
+minimumweight = 0.000010
+autosubalignment = 0.000000
+nthread = 0
+randomseed = 0
+blosum 62 / kimura 200
+poffset = 0
+niter = 16
+sueff_global = 0.100000
+nadd = 16
+Loading 'hat3' ... done.
+generating a scoring matrix for nucleotide (dist=200) ... done
+
+    0 / 5
+Segment   1/  1    1-1720
+STEP 001-001-0  identical.   STEP 001-001-1  rejected.STEP 001-002-0  rejected.STEP 001-002-1  rejected.STEP 001-003-0  accepted.STEP 001-003-1  accepted.STEP 001-004-1  accepted.STEP 002-004-1  identical.   STEP 002-003-0  accepted.STEP 002-003-1  rejected.STEP 002-002-0  accepted.STEP 002-002-1  rejected.STEP 002-001-0  identical.   STEP 002-001-1  accepted.STEP 003-001-0  identical.   STEP 003-001-1  identical.   STEP 003-002-0  identical.   STEP 003-002-1  rejected.STEP 003-003-0  identical.   STEP 003-003-1  rejected.STEP 003-004-1  rejected.STEP 004-004-1  rejected.STEP 004-003-0  identical.   STEP 004-003-1  rejected.
+Converged.
+
+done
+dvtditr (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+0 thread(s)
+
+
+Strategy:
+ L-INS-i (Probably most accurate, very slow)
+ Iterative refinement method (<16) with LOCAL pairwise alignment information
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+
+alignment done for ../../data/input_to_MSA_perGene_fa/gprc5c.fna
+
+################################ Processing: ../../data/input_to_MSA_perGene_fa/hspb1.fna
+outputhat23=16
+treein = 0
+compacttree = 0
+stacksize: 8192 kb
+generating a scoring matrix for nucleotide (dist=200) ... done
+All-to-all alignment.
+    0 / 5    1 / 5    2 / 5    3 / 5tbfast-pair (nuc) Version 7.526
+alg=L, model=DNA200 (2), 2.00 (6.00), -0.10 (-0.30), noshift, amax=0.0
+0 thread(s)
+
+outputhat23=16
+Loading 'hat3.seed' ... 
+done.
+Writing hat3 for iterative refinement
+generating a scoring matrix for nucleotide (dist=200) ... done
+Gap Penalty = -1.53, +0.00, +0.00
+tbutree = 1, compacttree = 0
+Constructing a UPGMA tree ... 
+    0 / 5
+done.
+
+Progressive alignment ... 
+STEP     1 /4 STEP     2 /4 STEP     3 /4 STEP     4 /4 
+done.
+tbfast (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+1 thread(s)
+
+minimumweight = 0.000010
+autosubalignment = 0.000000
+nthread = 0
+randomseed = 0
+blosum 62 / kimura 200
+poffset = 0
+niter = 16
+sueff_global = 0.100000
+nadd = 16
+Loading 'hat3' ... done.
+generating a scoring matrix for nucleotide (dist=200) ... done
+
+    0 / 5
+Segment   1/  1    1- 649
+STEP 001-001-0  identical.   STEP 001-001-1  identical.   STEP 001-002-0  accepted.STEP 001-002-1  identical.   STEP 001-003-0  identical.   STEP 001-003-1  accepted.STEP 001-004-1  identical.   STEP 002-004-1  identical.   STEP 002-003-0  identical.   STEP 002-003-1  identical.   STEP 002-002-0  identical.   STEP 002-002-1  identical.   STEP 002-001-0  identical.   STEP 002-001-1  identical.   STEP 003-001-0  identical.   STEP 003-001-1  identical.   
+Converged.
+
+done
+dvtditr (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+0 thread(s)
+
+
+Strategy:
+ L-INS-i (Probably most accurate, very slow)
+ Iterative refinement method (<16) with LOCAL pairwise alignment information
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+
+alignment done for ../../data/input_to_MSA_perGene_fa/hspb1.fna
+
+################################ Processing: ../../data/input_to_MSA_perGene_fa/hspb7.fna
+outputhat23=16
+treein = 0
+compacttree = 0
+stacksize: 8192 kb
+generating a scoring matrix for nucleotide (dist=200) ... done
+All-to-all alignment.
+    0 / 5    1 / 5    2 / 5    3 / 5tbfast-pair (nuc) Version 7.526
+alg=L, model=DNA200 (2), 2.00 (6.00), -0.10 (-0.30), noshift, amax=0.0
+0 thread(s)
+
+outputhat23=16
+Loading 'hat3.seed' ... 
+done.
+Writing hat3 for iterative refinement
+generating a scoring matrix for nucleotide (dist=200) ... done
+Gap Penalty = -1.53, +0.00, +0.00
+tbutree = 1, compacttree = 0
+Constructing a UPGMA tree ... 
+    0 / 5
+done.
+
+Progressive alignment ... 
+STEP     1 /4 STEP     2 /4 STEP     3 /4 STEP     4 /4 
+done.
+tbfast (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+1 thread(s)
+
+minimumweight = 0.000010
+autosubalignment = 0.000000
+nthread = 0
+randomseed = 0
+blosum 62 / kimura 200
+poffset = 0
+niter = 16
+sueff_global = 0.100000
+nadd = 16
+Loading 'hat3' ... done.
+generating a scoring matrix for nucleotide (dist=200) ... done
+
+    0 / 5
+Segment   1/  1    1- 481
+STEP 001-001-0  identical.   STEP 001-001-1  identical.   STEP 001-002-0  identical.   STEP 001-002-1  identical.   STEP 001-003-0  identical.   STEP 001-003-1  identical.   STEP 001-004-1  identical.   STEP 002-004-1  identical.   STEP 002-003-0  identical.   STEP 002-003-1  identical.   
+Converged.
+
+done
+dvtditr (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+0 thread(s)
+
+
+Strategy:
+ L-INS-i (Probably most accurate, very slow)
+ Iterative refinement method (<16) with LOCAL pairwise alignment information
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+
+alignment done for ../../data/input_to_MSA_perGene_fa/hspb7.fna
+
+################################ Processing: ../../data/input_to_MSA_perGene_fa/kbtbd12.fna
+outputhat23=16
+treein = 0
+compacttree = 0
+stacksize: 8192 kb
+generating a scoring matrix for nucleotide (dist=200) ... done
+All-to-all alignment.
+    0 / 5    1 / 5    2 / 5    3 / 5tbfast-pair (nuc) Version 7.526
+alg=L, model=DNA200 (2), 2.00 (6.00), -0.10 (-0.30), noshift, amax=0.0
+0 thread(s)
+
+outputhat23=16
+Loading 'hat3.seed' ... 
+done.
+Writing hat3 for iterative refinement
+generating a scoring matrix for nucleotide (dist=200) ... done
+Gap Penalty = -1.53, +0.00, +0.00
+tbutree = 1, compacttree = 0
+Constructing a UPGMA tree ... 
+    0 / 5
+done.
+
+Progressive alignment ... 
+STEP     1 /4 STEP     2 /4 STEP     3 /4 STEP     4 /4 
+done.
+tbfast (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+1 thread(s)
+
+minimumweight = 0.000010
+autosubalignment = 0.000000
+nthread = 0
+randomseed = 0
+blosum 62 / kimura 200
+poffset = 0
+niter = 16
+sueff_global = 0.100000
+nadd = 16
+Loading 'hat3' ... done.
+generating a scoring matrix for nucleotide (dist=200) ... done
+
+    0 / 5
+Segment   1/  1    1-1873
+STEP 001-001-0  identical.   STEP 001-001-1  identical.   STEP 001-002-0  identical.   STEP 001-002-1  identical.   STEP 001-003-0  identical.   STEP 001-003-1  identical.   STEP 001-004-1  identical.   STEP 002-004-1  identical.   STEP 002-003-0  identical.   STEP 002-003-1  identical.   
+Converged.
+
+done
+dvtditr (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+0 thread(s)
+
+
+Strategy:
+ L-INS-i (Probably most accurate, very slow)
+ Iterative refinement method (<16) with LOCAL pairwise alignment information
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+
+alignment done for ../../data/input_to_MSA_perGene_fa/kbtbd12.fna
+
+################################ Processing: ../../data/input_to_MSA_perGene_fa/klc3.fna
+outputhat23=16
+treein = 0
+compacttree = 0
+stacksize: 8192 kb
+generating a scoring matrix for nucleotide (dist=200) ... done
+All-to-all alignment.
+    0 / 5    1 / 5    2 / 5    3 / 5tbfast-pair (nuc) Version 7.526
+alg=L, model=DNA200 (2), 2.00 (6.00), -0.10 (-0.30), noshift, amax=0.0
+0 thread(s)
+
+outputhat23=16
+Loading 'hat3.seed' ... 
+done.
+Writing hat3 for iterative refinement
+generating a scoring matrix for nucleotide (dist=200) ... done
+Gap Penalty = -1.53, +0.00, +0.00
+tbutree = 1, compacttree = 0
+Constructing a UPGMA tree ... 
+    0 / 5
+done.
+
+Progressive alignment ... 
+STEP     1 /4 STEP     2 /4 STEP     3 /4 STEP     4 /4 
+done.
+tbfast (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+1 thread(s)
+
+minimumweight = 0.000010
+autosubalignment = 0.000000
+nthread = 0
+randomseed = 0
+blosum 62 / kimura 200
+poffset = 0
+niter = 16
+sueff_global = 0.100000
+nadd = 16
+Loading 'hat3' ... done.
+generating a scoring matrix for nucleotide (dist=200) ... done
+
+    0 / 5
+Segment   1/  1    1-1774
+STEP 001-001-0  identical.   STEP 001-001-1  identical.   STEP 001-002-0  identical.   STEP 001-002-1  accepted.STEP 001-003-0  rejected.STEP 001-003-1  identical.   STEP 001-004-1  rejected.STEP 002-004-1  rejected.STEP 002-003-0  rejected.STEP 002-003-1  identical.   STEP 002-002-0  accepted.STEP 002-002-1  identical.   STEP 002-001-0  identical.   STEP 002-001-1  identical.   STEP 003-001-0  identical.   STEP 003-001-1  identical.   STEP 003-002-0  identical.   STEP 003-002-1  identical.   STEP 003-003-0  identical.   
+Oscillating.
+
+done
+dvtditr (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+0 thread(s)
+
+
+Strategy:
+ L-INS-i (Probably most accurate, very slow)
+ Iterative refinement method (<16) with LOCAL pairwise alignment information
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+
+alignment done for ../../data/input_to_MSA_perGene_fa/klc3.fna
+
+################################ Processing: ../../data/input_to_MSA_perGene_fa/lrrc14b.fna
+outputhat23=16
+treein = 0
+compacttree = 0
+stacksize: 8192 kb
+generating a scoring matrix for nucleotide (dist=200) ... done
+All-to-all alignment.
+    0 / 5    1 / 5    2 / 5    3 / 5tbfast-pair (nuc) Version 7.526
+alg=L, model=DNA200 (2), 2.00 (6.00), -0.10 (-0.30), noshift, amax=0.0
+0 thread(s)
+
+outputhat23=16
+Loading 'hat3.seed' ... 
+done.
+Writing hat3 for iterative refinement
+generating a scoring matrix for nucleotide (dist=200) ... done
+Gap Penalty = -1.53, +0.00, +0.00
+tbutree = 1, compacttree = 0
+Constructing a UPGMA tree ... 
+    0 / 5
+done.
+
+Progressive alignment ... 
+STEP     1 /4 STEP     2 /4 STEP     3 /4 STEP     4 /4 
+done.
+tbfast (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+1 thread(s)
+
+minimumweight = 0.000010
+autosubalignment = 0.000000
+nthread = 0
+randomseed = 0
+blosum 62 / kimura 200
+poffset = 0
+niter = 16
+sueff_global = 0.100000
+nadd = 16
+Loading 'hat3' ... done.
+generating a scoring matrix for nucleotide (dist=200) ... done
+
+    0 / 5
+Segment   1/  1    1-1582
+STEP 001-001-0  identical.   STEP 001-001-1  identical.   STEP 001-002-0  identical.   STEP 001-002-1  identical.   STEP 001-003-0  identical.   STEP 001-003-1  identical.   STEP 001-004-1  accepted.STEP 002-004-1  identical.   STEP 002-003-0  identical.   STEP 002-003-1  identical.   STEP 002-002-0  identical.   STEP 002-002-1  identical.   STEP 002-001-0  identical.   STEP 002-001-1  identical.   STEP 003-001-0  identical.   STEP 003-001-1  identical.   STEP 003-002-0  identical.   
+Converged.
+
+done
+dvtditr (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+0 thread(s)
+
+
+Strategy:
+ L-INS-i (Probably most accurate, very slow)
+ Iterative refinement method (<16) with LOCAL pairwise alignment information
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+
+alignment done for ../../data/input_to_MSA_perGene_fa/lrrc14b.fna
+
+################################ Processing: ../../data/input_to_MSA_perGene_fa/mbnl3.fna
+outputhat23=16
+treein = 0
+compacttree = 0
+stacksize: 8192 kb
+generating a scoring matrix for nucleotide (dist=200) ... done
+All-to-all alignment.
+    0 / 5    1 / 5    2 / 5    3 / 5tbfast-pair (nuc) Version 7.526
+alg=L, model=DNA200 (2), 2.00 (6.00), -0.10 (-0.30), noshift, amax=0.0
+0 thread(s)
+
+outputhat23=16
+Loading 'hat3.seed' ... 
+done.
+Writing hat3 for iterative refinement
+generating a scoring matrix for nucleotide (dist=200) ... done
+Gap Penalty = -1.53, +0.00, +0.00
+tbutree = 1, compacttree = 0
+Constructing a UPGMA tree ... 
+    0 / 5
+done.
+
+Progressive alignment ... 
+STEP     1 /4 STEP     2 /4 
+Reallocating..done. *alloclen = 3601
+STEP     3 /4 STEP     4 /4 
+done.
+tbfast (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+1 thread(s)
+
+minimumweight = 0.000010
+autosubalignment = 0.000000
+nthread = 0
+randomseed = 0
+blosum 62 / kimura 200
+poffset = 0
+niter = 16
+sueff_global = 0.100000
+nadd = 16
+Loading 'hat3' ... done.
+generating a scoring matrix for nucleotide (dist=200) ... done
+
+    0 / 5
+Segment   1/  1    1-1408
+STEP 001-001-0  identical.   STEP 001-001-1  identical.   STEP 001-002-0  identical.   STEP 001-002-1  identical.   STEP 001-003-0  accepted.STEP 001-003-1  rejected.STEP 001-004-1  accepted.STEP 002-004-1  identical.   STEP 002-003-0  identical.   STEP 002-003-1  rejected.STEP 002-002-0  identical.   STEP 002-002-1  identical.   STEP 002-001-0  identical.   STEP 002-001-1  identical.   STEP 003-001-0  identical.   STEP 003-001-1  identical.   STEP 003-002-0  identical.   
+Converged.
+
+done
+dvtditr (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+0 thread(s)
+
+
+Strategy:
+ L-INS-i (Probably most accurate, very slow)
+ Iterative refinement method (<16) with LOCAL pairwise alignment information
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+
+alignment done for ../../data/input_to_MSA_perGene_fa/mbnl3.fna
+
+################################ Processing: ../../data/input_to_MSA_perGene_fa/mcf2a.fna
+outputhat23=16
+treein = 0
+compacttree = 0
+stacksize: 8192 kb
+generating a scoring matrix for nucleotide (dist=200) ... done
+All-to-all alignment.
+    0 / 5    1 / 5    2 / 5    3 / 5tbfast-pair (nuc) Version 7.526
+alg=L, model=DNA200 (2), 2.00 (6.00), -0.10 (-0.30), noshift, amax=0.0
+0 thread(s)
+
+outputhat23=16
+Loading 'hat3.seed' ... 
+done.
+Writing hat3 for iterative refinement
+generating a scoring matrix for nucleotide (dist=200) ... done
+Gap Penalty = -1.53, +0.00, +0.00
+tbutree = 1, compacttree = 0
+Constructing a UPGMA tree ... 
+    0 / 5
+done.
+
+Progressive alignment ... 
+STEP     1 /4 STEP     2 /4 STEP     3 /4 STEP     4 /4 
+done.
+tbfast (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+1 thread(s)
+
+minimumweight = 0.000010
+autosubalignment = 0.000000
+nthread = 0
+randomseed = 0
+blosum 62 / kimura 200
+poffset = 0
+niter = 16
+sueff_global = 0.100000
+nadd = 16
+Loading 'hat3' ... done.
+generating a scoring matrix for nucleotide (dist=200) ... done
+
+    0 / 5
+Segment   1/  1    1-3448
+STEP 001-001-0  identical.   STEP 001-001-1  identical.   STEP 001-002-0  identical.   STEP 001-002-1  accepted.STEP 001-003-0  identical.   STEP 001-003-1  accepted.STEP 001-004-1  identical.   STEP 002-004-1  identical.   STEP 002-003-0  identical.   STEP 002-003-1  identical.   STEP 002-002-0  identical.   STEP 002-002-1  identical.   STEP 002-001-0  identical.   STEP 002-001-1  identical.   STEP 003-001-0  identical.   STEP 003-001-1  identical.   
+Converged.
+
+done
+dvtditr (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+0 thread(s)
+
+
+Strategy:
+ L-INS-i (Probably most accurate, very slow)
+ Iterative refinement method (<16) with LOCAL pairwise alignment information
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+
+alignment done for ../../data/input_to_MSA_perGene_fa/mcf2a.fna
+
+################################ Processing: ../../data/input_to_MSA_perGene_fa/megf10.fna
+outputhat23=16
+treein = 0
+compacttree = 0
+stacksize: 8192 kb
+generating a scoring matrix for nucleotide (dist=200) ... done
+All-to-all alignment.
+    0 / 5    1 / 5    2 / 5    3 / 5tbfast-pair (nuc) Version 7.526
+alg=L, model=DNA200 (2), 2.00 (6.00), -0.10 (-0.30), noshift, amax=0.0
+0 thread(s)
+
+outputhat23=16
+Loading 'hat3.seed' ... 
+done.
+Writing hat3 for iterative refinement
+generating a scoring matrix for nucleotide (dist=200) ... done
+Gap Penalty = -1.53, +0.00, +0.00
+tbutree = 1, compacttree = 0
+Constructing a UPGMA tree ... 
+    0 / 5
+done.
+
+Progressive alignment ... 
+STEP     1 /4 STEP     2 /4 STEP     3 /4 STEP     4 /4 
+done.
+tbfast (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+1 thread(s)
+
+minimumweight = 0.000010
+autosubalignment = 0.000000
+nthread = 0
+randomseed = 0
+blosum 62 / kimura 200
+poffset = 0
+niter = 16
+sueff_global = 0.100000
+nadd = 16
+Loading 'hat3' ... done.
+generating a scoring matrix for nucleotide (dist=200) ... done
+
+    0 / 5
+Segment   1/  1    1-3649
+STEP 001-001-0  rejected.STEP 001-001-1  accepted.STEP 001-002-0  identical.   STEP 001-002-1  identical.   STEP 001-003-0  identical.   STEP 001-003-1  accepted.STEP 001-004-1  identical.   STEP 002-004-1  identical.   STEP 002-003-0  identical.   STEP 002-003-1  identical.   STEP 002-002-0  identical.   STEP 002-002-1  identical.   STEP 002-001-0  identical.   STEP 002-001-1  identical.   STEP 003-001-0  identical.   
+Oscillating.
+
+done
+dvtditr (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+0 thread(s)
+
+
+Strategy:
+ L-INS-i (Probably most accurate, very slow)
+ Iterative refinement method (<16) with LOCAL pairwise alignment information
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+
+alignment done for ../../data/input_to_MSA_perGene_fa/megf10.fna
+
+################################ Processing: ../../data/input_to_MSA_perGene_fa/mybpc1.fna
+outputhat23=16
+treein = 0
+compacttree = 0
+stacksize: 8192 kb
+generating a scoring matrix for nucleotide (dist=200) ... done
+All-to-all alignment.
+    0 / 5    1 / 5    2 / 5    3 / 5tbfast-pair (nuc) Version 7.526
+alg=L, model=DNA200 (2), 2.00 (6.00), -0.10 (-0.30), noshift, amax=0.0
+0 thread(s)
+
+outputhat23=16
+Loading 'hat3.seed' ... 
+done.
+Writing hat3 for iterative refinement
+generating a scoring matrix for nucleotide (dist=200) ... done
+Gap Penalty = -1.53, +0.00, +0.00
+tbutree = 1, compacttree = 0
+Constructing a UPGMA tree ... 
+    0 / 5
+done.
+
+Progressive alignment ... 
+STEP     1 /4 STEP     2 /4 STEP     3 /4 STEP     4 /4 
+done.
+tbfast (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+1 thread(s)
+
+minimumweight = 0.000010
+autosubalignment = 0.000000
+nthread = 0
+randomseed = 0
+blosum 62 / kimura 200
+poffset = 0
+niter = 16
+sueff_global = 0.100000
+nadd = 16
+Loading 'hat3' ... done.
+generating a scoring matrix for nucleotide (dist=200) ... done
+
+    0 / 5
+Segment   1/  1    1-4246
+STEP 001-001-0  accepted.STEP 001-001-1  identical.   STEP 001-002-0  identical.   STEP 001-002-1  identical.   STEP 001-003-0  identical.   STEP 001-003-1  rejected.STEP 001-004-1  accepted.STEP 002-004-1  identical.   STEP 002-003-0  rejected.STEP 002-003-1  rejected.STEP 002-002-0  identical.   STEP 002-002-1  identical.   STEP 002-001-0  identical.   STEP 002-001-1  identical.   STEP 003-001-0  identical.   STEP 003-001-1  identical.   STEP 003-002-0  identical.   
+Converged.
+
+done
+dvtditr (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+0 thread(s)
+
+
+Strategy:
+ L-INS-i (Probably most accurate, very slow)
+ Iterative refinement method (<16) with LOCAL pairwise alignment information
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+
+alignment done for ../../data/input_to_MSA_perGene_fa/mybpc1.fna
+
+################################ Processing: ../../data/input_to_MSA_perGene_fa/myl10.fna
+outputhat23=16
+treein = 0
+compacttree = 0
+stacksize: 8192 kb
+generating a scoring matrix for nucleotide (dist=200) ... done
+All-to-all alignment.
+    0 / 5    1 / 5    2 / 5    3 / 5tbfast-pair (nuc) Version 7.526
+alg=L, model=DNA200 (2), 2.00 (6.00), -0.10 (-0.30), noshift, amax=0.0
+0 thread(s)
+
+outputhat23=16
+Loading 'hat3.seed' ... 
+done.
+Writing hat3 for iterative refinement
+generating a scoring matrix for nucleotide (dist=200) ... done
+Gap Penalty = -1.53, +0.00, +0.00
+tbutree = 1, compacttree = 0
+Constructing a UPGMA tree ... 
+    0 / 5
+done.
+
+Progressive alignment ... 
+STEP     1 /4 STEP     2 /4 STEP     3 /4 STEP     4 /4 
+done.
+tbfast (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+1 thread(s)
+
+minimumweight = 0.000010
+autosubalignment = 0.000000
+nthread = 0
+randomseed = 0
+blosum 62 / kimura 200
+poffset = 0
+niter = 16
+sueff_global = 0.100000
+nadd = 16
+Loading 'hat3' ... done.
+generating a scoring matrix for nucleotide (dist=200) ... done
+
+    0 / 5
+Segment   1/  1    1- 607
+STEP 001-001-0  identical.   STEP 001-001-1  identical.   STEP 001-002-0  identical.   STEP 001-002-1  identical.   STEP 001-003-0  identical.   STEP 001-003-1  identical.   STEP 001-004-1  identical.   STEP 002-004-1  identical.   STEP 002-003-0  identical.   STEP 002-003-1  identical.   
+Converged.
+
+done
+dvtditr (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+0 thread(s)
+
+
+Strategy:
+ L-INS-i (Probably most accurate, very slow)
+ Iterative refinement method (<16) with LOCAL pairwise alignment information
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+
+alignment done for ../../data/input_to_MSA_perGene_fa/myl10.fna
+
+################################ Processing: ../../data/input_to_MSA_perGene_fa/myom3.fna
+outputhat23=16
+treein = 0
+compacttree = 0
+stacksize: 8192 kb
+generating a scoring matrix for nucleotide (dist=200) ... done
+All-to-all alignment.
+    0 / 5    1 / 5    2 / 5    3 / 5tbfast-pair (nuc) Version 7.526
+alg=L, model=DNA200 (2), 2.00 (6.00), -0.10 (-0.30), noshift, amax=0.0
+0 thread(s)
+
+outputhat23=16
+Loading 'hat3.seed' ... 
+done.
+Writing hat3 for iterative refinement
+generating a scoring matrix for nucleotide (dist=200) ... done
+Gap Penalty = -1.53, +0.00, +0.00
+tbutree = 1, compacttree = 0
+Constructing a UPGMA tree ... 
+    0 / 5
+done.
+
+Progressive alignment ... 
+STEP     1 /4 STEP     2 /4 STEP     3 /4 STEP     4 /4 
+done.
+tbfast (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+1 thread(s)
+
+minimumweight = 0.000010
+autosubalignment = 0.000000
+nthread = 0
+randomseed = 0
+blosum 62 / kimura 200
+poffset = 0
+niter = 16
+sueff_global = 0.100000
+nadd = 16
+Loading 'hat3' ... done.
+generating a scoring matrix for nucleotide (dist=200) ... done
+
+    0 / 5
+Segment   1/  1    1-4468
+STEP 001-001-0  identical.   STEP 001-001-1  identical.   STEP 001-002-0  identical.   STEP 001-002-1  identical.   STEP 001-003-0  identical.   STEP 001-003-1  identical.   STEP 001-004-1  identical.   STEP 002-004-1  identical.   STEP 002-003-0  identical.   STEP 002-003-1  identical.   
+Converged.
+
+done
+dvtditr (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+0 thread(s)
+
+
+Strategy:
+ L-INS-i (Probably most accurate, very slow)
+ Iterative refinement method (<16) with LOCAL pairwise alignment information
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+
+alignment done for ../../data/input_to_MSA_perGene_fa/myom3.fna
+
+################################ Processing: ../../data/input_to_MSA_perGene_fa/myoz2b.fna
+outputhat23=16
+treein = 0
+compacttree = 0
+stacksize: 8192 kb
+generating a scoring matrix for nucleotide (dist=200) ... done
+All-to-all alignment.
+    0 / 5    1 / 5    2 / 5    3 / 5tbfast-pair (nuc) Version 7.526
+alg=L, model=DNA200 (2), 2.00 (6.00), -0.10 (-0.30), noshift, amax=0.0
+0 thread(s)
+
+outputhat23=16
+Loading 'hat3.seed' ... 
+done.
+Writing hat3 for iterative refinement
+generating a scoring matrix for nucleotide (dist=200) ... done
+Gap Penalty = -1.53, +0.00, +0.00
+tbutree = 1, compacttree = 0
+Constructing a UPGMA tree ... 
+    0 / 5
+done.
+
+Progressive alignment ... 
+STEP     1 /4 STEP     2 /4 STEP     3 /4 STEP     4 /4 
+done.
+tbfast (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+1 thread(s)
+
+minimumweight = 0.000010
+autosubalignment = 0.000000
+nthread = 0
+randomseed = 0
+blosum 62 / kimura 200
+poffset = 0
+niter = 16
+sueff_global = 0.100000
+nadd = 16
+Loading 'hat3' ... done.
+generating a scoring matrix for nucleotide (dist=200) ... done
+
+    0 / 5
+Segment   1/  1    1- 790
+STEP 001-001-0  identical.   STEP 001-001-1  identical.   STEP 001-002-0  identical.   STEP 001-002-1  identical.   STEP 001-003-0  identical.   STEP 001-003-1  identical.   STEP 001-004-1  identical.   STEP 002-004-1  identical.   STEP 002-003-0  identical.   STEP 002-003-1  identical.   
+Converged.
+
+done
+dvtditr (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+0 thread(s)
+
+
+Strategy:
+ L-INS-i (Probably most accurate, very slow)
+ Iterative refinement method (<16) with LOCAL pairwise alignment information
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+
+alignment done for ../../data/input_to_MSA_perGene_fa/myoz2b.fna
+
+################################ Processing: ../../data/input_to_MSA_perGene_fa/ndrg1a.fna
+outputhat23=16
+treein = 0
+compacttree = 0
+stacksize: 8192 kb
+generating a scoring matrix for nucleotide (dist=200) ... done
+All-to-all alignment.
+    0 / 5    1 / 5    2 / 5    3 / 5tbfast-pair (nuc) Version 7.526
+alg=L, model=DNA200 (2), 2.00 (6.00), -0.10 (-0.30), noshift, amax=0.0
+0 thread(s)
+
+outputhat23=16
+Loading 'hat3.seed' ... 
+done.
+Writing hat3 for iterative refinement
+generating a scoring matrix for nucleotide (dist=200) ... done
+Gap Penalty = -1.53, +0.00, +0.00
+tbutree = 1, compacttree = 0
+Constructing a UPGMA tree ... 
+    0 / 5
+done.
+
+Progressive alignment ... 
+STEP     1 /4 STEP     2 /4 STEP     3 /4 STEP     4 /4 
+done.
+tbfast (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+1 thread(s)
+
+minimumweight = 0.000010
+autosubalignment = 0.000000
+nthread = 0
+randomseed = 0
+blosum 62 / kimura 200
+poffset = 0
+niter = 16
+sueff_global = 0.100000
+nadd = 16
+Loading 'hat3' ... done.
+generating a scoring matrix for nucleotide (dist=200) ... done
+
+    0 / 5
+Segment   1/  1    1-1195
+STEP 001-001-0  identical.   STEP 001-001-1  identical.   STEP 001-002-0  accepted.STEP 001-002-1  identical.   STEP 001-003-0  identical.   STEP 001-003-1  identical.   STEP 001-004-1  identical.   STEP 002-004-1  identical.   STEP 002-003-0  identical.   STEP 002-003-1  identical.   STEP 002-002-0  identical.   STEP 002-002-1  identical.   STEP 002-001-0  identical.   
+Converged.
+
+done
+dvtditr (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+0 thread(s)
+
+
+Strategy:
+ L-INS-i (Probably most accurate, very slow)
+ Iterative refinement method (<16) with LOCAL pairwise alignment information
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+
+alignment done for ../../data/input_to_MSA_perGene_fa/ndrg1a.fna
+
+################################ Processing: ../../data/input_to_MSA_perGene_fa/ntn5.fna
+outputhat23=16
+treein = 0
+compacttree = 0
+stacksize: 8192 kb
+generating a scoring matrix for nucleotide (dist=200) ... done
+All-to-all alignment.
+    0 / 5    1 / 5    2 / 5    3 / 5tbfast-pair (nuc) Version 7.526
+alg=L, model=DNA200 (2), 2.00 (6.00), -0.10 (-0.30), noshift, amax=0.0
+0 thread(s)
+
+outputhat23=16
+Loading 'hat3.seed' ... 
+done.
+Writing hat3 for iterative refinement
+generating a scoring matrix for nucleotide (dist=200) ... done
+Gap Penalty = -1.53, +0.00, +0.00
+tbutree = 1, compacttree = 0
+Constructing a UPGMA tree ... 
+    0 / 5
+done.
+
+Progressive alignment ... 
+STEP     1 /4 STEP     2 /4 STEP     3 /4 STEP     4 /4 
+done.
+tbfast (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+1 thread(s)
+
+minimumweight = 0.000010
+autosubalignment = 0.000000
+nthread = 0
+randomseed = 0
+blosum 62 / kimura 200
+poffset = 0
+niter = 16
+sueff_global = 0.100000
+nadd = 16
+Loading 'hat3' ... done.
+generating a scoring matrix for nucleotide (dist=200) ... done
+
+    0 / 5
+Segment   1/  1    1-2785
+STEP 001-001-0  identical.   STEP 001-001-1  accepted.STEP 001-002-0  accepted.STEP 001-002-1  identical.   STEP 001-003-0  accepted.STEP 001-003-1  accepted.STEP 001-004-1  accepted.STEP 002-004-1  identical.   STEP 002-003-0  identical.   STEP 002-003-1  identical.   STEP 002-002-0  identical.   STEP 002-002-1  identical.   STEP 002-001-0  identical.   STEP 002-001-1  accepted.STEP 003-001-0  identical.   STEP 003-001-1  identical.   STEP 003-002-0  identical.   STEP 003-002-1  identical.   STEP 003-003-0  identical.   STEP 003-003-1  identical.   STEP 003-004-1  identical.   STEP 004-004-1  identical.   STEP 004-003-0  identical.   STEP 004-003-1  identical.   
+Converged.
+
+done
+dvtditr (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+0 thread(s)
+
+
+Strategy:
+ L-INS-i (Probably most accurate, very slow)
+ Iterative refinement method (<16) with LOCAL pairwise alignment information
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+
+alignment done for ../../data/input_to_MSA_perGene_fa/ntn5.fna
+
+################################ Processing: ../../data/input_to_MSA_perGene_fa/osbpl1a.fna
+outputhat23=16
+treein = 0
+compacttree = 0
+stacksize: 8192 kb
+generating a scoring matrix for nucleotide (dist=200) ... done
+All-to-all alignment.
+    0 / 5    1 / 5    2 / 5    3 / 5tbfast-pair (nuc) Version 7.526
+alg=L, model=DNA200 (2), 2.00 (6.00), -0.10 (-0.30), noshift, amax=0.0
+0 thread(s)
+
+outputhat23=16
+Loading 'hat3.seed' ... 
+done.
+Writing hat3 for iterative refinement
+generating a scoring matrix for nucleotide (dist=200) ... done
+Gap Penalty = -1.53, +0.00, +0.00
+tbutree = 1, compacttree = 0
+Constructing a UPGMA tree ... 
+    0 / 5
+done.
+
+Progressive alignment ... 
+STEP     1 /4 STEP     2 /4 STEP     3 /4 
+Reallocating..done. *alloclen = 6844
+STEP     4 /4 
+done.
+tbfast (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+1 thread(s)
+
+minimumweight = 0.000010
+autosubalignment = 0.000000
+nthread = 0
+randomseed = 0
+blosum 62 / kimura 200
+poffset = 0
+niter = 16
+sueff_global = 0.100000
+nadd = 16
+Loading 'hat3' ... done.
+generating a scoring matrix for nucleotide (dist=200) ... done
+
+    0 / 5
+Segment   1/  1    1-2941
+STEP 001-001-0  identical.   STEP 001-001-1  identical.   STEP 001-002-0  accepted.STEP 001-002-1  identical.   STEP 001-003-0  identical.   STEP 001-003-1  rejected.STEP 001-004-1  identical.   STEP 002-004-1  identical.   STEP 002-003-0  identical.   STEP 002-003-1  rejected.STEP 002-002-0  identical.   STEP 002-002-1  identical.   STEP 002-001-0  identical.   
+Converged.
+
+done
+dvtditr (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+0 thread(s)
+
+
+Strategy:
+ L-INS-i (Probably most accurate, very slow)
+ Iterative refinement method (<16) with LOCAL pairwise alignment information
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+
+alignment done for ../../data/input_to_MSA_perGene_fa/osbpl1a.fna
+
+################################ Processing: ../../data/input_to_MSA_perGene_fa/pcdh20.fna
+outputhat23=16
+treein = 0
+compacttree = 0
+stacksize: 8192 kb
+generating a scoring matrix for nucleotide (dist=200) ... done
+All-to-all alignment.
+    0 / 5    1 / 5    2 / 5    3 / 5tbfast-pair (nuc) Version 7.526
+alg=L, model=DNA200 (2), 2.00 (6.00), -0.10 (-0.30), noshift, amax=0.0
+0 thread(s)
+
+outputhat23=16
+Loading 'hat3.seed' ... 
+done.
+Writing hat3 for iterative refinement
+generating a scoring matrix for nucleotide (dist=200) ... done
+Gap Penalty = -1.53, +0.00, +0.00
+tbutree = 1, compacttree = 0
+Constructing a UPGMA tree ... 
+    0 / 5
+done.
+
+Progressive alignment ... 
+STEP     1 /4 STEP     2 /4 STEP     3 /4 STEP     4 /4 
+done.
+tbfast (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+1 thread(s)
+
+minimumweight = 0.000010
+autosubalignment = 0.000000
+nthread = 0
+randomseed = 0
+blosum 62 / kimura 200
+poffset = 0
+niter = 16
+sueff_global = 0.100000
+nadd = 16
+Loading 'hat3' ... done.
+generating a scoring matrix for nucleotide (dist=200) ... done
+
+    0 / 5
+Segment   1/  1    1-2723
+STEP 001-001-0  rejected.STEP 001-001-1  identical.   STEP 001-002-0  rejected.STEP 001-002-1  rejected.STEP 001-003-0  accepted.STEP 001-003-1  rejected.STEP 001-004-1  accepted.STEP 002-004-1  identical.   STEP 002-003-0  rejected.STEP 002-003-1  accepted.STEP 002-002-0  accepted.STEP 002-002-1  accepted.STEP 002-001-0  rejected.STEP 002-001-1  identical.   STEP 003-001-0  rejected.STEP 003-001-1  identical.   STEP 003-002-0  identical.   STEP 003-002-1  identical.   STEP 003-003-0  rejected.STEP 003-003-1  rejected.STEP 003-004-1  accepted.STEP 004-004-1  identical.   STEP 004-003-0  rejected.STEP 004-003-1  rejected.STEP 004-002-0  rejected.STEP 004-002-1  rejected.STEP 004-001-0  rejected.STEP 004-001-1  identical.   STEP 005-001-0  rejected.STEP 005-001-1  identical.   STEP 005-002-0  rejected.
+Converged.
+
+done
+dvtditr (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+0 thread(s)
+
+
+Strategy:
+ L-INS-i (Probably most accurate, very slow)
+ Iterative refinement method (<16) with LOCAL pairwise alignment information
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+
+alignment done for ../../data/input_to_MSA_perGene_fa/pcdh20.fna
+
+################################ Processing: ../../data/input_to_MSA_perGene_fa/prrg4.fna
+outputhat23=16
+treein = 0
+compacttree = 0
+stacksize: 8192 kb
+generating a scoring matrix for nucleotide (dist=200) ... done
+All-to-all alignment.
+    0 / 5    1 / 5    2 / 5    3 / 5tbfast-pair (nuc) Version 7.526
+alg=L, model=DNA200 (2), 2.00 (6.00), -0.10 (-0.30), noshift, amax=0.0
+0 thread(s)
+
+outputhat23=16
+Loading 'hat3.seed' ... 
+done.
+Writing hat3 for iterative refinement
+generating a scoring matrix for nucleotide (dist=200) ... done
+Gap Penalty = -1.53, +0.00, +0.00
+tbutree = 1, compacttree = 0
+Constructing a UPGMA tree ... 
+    0 / 5
+done.
+
+Progressive alignment ... 
+STEP     1 /4 STEP     2 /4 STEP     3 /4 STEP     4 /4 
+done.
+tbfast (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+1 thread(s)
+
+minimumweight = 0.000010
+autosubalignment = 0.000000
+nthread = 0
+randomseed = 0
+blosum 62 / kimura 200
+poffset = 0
+niter = 16
+sueff_global = 0.100000
+nadd = 16
+Loading 'hat3' ... done.
+generating a scoring matrix for nucleotide (dist=200) ... done
+
+    0 / 5
+Segment   1/  1    1- 673
+STEP 001-001-0  identical.   STEP 001-001-1  identical.   STEP 001-002-0  identical.   STEP 001-002-1  identical.   STEP 001-003-0  rejected.STEP 001-003-1  identical.   STEP 001-004-1  accepted.STEP 002-004-1  identical.   STEP 002-003-0  identical.   STEP 002-003-1  identical.   STEP 002-002-0  identical.   STEP 002-002-1  identical.   STEP 002-001-0  identical.   STEP 002-001-1  identical.   STEP 003-001-0  identical.   STEP 003-001-1  identical.   STEP 003-002-0  identical.   
+Converged.
+
+done
+dvtditr (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+0 thread(s)
+
+
+Strategy:
+ L-INS-i (Probably most accurate, very slow)
+ Iterative refinement method (<16) with LOCAL pairwise alignment information
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+
+alignment done for ../../data/input_to_MSA_perGene_fa/prrg4.fna
+
+################################ Processing: ../../data/input_to_MSA_perGene_fa/prx.fna
+outputhat23=16
+treein = 0
+compacttree = 0
+stacksize: 8192 kb
+generating a scoring matrix for nucleotide (dist=200) ... done
+All-to-all alignment.
+    0 / 5    1 / 5    2 / 5    3 / 5tbfast-pair (nuc) Version 7.526
+alg=L, model=DNA200 (2), 2.00 (6.00), -0.10 (-0.30), noshift, amax=0.0
+0 thread(s)
+
+outputhat23=16
+Loading 'hat3.seed' ... 
+done.
+Writing hat3 for iterative refinement
+generating a scoring matrix for nucleotide (dist=200) ... done
+Gap Penalty = -1.53, +0.00, +0.00
+tbutree = 1, compacttree = 0
+Constructing a UPGMA tree ... 
+    0 / 5
+done.
+
+Progressive alignment ... 
+STEP     1 /4 STEP     2 /4 STEP     3 /4 STEP     4 /4 
+done.
+tbfast (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+1 thread(s)
+
+minimumweight = 0.000010
+autosubalignment = 0.000000
+nthread = 0
+randomseed = 0
+blosum 62 / kimura 200
+poffset = 0
+niter = 16
+sueff_global = 0.100000
+nadd = 16
+Loading 'hat3' ... done.
+generating a scoring matrix for nucleotide (dist=200) ... done
+
+    0 / 5
+Segment   1/  1    1-14411
+STEP 001-001-0  rejected.STEP 001-001-1  accepted.STEP 001-002-0  rejected.STEP 001-002-1  accepted.STEP 001-003-0  rejected.STEP 001-003-1  accepted.STEP 001-004-1  rejected.STEP 002-004-1  rejected.STEP 002-003-0  rejected.STEP 002-003-1  identical.   STEP 002-002-0  rejected.STEP 002-002-1  rejected.STEP 002-001-0  rejected.STEP 002-001-1  identical.   STEP 003-001-0  rejected.STEP 003-001-1  identical.   
+Converged.
+
+done
+dvtditr (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+0 thread(s)
+
+
+Strategy:
+ L-INS-i (Probably most accurate, very slow)
+ Iterative refinement method (<16) with LOCAL pairwise alignment information
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+
+alignment done for ../../data/input_to_MSA_perGene_fa/prx.fna
+
+################################ Processing: ../../data/input_to_MSA_perGene_fa/rnf207b.fna
+outputhat23=16
+treein = 0
+compacttree = 0
+stacksize: 8192 kb
+generating a scoring matrix for nucleotide (dist=200) ... done
+All-to-all alignment.
+    0 / 5    1 / 5    2 / 5    3 / 5tbfast-pair (nuc) Version 7.526
+alg=L, model=DNA200 (2), 2.00 (6.00), -0.10 (-0.30), noshift, amax=0.0
+0 thread(s)
+
+outputhat23=16
+Loading 'hat3.seed' ... 
+done.
+Writing hat3 for iterative refinement
+generating a scoring matrix for nucleotide (dist=200) ... done
+Gap Penalty = -1.53, +0.00, +0.00
+tbutree = 1, compacttree = 0
+Constructing a UPGMA tree ... 
+    0 / 5
+done.
+
+Progressive alignment ... 
+STEP     1 /4 STEP     2 /4 STEP     3 /4 STEP     4 /4 
+done.
+tbfast (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+1 thread(s)
+
+minimumweight = 0.000010
+autosubalignment = 0.000000
+nthread = 0
+randomseed = 0
+blosum 62 / kimura 200
+poffset = 0
+niter = 16
+sueff_global = 0.100000
+nadd = 16
+Loading 'hat3' ... done.
+generating a scoring matrix for nucleotide (dist=200) ... done
+
+    0 / 5
+Segment   1/  1    1-1975
+STEP 001-001-0  identical.   STEP 001-001-1  identical.   STEP 001-002-0  identical.   STEP 001-002-1  identical.   STEP 001-003-0  accepted.STEP 001-003-1  accepted.STEP 001-004-1  rejected.STEP 002-004-1  rejected.STEP 002-003-0  identical.   STEP 002-003-1  identical.   STEP 002-002-0  identical.   STEP 002-002-1  identical.   STEP 002-001-0  identical.   STEP 002-001-1  identical.   STEP 003-001-0  identical.   STEP 003-001-1  identical.   
+Converged.
+
+done
+dvtditr (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+0 thread(s)
+
+
+Strategy:
+ L-INS-i (Probably most accurate, very slow)
+ Iterative refinement method (<16) with LOCAL pairwise alignment information
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+
+alignment done for ../../data/input_to_MSA_perGene_fa/rnf207b.fna
+
+################################ Processing: ../../data/input_to_MSA_perGene_fa/rpl3.fna
+outputhat23=16
+treein = 0
+compacttree = 0
+stacksize: 8192 kb
+generating a scoring matrix for nucleotide (dist=200) ... done
+All-to-all alignment.
+    0 / 5    1 / 5    2 / 5    3 / 5tbfast-pair (nuc) Version 7.526
+alg=L, model=DNA200 (2), 2.00 (6.00), -0.10 (-0.30), noshift, amax=0.0
+0 thread(s)
+
+outputhat23=16
+Loading 'hat3.seed' ... 
+done.
+Writing hat3 for iterative refinement
+generating a scoring matrix for nucleotide (dist=200) ... done
+Gap Penalty = -1.53, +0.00, +0.00
+tbutree = 1, compacttree = 0
+Constructing a UPGMA tree ... 
+    0 / 5
+done.
+
+Progressive alignment ... 
+STEP     1 /4 STEP     2 /4 STEP     3 /4 STEP     4 /4 
+done.
+tbfast (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+1 thread(s)
+
+minimumweight = 0.000010
+autosubalignment = 0.000000
+nthread = 0
+randomseed = 0
+blosum 62 / kimura 200
+poffset = 0
+niter = 16
+sueff_global = 0.100000
+nadd = 16
+Loading 'hat3' ... done.
+generating a scoring matrix for nucleotide (dist=200) ... done
+
+    0 / 5
+Segment   1/  1    1-1330
+STEP 001-001-0  identical.   STEP 001-001-1  identical.   STEP 001-002-0  identical.   STEP 001-002-1  identical.   STEP 001-003-0  identical.   STEP 001-003-1  accepted.STEP 001-004-1  identical.   STEP 002-004-1  identical.   STEP 002-003-0  identical.   STEP 002-003-1  identical.   STEP 002-002-0  identical.   STEP 002-002-1  identical.   STEP 002-001-0  identical.   STEP 002-001-1  identical.   STEP 003-001-0  identical.   STEP 003-001-1  identical.   
+Converged.
+
+done
+dvtditr (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+0 thread(s)
+
+
+Strategy:
+ L-INS-i (Probably most accurate, very slow)
+ Iterative refinement method (<16) with LOCAL pairwise alignment information
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+
+alignment done for ../../data/input_to_MSA_perGene_fa/rpl3.fna
+
+################################ Processing: ../../data/input_to_MSA_perGene_fa/scn4ab.fna
+outputhat23=16
+treein = 0
+compacttree = 0
+stacksize: 8192 kb
+generating a scoring matrix for nucleotide (dist=200) ... done
+All-to-all alignment.
+    0 / 5    1 / 5    2 / 5    3 / 5tbfast-pair (nuc) Version 7.526
+alg=L, model=DNA200 (2), 2.00 (6.00), -0.10 (-0.30), noshift, amax=0.0
+0 thread(s)
+
+outputhat23=16
+Loading 'hat3.seed' ... 
+done.
+Writing hat3 for iterative refinement
+generating a scoring matrix for nucleotide (dist=200) ... done
+Gap Penalty = -1.53, +0.00, +0.00
+tbutree = 1, compacttree = 0
+Constructing a UPGMA tree ... 
+    0 / 5
+done.
+
+Progressive alignment ... 
+STEP     1 /4 STEP     2 /4 STEP     3 /4 
+Reallocating..done. *alloclen = 12080
+STEP     4 /4 
+done.
+tbfast (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+1 thread(s)
+
+minimumweight = 0.000010
+autosubalignment = 0.000000
+nthread = 0
+randomseed = 0
+blosum 62 / kimura 200
+poffset = 0
+niter = 16
+sueff_global = 0.100000
+nadd = 16
+Loading 'hat3' ... done.
+generating a scoring matrix for nucleotide (dist=200) ... done
+
+    0 / 5
+Segment   1/  1    1-5672
+STEP 001-001-0  identical.   STEP 001-001-1  identical.   STEP 001-002-0  accepted.STEP 001-002-1  rejected.STEP 001-003-0  rejected.STEP 001-003-1  rejected.STEP 001-004-1  identical.   STEP 002-004-1  identical.   STEP 002-003-0  rejected.STEP 002-003-1  rejected.STEP 002-002-0  identical.   STEP 002-002-1  rejected.STEP 002-001-0  identical.   
+Converged.
+
+done
+dvtditr (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+0 thread(s)
+
+
+Strategy:
+ L-INS-i (Probably most accurate, very slow)
+ Iterative refinement method (<16) with LOCAL pairwise alignment information
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+
+alignment done for ../../data/input_to_MSA_perGene_fa/scn4ab.fna
+
+################################ Processing: ../../data/input_to_MSA_perGene_fa/sh2d5.fna
+outputhat23=16
+treein = 0
+compacttree = 0
+stacksize: 8192 kb
+generating a scoring matrix for nucleotide (dist=200) ... done
+All-to-all alignment.
+    0 / 5    1 / 5    2 / 5    3 / 5tbfast-pair (nuc) Version 7.526
+alg=L, model=DNA200 (2), 2.00 (6.00), -0.10 (-0.30), noshift, amax=0.0
+0 thread(s)
+
+outputhat23=16
+Loading 'hat3.seed' ... 
+done.
+Writing hat3 for iterative refinement
+generating a scoring matrix for nucleotide (dist=200) ... done
+Gap Penalty = -1.53, +0.00, +0.00
+tbutree = 1, compacttree = 0
+Constructing a UPGMA tree ... 
+    0 / 5
+done.
+
+Progressive alignment ... 
+STEP     1 /4 STEP     2 /4 STEP     3 /4 STEP     4 /4 
+done.
+tbfast (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+1 thread(s)
+
+minimumweight = 0.000010
+autosubalignment = 0.000000
+nthread = 0
+randomseed = 0
+blosum 62 / kimura 200
+poffset = 0
+niter = 16
+sueff_global = 0.100000
+nadd = 16
+Loading 'hat3' ... done.
+generating a scoring matrix for nucleotide (dist=200) ... done
+
+    0 / 5
+Segment   1/  1    1-1342
+STEP 001-001-0  identical.   STEP 001-001-1  identical.   STEP 001-002-0  identical.   STEP 001-002-1  identical.   STEP 001-003-0  identical.   STEP 001-003-1  accepted.STEP 001-004-1  accepted.STEP 002-004-1  identical.   STEP 002-003-0  identical.   STEP 002-003-1  identical.   STEP 002-002-0  identical.   STEP 002-002-1  identical.   STEP 002-001-0  identical.   STEP 002-001-1  identical.   STEP 003-001-0  identical.   STEP 003-001-1  identical.   STEP 003-002-0  identical.   
+Converged.
+
+done
+dvtditr (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+0 thread(s)
+
+
+Strategy:
+ L-INS-i (Probably most accurate, very slow)
+ Iterative refinement method (<16) with LOCAL pairwise alignment information
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+
+alignment done for ../../data/input_to_MSA_perGene_fa/sh2d5.fna
+
+################################ Processing: ../../data/input_to_MSA_perGene_fa/six2a.fna
+outputhat23=16
+treein = 0
+compacttree = 0
+stacksize: 8192 kb
+generating a scoring matrix for nucleotide (dist=200) ... done
+All-to-all alignment.
+    0 / 5    1 / 5    2 / 5    3 / 5tbfast-pair (nuc) Version 7.526
+alg=L, model=DNA200 (2), 2.00 (6.00), -0.10 (-0.30), noshift, amax=0.0
+0 thread(s)
+
+outputhat23=16
+Loading 'hat3.seed' ... 
+done.
+Writing hat3 for iterative refinement
+generating a scoring matrix for nucleotide (dist=200) ... done
+Gap Penalty = -1.53, +0.00, +0.00
+tbutree = 1, compacttree = 0
+Constructing a UPGMA tree ... 
+    0 / 5
+done.
+
+Progressive alignment ... 
+STEP     1 /4 STEP     2 /4 STEP     3 /4 STEP     4 /4 
+done.
+tbfast (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+1 thread(s)
+
+minimumweight = 0.000010
+autosubalignment = 0.000000
+nthread = 0
+randomseed = 0
+blosum 62 / kimura 200
+poffset = 0
+niter = 16
+sueff_global = 0.100000
+nadd = 16
+Loading 'hat3' ... done.
+generating a scoring matrix for nucleotide (dist=200) ... done
+
+    0 / 5
+Segment   1/  1    1- 898
+STEP 001-001-0  identical.   STEP 001-001-1  identical.   STEP 001-002-0  identical.   STEP 001-002-1  identical.   STEP 001-003-0  identical.   STEP 001-003-1  identical.   STEP 001-004-1  identical.   STEP 002-004-1  identical.   STEP 002-003-0  identical.   STEP 002-003-1  identical.   
+Converged.
+
+done
+dvtditr (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+0 thread(s)
+
+
+Strategy:
+ L-INS-i (Probably most accurate, very slow)
+ Iterative refinement method (<16) with LOCAL pairwise alignment information
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+
+alignment done for ../../data/input_to_MSA_perGene_fa/six2a.fna
+
+################################ Processing: ../../data/input_to_MSA_perGene_fa/slc8a3.fna
+outputhat23=16
+treein = 0
+compacttree = 0
+stacksize: 8192 kb
+generating a scoring matrix for nucleotide (dist=200) ... done
+All-to-all alignment.
+    0 / 5    1 / 5    2 / 5    3 / 5tbfast-pair (nuc) Version 7.526
+alg=L, model=DNA200 (2), 2.00 (6.00), -0.10 (-0.30), noshift, amax=0.0
+0 thread(s)
+
+outputhat23=16
+Loading 'hat3.seed' ... 
+done.
+Writing hat3 for iterative refinement
+generating a scoring matrix for nucleotide (dist=200) ... done
+Gap Penalty = -1.53, +0.00, +0.00
+tbutree = 1, compacttree = 0
+Constructing a UPGMA tree ... 
+    0 / 5
+done.
+
+Progressive alignment ... 
+STEP     1 /4 STEP     2 /4 STEP     3 /4 
+Reallocating..done. *alloclen = 6562
+STEP     4 /4 
+done.
+tbfast (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+1 thread(s)
+
+minimumweight = 0.000010
+autosubalignment = 0.000000
+nthread = 0
+randomseed = 0
+blosum 62 / kimura 200
+poffset = 0
+niter = 16
+sueff_global = 0.100000
+nadd = 16
+Loading 'hat3' ... done.
+generating a scoring matrix for nucleotide (dist=200) ... done
+
+    0 / 5
+Segment   1/  1    1-2800
+STEP 001-001-0  accepted.STEP 001-001-1  accepted.STEP 001-002-0  identical.   STEP 001-002-1  identical.   STEP 001-003-0  identical.   STEP 001-003-1  identical.   STEP 001-004-1  accepted.STEP 002-004-1  identical.   STEP 002-003-0  identical.   STEP 002-003-1  identical.   STEP 002-002-0  identical.   STEP 002-002-1  identical.   STEP 002-001-0  identical.   STEP 002-001-1  identical.   STEP 003-001-0  identical.   STEP 003-001-1  identical.   STEP 003-002-0  identical.   
+Converged.
+
+done
+dvtditr (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+0 thread(s)
+
+
+Strategy:
+ L-INS-i (Probably most accurate, very slow)
+ Iterative refinement method (<16) with LOCAL pairwise alignment information
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+
+alignment done for ../../data/input_to_MSA_perGene_fa/slc8a3.fna
+
+################################ Processing: ../../data/input_to_MSA_perGene_fa/smpx.fna
+outputhat23=16
+treein = 0
+compacttree = 0
+stacksize: 8192 kb
+generating a scoring matrix for nucleotide (dist=200) ... done
+All-to-all alignment.
+    0 / 5    1 / 5    2 / 5    3 / 5tbfast-pair (nuc) Version 7.526
+alg=L, model=DNA200 (2), 2.00 (6.00), -0.10 (-0.30), noshift, amax=0.0
+0 thread(s)
+
+outputhat23=16
+Loading 'hat3.seed' ... 
+done.
+Writing hat3 for iterative refinement
+generating a scoring matrix for nucleotide (dist=200) ... done
+Gap Penalty = -1.53, +0.00, +0.00
+tbutree = 1, compacttree = 0
+Constructing a UPGMA tree ... 
+    0 / 5
+done.
+
+Progressive alignment ... 
+STEP     1 /4 STEP     2 /4 STEP     3 /4 STEP     4 /4 
+done.
+tbfast (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+1 thread(s)
+
+minimumweight = 0.000010
+autosubalignment = 0.000000
+nthread = 0
+randomseed = 0
+blosum 62 / kimura 200
+poffset = 0
+niter = 16
+sueff_global = 0.100000
+nadd = 16
+Loading 'hat3' ... done.
+generating a scoring matrix for nucleotide (dist=200) ... done
+
+    0 / 5
+Segment   1/  1    1- 448
+STEP 001-001-0  identical.   STEP 001-001-1  identical.   STEP 001-002-0  identical.   STEP 001-002-1  identical.   STEP 001-003-0  identical.   STEP 001-003-1  identical.   STEP 001-004-1  identical.   STEP 002-004-1  identical.   STEP 002-003-0  identical.   STEP 002-003-1  identical.   
+Converged.
+
+done
+dvtditr (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+0 thread(s)
+
+
+Strategy:
+ L-INS-i (Probably most accurate, very slow)
+ Iterative refinement method (<16) with LOCAL pairwise alignment information
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+
+alignment done for ../../data/input_to_MSA_perGene_fa/smpx.fna
+
+################################ Processing: ../../data/input_to_MSA_perGene_fa/smyd1b.fna
+outputhat23=16
+treein = 0
+compacttree = 0
+stacksize: 8192 kb
+generating a scoring matrix for nucleotide (dist=200) ... done
+All-to-all alignment.
+    0 / 5    1 / 5    2 / 5    3 / 5tbfast-pair (nuc) Version 7.526
+alg=L, model=DNA200 (2), 2.00 (6.00), -0.10 (-0.30), noshift, amax=0.0
+0 thread(s)
+
+outputhat23=16
+Loading 'hat3.seed' ... 
+done.
+Writing hat3 for iterative refinement
+generating a scoring matrix for nucleotide (dist=200) ... done
+Gap Penalty = -1.53, +0.00, +0.00
+tbutree = 1, compacttree = 0
+Constructing a UPGMA tree ... 
+    0 / 5
+done.
+
+Progressive alignment ... 
+STEP     1 /4 STEP     2 /4 STEP     3 /4 STEP     4 /4 
+done.
+tbfast (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+1 thread(s)
+
+minimumweight = 0.000010
+autosubalignment = 0.000000
+nthread = 0
+randomseed = 0
+blosum 62 / kimura 200
+poffset = 0
+niter = 16
+sueff_global = 0.100000
+nadd = 16
+Loading 'hat3' ... done.
+generating a scoring matrix for nucleotide (dist=200) ... done
+
+    0 / 5
+Segment   1/  1    1-1462
+STEP 001-001-0  identical.   STEP 001-001-1  identical.   STEP 001-002-0  identical.   STEP 001-002-1  identical.   STEP 001-003-0  identical.   STEP 001-003-1  identical.   STEP 001-004-1  identical.   STEP 002-004-1  identical.   STEP 002-003-0  identical.   STEP 002-003-1  identical.   
+Converged.
+
+done
+dvtditr (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+0 thread(s)
+
+
+Strategy:
+ L-INS-i (Probably most accurate, very slow)
+ Iterative refinement method (<16) with LOCAL pairwise alignment information
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+
+alignment done for ../../data/input_to_MSA_perGene_fa/smyd1b.fna
+
+################################ Processing: ../../data/input_to_MSA_perGene_fa/specc1.fna
+outputhat23=16
+treein = 0
+compacttree = 0
+stacksize: 8192 kb
+generating a scoring matrix for nucleotide (dist=200) ... done
+All-to-all alignment.
+    0 / 5    1 / 5    2 / 5    3 / 5tbfast-pair (nuc) Version 7.526
+alg=L, model=DNA200 (2), 2.00 (6.00), -0.10 (-0.30), noshift, amax=0.0
+0 thread(s)
+
+outputhat23=16
+Loading 'hat3.seed' ... 
+done.
+Writing hat3 for iterative refinement
+generating a scoring matrix for nucleotide (dist=200) ... done
+Gap Penalty = -1.53, +0.00, +0.00
+tbutree = 1, compacttree = 0
+Constructing a UPGMA tree ... 
+    0 / 5
+done.
+
+Progressive alignment ... 
+STEP     1 /4 STEP     2 /4 
+Reallocating..done. *alloclen = 7315
+STEP     3 /4 STEP     4 /4 
+done.
+tbfast (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+1 thread(s)
+
+minimumweight = 0.000010
+autosubalignment = 0.000000
+nthread = 0
+randomseed = 0
+blosum 62 / kimura 200
+poffset = 0
+niter = 16
+sueff_global = 0.100000
+nadd = 16
+Loading 'hat3' ... done.
+generating a scoring matrix for nucleotide (dist=200) ... done
+
+    0 / 5
+Segment   1/  1    1-3313
+STEP 001-001-0  identical.   STEP 001-001-1  accepted.STEP 001-002-0  identical.   STEP 001-002-1  identical.   STEP 001-003-0  identical.   STEP 001-003-1  rejected.STEP 001-004-1  identical.   STEP 002-004-1  identical.   STEP 002-003-0  identical.   STEP 002-003-1  rejected.STEP 002-002-0  identical.   STEP 002-002-1  identical.   
+Converged.
+
+done
+dvtditr (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+0 thread(s)
+
+
+Strategy:
+ L-INS-i (Probably most accurate, very slow)
+ Iterative refinement method (<16) with LOCAL pairwise alignment information
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+
+alignment done for ../../data/input_to_MSA_perGene_fa/specc1.fna
+
+################################ Processing: ../../data/input_to_MSA_perGene_fa/tnnc1b.fna
+outputhat23=16
+treein = 0
+compacttree = 0
+stacksize: 8192 kb
+generating a scoring matrix for nucleotide (dist=200) ... done
+All-to-all alignment.
+    0 / 5    1 / 5    2 / 5    3 / 5tbfast-pair (nuc) Version 7.526
+alg=L, model=DNA200 (2), 2.00 (6.00), -0.10 (-0.30), noshift, amax=0.0
+0 thread(s)
+
+outputhat23=16
+Loading 'hat3.seed' ... 
+done.
+Writing hat3 for iterative refinement
+generating a scoring matrix for nucleotide (dist=200) ... done
+Gap Penalty = -1.53, +0.00, +0.00
+tbutree = 1, compacttree = 0
+Constructing a UPGMA tree ... 
+    0 / 5
+done.
+
+Progressive alignment ... 
+STEP     1 /4 STEP     2 /4 STEP     3 /4 STEP     4 /4 
+done.
+tbfast (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+1 thread(s)
+
+minimumweight = 0.000010
+autosubalignment = 0.000000
+nthread = 0
+randomseed = 0
+blosum 62 / kimura 200
+poffset = 0
+niter = 16
+sueff_global = 0.100000
+nadd = 16
+Loading 'hat3' ... done.
+generating a scoring matrix for nucleotide (dist=200) ... done
+
+    0 / 5
+Segment   1/  1    1- 487
+STEP 001-001-0  identical.   STEP 001-001-1  identical.   STEP 001-002-0  identical.   STEP 001-002-1  identical.   STEP 001-003-0  identical.   STEP 001-003-1  identical.   STEP 001-004-1  identical.   STEP 002-004-1  identical.   STEP 002-003-0  identical.   STEP 002-003-1  identical.   
+Converged.
+
+done
+dvtditr (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+0 thread(s)
+
+
+Strategy:
+ L-INS-i (Probably most accurate, very slow)
+ Iterative refinement method (<16) with LOCAL pairwise alignment information
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+
+alignment done for ../../data/input_to_MSA_perGene_fa/tnnc1b.fna
+
+################################ Processing: ../../data/input_to_MSA_perGene_fa/tnnt1.fna
+outputhat23=16
+treein = 0
+compacttree = 0
+stacksize: 8192 kb
+generating a scoring matrix for nucleotide (dist=200) ... done
+All-to-all alignment.
+    0 / 5    1 / 5    2 / 5    3 / 5tbfast-pair (nuc) Version 7.526
+alg=L, model=DNA200 (2), 2.00 (6.00), -0.10 (-0.30), noshift, amax=0.0
+0 thread(s)
+
+outputhat23=16
+Loading 'hat3.seed' ... 
+done.
+Writing hat3 for iterative refinement
+generating a scoring matrix for nucleotide (dist=200) ... done
+Gap Penalty = -1.53, +0.00, +0.00
+tbutree = 1, compacttree = 0
+Constructing a UPGMA tree ... 
+    0 / 5
+done.
+
+Progressive alignment ... 
+STEP     1 /4 STEP     2 /4 STEP     3 /4 STEP     4 /4 
+done.
+tbfast (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+1 thread(s)
+
+minimumweight = 0.000010
+autosubalignment = 0.000000
+nthread = 0
+randomseed = 0
+blosum 62 / kimura 200
+poffset = 0
+niter = 16
+sueff_global = 0.100000
+nadd = 16
+Loading 'hat3' ... done.
+generating a scoring matrix for nucleotide (dist=200) ... done
+
+    0 / 5
+Segment   1/  1    1- 876
+STEP 001-001-0  identical.   STEP 001-001-1  identical.   STEP 001-002-0  identical.   STEP 001-002-1  accepted.STEP 001-003-0  identical.   STEP 001-003-1  accepted.STEP 001-004-1  identical.   STEP 002-004-1  identical.   STEP 002-003-0  identical.   STEP 002-003-1  identical.   STEP 002-002-0  accepted.STEP 002-002-1  rejected.STEP 002-001-0  identical.   STEP 002-001-1  identical.   STEP 003-001-0  identical.   STEP 003-001-1  identical.   STEP 003-002-0  identical.   STEP 003-002-1  rejected.STEP 003-003-0  rejected.STEP 003-003-1  identical.   STEP 003-004-1  accepted.STEP 004-004-1  identical.   STEP 004-003-0  rejected.STEP 004-003-1  identical.   STEP 004-002-0  identical.   STEP 004-002-1  rejected.STEP 004-001-0  identical.   STEP 004-001-1  identical.   STEP 005-001-0  identical.   STEP 005-001-1  identical.   STEP 005-002-0  identical.   
+Converged.
+
+done
+dvtditr (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+0 thread(s)
+
+
+Strategy:
+ L-INS-i (Probably most accurate, very slow)
+ Iterative refinement method (<16) with LOCAL pairwise alignment information
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+
+alignment done for ../../data/input_to_MSA_perGene_fa/tnnt1.fna
+
+################################ Processing: ../../data/input_to_MSA_perGene_fa/tnnt2e.fna
+outputhat23=16
+treein = 0
+compacttree = 0
+stacksize: 8192 kb
+generating a scoring matrix for nucleotide (dist=200) ... done
+All-to-all alignment.
+    0 / 5    1 / 5    2 / 5    3 / 5tbfast-pair (nuc) Version 7.526
+alg=L, model=DNA200 (2), 2.00 (6.00), -0.10 (-0.30), noshift, amax=0.0
+0 thread(s)
+
+outputhat23=16
+Loading 'hat3.seed' ... 
+done.
+Writing hat3 for iterative refinement
+generating a scoring matrix for nucleotide (dist=200) ... done
+Gap Penalty = -1.53, +0.00, +0.00
+tbutree = 1, compacttree = 0
+Constructing a UPGMA tree ... 
+    0 / 5
+done.
+
+Progressive alignment ... 
+STEP     1 /4 STEP     2 /4 STEP     3 /4 STEP     4 /4 
+done.
+tbfast (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+1 thread(s)
+
+minimumweight = 0.000010
+autosubalignment = 0.000000
+nthread = 0
+randomseed = 0
+blosum 62 / kimura 200
+poffset = 0
+niter = 16
+sueff_global = 0.100000
+nadd = 16
+Loading 'hat3' ... done.
+generating a scoring matrix for nucleotide (dist=200) ... done
+
+    0 / 5
+Segment   1/  1    1-1127
+STEP 001-001-0  identical.   STEP 001-001-1  rejected.STEP 001-002-0  identical.   STEP 001-002-1  identical.   STEP 001-003-0  rejected.STEP 001-003-1  identical.   STEP 001-004-1  identical.   STEP 002-004-1  identical.   STEP 002-003-0  rejected.STEP 002-003-1  identical.   
+Converged.
+
+done
+dvtditr (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+0 thread(s)
+
+
+Strategy:
+ L-INS-i (Probably most accurate, very slow)
+ Iterative refinement method (<16) with LOCAL pairwise alignment information
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+
+alignment done for ../../data/input_to_MSA_perGene_fa/tnnt2e.fna
+
+################################ Processing: ../../data/input_to_MSA_perGene_fa/tpm3.fna
+outputhat23=16
+treein = 0
+compacttree = 0
+stacksize: 8192 kb
+generating a scoring matrix for nucleotide (dist=200) ... done
+All-to-all alignment.
+    0 / 5    1 / 5    2 / 5    3 / 5tbfast-pair (nuc) Version 7.526
+alg=L, model=DNA200 (2), 2.00 (6.00), -0.10 (-0.30), noshift, amax=0.0
+0 thread(s)
+
+outputhat23=16
+Loading 'hat3.seed' ... 
+done.
+Writing hat3 for iterative refinement
+generating a scoring matrix for nucleotide (dist=200) ... done
+Gap Penalty = -1.53, +0.00, +0.00
+tbutree = 1, compacttree = 0
+Constructing a UPGMA tree ... 
+    0 / 5
+done.
+
+Progressive alignment ... 
+STEP     1 /4 STEP     2 /4 STEP     3 /4 STEP     4 /4 
+done.
+tbfast (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+1 thread(s)
+
+minimumweight = 0.000010
+autosubalignment = 0.000000
+nthread = 0
+randomseed = 0
+blosum 62 / kimura 200
+poffset = 0
+niter = 16
+sueff_global = 0.100000
+nadd = 16
+Loading 'hat3' ... done.
+generating a scoring matrix for nucleotide (dist=200) ... done
+
+    0 / 5
+Segment   1/  1    1-1018
+STEP 001-001-0  identical.   STEP 001-001-1  identical.   STEP 001-002-0  accepted.STEP 001-002-1  accepted.STEP 001-003-0  identical.   STEP 001-003-1  accepted.STEP 001-004-1  identical.   STEP 002-004-1  identical.   STEP 002-003-0  identical.   STEP 002-003-1  identical.   STEP 002-002-0  accepted.STEP 002-002-1  identical.   STEP 002-001-0  identical.   STEP 002-001-1  identical.   STEP 003-001-0  identical.   
+Oscillating.
+
+done
+dvtditr (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+0 thread(s)
+
+
+Strategy:
+ L-INS-i (Probably most accurate, very slow)
+ Iterative refinement method (<16) with LOCAL pairwise alignment information
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+
+alignment done for ../../data/input_to_MSA_perGene_fa/tpm3.fna
+
+################################ Processing: ../../data/input_to_MSA_perGene_fa/trdn.fna
+outputhat23=16
+treein = 0
+compacttree = 0
+stacksize: 8192 kb
+generating a scoring matrix for nucleotide (dist=200) ... done
+All-to-all alignment.
+    0 / 5    1 / 5    2 / 5    3 / 5tbfast-pair (nuc) Version 7.526
+alg=L, model=DNA200 (2), 2.00 (6.00), -0.10 (-0.30), noshift, amax=0.0
+0 thread(s)
+
+outputhat23=16
+Loading 'hat3.seed' ... 
+done.
+Writing hat3 for iterative refinement
+generating a scoring matrix for nucleotide (dist=200) ... done
+Gap Penalty = -1.53, +0.00, +0.00
+tbutree = 1, compacttree = 0
+Constructing a UPGMA tree ... 
+    0 / 5
+done.
+
+Progressive alignment ... 
+STEP     1 /4 STEP     2 /4 STEP     3 /4 STEP     4 /4 
+done.
+tbfast (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+1 thread(s)
+
+minimumweight = 0.000010
+autosubalignment = 0.000000
+nthread = 0
+randomseed = 0
+blosum 62 / kimura 200
+poffset = 0
+niter = 16
+sueff_global = 0.100000
+nadd = 16
+Loading 'hat3' ... done.
+generating a scoring matrix for nucleotide (dist=200) ... done
+
+    0 / 5
+Segment   1/  1    1-3455
+STEP 001-001-0  rejected.STEP 001-001-1  rejected.STEP 001-002-0  rejected.STEP 001-002-1  rejected.STEP 001-003-0  rejected.STEP 001-003-1  accepted.STEP 001-004-1  accepted.STEP 002-004-1  identical.   STEP 002-003-0  rejected.STEP 002-003-1  rejected.STEP 002-002-0  rejected.STEP 002-002-1  rejected.STEP 002-001-0  rejected.STEP 002-001-1  rejected.STEP 003-001-0  rejected.STEP 003-001-1  rejected.STEP 003-002-0  rejected.
+Converged.
+
+done
+dvtditr (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+0 thread(s)
+
+
+Strategy:
+ L-INS-i (Probably most accurate, very slow)
+ Iterative refinement method (<16) with LOCAL pairwise alignment information
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+
+alignment done for ../../data/input_to_MSA_perGene_fa/trdn.fna
+
+################################ Processing: ../../data/input_to_MSA_perGene_fa/trib3.fna
+outputhat23=16
+treein = 0
+compacttree = 0
+stacksize: 8192 kb
+generating a scoring matrix for nucleotide (dist=200) ... done
+All-to-all alignment.
+    0 / 5    1 / 5    2 / 5    3 / 5tbfast-pair (nuc) Version 7.526
+alg=L, model=DNA200 (2), 2.00 (6.00), -0.10 (-0.30), noshift, amax=0.0
+0 thread(s)
+
+outputhat23=16
+Loading 'hat3.seed' ... 
+done.
+Writing hat3 for iterative refinement
+generating a scoring matrix for nucleotide (dist=200) ... done
+Gap Penalty = -1.53, +0.00, +0.00
+tbutree = 1, compacttree = 0
+Constructing a UPGMA tree ... 
+    0 / 5
+done.
+
+Progressive alignment ... 
+STEP     1 /4 STEP     2 /4 STEP     3 /4 STEP     4 /4 
+done.
+tbfast (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+1 thread(s)
+
+minimumweight = 0.000010
+autosubalignment = 0.000000
+nthread = 0
+randomseed = 0
+blosum 62 / kimura 200
+poffset = 0
+niter = 16
+sueff_global = 0.100000
+nadd = 16
+Loading 'hat3' ... done.
+generating a scoring matrix for nucleotide (dist=200) ... done
+
+    0 / 5
+Segment   1/  1    1-1078
+STEP 001-001-0  identical.   STEP 001-001-1  identical.   STEP 001-002-0  identical.   STEP 001-002-1  identical.   STEP 001-003-0  identical.   STEP 001-003-1  identical.   STEP 001-004-1  identical.   STEP 002-004-1  identical.   STEP 002-003-0  identical.   STEP 002-003-1  identical.   
+Converged.
+
+done
+dvtditr (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+0 thread(s)
+
+
+Strategy:
+ L-INS-i (Probably most accurate, very slow)
+ Iterative refinement method (<16) with LOCAL pairwise alignment information
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+
+alignment done for ../../data/input_to_MSA_perGene_fa/trib3.fna
+
+
+MAFFT alignment completed at Wed Apr 22 20:38:15 CDT 2026

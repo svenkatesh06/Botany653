@@ -134,19 +134,29 @@ python split_metadata.py
 
 ### Selecting a representative subset of EO-associated genes
 
-The original *E. electricus* metadata contains a few hundred genes across clusters 1 and 9, which is more than needed for an initial comparative CDS analysis. To create a manageable and biologically meaningful subset, I selected **25 genes from cluster 9** and **25 genes from cluster 1**, giving a total of **50 genes** for downstream analysis.
+The original *E. electricus* metadata contains a few hundred genes across clusters 1 and 9, which is more than needed for an initial comparative CDS analysis. To create a manageable and biologically meaningful subset, I selected **100 genes from cluster 9** and **100 genes from cluster 1**, giving a total of **200 genes** for downstream analysis.
 
 The selection was based on **electric-organ versus skeletal-muscle contrast**, rather than raw EO expression alone. This is important because a gene can have high EO expression but still not be EO-specific if it is also highly expressed in skeletal muscle. To capture this contrast, I computed the mean expression across the three EO tissues (`main EO`, `Sachs' EO`, and `Hunter's EO`) and compared it to `sk. muscle` using a log-ratio score.
 
 - **Cluster 9 genes** were ranked by the highest **EO-to-muscle** contrast, since this cluster represents genes upregulated in electric organ.
 - **Cluster 1 genes** were ranked by the strongest **muscle-to-EO** contrast, since this cluster represents genes downregulated in electric organ.
 - To avoid repeated selection of the same gene, rows were **deduplicated by gene name** (`match_name`), keeping the best-scoring representative entry for each gene.
-- The script then outputs the **top 25 genes from each cluster** and combines them into one final table for downstream sequence retrieval and alignment.
+- The script then outputs the **top 100 genes from each cluster** and combines them into one final table for downstream sequence retrieval and alignment.
 
 ```bash
 ## cd Botany563/scripts/data-process
 python get_top_EO_genes.py
 
+```
+SCRIPT OUTPUT:
+```text
+cluster 9 selected: 82
+cluster 1 selected: 100
+combined selected: 182
+wrote:
+../../data/Ee_filtered_markers_gallant_etal2014/Ee_cluster9_top100.tsv
+../../data/Ee_filtered_markers_gallant_etal2014/Ee_cluster1_top100.tsv
+../../data/Ee_filtered_markers_gallant_etal2014/Ee_top200_cluster1_9.tsv
 ```
 
 I plan to use these genes of interest to get the corresponding sequences across the species.

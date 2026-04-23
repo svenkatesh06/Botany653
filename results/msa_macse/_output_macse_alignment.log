@@ -1,0 +1,950 @@
+MACSE alignment started at Wed Apr 22 21:09:12 CDT 2026
+NT output directory: ../../results/msa_macse/nt
+AA output directory: ../../results/msa_macse/aa
+
+################################ Processing: ../../data/input_to_MSA_perGene_fa/abrab.fna
+file : ../../data/input_to_MSA_perGene_fa/abrab.fna
+5	sequences with genetic code	The_Standard_Code
+compute initial pairwise distances
+.....
+compute first alignment with guide tree
+++++
+first alignment score : 12118.0
+
+start refining the alignment
+refine 2 cut : sum of pairs ========= 0 => 12118.0
+.+...+..
+refine 2 cut : sum of pairs ========= 1 => 12141.0
+..-.--..
+The file '../../results/msa_macse/nt/abrab.macse.fna' was created.
+The file '../../results/msa_macse/aa/abrab.macse.faa' was created.
+PROGRAM HAS FINISHED SUCCESSFULLY
+alignment done for ../../data/input_to_MSA_perGene_fa/abrab.fna
+
+################################ Processing: ../../data/input_to_MSA_perGene_fa/ache.fna
+file : ../../data/input_to_MSA_perGene_fa/ache.fna
+5	sequences with genetic code	The_Standard_Code
+compute initial pairwise distances
+.....
+compute first alignment with guide tree
+++++
+first alignment score : 28846.0
+
+start refining the alignment
+refine 2 cut : sum of pairs ========= 0 => 28846.0
+..-.....
+The file '../../results/msa_macse/nt/ache.macse.fna' was created.
+The file '../../results/msa_macse/aa/ache.macse.faa' was created.
+PROGRAM HAS FINISHED SUCCESSFULLY
+alignment done for ../../data/input_to_MSA_perGene_fa/ache.fna
+
+################################ Processing: ../../data/input_to_MSA_perGene_fa/ankrd28b.fna
+file : ../../data/input_to_MSA_perGene_fa/ankrd28b.fna
+5	sequences with genetic code	The_Standard_Code
+compute initial pairwise distances
+.....
+compute first alignment with guide tree
+++++
+first alignment score : 46988.0
+
+start refining the alignment
+refine 2 cut : sum of pairs ========= 0 => 46988.0
+.-.+++++
+refine 2 cut : sum of pairs ========= 1 => 47098.0
+.-......
+The file '../../results/msa_macse/nt/ankrd28b.macse.fna' was created.
+The file '../../results/msa_macse/aa/ankrd28b.macse.faa' was created.
+PROGRAM HAS FINISHED SUCCESSFULLY
+alignment done for ../../data/input_to_MSA_perGene_fa/ankrd28b.fna
+
+################################ Processing: ../../data/input_to_MSA_perGene_fa/arl13a.fna
+file : ../../data/input_to_MSA_perGene_fa/arl13a.fna
+5	sequences with genetic code	The_Standard_Code
+compute initial pairwise distances
+.....
+compute first alignment with guide tree
+++++
+first alignment score : 11635.1
+
+start refining the alignment
+refine 2 cut : sum of pairs ========= 0 => 11635.1
+.+.+++++
+refine 2 cut : sum of pairs ========= 1 => 11734.4
+++.+++..
+refine 2 cut : sum of pairs ========= 2 => 11757.5
+..---.+.
+refine 2 cut : sum of pairs ========= 3 => 11760.5
+..-...-.
+The file '../../results/msa_macse/nt/arl13a.macse.fna' was created.
+The file '../../results/msa_macse/aa/arl13a.macse.faa' was created.
+PROGRAM HAS FINISHED SUCCESSFULLY
+alignment done for ../../data/input_to_MSA_perGene_fa/arl13a.fna
+
+################################ Processing: ../../data/input_to_MSA_perGene_fa/asb10.fna
+file : ../../data/input_to_MSA_perGene_fa/asb10.fna
+5	sequences with genetic code	The_Standard_Code
+compute initial pairwise distances
+.....
+compute first alignment with guide tree
+++++
+first alignment score : 17741.0
+
+start refining the alignment
+refine 2 cut : sum of pairs ========= 0 => 17741.0
+..-.....
+The file '../../results/msa_macse/nt/asb10.macse.fna' was created.
+The file '../../results/msa_macse/aa/asb10.macse.faa' was created.
+PROGRAM HAS FINISHED SUCCESSFULLY
+alignment done for ../../data/input_to_MSA_perGene_fa/asb10.fna
+
+################################ Processing: ../../data/input_to_MSA_perGene_fa/atp1a2a.fna
+file : ../../data/input_to_MSA_perGene_fa/atp1a2a.fna
+5	sequences with genetic code	The_Standard_Code
+compute initial pairwise distances
+.....
+compute first alignment with guide tree
+++++
+first alignment score : 46624.0
+
+start refining the alignment
+refine 2 cut : sum of pairs ========= 0 => 46624.0
+.+......
+refine 2 cut : sum of pairs ========= 1 => 46656.0
+-.------
+The file '../../results/msa_macse/nt/atp1a2a.macse.fna' was created.
+The file '../../results/msa_macse/aa/atp1a2a.macse.faa' was created.
+PROGRAM HAS FINISHED SUCCESSFULLY
+alignment done for ../../data/input_to_MSA_perGene_fa/atp1a2a.fna
+
+################################ Processing: ../../data/input_to_MSA_perGene_fa/best2.fna
+file : ../../data/input_to_MSA_perGene_fa/best2.fna
+5	sequences with genetic code	The_Standard_Code
+compute initial pairwise distances
+.....
+compute first alignment with guide tree
+++++
+first alignment score : 20171.8
+
+start refining the alignment
+refine 2 cut : sum of pairs ========= 0 => 20171.8
+.++..++.
+refine 2 cut : sum of pairs ========= 1 => 20213.8
+..-..-..
+The file '../../results/msa_macse/nt/best2.macse.fna' was created.
+The file '../../results/msa_macse/aa/best2.macse.faa' was created.
+PROGRAM HAS FINISHED SUCCESSFULLY
+alignment done for ../../data/input_to_MSA_perGene_fa/best2.fna
+
+################################ Processing: ../../data/input_to_MSA_perGene_fa/casq1b.fna
+file : ../../data/input_to_MSA_perGene_fa/casq1b.fna
+5	sequences with genetic code	The_Standard_Code
+compute initial pairwise distances
+.....
+compute first alignment with guide tree
+++++
+first alignment score : 17948.4
+
+start refining the alignment
+refine 2 cut : sum of pairs ========= 0 => 17948.4
+.-...++.
+refine 2 cut : sum of pairs ========= 1 => 18007.4
+.-...-..
+The file '../../results/msa_macse/nt/casq1b.macse.fna' was created.
+The file '../../results/msa_macse/aa/casq1b.macse.faa' was created.
+PROGRAM HAS FINISHED SUCCESSFULLY
+alignment done for ../../data/input_to_MSA_perGene_fa/casq1b.fna
+
+################################ Processing: ../../data/input_to_MSA_perGene_fa/cpm.fna
+file : ../../data/input_to_MSA_perGene_fa/cpm.fna
+5	sequences with genetic code	The_Standard_Code
+compute initial pairwise distances
+.....
+compute first alignment with guide tree
+++++
+first alignment score : 16874.0
+
+start refining the alignment
+refine 2 cut : sum of pairs ========= 0 => 16874.0
+.+++.+..
+refine 2 cut : sum of pairs ========= 1 => 16902.0
+++......
+refine 2 cut : sum of pairs ========= 2 => 16912.0
+-.------
+The file '../../results/msa_macse/nt/cpm.macse.fna' was created.
+The file '../../results/msa_macse/aa/cpm.macse.faa' was created.
+PROGRAM HAS FINISHED SUCCESSFULLY
+alignment done for ../../data/input_to_MSA_perGene_fa/cpm.fna
+
+################################ Processing: ../../data/input_to_MSA_perGene_fa/dnajb5.fna
+file : ../../data/input_to_MSA_perGene_fa/dnajb5.fna
+5	sequences with genetic code	The_Standard_Code
+compute initial pairwise distances
+.....
+compute first alignment with guide tree
+++++
+first alignment score : 17310.8
+
+start refining the alignment
+refine 2 cut : sum of pairs ========= 0 => 17310.8
+.+...+..
+refine 2 cut : sum of pairs ========= 1 => 17335.8
+..-.--..
+The file '../../results/msa_macse/nt/dnajb5.macse.fna' was created.
+The file '../../results/msa_macse/aa/dnajb5.macse.faa' was created.
+PROGRAM HAS FINISHED SUCCESSFULLY
+alignment done for ../../data/input_to_MSA_perGene_fa/dnajb5.fna
+
+################################ Processing: ../../data/input_to_MSA_perGene_fa/dusp2.fna
+file : ../../data/input_to_MSA_perGene_fa/dusp2.fna
+5	sequences with genetic code	The_Standard_Code
+compute initial pairwise distances
+.....
+compute first alignment with guide tree
+++++
+first alignment score : 12145.2
+
+start refining the alignment
+refine 2 cut : sum of pairs ========= 0 => 12145.2
+...-.+..
+refine 2 cut : sum of pairs ========= 1 => 12167.2
+...-+...
+refine 2 cut : sum of pairs ========= 2 => 12179.2
+...----.
+The file '../../results/msa_macse/nt/dusp2.macse.fna' was created.
+The file '../../results/msa_macse/aa/dusp2.macse.faa' was created.
+PROGRAM HAS FINISHED SUCCESSFULLY
+alignment done for ../../data/input_to_MSA_perGene_fa/dusp2.fna
+
+################################ Processing: ../../data/input_to_MSA_perGene_fa/egr3.fna
+file : ../../data/input_to_MSA_perGene_fa/egr3.fna
+5	sequences with genetic code	The_Standard_Code
+compute initial pairwise distances
+.....
+compute first alignment with guide tree
+++++
+first alignment score : 18284.0
+
+start refining the alignment
+refine 2 cut : sum of pairs ========= 0 => 18284.0
++.+.+...
+refine 2 cut : sum of pairs ========= 1 => 18301.0
+...----.
+The file '../../results/msa_macse/nt/egr3.macse.fna' was created.
+The file '../../results/msa_macse/aa/egr3.macse.faa' was created.
+PROGRAM HAS FINISHED SUCCESSFULLY
+alignment done for ../../data/input_to_MSA_perGene_fa/egr3.fna
+
+################################ Processing: ../../data/input_to_MSA_perGene_fa/epha7.fna
+file : ../../data/input_to_MSA_perGene_fa/epha7.fna
+5	sequences with genetic code	The_Standard_Code
+compute initial pairwise distances
+.....
+compute first alignment with guide tree
+++++
+first alignment score : 49144.0
+
+start refining the alignment
+refine 2 cut : sum of pairs ========= 0 => 49144.0
+...-....
+The file '../../results/msa_macse/nt/epha7.macse.fna' was created.
+The file '../../results/msa_macse/aa/epha7.macse.faa' was created.
+PROGRAM HAS FINISHED SUCCESSFULLY
+alignment done for ../../data/input_to_MSA_perGene_fa/epha7.fna
+
+################################ Processing: ../../data/input_to_MSA_perGene_fa/foxd2.fna
+file : ../../data/input_to_MSA_perGene_fa/foxd2.fna
+5	sequences with genetic code	The_Standard_Code
+compute initial pairwise distances
+.....
+compute first alignment with guide tree
+++++
+first alignment score : 14598.6
+
+start refining the alignment
+refine 2 cut : sum of pairs ========= 0 => 14598.6
+.+..+...
+refine 2 cut : sum of pairs ========= 1 => 14603.6
+...----.
+The file '../../results/msa_macse/nt/foxd2.macse.fna' was created.
+The file '../../results/msa_macse/aa/foxd2.macse.faa' was created.
+PROGRAM HAS FINISHED SUCCESSFULLY
+alignment done for ../../data/input_to_MSA_perGene_fa/foxd2.fna
+
+################################ Processing: ../../data/input_to_MSA_perGene_fa/foxj3.fna
+file : ../../data/input_to_MSA_perGene_fa/foxj3.fna
+5	sequences with genetic code	The_Standard_Code
+compute initial pairwise distances
+.....
+compute first alignment with guide tree
+++++
+first alignment score : 27568.0
+
+start refining the alignment
+refine 2 cut : sum of pairs ========= 0 => 27568.0
+.+++...+
+refine 2 cut : sum of pairs ========= 1 => 27668.0
+..-.....
+The file '../../results/msa_macse/nt/foxj3.macse.fna' was created.
+The file '../../results/msa_macse/aa/foxj3.macse.faa' was created.
+PROGRAM HAS FINISHED SUCCESSFULLY
+alignment done for ../../data/input_to_MSA_perGene_fa/foxj3.fna
+
+################################ Processing: ../../data/input_to_MSA_perGene_fa/gdnfa.fna
+file : ../../data/input_to_MSA_perGene_fa/gdnfa.fna
+5	sequences with genetic code	The_Standard_Code
+compute initial pairwise distances
+.....
+compute first alignment with guide tree
+++++
+first alignment score : 7510.9
+
+start refining the alignment
+refine 2 cut : sum of pairs ========= 0 => 7510.9
+.+.+....
+refine 2 cut : sum of pairs ========= 1 => 7515.7
+..-----.
+The file '../../results/msa_macse/nt/gdnfa.macse.fna' was created.
+The file '../../results/msa_macse/aa/gdnfa.macse.faa' was created.
+PROGRAM HAS FINISHED SUCCESSFULLY
+alignment done for ../../data/input_to_MSA_perGene_fa/gdnfa.fna
+
+################################ Processing: ../../data/input_to_MSA_perGene_fa/gprc5c.fna
+file : ../../data/input_to_MSA_perGene_fa/gprc5c.fna
+5	sequences with genetic code	The_Standard_Code
+compute initial pairwise distances
+.....
+compute first alignment with guide tree
+++++
+first alignment score : 12707.0
+
+start refining the alignment
+refine 2 cut : sum of pairs ========= 0 => 12707.0
+..-++++.
+refine 2 cut : sum of pairs ========= 1 => 12881.0
+..--+...
+refine 2 cut : sum of pairs ========= 2 => 12885.0
+..-.---.
+The file '../../results/msa_macse/nt/gprc5c.macse.fna' was created.
+The file '../../results/msa_macse/aa/gprc5c.macse.faa' was created.
+PROGRAM HAS FINISHED SUCCESSFULLY
+alignment done for ../../data/input_to_MSA_perGene_fa/gprc5c.fna
+
+################################ Processing: ../../data/input_to_MSA_perGene_fa/hspb1.fna
+file : ../../data/input_to_MSA_perGene_fa/hspb1.fna
+5	sequences with genetic code	The_Standard_Code
+compute initial pairwise distances
+.....
+compute first alignment with guide tree
+++++
+first alignment score : 7930.8
+
+start refining the alignment
+refine 2 cut : sum of pairs ========= 0 => 7930.8
+..-+....
+refine 2 cut : sum of pairs ========= 1 => 7939.8
+..-----.
+The file '../../results/msa_macse/nt/hspb1.macse.fna' was created.
+The file '../../results/msa_macse/aa/hspb1.macse.faa' was created.
+PROGRAM HAS FINISHED SUCCESSFULLY
+alignment done for ../../data/input_to_MSA_perGene_fa/hspb1.fna
+
+################################ Processing: ../../data/input_to_MSA_perGene_fa/hspb7.fna
+file : ../../data/input_to_MSA_perGene_fa/hspb7.fna
+5	sequences with genetic code	The_Standard_Code
+compute initial pairwise distances
+.....
+compute first alignment with guide tree
+++++
+first alignment score : 5436.8
+
+start refining the alignment
+refine 2 cut : sum of pairs ========= 0 => 5436.8
+..-.....
+The file '../../results/msa_macse/nt/hspb7.macse.fna' was created.
+The file '../../results/msa_macse/aa/hspb7.macse.faa' was created.
+PROGRAM HAS FINISHED SUCCESSFULLY
+alignment done for ../../data/input_to_MSA_perGene_fa/hspb7.fna
+
+################################ Processing: ../../data/input_to_MSA_perGene_fa/kbtbd12.fna
+file : ../../data/input_to_MSA_perGene_fa/kbtbd12.fna
+5	sequences with genetic code	The_Standard_Code
+compute initial pairwise distances
+.....
+compute first alignment with guide tree
+++++
+first alignment score : 26216.0
+
+start refining the alignment
+refine 2 cut : sum of pairs ========= 0 => 26216.0
+..-.....
+The file '../../results/msa_macse/nt/kbtbd12.macse.fna' was created.
+The file '../../results/msa_macse/aa/kbtbd12.macse.faa' was created.
+PROGRAM HAS FINISHED SUCCESSFULLY
+alignment done for ../../data/input_to_MSA_perGene_fa/kbtbd12.fna
+
+################################ Processing: ../../data/input_to_MSA_perGene_fa/klc3.fna
+file : ../../data/input_to_MSA_perGene_fa/klc3.fna
+5	sequences with genetic code	The_Standard_Code
+compute initial pairwise distances
+.....
+compute first alignment with guide tree
+++++
+first alignment score : 18689.9
+
+start refining the alignment
+refine 2 cut : sum of pairs ========= 0 => 18689.9
+...-+...
+refine 2 cut : sum of pairs ========= 1 => 18692.9
+...----.
+The file '../../results/msa_macse/nt/klc3.macse.fna' was created.
+The file '../../results/msa_macse/aa/klc3.macse.faa' was created.
+PROGRAM HAS FINISHED SUCCESSFULLY
+alignment done for ../../data/input_to_MSA_perGene_fa/klc3.fna
+
+################################ Processing: ../../data/input_to_MSA_perGene_fa/lrrc14b.fna
+file : ../../data/input_to_MSA_perGene_fa/lrrc14b.fna
+5	sequences with genetic code	The_Standard_Code
+compute initial pairwise distances
+.....
+compute first alignment with guide tree
+++++
+first alignment score : 18668.0
+
+start refining the alignment
+refine 2 cut : sum of pairs ========= 0 => 18668.0
+.+..+...
+refine 2 cut : sum of pairs ========= 1 => 18699.0
+..-.---.
+The file '../../results/msa_macse/nt/lrrc14b.macse.fna' was created.
+The file '../../results/msa_macse/aa/lrrc14b.macse.faa' was created.
+PROGRAM HAS FINISHED SUCCESSFULLY
+alignment done for ../../data/input_to_MSA_perGene_fa/lrrc14b.fna
+
+################################ Processing: ../../data/input_to_MSA_perGene_fa/mbnl3.fna
+file : ../../data/input_to_MSA_perGene_fa/mbnl3.fna
+5	sequences with genetic code	The_Standard_Code
+compute initial pairwise distances
+.....
+compute first alignment with guide tree
+++++
+first alignment score : 13856.4
+
+start refining the alignment
+refine 2 cut : sum of pairs ========= 0 => 13856.4
+.+.++...
+refine 2 cut : sum of pairs ========= 1 => 13916.4
+.+....+.
+refine 2 cut : sum of pairs ========= 2 => 13940.4
+..-...-.
+The file '../../results/msa_macse/nt/mbnl3.macse.fna' was created.
+The file '../../results/msa_macse/aa/mbnl3.macse.faa' was created.
+PROGRAM HAS FINISHED SUCCESSFULLY
+alignment done for ../../data/input_to_MSA_perGene_fa/mbnl3.fna
+
+################################ Processing: ../../data/input_to_MSA_perGene_fa/mcf2a.fna
+file : ../../data/input_to_MSA_perGene_fa/mcf2a.fna
+5	sequences with genetic code	The_Standard_Code
+compute initial pairwise distances
+.....
+compute first alignment with guide tree
+++++
+first alignment score : 41345.8
+
+start refining the alignment
+refine 2 cut : sum of pairs ========= 0 => 41345.8
+..-.+...
+refine 2 cut : sum of pairs ========= 1 => 41351.8
+..-.---.
+The file '../../results/msa_macse/nt/mcf2a.macse.fna' was created.
+The file '../../results/msa_macse/aa/mcf2a.macse.faa' was created.
+PROGRAM HAS FINISHED SUCCESSFULLY
+alignment done for ../../data/input_to_MSA_perGene_fa/mcf2a.fna
+
+################################ Processing: ../../data/input_to_MSA_perGene_fa/megf10.fna
+file : ../../data/input_to_MSA_perGene_fa/megf10.fna
+5	sequences with genetic code	The_Standard_Code
+compute initial pairwise distances
+.....
+compute first alignment with guide tree
+++++
+first alignment score : 57968.8
+
+start refining the alignment
+refine 2 cut : sum of pairs ========= 0 => 57968.8
+..-+....
+refine 2 cut : sum of pairs ========= 1 => 57971.8
+..-----.
+The file '../../results/msa_macse/nt/megf10.macse.fna' was created.
+The file '../../results/msa_macse/aa/megf10.macse.faa' was created.
+PROGRAM HAS FINISHED SUCCESSFULLY
+alignment done for ../../data/input_to_MSA_perGene_fa/megf10.fna
+
+################################ Processing: ../../data/input_to_MSA_perGene_fa/mybpc1.fna
+file : ../../data/input_to_MSA_perGene_fa/mybpc1.fna
+5	sequences with genetic code	The_Standard_Code
+compute initial pairwise distances
+.....
+compute first alignment with guide tree
+++++
+first alignment score : 56367.1
+
+start refining the alignment
+refine 2 cut : sum of pairs ========= 0 => 56367.1
+
+The file '../../results/msa_macse/nt/mybpc1.macse.fna' was created.
+The file '../../results/msa_macse/aa/mybpc1.macse.faa' was created.
+PROGRAM HAS FINISHED SUCCESSFULLY
+alignment done for ../../data/input_to_MSA_perGene_fa/mybpc1.fna
+
+################################ Processing: ../../data/input_to_MSA_perGene_fa/myl10.fna
+file : ../../data/input_to_MSA_perGene_fa/myl10.fna
+5	sequences with genetic code	The_Standard_Code
+compute initial pairwise distances
+.....
+compute first alignment with guide tree
+++++
+first alignment score : 8302.4
+
+start refining the alignment
+refine 2 cut : sum of pairs ========= 0 => 8302.4
+....-...
+The file '../../results/msa_macse/nt/myl10.macse.fna' was created.
+The file '../../results/msa_macse/aa/myl10.macse.faa' was created.
+PROGRAM HAS FINISHED SUCCESSFULLY
+alignment done for ../../data/input_to_MSA_perGene_fa/myl10.fna
+
+################################ Processing: ../../data/input_to_MSA_perGene_fa/myom3.fna
+file : ../../data/input_to_MSA_perGene_fa/myom3.fna
+5	sequences with genetic code	The_Standard_Code
+compute initial pairwise distances
+.....
+compute first alignment with guide tree
+++++
+first alignment score : 55326.2
+
+start refining the alignment
+refine 2 cut : sum of pairs ========= 0 => 55326.2
+..-.....
+The file '../../results/msa_macse/nt/myom3.macse.fna' was created.
+The file '../../results/msa_macse/aa/myom3.macse.faa' was created.
+PROGRAM HAS FINISHED SUCCESSFULLY
+alignment done for ../../data/input_to_MSA_perGene_fa/myom3.fna
+
+################################ Processing: ../../data/input_to_MSA_perGene_fa/myoz2b.fna
+file : ../../data/input_to_MSA_perGene_fa/myoz2b.fna
+5	sequences with genetic code	The_Standard_Code
+compute initial pairwise distances
+.....
+compute first alignment with guide tree
+++++
+first alignment score : 10678.0
+
+start refining the alignment
+refine 2 cut : sum of pairs ========= 0 => 10678.0
+..-.....
+The file '../../results/msa_macse/nt/myoz2b.macse.fna' was created.
+The file '../../results/msa_macse/aa/myoz2b.macse.faa' was created.
+PROGRAM HAS FINISHED SUCCESSFULLY
+alignment done for ../../data/input_to_MSA_perGene_fa/myoz2b.fna
+
+################################ Processing: ../../data/input_to_MSA_perGene_fa/ndrg1a.fna
+file : ../../data/input_to_MSA_perGene_fa/ndrg1a.fna
+5	sequences with genetic code	The_Standard_Code
+compute initial pairwise distances
+.....
+compute first alignment with guide tree
+++++
+first alignment score : 17466.0
+
+start refining the alignment
+refine 2 cut : sum of pairs ========= 0 => 17466.0
+..-.+...
+refine 2 cut : sum of pairs ========= 1 => 17477.0
+..-.---.
+The file '../../results/msa_macse/nt/ndrg1a.macse.fna' was created.
+The file '../../results/msa_macse/aa/ndrg1a.macse.faa' was created.
+PROGRAM HAS FINISHED SUCCESSFULLY
+alignment done for ../../data/input_to_MSA_perGene_fa/ndrg1a.fna
+
+################################ Processing: ../../data/input_to_MSA_perGene_fa/ntn5.fna
+file : ../../data/input_to_MSA_perGene_fa/ntn5.fna
+5	sequences with genetic code	The_Standard_Code
+compute initial pairwise distances
+.....
+compute first alignment with guide tree
+++++
+first alignment score : 29341.0
+
+start refining the alignment
+refine 2 cut : sum of pairs ========= 0 => 29341.0
+.+.+...+
+refine 2 cut : sum of pairs ========= 1 => 29393.9
+++..++..
+refine 2 cut : sum of pairs ========= 2 => 29412.9
+..-.--..
+The file '../../results/msa_macse/nt/ntn5.macse.fna' was created.
+The file '../../results/msa_macse/aa/ntn5.macse.faa' was created.
+PROGRAM HAS FINISHED SUCCESSFULLY
+alignment done for ../../data/input_to_MSA_perGene_fa/ntn5.fna
+
+################################ Processing: ../../data/input_to_MSA_perGene_fa/osbpl1a.fna
+file : ../../data/input_to_MSA_perGene_fa/osbpl1a.fna
+5	sequences with genetic code	The_Standard_Code
+compute initial pairwise distances
+.....
+compute first alignment with guide tree
+++++
+first alignment score : 39825.0
+
+start refining the alignment
+refine 2 cut : sum of pairs ========= 0 => 39825.0
+..-+...+
+refine 2 cut : sum of pairs ========= 1 => 39842.0
+..-.....
+The file '../../results/msa_macse/nt/osbpl1a.macse.fna' was created.
+The file '../../results/msa_macse/aa/osbpl1a.macse.faa' was created.
+PROGRAM HAS FINISHED SUCCESSFULLY
+alignment done for ../../data/input_to_MSA_perGene_fa/osbpl1a.fna
+
+################################ Processing: ../../data/input_to_MSA_perGene_fa/pcdh20.fna
+file : ../../data/input_to_MSA_perGene_fa/pcdh20.fna
+5	sequences with genetic code	The_Standard_Code
+compute initial pairwise distances
+.....
+compute first alignment with guide tree
+++++
+first alignment score : 19417.0
+
+start refining the alignment
+refine 2 cut : sum of pairs ========= 0 => 19417.0
+.-.+..++
+refine 2 cut : sum of pairs ========= 1 => 19588.9
+.-....+.
+refine 2 cut : sum of pairs ========= 2 => 19594.0
+.-....-.
+The file '../../results/msa_macse/nt/pcdh20.macse.fna' was created.
+The file '../../results/msa_macse/aa/pcdh20.macse.faa' was created.
+PROGRAM HAS FINISHED SUCCESSFULLY
+alignment done for ../../data/input_to_MSA_perGene_fa/pcdh20.fna
+
+################################ Processing: ../../data/input_to_MSA_perGene_fa/prrg4.fna
+file : ../../data/input_to_MSA_perGene_fa/prrg4.fna
+5	sequences with genetic code	The_Standard_Code
+compute initial pairwise distances
+.....
+compute first alignment with guide tree
+++++
+first alignment score : 6635.8
+
+start refining the alignment
+refine 2 cut : sum of pairs ========= 0 => 6635.8
+..-...+.
+refine 2 cut : sum of pairs ========= 1 => 6662.8
+..-...-.
+The file '../../results/msa_macse/nt/prrg4.macse.fna' was created.
+The file '../../results/msa_macse/aa/prrg4.macse.faa' was created.
+PROGRAM HAS FINISHED SUCCESSFULLY
+alignment done for ../../data/input_to_MSA_perGene_fa/prrg4.fna
+
+################################ Processing: ../../data/input_to_MSA_perGene_fa/prx.fna
+file : ../../data/input_to_MSA_perGene_fa/prx.fna
+5	sequences with genetic code	The_Standard_Code
+compute initial pairwise distances
+.....
+compute first alignment with guide tree
+++++
+first alignment score : 39466.9
+
+start refining the alignment
+refine 2 cut : sum of pairs ========= 0 => 39466.9
+.+.++++.
+refine 2 cut : sum of pairs ========= 1 => 39774.9
++..+.++.
+refine 2 cut : sum of pairs ========= 2 => 39849.9
+..--....
+The file '../../results/msa_macse/nt/prx.macse.fna' was created.
+The file '../../results/msa_macse/aa/prx.macse.faa' was created.
+PROGRAM HAS FINISHED SUCCESSFULLY
+alignment done for ../../data/input_to_MSA_perGene_fa/prx.fna
+
+################################ Processing: ../../data/input_to_MSA_perGene_fa/rnf207b.fna
+file : ../../data/input_to_MSA_perGene_fa/rnf207b.fna
+5	sequences with genetic code	The_Standard_Code
+compute initial pairwise distances
+.....
+compute first alignment with guide tree
+++++
+first alignment score : 28169.8
+
+start refining the alignment
+refine 2 cut : sum of pairs ========= 0 => 28169.8
+..-+....
+refine 2 cut : sum of pairs ========= 1 => 28196.6
+..-----.
+The file '../../results/msa_macse/nt/rnf207b.macse.fna' was created.
+The file '../../results/msa_macse/aa/rnf207b.macse.faa' was created.
+PROGRAM HAS FINISHED SUCCESSFULLY
+alignment done for ../../data/input_to_MSA_perGene_fa/rnf207b.fna
+
+################################ Processing: ../../data/input_to_MSA_perGene_fa/rpl3.fna
+file : ../../data/input_to_MSA_perGene_fa/rpl3.fna
+5	sequences with genetic code	The_Standard_Code
+compute initial pairwise distances
+.....
+compute first alignment with guide tree
+++++
+first alignment score : 20052.9
+
+start refining the alignment
+refine 2 cut : sum of pairs ========= 0 => 20052.9
+..-.....
+The file '../../results/msa_macse/nt/rpl3.macse.fna' was created.
+The file '../../results/msa_macse/aa/rpl3.macse.faa' was created.
+PROGRAM HAS FINISHED SUCCESSFULLY
+alignment done for ../../data/input_to_MSA_perGene_fa/rpl3.fna
+
+################################ Processing: ../../data/input_to_MSA_perGene_fa/scn4ab.fna
+file : ../../data/input_to_MSA_perGene_fa/scn4ab.fna
+5	sequences with genetic code	The_Standard_Code
+compute initial pairwise distances
+.....
+compute first alignment with guide tree
+++++
+first alignment score : 71391.0
+
+start refining the alignment
+refine 2 cut : sum of pairs ========= 0 => 71391.0
+.+.+++..
+refine 2 cut : sum of pairs ========= 1 => 71536.0
+++....+.
+refine 2 cut : sum of pairs ========= 2 => 71589.0
+..-...-.
+The file '../../results/msa_macse/nt/scn4ab.macse.fna' was created.
+The file '../../results/msa_macse/aa/scn4ab.macse.faa' was created.
+PROGRAM HAS FINISHED SUCCESSFULLY
+alignment done for ../../data/input_to_MSA_perGene_fa/scn4ab.fna
+
+################################ Processing: ../../data/input_to_MSA_perGene_fa/sh2d5.fna
+file : ../../data/input_to_MSA_perGene_fa/sh2d5.fna
+5	sequences with genetic code	The_Standard_Code
+compute initial pairwise distances
+.....
+compute first alignment with guide tree
+++++
+first alignment score : 13488.2
+
+start refining the alignment
+refine 2 cut : sum of pairs ========= 0 => 13488.2
+.+.+....
+refine 2 cut : sum of pairs ========= 1 => 13498.2
++.......
+refine 2 cut : sum of pairs ========= 2 => 13500.2
+--------
+The file '../../results/msa_macse/nt/sh2d5.macse.fna' was created.
+The file '../../results/msa_macse/aa/sh2d5.macse.faa' was created.
+PROGRAM HAS FINISHED SUCCESSFULLY
+alignment done for ../../data/input_to_MSA_perGene_fa/sh2d5.fna
+
+################################ Processing: ../../data/input_to_MSA_perGene_fa/six2a.fna
+file : ../../data/input_to_MSA_perGene_fa/six2a.fna
+5	sequences with genetic code	The_Standard_Code
+compute initial pairwise distances
+.....
+compute first alignment with guide tree
+++++
+first alignment score : 14920.0
+
+start refining the alignment
+refine 2 cut : sum of pairs ========= 0 => 14920.0
+...-....
+The file '../../results/msa_macse/nt/six2a.macse.fna' was created.
+The file '../../results/msa_macse/aa/six2a.macse.faa' was created.
+PROGRAM HAS FINISHED SUCCESSFULLY
+alignment done for ../../data/input_to_MSA_perGene_fa/six2a.fna
+
+################################ Processing: ../../data/input_to_MSA_perGene_fa/slc8a3.fna
+file : ../../data/input_to_MSA_perGene_fa/slc8a3.fna
+5	sequences with genetic code	The_Standard_Code
+compute initial pairwise distances
+.....
+compute first alignment with guide tree
+++++
+first alignment score : 34273.1
+
+start refining the alignment
+refine 2 cut : sum of pairs ========= 0 => 34273.1
+...-....
+The file '../../results/msa_macse/nt/slc8a3.macse.fna' was created.
+The file '../../results/msa_macse/aa/slc8a3.macse.faa' was created.
+PROGRAM HAS FINISHED SUCCESSFULLY
+alignment done for ../../data/input_to_MSA_perGene_fa/slc8a3.fna
+
+################################ Processing: ../../data/input_to_MSA_perGene_fa/smpx.fna
+file : ../../data/input_to_MSA_perGene_fa/smpx.fna
+5	sequences with genetic code	The_Standard_Code
+compute initial pairwise distances
+.....
+compute first alignment with guide tree
+++++
+first alignment score : 3382.6
+
+start refining the alignment
+refine 2 cut : sum of pairs ========= 0 => 3382.6
+..-..+..
+refine 2 cut : sum of pairs ========= 1 => 3405.6
+..-..--.
+The file '../../results/msa_macse/nt/smpx.macse.fna' was created.
+The file '../../results/msa_macse/aa/smpx.macse.faa' was created.
+PROGRAM HAS FINISHED SUCCESSFULLY
+alignment done for ../../data/input_to_MSA_perGene_fa/smpx.fna
+
+################################ Processing: ../../data/input_to_MSA_perGene_fa/smyd1b.fna
+file : ../../data/input_to_MSA_perGene_fa/smyd1b.fna
+5	sequences with genetic code	The_Standard_Code
+compute initial pairwise distances
+.....
+compute first alignment with guide tree
+++++
+first alignment score : 21739.0
+
+start refining the alignment
+refine 2 cut : sum of pairs ========= 0 => 21739.0
+..-.....
+The file '../../results/msa_macse/nt/smyd1b.macse.fna' was created.
+The file '../../results/msa_macse/aa/smyd1b.macse.faa' was created.
+PROGRAM HAS FINISHED SUCCESSFULLY
+alignment done for ../../data/input_to_MSA_perGene_fa/smyd1b.fna
+
+################################ Processing: ../../data/input_to_MSA_perGene_fa/specc1.fna
+file : ../../data/input_to_MSA_perGene_fa/specc1.fna
+5	sequences with genetic code	The_Standard_Code
+compute initial pairwise distances
+.....
+compute first alignment with guide tree
+++++
+first alignment score : 36431.7
+
+start refining the alignment
+refine 2 cut : sum of pairs ========= 0 => 36431.7
+..-.++++
+refine 2 cut : sum of pairs ========= 1 => 36466.7
+..-++...
+refine 2 cut : sum of pairs ========= 2 => 36500.7
+..----..
+The file '../../results/msa_macse/nt/specc1.macse.fna' was created.
+The file '../../results/msa_macse/aa/specc1.macse.faa' was created.
+PROGRAM HAS FINISHED SUCCESSFULLY
+alignment done for ../../data/input_to_MSA_perGene_fa/specc1.fna
+
+################################ Processing: ../../data/input_to_MSA_perGene_fa/tnnc1b.fna
+file : ../../data/input_to_MSA_perGene_fa/tnnc1b.fna
+5	sequences with genetic code	The_Standard_Code
+compute initial pairwise distances
+.....
+compute first alignment with guide tree
+++++
+first alignment score : 8137.0
+
+start refining the alignment
+refine 2 cut : sum of pairs ========= 0 => 8137.0
+
+The file '../../results/msa_macse/nt/tnnc1b.macse.fna' was created.
+The file '../../results/msa_macse/aa/tnnc1b.macse.faa' was created.
+PROGRAM HAS FINISHED SUCCESSFULLY
+alignment done for ../../data/input_to_MSA_perGene_fa/tnnc1b.fna
+
+################################ Processing: ../../data/input_to_MSA_perGene_fa/tnnt1.fna
+file : ../../data/input_to_MSA_perGene_fa/tnnt1.fna
+5	sequences with genetic code	The_Standard_Code
+compute initial pairwise distances
+.....
+compute first alignment with guide tree
+++++
+first alignment score : 11823.0
+
+start refining the alignment
+refine 2 cut : sum of pairs ========= 0 => 11823.0
+
+The file '../../results/msa_macse/nt/tnnt1.macse.fna' was created.
+The file '../../results/msa_macse/aa/tnnt1.macse.faa' was created.
+PROGRAM HAS FINISHED SUCCESSFULLY
+alignment done for ../../data/input_to_MSA_perGene_fa/tnnt1.fna
+
+################################ Processing: ../../data/input_to_MSA_perGene_fa/tnnt2e.fna
+file : ../../data/input_to_MSA_perGene_fa/tnnt2e.fna
+5	sequences with genetic code	The_Standard_Code
+compute initial pairwise distances
+.....
+compute first alignment with guide tree
+++++
+first alignment score : 8907.2
+
+start refining the alignment
+refine 2 cut : sum of pairs ========= 0 => 8907.2
+
+The file '../../results/msa_macse/nt/tnnt2e.macse.fna' was created.
+The file '../../results/msa_macse/aa/tnnt2e.macse.faa' was created.
+PROGRAM HAS FINISHED SUCCESSFULLY
+alignment done for ../../data/input_to_MSA_perGene_fa/tnnt2e.fna
+
+################################ Processing: ../../data/input_to_MSA_perGene_fa/tpm3.fna
+file : ../../data/input_to_MSA_perGene_fa/tpm3.fna
+5	sequences with genetic code	The_Standard_Code
+compute initial pairwise distances
+.....
+compute first alignment with guide tree
+++++
+first alignment score : 12386.2
+
+start refining the alignment
+refine 2 cut : sum of pairs ========= 0 => 12386.2
++.......
+refine 2 cut : sum of pairs ========= 1 => 12468.4
+--------
+The file '../../results/msa_macse/nt/tpm3.macse.fna' was created.
+The file '../../results/msa_macse/aa/tpm3.macse.faa' was created.
+PROGRAM HAS FINISHED SUCCESSFULLY
+alignment done for ../../data/input_to_MSA_perGene_fa/tpm3.fna
+
+################################ Processing: ../../data/input_to_MSA_perGene_fa/trdn.fna
+file : ../../data/input_to_MSA_perGene_fa/trdn.fna
+5	sequences with genetic code	The_Standard_Code
+compute initial pairwise distances
+.....
+compute first alignment with guide tree
+++++
+first alignment score : 14016.2
+
+start refining the alignment
+refine 2 cut : sum of pairs ========= 0 => 14016.2
+.++++++.
+refine 2 cut : sum of pairs ========= 1 => 14380.2
+..--+++.
+refine 2 cut : sum of pairs ========= 2 => 14414.2
+..-.-+.+
+refine 2 cut : sum of pairs ========= 3 => 14427.2
+..-.....
+The file '../../results/msa_macse/nt/trdn.macse.fna' was created.
+The file '../../results/msa_macse/aa/trdn.macse.faa' was created.
+PROGRAM HAS FINISHED SUCCESSFULLY
+alignment done for ../../data/input_to_MSA_perGene_fa/trdn.fna
+
+################################ Processing: ../../data/input_to_MSA_perGene_fa/trib3.fna
+file : ../../data/input_to_MSA_perGene_fa/trib3.fna
+5	sequences with genetic code	The_Standard_Code
+compute initial pairwise distances
+.....
+compute first alignment with guide tree
+++++
+first alignment score : 14457.0
+
+start refining the alignment
+refine 2 cut : sum of pairs ========= 0 => 14457.0
+..-.....
+The file '../../results/msa_macse/nt/trib3.macse.fna' was created.
+The file '../../results/msa_macse/aa/trib3.macse.faa' was created.
+PROGRAM HAS FINISHED SUCCESSFULLY
+alignment done for ../../data/input_to_MSA_perGene_fa/trib3.fna
+
+
+MACSE alignment completed at Wed Apr 22 22:15:11 CDT 2026
