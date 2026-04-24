@@ -1,0 +1,68 @@
+Loading required package: ade4
+
+   /// adegenet 2.1.11 is loaded ////////////
+
+   > overview: '?adegenet'
+   > tutorials/doc/questions: 'adegenetWeb()' 
+   > bug reports/feature requests: adegenetIssues()
+
+
+
+Attaching package: ‘phangorn’
+
+The following object is masked from ‘package:adegenet’:
+
+    AICc
+
+Processing file: abrab.macse.cleaned.fna 
+Processing file: ache.macse.cleaned.fna 
+Processing file: ankrd28b.macse.cleaned.fna 
+Processing file: arl13a.macse.cleaned.fna 
+Processing file: asb10.macse.cleaned.fna 
+Processing file: atp1a2a.macse.cleaned.fna 
+Processing file: best2.macse.cleaned.fna 
+Processing file: casq1b.macse.cleaned.fna 
+Processing file: cpm.macse.cleaned.fna 
+Processing file: dnajb5.macse.cleaned.fna 
+Processing file: dusp2.macse.cleaned.fna 
+Processing file: egr3.macse.cleaned.fna 
+Processing file: epha7.macse.cleaned.fna 
+Processing file: foxd2.macse.cleaned.fna 
+Processing file: foxj3.macse.cleaned.fna 
+Processing file: gdnfa.macse.cleaned.fna 
+Processing file: gprc5c.macse.cleaned.fna 
+Processing file: hspb1.macse.cleaned.fna 
+Processing file: hspb7.macse.cleaned.fna 
+Processing file: kbtbd12.macse.cleaned.fna 
+Processing file: klc3.macse.cleaned.fna 
+Processing file: lrrc14b.macse.cleaned.fna 
+Processing file: mbnl3.macse.cleaned.fna 
+Processing file: mcf2a.macse.cleaned.fna 
+Processing file: megf10.macse.cleaned.fna 
+Processing file: mybpc1.macse.cleaned.fna 
+Processing file: myl10.macse.cleaned.fna 
+Processing file: myom3.macse.cleaned.fna 
+Processing file: myoz2b.macse.cleaned.fna 
+Processing file: ndrg1a.macse.cleaned.fna 
+Processing file: ntn5.macse.cleaned.fna 
+Processing file: osbpl1a.macse.cleaned.fna 
+Processing file: pcdh20.macse.cleaned.fna 
+Processing file: prrg4.macse.cleaned.fna 
+Processing file: prx.macse.cleaned.fna 
+Processing file: rnf207b.macse.cleaned.fna 
+Processing file: rpl3.macse.cleaned.fna 
+Processing file: scn4ab.macse.cleaned.fna 
+Processing file: sh2d5.macse.cleaned.fna 
+Processing file: six2a.macse.cleaned.fna 
+Processing file: slc8a3.macse.cleaned.fna 
+Processing file: smpx.macse.cleaned.fna 
+Processing file: smyd1b.macse.cleaned.fna 
+Processing file: specc1.macse.cleaned.fna 
+Processing file: tnnc1b.macse.cleaned.fna 
+Processing file: tnnt1.macse.cleaned.fna 
+Processing file: tnnt2e.macse.cleaned.fna 
+Processing file: tpm3.macse.cleaned.fna 
+Processing file: trdn.macse.cleaned.fna 
+Processing file: trib3.macse.cleaned.fna 
+Calculating distance matrix for model: F84 
+Calculating distance matrix for model: TN93 

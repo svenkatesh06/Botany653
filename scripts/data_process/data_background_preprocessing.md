@@ -55,11 +55,14 @@ The working logic is:
 
 With that in mind, the updated species list is:
 
-1. *Electrophorus electricus* - **electric eel**
-2. *Brachyhypopomus gauderio* - **brown ghost knifefish**
-3. *Paramormyrops kingsleyae* - **weakly electric mormyrid**
-4. *Brienomyrus brachyistius* - **baby whale fish**
-5. *Ictalurus punctatus* - **channel catfish** *(non-electric outgroup)*
+| Code | Scientific name            | Common description                                |
+| ---- | -------------------------- | ------------------------------------------------- |
+| `Ee` | *Electrophorus electricus* | electric eel / strongly electric gymnotiform      |
+| `Bg` | *Brachyhypopomus gauderio* | bluntnose knifefish / weakly electric gymnotiform |
+| `Pk` | *Paramormyrops kingsleyae* | weakly electric mormyrid                          |
+| `Bb` | *Brienomyrus brachyistius* | baby whale fish / baby whale mormyrid             |
+| `Ip` | *Ictalurus punctatus*      | channel catfish, non-electric outgroup            |
+
 
 This species list was revised after excluding *Electrophorus voltai* from the project because its current annotation was not convenient for linking sequences to common gene names in a clean and uniform way for downstream analysis. *Brachyhypopomus gauderio* was added instead because it remains biologically relevant as an electric gymnotiform and has a more practical annotation framework for an updated coding-sequence-based comparison.
 

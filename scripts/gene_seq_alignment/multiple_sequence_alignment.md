@@ -1,6 +1,6 @@
-# Prepare the gene sequence file and run MSA
+# MULTIPLE SEQUENCE ALIGNMENT
 
-## Prepare the input files to the MSA algorithms
+## PREPARE THE INPUT FILES TO THE MSA ALGORITHMS
 
 The multiple sequence alignment (MSA) algorithms require inputs in the form of a FASTA file. In my case, the inputs would be per-gene sequence files which have the corresponding qequences for all species
 
@@ -131,10 +131,37 @@ PROGRAMS:
 
 ```bash
 chmod +x run_macse.sh
+./run_macse.sh
 ```
 
-MACSE v2.07 was run on each per-gene FASTA file using the `alignSequences` program with the Standard genetic code. Log output showed successful completion across all loci, with MACSE producing both codon-aware nucleotide alignments and corresponding translated amino acid alignments for each gene. I chose MACSE because it is specifically designed for protein-coding nucleotide sequences and explicitly preserves codon structure.
+MACSE v2.07 was first run with the `alignSequences` program to generate codon-aware nucleotide and amino acid alignments for each gene. Because raw MACSE alignments mark frameshifts using the nonstandard `!` character, I then ran a second cleanup step using `exportAlignment` to create final downstream-ready alignments in `msa_macse/cleaned_nt` and `msa_macse/cleaned_aa`. In this export step, internal and terminal frameshifting codons were replaced by gaps, internal stop codons were converted to `NNN`, and remaining frameshift characters were standardized so that the final alignments could be used in standard phylogenetic software. ([agap-ge2pop.org/exportalignment](https://www.agap-ge2pop.org/exportalignment/))
 
-A random inspection of several MACSE nucleotide alignments showed that gap patterns were consistent with coding-sequence alignment, with sampled loci preserving triplet structure more cleanly than the corresponding MAFFT nucleotide alignments. Although some loci remained gap-rich, the observed gap structure was codon-consistent in the examples examined.
+```bash
+## pwd = Botany563/scripts/gene_seq_alignment
+chmod +x clean_macse_output.sh
+./clean_macse_output.sh
+```
+
+A random inspection of several cleaned MACSE alignments showed that the coding structure was preserved more consistently than in the corresponding MAFFT nucleotide alignments, especially for loci with strong length heterogeneity or likely frameshift-like regions. Therefore, I retained the cleaned MACSE alignments as the primary CDS-aware alignments for downstream analyses, while MAFFT was used as a general-purpose comparison alignment method.
 
 Hence, I have decided to retain MACSE as the primary alignment method for downstream CDS-based analyses, while MAFFT was used as a general-purpose comparison alignment method.
+
+## EXAMINING ALIGNMENT RESULTS
+
+To compare the alignments results from both the tools, I used JALview software to view the alignements and manually disecern the alignments for 6 genes of interest [3up + 3down].
+
+### Downloading Jalview
+
+Link: https://www.jalview.org/download/
+
+I downloaded the application for Windows since that is the OS in use for this project.
+
+### Comments
+
+**MAFFT**
+
+Overall, the MAFFT alignments look broadly reasonable for the more conserved loci, especially hspb7 and six2a, where there is a clear shared core and most of the differences are handled as terminal gaps or a few localized indel regions rather than widespread fragmentation. tnnt2e seems like a tricky one - MAFFT still recovers a common core, but there is much stronger length heterogeneity and long gappy regions at the ends, which makes those parts less trustworthy and suggests either isoform differences, lineage-specific insertions, or annotation differences rather than clean 1-1 positional homology across the full length.
+
+**MACSE**
+
+The MACSE outputs look strong overall and are especially helpful for the coding-sequence context. hspb7, six2a, and smyd1b are all aligned in a way that preserves a clear coding core, and for the messier tnnt2e locus, MACSE appears to handle the problematic region more conservatively by explicitly marking likely frameshift/problem sites rather than just forcing a smooth nucleotide alignment. That makes MACSE a more biologically reassuring method for downstream analyses, especially for loci with substantial length heterogeneity.

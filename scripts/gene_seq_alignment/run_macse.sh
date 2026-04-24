@@ -26,6 +26,7 @@ logfile="../../results/msa_macse/_output_macse_alignment.log"
 
         macse -prog alignSequences \
             -seq "$f" \
+            -replace_FS_by_gaps \
             -out_NT "$outdir_nt/${base}.macse.fna" \
             -out_AA "$outdir_aa/${base}.macse.faa"
 

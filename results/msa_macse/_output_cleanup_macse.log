@@ -1,0 +1,407 @@
+MACSE export/cleanup started at Thu Apr 23 22:01:44 CDT 2026
+Input NT directory: ../../results/msa_macse/nt
+Cleaned NT output directory: ../../results/msa_macse/cleaned_nt
+Cleaned AA output directory: ../../results/msa_macse/cleaned_aa
+
+################################ Processing: ../../results/msa_macse/nt/abrab.macse.fna
+file : ../../results/msa_macse/nt/abrab.macse.fna
+5	sequences with genetic code	The_Standard_Code
+The file '../../results/msa_macse/cleaned_nt/abrab.macse.cleaned.fna' was created.
+The file '../../results/msa_macse/cleaned_aa/abrab.macse.cleaned.faa' was created.
+PROGRAM HAS FINISHED SUCCESSFULLY
+cleanup/export done for ../../results/msa_macse/nt/abrab.macse.fna
+
+################################ Processing: ../../results/msa_macse/nt/ache.macse.fna
+file : ../../results/msa_macse/nt/ache.macse.fna
+5	sequences with genetic code	The_Standard_Code
+The file '../../results/msa_macse/cleaned_nt/ache.macse.cleaned.fna' was created.
+The file '../../results/msa_macse/cleaned_aa/ache.macse.cleaned.faa' was created.
+PROGRAM HAS FINISHED SUCCESSFULLY
+cleanup/export done for ../../results/msa_macse/nt/ache.macse.fna
+
+################################ Processing: ../../results/msa_macse/nt/ankrd28b.macse.fna
+file : ../../results/msa_macse/nt/ankrd28b.macse.fna
+5	sequences with genetic code	The_Standard_Code
+The file '../../results/msa_macse/cleaned_nt/ankrd28b.macse.cleaned.fna' was created.
+The file '../../results/msa_macse/cleaned_aa/ankrd28b.macse.cleaned.faa' was created.
+PROGRAM HAS FINISHED SUCCESSFULLY
+cleanup/export done for ../../results/msa_macse/nt/ankrd28b.macse.fna
+
+################################ Processing: ../../results/msa_macse/nt/arl13a.macse.fna
+file : ../../results/msa_macse/nt/arl13a.macse.fna
+5	sequences with genetic code	The_Standard_Code
+The file '../../results/msa_macse/cleaned_nt/arl13a.macse.cleaned.fna' was created.
+The file '../../results/msa_macse/cleaned_aa/arl13a.macse.cleaned.faa' was created.
+PROGRAM HAS FINISHED SUCCESSFULLY
+cleanup/export done for ../../results/msa_macse/nt/arl13a.macse.fna
+
+################################ Processing: ../../results/msa_macse/nt/asb10.macse.fna
+file : ../../results/msa_macse/nt/asb10.macse.fna
+5	sequences with genetic code	The_Standard_Code
+The file '../../results/msa_macse/cleaned_nt/asb10.macse.cleaned.fna' was created.
+The file '../../results/msa_macse/cleaned_aa/asb10.macse.cleaned.faa' was created.
+PROGRAM HAS FINISHED SUCCESSFULLY
+cleanup/export done for ../../results/msa_macse/nt/asb10.macse.fna
+
+################################ Processing: ../../results/msa_macse/nt/atp1a2a.macse.fna
+file : ../../results/msa_macse/nt/atp1a2a.macse.fna
+5	sequences with genetic code	The_Standard_Code
+The file '../../results/msa_macse/cleaned_nt/atp1a2a.macse.cleaned.fna' was created.
+The file '../../results/msa_macse/cleaned_aa/atp1a2a.macse.cleaned.faa' was created.
+PROGRAM HAS FINISHED SUCCESSFULLY
+cleanup/export done for ../../results/msa_macse/nt/atp1a2a.macse.fna
+
+################################ Processing: ../../results/msa_macse/nt/best2.macse.fna
+file : ../../results/msa_macse/nt/best2.macse.fna
+5	sequences with genetic code	The_Standard_Code
+The file '../../results/msa_macse/cleaned_nt/best2.macse.cleaned.fna' was created.
+The file '../../results/msa_macse/cleaned_aa/best2.macse.cleaned.faa' was created.
+PROGRAM HAS FINISHED SUCCESSFULLY
+cleanup/export done for ../../results/msa_macse/nt/best2.macse.fna
+
+################################ Processing: ../../results/msa_macse/nt/casq1b.macse.fna
+file : ../../results/msa_macse/nt/casq1b.macse.fna
+5	sequences with genetic code	The_Standard_Code
+The file '../../results/msa_macse/cleaned_nt/casq1b.macse.cleaned.fna' was created.
+The file '../../results/msa_macse/cleaned_aa/casq1b.macse.cleaned.faa' was created.
+PROGRAM HAS FINISHED SUCCESSFULLY
+cleanup/export done for ../../results/msa_macse/nt/casq1b.macse.fna
+
+################################ Processing: ../../results/msa_macse/nt/cpm.macse.fna
+file : ../../results/msa_macse/nt/cpm.macse.fna
+5	sequences with genetic code	The_Standard_Code
+The file '../../results/msa_macse/cleaned_nt/cpm.macse.cleaned.fna' was created.
+The file '../../results/msa_macse/cleaned_aa/cpm.macse.cleaned.faa' was created.
+PROGRAM HAS FINISHED SUCCESSFULLY
+cleanup/export done for ../../results/msa_macse/nt/cpm.macse.fna
+
+################################ Processing: ../../results/msa_macse/nt/dnajb5.macse.fna
+file : ../../results/msa_macse/nt/dnajb5.macse.fna
+5	sequences with genetic code	The_Standard_Code
+The file '../../results/msa_macse/cleaned_nt/dnajb5.macse.cleaned.fna' was created.
+The file '../../results/msa_macse/cleaned_aa/dnajb5.macse.cleaned.faa' was created.
+PROGRAM HAS FINISHED SUCCESSFULLY
+cleanup/export done for ../../results/msa_macse/nt/dnajb5.macse.fna
+
+################################ Processing: ../../results/msa_macse/nt/dusp2.macse.fna
+file : ../../results/msa_macse/nt/dusp2.macse.fna
+5	sequences with genetic code	The_Standard_Code
+The file '../../results/msa_macse/cleaned_nt/dusp2.macse.cleaned.fna' was created.
+The file '../../results/msa_macse/cleaned_aa/dusp2.macse.cleaned.faa' was created.
+PROGRAM HAS FINISHED SUCCESSFULLY
+cleanup/export done for ../../results/msa_macse/nt/dusp2.macse.fna
+
+################################ Processing: ../../results/msa_macse/nt/egr3.macse.fna
+file : ../../results/msa_macse/nt/egr3.macse.fna
+5	sequences with genetic code	The_Standard_Code
+The file '../../results/msa_macse/cleaned_nt/egr3.macse.cleaned.fna' was created.
+The file '../../results/msa_macse/cleaned_aa/egr3.macse.cleaned.faa' was created.
+PROGRAM HAS FINISHED SUCCESSFULLY
+cleanup/export done for ../../results/msa_macse/nt/egr3.macse.fna
+
+################################ Processing: ../../results/msa_macse/nt/epha7.macse.fna
+file : ../../results/msa_macse/nt/epha7.macse.fna
+5	sequences with genetic code	The_Standard_Code
+The file '../../results/msa_macse/cleaned_nt/epha7.macse.cleaned.fna' was created.
+The file '../../results/msa_macse/cleaned_aa/epha7.macse.cleaned.faa' was created.
+PROGRAM HAS FINISHED SUCCESSFULLY
+cleanup/export done for ../../results/msa_macse/nt/epha7.macse.fna
+
+################################ Processing: ../../results/msa_macse/nt/foxd2.macse.fna
+file : ../../results/msa_macse/nt/foxd2.macse.fna
+5	sequences with genetic code	The_Standard_Code
+The file '../../results/msa_macse/cleaned_nt/foxd2.macse.cleaned.fna' was created.
+The file '../../results/msa_macse/cleaned_aa/foxd2.macse.cleaned.faa' was created.
+PROGRAM HAS FINISHED SUCCESSFULLY
+cleanup/export done for ../../results/msa_macse/nt/foxd2.macse.fna
+
+################################ Processing: ../../results/msa_macse/nt/foxj3.macse.fna
+file : ../../results/msa_macse/nt/foxj3.macse.fna
+5	sequences with genetic code	The_Standard_Code
+The file '../../results/msa_macse/cleaned_nt/foxj3.macse.cleaned.fna' was created.
+The file '../../results/msa_macse/cleaned_aa/foxj3.macse.cleaned.faa' was created.
+PROGRAM HAS FINISHED SUCCESSFULLY
+cleanup/export done for ../../results/msa_macse/nt/foxj3.macse.fna
+
+################################ Processing: ../../results/msa_macse/nt/gdnfa.macse.fna
+file : ../../results/msa_macse/nt/gdnfa.macse.fna
+5	sequences with genetic code	The_Standard_Code
+The file '../../results/msa_macse/cleaned_nt/gdnfa.macse.cleaned.fna' was created.
+The file '../../results/msa_macse/cleaned_aa/gdnfa.macse.cleaned.faa' was created.
+PROGRAM HAS FINISHED SUCCESSFULLY
+cleanup/export done for ../../results/msa_macse/nt/gdnfa.macse.fna
+
+################################ Processing: ../../results/msa_macse/nt/gprc5c.macse.fna
+file : ../../results/msa_macse/nt/gprc5c.macse.fna
+5	sequences with genetic code	The_Standard_Code
+The file '../../results/msa_macse/cleaned_nt/gprc5c.macse.cleaned.fna' was created.
+The file '../../results/msa_macse/cleaned_aa/gprc5c.macse.cleaned.faa' was created.
+PROGRAM HAS FINISHED SUCCESSFULLY
+cleanup/export done for ../../results/msa_macse/nt/gprc5c.macse.fna
+
+################################ Processing: ../../results/msa_macse/nt/hspb1.macse.fna
+file : ../../results/msa_macse/nt/hspb1.macse.fna
+5	sequences with genetic code	The_Standard_Code
+The file '../../results/msa_macse/cleaned_nt/hspb1.macse.cleaned.fna' was created.
+The file '../../results/msa_macse/cleaned_aa/hspb1.macse.cleaned.faa' was created.
+PROGRAM HAS FINISHED SUCCESSFULLY
+cleanup/export done for ../../results/msa_macse/nt/hspb1.macse.fna
+
+################################ Processing: ../../results/msa_macse/nt/hspb7.macse.fna
+file : ../../results/msa_macse/nt/hspb7.macse.fna
+5	sequences with genetic code	The_Standard_Code
+The file '../../results/msa_macse/cleaned_nt/hspb7.macse.cleaned.fna' was created.
+The file '../../results/msa_macse/cleaned_aa/hspb7.macse.cleaned.faa' was created.
+PROGRAM HAS FINISHED SUCCESSFULLY
+cleanup/export done for ../../results/msa_macse/nt/hspb7.macse.fna
+
+################################ Processing: ../../results/msa_macse/nt/kbtbd12.macse.fna
+file : ../../results/msa_macse/nt/kbtbd12.macse.fna
+5	sequences with genetic code	The_Standard_Code
+The file '../../results/msa_macse/cleaned_nt/kbtbd12.macse.cleaned.fna' was created.
+The file '../../results/msa_macse/cleaned_aa/kbtbd12.macse.cleaned.faa' was created.
+PROGRAM HAS FINISHED SUCCESSFULLY
+cleanup/export done for ../../results/msa_macse/nt/kbtbd12.macse.fna
+
+################################ Processing: ../../results/msa_macse/nt/klc3.macse.fna
+file : ../../results/msa_macse/nt/klc3.macse.fna
+5	sequences with genetic code	The_Standard_Code
+The file '../../results/msa_macse/cleaned_nt/klc3.macse.cleaned.fna' was created.
+The file '../../results/msa_macse/cleaned_aa/klc3.macse.cleaned.faa' was created.
+PROGRAM HAS FINISHED SUCCESSFULLY
+cleanup/export done for ../../results/msa_macse/nt/klc3.macse.fna
+
+################################ Processing: ../../results/msa_macse/nt/lrrc14b.macse.fna
+file : ../../results/msa_macse/nt/lrrc14b.macse.fna
+5	sequences with genetic code	The_Standard_Code
+The file '../../results/msa_macse/cleaned_nt/lrrc14b.macse.cleaned.fna' was created.
+The file '../../results/msa_macse/cleaned_aa/lrrc14b.macse.cleaned.faa' was created.
+PROGRAM HAS FINISHED SUCCESSFULLY
+cleanup/export done for ../../results/msa_macse/nt/lrrc14b.macse.fna
+
+################################ Processing: ../../results/msa_macse/nt/mbnl3.macse.fna
+file : ../../results/msa_macse/nt/mbnl3.macse.fna
+5	sequences with genetic code	The_Standard_Code
+The file '../../results/msa_macse/cleaned_nt/mbnl3.macse.cleaned.fna' was created.
+The file '../../results/msa_macse/cleaned_aa/mbnl3.macse.cleaned.faa' was created.
+PROGRAM HAS FINISHED SUCCESSFULLY
+cleanup/export done for ../../results/msa_macse/nt/mbnl3.macse.fna
+
+################################ Processing: ../../results/msa_macse/nt/mcf2a.macse.fna
+file : ../../results/msa_macse/nt/mcf2a.macse.fna
+5	sequences with genetic code	The_Standard_Code
+The file '../../results/msa_macse/cleaned_nt/mcf2a.macse.cleaned.fna' was created.
+The file '../../results/msa_macse/cleaned_aa/mcf2a.macse.cleaned.faa' was created.
+PROGRAM HAS FINISHED SUCCESSFULLY
+cleanup/export done for ../../results/msa_macse/nt/mcf2a.macse.fna
+
+################################ Processing: ../../results/msa_macse/nt/megf10.macse.fna
+file : ../../results/msa_macse/nt/megf10.macse.fna
+5	sequences with genetic code	The_Standard_Code
+The file '../../results/msa_macse/cleaned_nt/megf10.macse.cleaned.fna' was created.
+The file '../../results/msa_macse/cleaned_aa/megf10.macse.cleaned.faa' was created.
+PROGRAM HAS FINISHED SUCCESSFULLY
+cleanup/export done for ../../results/msa_macse/nt/megf10.macse.fna
+
+################################ Processing: ../../results/msa_macse/nt/mybpc1.macse.fna
+file : ../../results/msa_macse/nt/mybpc1.macse.fna
+5	sequences with genetic code	The_Standard_Code
+The file '../../results/msa_macse/cleaned_nt/mybpc1.macse.cleaned.fna' was created.
+The file '../../results/msa_macse/cleaned_aa/mybpc1.macse.cleaned.faa' was created.
+PROGRAM HAS FINISHED SUCCESSFULLY
+cleanup/export done for ../../results/msa_macse/nt/mybpc1.macse.fna
+
+################################ Processing: ../../results/msa_macse/nt/myl10.macse.fna
+file : ../../results/msa_macse/nt/myl10.macse.fna
+5	sequences with genetic code	The_Standard_Code
+The file '../../results/msa_macse/cleaned_nt/myl10.macse.cleaned.fna' was created.
+The file '../../results/msa_macse/cleaned_aa/myl10.macse.cleaned.faa' was created.
+PROGRAM HAS FINISHED SUCCESSFULLY
+cleanup/export done for ../../results/msa_macse/nt/myl10.macse.fna
+
+################################ Processing: ../../results/msa_macse/nt/myom3.macse.fna
+file : ../../results/msa_macse/nt/myom3.macse.fna
+5	sequences with genetic code	The_Standard_Code
+The file '../../results/msa_macse/cleaned_nt/myom3.macse.cleaned.fna' was created.
+The file '../../results/msa_macse/cleaned_aa/myom3.macse.cleaned.faa' was created.
+PROGRAM HAS FINISHED SUCCESSFULLY
+cleanup/export done for ../../results/msa_macse/nt/myom3.macse.fna
+
+################################ Processing: ../../results/msa_macse/nt/myoz2b.macse.fna
+file : ../../results/msa_macse/nt/myoz2b.macse.fna
+5	sequences with genetic code	The_Standard_Code
+The file '../../results/msa_macse/cleaned_nt/myoz2b.macse.cleaned.fna' was created.
+The file '../../results/msa_macse/cleaned_aa/myoz2b.macse.cleaned.faa' was created.
+PROGRAM HAS FINISHED SUCCESSFULLY
+cleanup/export done for ../../results/msa_macse/nt/myoz2b.macse.fna
+
+################################ Processing: ../../results/msa_macse/nt/ndrg1a.macse.fna
+file : ../../results/msa_macse/nt/ndrg1a.macse.fna
+5	sequences with genetic code	The_Standard_Code
+The file '../../results/msa_macse/cleaned_nt/ndrg1a.macse.cleaned.fna' was created.
+The file '../../results/msa_macse/cleaned_aa/ndrg1a.macse.cleaned.faa' was created.
+PROGRAM HAS FINISHED SUCCESSFULLY
+cleanup/export done for ../../results/msa_macse/nt/ndrg1a.macse.fna
+
+################################ Processing: ../../results/msa_macse/nt/ntn5.macse.fna
+file : ../../results/msa_macse/nt/ntn5.macse.fna
+5	sequences with genetic code	The_Standard_Code
+The file '../../results/msa_macse/cleaned_nt/ntn5.macse.cleaned.fna' was created.
+The file '../../results/msa_macse/cleaned_aa/ntn5.macse.cleaned.faa' was created.
+PROGRAM HAS FINISHED SUCCESSFULLY
+cleanup/export done for ../../results/msa_macse/nt/ntn5.macse.fna
+
+################################ Processing: ../../results/msa_macse/nt/osbpl1a.macse.fna
+file : ../../results/msa_macse/nt/osbpl1a.macse.fna
+5	sequences with genetic code	The_Standard_Code
+The file '../../results/msa_macse/cleaned_nt/osbpl1a.macse.cleaned.fna' was created.
+The file '../../results/msa_macse/cleaned_aa/osbpl1a.macse.cleaned.faa' was created.
+PROGRAM HAS FINISHED SUCCESSFULLY
+cleanup/export done for ../../results/msa_macse/nt/osbpl1a.macse.fna
+
+################################ Processing: ../../results/msa_macse/nt/pcdh20.macse.fna
+file : ../../results/msa_macse/nt/pcdh20.macse.fna
+5	sequences with genetic code	The_Standard_Code
+The file '../../results/msa_macse/cleaned_nt/pcdh20.macse.cleaned.fna' was created.
+The file '../../results/msa_macse/cleaned_aa/pcdh20.macse.cleaned.faa' was created.
+PROGRAM HAS FINISHED SUCCESSFULLY
+cleanup/export done for ../../results/msa_macse/nt/pcdh20.macse.fna
+
+################################ Processing: ../../results/msa_macse/nt/prrg4.macse.fna
+file : ../../results/msa_macse/nt/prrg4.macse.fna
+5	sequences with genetic code	The_Standard_Code
+The file '../../results/msa_macse/cleaned_nt/prrg4.macse.cleaned.fna' was created.
+The file '../../results/msa_macse/cleaned_aa/prrg4.macse.cleaned.faa' was created.
+PROGRAM HAS FINISHED SUCCESSFULLY
+cleanup/export done for ../../results/msa_macse/nt/prrg4.macse.fna
+
+################################ Processing: ../../results/msa_macse/nt/prx.macse.fna
+file : ../../results/msa_macse/nt/prx.macse.fna
+5	sequences with genetic code	The_Standard_Code
+The file '../../results/msa_macse/cleaned_nt/prx.macse.cleaned.fna' was created.
+The file '../../results/msa_macse/cleaned_aa/prx.macse.cleaned.faa' was created.
+PROGRAM HAS FINISHED SUCCESSFULLY
+cleanup/export done for ../../results/msa_macse/nt/prx.macse.fna
+
+################################ Processing: ../../results/msa_macse/nt/rnf207b.macse.fna
+file : ../../results/msa_macse/nt/rnf207b.macse.fna
+5	sequences with genetic code	The_Standard_Code
+The file '../../results/msa_macse/cleaned_nt/rnf207b.macse.cleaned.fna' was created.
+The file '../../results/msa_macse/cleaned_aa/rnf207b.macse.cleaned.faa' was created.
+PROGRAM HAS FINISHED SUCCESSFULLY
+cleanup/export done for ../../results/msa_macse/nt/rnf207b.macse.fna
+
+################################ Processing: ../../results/msa_macse/nt/rpl3.macse.fna
+file : ../../results/msa_macse/nt/rpl3.macse.fna
+5	sequences with genetic code	The_Standard_Code
+The file '../../results/msa_macse/cleaned_nt/rpl3.macse.cleaned.fna' was created.
+The file '../../results/msa_macse/cleaned_aa/rpl3.macse.cleaned.faa' was created.
+PROGRAM HAS FINISHED SUCCESSFULLY
+cleanup/export done for ../../results/msa_macse/nt/rpl3.macse.fna
+
+################################ Processing: ../../results/msa_macse/nt/scn4ab.macse.fna
+file : ../../results/msa_macse/nt/scn4ab.macse.fna
+5	sequences with genetic code	The_Standard_Code
+The file '../../results/msa_macse/cleaned_nt/scn4ab.macse.cleaned.fna' was created.
+The file '../../results/msa_macse/cleaned_aa/scn4ab.macse.cleaned.faa' was created.
+PROGRAM HAS FINISHED SUCCESSFULLY
+cleanup/export done for ../../results/msa_macse/nt/scn4ab.macse.fna
+
+################################ Processing: ../../results/msa_macse/nt/sh2d5.macse.fna
+file : ../../results/msa_macse/nt/sh2d5.macse.fna
+5	sequences with genetic code	The_Standard_Code
+The file '../../results/msa_macse/cleaned_nt/sh2d5.macse.cleaned.fna' was created.
+The file '../../results/msa_macse/cleaned_aa/sh2d5.macse.cleaned.faa' was created.
+PROGRAM HAS FINISHED SUCCESSFULLY
+cleanup/export done for ../../results/msa_macse/nt/sh2d5.macse.fna
+
+################################ Processing: ../../results/msa_macse/nt/six2a.macse.fna
+file : ../../results/msa_macse/nt/six2a.macse.fna
+5	sequences with genetic code	The_Standard_Code
+The file '../../results/msa_macse/cleaned_nt/six2a.macse.cleaned.fna' was created.
+The file '../../results/msa_macse/cleaned_aa/six2a.macse.cleaned.faa' was created.
+PROGRAM HAS FINISHED SUCCESSFULLY
+cleanup/export done for ../../results/msa_macse/nt/six2a.macse.fna
+
+################################ Processing: ../../results/msa_macse/nt/slc8a3.macse.fna
+file : ../../results/msa_macse/nt/slc8a3.macse.fna
+5	sequences with genetic code	The_Standard_Code
+The file '../../results/msa_macse/cleaned_nt/slc8a3.macse.cleaned.fna' was created.
+The file '../../results/msa_macse/cleaned_aa/slc8a3.macse.cleaned.faa' was created.
+PROGRAM HAS FINISHED SUCCESSFULLY
+cleanup/export done for ../../results/msa_macse/nt/slc8a3.macse.fna
+
+################################ Processing: ../../results/msa_macse/nt/smpx.macse.fna
+file : ../../results/msa_macse/nt/smpx.macse.fna
+5	sequences with genetic code	The_Standard_Code
+The file '../../results/msa_macse/cleaned_nt/smpx.macse.cleaned.fna' was created.
+The file '../../results/msa_macse/cleaned_aa/smpx.macse.cleaned.faa' was created.
+PROGRAM HAS FINISHED SUCCESSFULLY
+cleanup/export done for ../../results/msa_macse/nt/smpx.macse.fna
+
+################################ Processing: ../../results/msa_macse/nt/smyd1b.macse.fna
+file : ../../results/msa_macse/nt/smyd1b.macse.fna
+5	sequences with genetic code	The_Standard_Code
+The file '../../results/msa_macse/cleaned_nt/smyd1b.macse.cleaned.fna' was created.
+The file '../../results/msa_macse/cleaned_aa/smyd1b.macse.cleaned.faa' was created.
+PROGRAM HAS FINISHED SUCCESSFULLY
+cleanup/export done for ../../results/msa_macse/nt/smyd1b.macse.fna
+
+################################ Processing: ../../results/msa_macse/nt/specc1.macse.fna
+file : ../../results/msa_macse/nt/specc1.macse.fna
+5	sequences with genetic code	The_Standard_Code
+The file '../../results/msa_macse/cleaned_nt/specc1.macse.cleaned.fna' was created.
+The file '../../results/msa_macse/cleaned_aa/specc1.macse.cleaned.faa' was created.
+PROGRAM HAS FINISHED SUCCESSFULLY
+cleanup/export done for ../../results/msa_macse/nt/specc1.macse.fna
+
+################################ Processing: ../../results/msa_macse/nt/tnnc1b.macse.fna
+file : ../../results/msa_macse/nt/tnnc1b.macse.fna
+5	sequences with genetic code	The_Standard_Code
+The file '../../results/msa_macse/cleaned_nt/tnnc1b.macse.cleaned.fna' was created.
+The file '../../results/msa_macse/cleaned_aa/tnnc1b.macse.cleaned.faa' was created.
+PROGRAM HAS FINISHED SUCCESSFULLY
+cleanup/export done for ../../results/msa_macse/nt/tnnc1b.macse.fna
+
+################################ Processing: ../../results/msa_macse/nt/tnnt1.macse.fna
+file : ../../results/msa_macse/nt/tnnt1.macse.fna
+5	sequences with genetic code	The_Standard_Code
+The file '../../results/msa_macse/cleaned_nt/tnnt1.macse.cleaned.fna' was created.
+The file '../../results/msa_macse/cleaned_aa/tnnt1.macse.cleaned.faa' was created.
+PROGRAM HAS FINISHED SUCCESSFULLY
+cleanup/export done for ../../results/msa_macse/nt/tnnt1.macse.fna
+
+################################ Processing: ../../results/msa_macse/nt/tnnt2e.macse.fna
+file : ../../results/msa_macse/nt/tnnt2e.macse.fna
+5	sequences with genetic code	The_Standard_Code
+The file '../../results/msa_macse/cleaned_nt/tnnt2e.macse.cleaned.fna' was created.
+The file '../../results/msa_macse/cleaned_aa/tnnt2e.macse.cleaned.faa' was created.
+PROGRAM HAS FINISHED SUCCESSFULLY
+cleanup/export done for ../../results/msa_macse/nt/tnnt2e.macse.fna
+
+################################ Processing: ../../results/msa_macse/nt/tpm3.macse.fna
+file : ../../results/msa_macse/nt/tpm3.macse.fna
+5	sequences with genetic code	The_Standard_Code
+The file '../../results/msa_macse/cleaned_nt/tpm3.macse.cleaned.fna' was created.
+The file '../../results/msa_macse/cleaned_aa/tpm3.macse.cleaned.faa' was created.
+PROGRAM HAS FINISHED SUCCESSFULLY
+cleanup/export done for ../../results/msa_macse/nt/tpm3.macse.fna
+
+################################ Processing: ../../results/msa_macse/nt/trdn.macse.fna
+file : ../../results/msa_macse/nt/trdn.macse.fna
+5	sequences with genetic code	The_Standard_Code
+The file '../../results/msa_macse/cleaned_nt/trdn.macse.cleaned.fna' was created.
+The file '../../results/msa_macse/cleaned_aa/trdn.macse.cleaned.faa' was created.
+PROGRAM HAS FINISHED SUCCESSFULLY
+cleanup/export done for ../../results/msa_macse/nt/trdn.macse.fna
+
+################################ Processing: ../../results/msa_macse/nt/trib3.macse.fna
+file : ../../results/msa_macse/nt/trib3.macse.fna
+5	sequences with genetic code	The_Standard_Code
+The file '../../results/msa_macse/cleaned_nt/trib3.macse.cleaned.fna' was created.
+The file '../../results/msa_macse/cleaned_aa/trib3.macse.cleaned.faa' was created.
+PROGRAM HAS FINISHED SUCCESSFULLY
+cleanup/export done for ../../results/msa_macse/nt/trib3.macse.fna
+
+
+MACSE export/cleanup completed at Thu Apr 23 22:01:59 CDT 2026
