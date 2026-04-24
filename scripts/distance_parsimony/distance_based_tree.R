@@ -5,8 +5,7 @@ library(phangorn)
 indir <- "../../results/msa_macse/cleaned_nt"
 files <- list.files(indir, pattern = "\\.macse\\.cleaned\\.fna$", full.names = TRUE)
 
-topdir <- "../../results/distance_parsimony"
-outdir <- file.path(topdir, "BioNJ")
+outdir <- file.path("../../results/distance_parsimony/BioNJ")
 dir.create(outdir, recursive = TRUE, showWarnings = FALSE)
 
 species <- c("Bg", "Bb", "Pk", "Ip", "Ee")

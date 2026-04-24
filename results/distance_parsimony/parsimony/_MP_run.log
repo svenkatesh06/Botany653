@@ -1,0 +1,121 @@
+Loading required package: ade4
+
+   /// adegenet 2.1.11 is loaded ////////////
+
+   > overview: '?adegenet'
+   > tutorials/doc/questions: 'adegenetWeb()' 
+   > bug reports/feature requests: adegenetIssues()
+
+
+
+Attaching package: ‘phangorn’
+
+The following object is masked from ‘package:adegenet’:
+
+    AICc
+
+Calculating per-gene maximum parsimony trees
+Processing file: abrab.macse.cleaned.fna 
+Final p-score 753 after  0 nni operations 
+Processing file: ache.macse.cleaned.fna 
+Final p-score 817 after  0 nni operations 
+Processing file: ankrd28b.macse.cleaned.fna 
+Final p-score 1478 after  0 nni operations 
+Processing file: arl13a.macse.cleaned.fna 
+Final p-score 960 after  0 nni operations 
+Processing file: asb10.macse.cleaned.fna 
+Final p-score 903 after  0 nni operations 
+Processing file: atp1a2a.macse.cleaned.fna 
+Final p-score 1411 after  0 nni operations 
+Processing file: best2.macse.cleaned.fna 
+Final p-score 1182 after  0 nni operations 
+Processing file: casq1b.macse.cleaned.fna 
+Final p-score 657 after  0 nni operations 
+Processing file: cpm.macse.cleaned.fna 
+Final p-score 830 after  0 nni operations 
+Processing file: dnajb5.macse.cleaned.fna 
+Final p-score 438 after  0 nni operations 
+Processing file: dusp2.macse.cleaned.fna 
+Final p-score 622 after  0 nni operations 
+Processing file: egr3.macse.cleaned.fna 
+Final p-score 567 after  0 nni operations 
+Processing file: epha7.macse.cleaned.fna 
+Final p-score 1065 after  0 nni operations 
+Processing file: foxd2.macse.cleaned.fna 
+Final p-score 566 after  0 nni operations 
+Processing file: foxj3.macse.cleaned.fna 
+Final p-score 605 after  0 nni operations 
+Processing file: gdnfa.macse.cleaned.fna 
+Final p-score 483 after  0 nni operations 
+Processing file: gprc5c.macse.cleaned.fna 
+Final p-score 970 after  0 nni operations 
+Processing file: hspb1.macse.cleaned.fna 
+Final p-score 346 after  0 nni operations 
+Processing file: hspb7.macse.cleaned.fna 
+Final p-score 185 after  0 nni operations 
+Processing file: kbtbd12.macse.cleaned.fna 
+Final p-score 935 after  0 nni operations 
+Processing file: klc3.macse.cleaned.fna 
+Final p-score 909 after  0 nni operations 
+Processing file: lrrc14b.macse.cleaned.fna 
+Final p-score 1025 after  1 nni operations 
+Processing file: mbnl3.macse.cleaned.fna 
+Final p-score 566 after  0 nni operations 
+Processing file: mcf2a.macse.cleaned.fna 
+Final p-score 1779 after  0 nni operations 
+Processing file: megf10.macse.cleaned.fna 
+Final p-score 1411 after  0 nni operations 
+Processing file: mybpc1.macse.cleaned.fna 
+Final p-score 1806 after  0 nni operations 
+Processing file: myl10.macse.cleaned.fna 
+Final p-score 147 after  0 nni operations 
+Processing file: myom3.macse.cleaned.fna 
+Final p-score 2396 after  0 nni operations 
+Processing file: myoz2b.macse.cleaned.fna 
+Final p-score 390 after  0 nni operations 
+Processing file: ndrg1a.macse.cleaned.fna 
+Final p-score 463 after  0 nni operations 
+Processing file: ntn5.macse.cleaned.fna 
+Final p-score 1663 after  0 nni operations 
+Processing file: osbpl1a.macse.cleaned.fna 
+Final p-score 1452 after  0 nni operations 
+Processing file: pcdh20.macse.cleaned.fna 
+Final p-score 2797 after  0 nni operations 
+Processing file: prrg4.macse.cleaned.fna 
+Final p-score 454 after  0 nni operations 
+Processing file: prx.macse.cleaned.fna 
+Final p-score 7496 after  0 nni operations 
+Processing file: rnf207b.macse.cleaned.fna 
+Final p-score 779 after  0 nni operations 
+Processing file: rpl3.macse.cleaned.fna 
+Final p-score 404 after  0 nni operations 
+Processing file: scn4ab.macse.cleaned.fna 
+Final p-score 2944 after  0 nni operations 
+Processing file: sh2d5.macse.cleaned.fna 
+Final p-score 770 after  0 nni operations 
+Processing file: six2a.macse.cleaned.fna 
+Final p-score 319 after  0 nni operations 
+Processing file: slc8a3.macse.cleaned.fna 
+Final p-score 1241 after  0 nni operations 
+Processing file: smpx.macse.cleaned.fna 
+Final p-score 107 after  0 nni operations 
+Processing file: smyd1b.macse.cleaned.fna 
+Final p-score 643 after  0 nni operations 
+Processing file: specc1.macse.cleaned.fna 
+Final p-score 1721 after  0 nni operations 
+Processing file: tnnc1b.macse.cleaned.fna 
+Final p-score 141 after  0 nni operations 
+Processing file: tnnt1.macse.cleaned.fna 
+Final p-score 360 after  0 nni operations 
+Processing file: tnnt2e.macse.cleaned.fna 
+Final p-score 336 after  0 nni operations 
+Processing file: tpm3.macse.cleaned.fna 
+Final p-score 381 after  0 nni operations 
+Processing file: trdn.macse.cleaned.fna 
+Final p-score 2555 after  0 nni operations 
+Processing file: trib3.macse.cleaned.fna 
+Final p-score 552 after  0 nni operations 
+null device 
+          1 
+null device 
+          1 

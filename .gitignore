@@ -7,7 +7,7 @@ data/ncbi_genome_downloads/*/
 
 ## scripts
 scripts/data_process/old_data_background_preprocessing.md
-scripts/gene_seq_alignement/filter_common_genes.py
+scripts/gene_seq_alignment/filter_common_genes.py
 
 ## results
 results/msa_macse/aa
