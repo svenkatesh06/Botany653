@@ -53,9 +53,92 @@ chmod +x run*_iqtree_partitioned.sh
 ./run_aa_iqtree_partitioned.sh
 ```
 
-I ran both because nucleotide and amino acid sequences can capture slightly different evolutionary signals. Nucleotide sequences retain synonymous substitutions and contain more raw variation, which can be useful for closely related taxa. However, nucleotide alignments can also be more affected by multiple substitutions, codon-position effects etc., especially across more divergent species. *AA sequences remove variations and focus on protein-level changes, which may provide a more conservative signal for deeper evolutionary relationships.*
+I ran IQTREE on **both nucleotide and amino acid sequences** because they can capture slightly different evolutionary signals. Nucleotide sequences retain synonymous substitutions and contain more raw variation, which can be useful for closely related taxa. However, nucleotide alignments can also be more affected by multiple substitutions, codon-position effects etc., especially across more divergent species. *AA sequences remove variations and focus on protein-level changes, which may provide a more conservative signal for deeper evolutionary relationships.*
 In this project, this comparison is useful because the dataset is based on protein-coding electric-organ-associated genes from multiple species.
 
 ### RESULTS AND INTERPRETATION
+
+The main IQTREE report is the `.iqtree` file generated in the output directory. This file contains:
+- Summary of the analysis
+- Best-fitting substitution model for each partition
+- *Inferred tree topology* and branch lengths
+- Support values for each branch
+
+The inferred tree is saved in **Newick format** in the `.treefile` output.
+
+#### **NUCLEOTIDE (NT) ALIGNMENT RESULTS:**
+
+```text
+Input data: 5 taxa with 17 partitions and 107499 total sites (0% missing data)
+
+Log-likelihood of the tree: -357404.8645 (s.e. 704.3585)
+Marginal log-likelihood of the tree: -363123.2855
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Ip' is drawn at root
+Numbers in parentheses are SH-aLRT support (%) / ultrafast bootstrap support (%)
+
+
+
+           +----------Bg
++----------| (100/100)
+|          +--------Ee
+|
+|                                                       +--Bb
++-------------------------------------------------------| (100/100)
+|                                                       +--Pk
+|
++----------------------Ip
+
+
+
+Tree in newick format:
+((Bg:0.2763321286,Ee:0.2349264107)100/100:0.2643351976,(Bb:0.0929468597,Pk:0.0832728150)100/100:1.3357895540,Ip:0.5663636656);
+```
+
+
+#### **AMINO ACID (AA) ALIGNMENT RESULTS:**
+
+```text
+Input data: 5 taxa with 13 partitions and 35833 total sites (0% missing data)
+
+Log-likelihood of the tree: -195621.1867 (s.e. 635.4720)
+Marginal log-likelihood of the tree: -200567.6687
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Ip' is drawn at root
+Numbers in parentheses are SH-aLRT support (%) / ultrafast bootstrap support (%)
+            +-----------Bg
++-----------| (100/100)
+|           +----------Ee
+|
+|                                                    +-----Bb
++----------------------------------------------------| (100/100)
+|                                                    +---Pk
+|
++-------------------------Ip
+
+
+Tree in newick format:
+((Bg:0.0985157687,Ee:0.0940687203)100/100:0.1021552777,(Bb:0.0509075694,Pk:0.0340231051)100/100:0.4215645846,Ip:0.2097839428);
+```
+
+Both analyses recovered the same topology, `((Bg,Ee),(Bb,Pk),Ip)`, with 100/100 SH-aLRT/UFBoot support for both internal clades. Because the nucleotide analysis contained a partition with unusually long branches(pcdh20), I treated the AA tree as the primary ML result and used the nucleotide tree as a sensitivity check.
+
+
+## IQTREE TREE VISUALIZATION
+
+I used the `ggtree` R package to visualize the inferred trees. The Newick tree files were read into R using `read.tree()`, and then plotted with `ggtree()`.
+
+**NOTE:** I passed the outgroup taxa as `Ip` to IQTREE so that it would root the tree with `Ip` at the base.
+
+```R
+## install the r packages for tree visualization
+install.packages("BiocManager")
+BiocManager::install(c("ggtree", "treeio","tidytree","ggplot2"))
+install.packages(c("phytools", "dendextend"))
+```
+After this, I ran the chunks in `visualize_trees.ipynb` to read the tree files, plot the trees, and save the figures. The final output includes separate plots for the AA and NT trees, as well as a combined figure comparing both trees side by side.
+
+> The branch lengths differed between the two analyses, with the nucleotide tree showing a longer overall scale than the amino-acid tree. This is expected because nucleotide sequences contain more sites and include synonymous substitutions that are not represented in the amino-acid alignment.
+
 
 

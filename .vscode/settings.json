@@ -1,3 +1,4 @@
 {
-	"r.lsp.promptToInstall": false
+	"r.lsp.promptToInstall": false,
+	"r.rterm.linux": "/mnt/dv/wid/projects7/Roy-singlecell2/multispecies_singlecell/swathi_work/envs/e_phylo/bin/R"
 }
