@@ -13,6 +13,7 @@ After finding the shared markers, the script writes them out in the same ranked 
 
 ```bash
 # cd scripts/gene_seq_alignment
+conda install -c conda-forge biopython
 python generate_filtered_species_fa_files.py
 ```
 SCRIPT OUTPUT:

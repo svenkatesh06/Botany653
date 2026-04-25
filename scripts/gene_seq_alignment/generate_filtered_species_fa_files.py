@@ -8,35 +8,28 @@ import re
 def get_genes_in_fasta(fasta_file, allowed_genes=None):
 
 	found = set()
-	with open(fasta_file, "r") as f:
-		for line in f:
-			if line.startswith(">"):
-				m = gene_pattern.search(line)
-				if m:
-					gene = m.group(1).strip()
-					gene_cmp = gene.lower()
-					if (allowed_genes is None) or (gene_cmp in allowed_genes):
-						found.add(gene_cmp)
+	for rec in SeqIO.parse(fasta_file, "fasta"):
+		 m = gene_pattern.search(rec.description)
+		if m:
+			gene = m.group(1).strip()
+			gene_cmp = gene.lower()
+
+			if (allowed_genes is None) or (gene_cmp in allowed_genes):
+				found.add(gene_cmp)
+
 	return found
 
 # function to write out the filtered fasta file for a species
 def write_filtered_fasta(fasta_file, out_file, keep_genes):
-	write_record = False
 	kept_records = 0
-	with open(fasta_file, "r") as fin, open(out_file, "w") as fout:
-		for line in fin:
-			if line.startswith(">"):
-				m = gene_pattern.search(line)
-				if m:
-					gene = m.group(1).strip()
-					gene_cmp = gene.lower()
-					write_record = gene_cmp in keep_genes
-					if write_record:
-						kept_records += 1
-				else:
-					write_record = False
-			if write_record:
-				fout.write(line)
+	with open(out_file, "w") as fout:
+		for rec in SeqIO.parse(fasta_file, "fasta"):
+			m = gene_pattern.search(rec.description
+			if m:
+				gene = m.group(1).strip().lower(
+				if gene in keep_genes:
+					SeqIO.write(rec, fout, "fasta")
+					kept_records +=
 	return kept_records
 
 # define a class to hold species information
