@@ -1,0 +1,560 @@
+IQ-TREE 3.1.1 built Apr  8 2026
+
+Partition file name: ../../results/msa_macse/reordered_cleaned_macse_aa
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 12345
+
+REFERENCES
+----------
+
+To cite IQ-TREE 3 please use:
+
+Thomas K.F. Wong, Nhan Ly-Trong, Huaiyan Ren, Hector Banos, Andrew J. Roger,
+Edward Susko, Chris Bielow, Nicola De Maio, Nick Goldman, Matthew W. Hahn,
+Gavin Huttley, Robert Lanfear, Bui Quang Minh (2025)
+IQ-TREE 3: Phylogenomic Inference Software using Complex Evolutionary Models.
+Submitted.
+
+Since you used ModelFinder please also cite: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+Since you used partition models please also cite:
+
+Olga Chernomor, Arndt von Haeseler, and Bui Quang Minh (2016)
+Terrace aware data structure for phylogenomic inference from
+supermatrices. Syst. Biol., 65:997-1008.
+https://doi.org/10.1093/sysbio/syw037
+
+SEQUENCE ALIGNMENT
+------------------
+
+NOTE: Alignment sequence type is auto-detected. If in doubt, specify it via -st option.
+Input data: 5 taxa with 13 partitions and 35833 total sites (0% missing data)
+
+  ID	Type	Seq	Site	Unique	Infor	Invar	Const	Name
+   1	AA	5	3505	1350	833	1892	1892	abrab.faa+asb10.faa+best2.faa+gdnfa.faa+ntn5.faa+prrg4.faa+sh2d5.faa
+   2	AA	5	6485	1338	1123	4502	4502	ache.faa+egr3.faa+foxd2.faa+kbtbd12.faa+mbnl3.faa+mybpc1.faa+myoz2b.faa+osbpl1a.faa+smyd1b.faa+tnnt2e.faa+trib3.faa
+   3	AA	5	2347	465	318	1813	1813	ankrd28b.faa+megf10.faa
+   4	AA	5	1043	556	230	522	522	arl13a.faa+gprc5c.faa
+   5	AA	5	4414	851	474	3471	3471	atp1a2a.faa+dnajb5.faa+hspb7.faa+ndrg1a.faa+rnf207b.faa+slc8a3.faa+smpx.faa+tnnt1.faa+tpm3.faa
+   6	AA	5	499	172	87	339	339	casq1b.faa
+   7	AA	5	3328	1096	498	2126	2126	cpm.faa+dusp2.faa+klc3.faa+scn4ab.faa
+   8	AA	5	2135	247	112	1919	1919	epha7.faa+myl10.faa+rpl3.faa+six2a.faa+tnnc1b.faa
+   9	AA	5	729	164	69	603	603	foxj3.faa
+  10	AA	5	4489	1285	1085	2626	2626	hspb1.faa+lrrc14b.faa+mcf2a.faa+myom3.faa+specc1.faa
+  11	AA	5	914	652	184	257	257	pcdh20.faa
+  12	AA	5	4773	1734	703	2137	2137	prx.faa
+  13	AA	5	1172	764	326	420	420	trdn.faa
+
+Column meanings:
+  Unique: Number of unique site patterns
+  Infor:  Number of parsimony-informative sites
+  Invar:  Number of invariant sites
+  Const:  Number of constant sites (can be subset of invariant sites)
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: Q.MAMMAL+G4:abrab.faa+asb10.faa+best2.faa+gdnfa.faa+ntn5.faa+prrg4.faa+sh2d5.faa,Q.MAMMAL+G4:ache.faa+egr3.faa+foxd2.faa+kbtbd12.faa+mbnl3.faa+mybpc1.faa+myoz2b.faa+osbpl1a.faa+smyd1b.faa+tnnt2e.faa+trib3.faa,FLU+F+G4:ankrd28b.faa+megf10.faa,Q.BIRD+G4:arl13a.faa+gprc5c.faa,Q.PLANT+G4:atp1a2a.faa+dnajb5.faa+hspb7.faa+ndrg1a.faa+rnf207b.faa+slc8a3.faa+smpx.faa+tnnt1.faa+tpm3.faa,HIVB+F+G4:casq1b.faa,JTT+G4:cpm.faa+dusp2.faa+klc3.faa+scn4ab.faa,JTT+I:epha7.faa+myl10.faa+rpl3.faa+six2a.faa+tnnc1b.faa,JTT+F+I:foxj3.faa,Q.MAMMAL+G4:hspb1.faa+lrrc14b.faa+mcf2a.faa+myom3.faa+specc1.faa,VT+I+R2:pcdh20.faa,Q.PLANT+F+G4:prx.faa,JTT+F+G4:trdn.faa
+
+List of best-fit models per partition:
+
+  ID  Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+   1  Q.MAMMAL+G4      -21843.600   43691.200 + 6.95e-310   43691.203 + 6.95e-310   43703.524 + 6.9e-310
+   2  Q.MAMMAL+G4      -32774.155   65552.310 + 6.95e-310   65552.312 + 6.95e-310   65565.864 + 6.9e-310
+   3  FLU+F+G4         -10601.241   21244.481 + 6.95e-310   21244.878 + 6.95e-310   21365.460 + 6.9e-310
+   4  Q.BIRD+G4         -6848.261   13700.522 + 6.95e-310   13700.533 + 6.95e-310   13710.421 + 6.9e-310
+   5  Q.PLANT+G4       -19527.485   39058.970 + 6.95e-310   39058.973 + 6.95e-310   39071.755 + 6.9e-310
+   6  HIVB+F+G4         -2473.649    4989.299 + 6.95e-310    4991.236 + 6.95e-310    5077.764 + 6.9e-310
+   7  JTT+G4           -19100.422   38204.845 + 6.95e-310   38204.848 + 6.95e-310   38217.065 + 6.9e-310
+   8  JTT+I             -7858.975   15721.950 + 6.95e-310   15721.955 + 6.95e-310   15733.282 + 6.9e-310
+   9  JTT+F+I           -2869.693    5781.387 + 6.95e-310    5782.693 + 6.95e-310    5877.812 + 6.9e-310
+  10  Q.MAMMAL+G4      -26120.789   52245.577 + 6.95e-310   52245.580 + 6.95e-310   52258.396 + 6.9e-310
+  11  VT+I+R2           -8879.445   17766.890 + 6.95e-310   17766.934 + 6.95e-310   17786.161 + 6.9e-310
+  12  Q.PLANT+F+G4     -28574.827   57191.653 + 6.95e-310   57191.848 + 6.95e-310   57327.539 + 6.9e-310
+  13  JTT+F+G4          -8151.641   16345.281 + 6.95e-310   16346.085 + 6.95e-310   16451.677 + 6.9e-310
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Edge-linked-proportional partition model with separate substitution models and separate rates across sites
+
+  ID  Model           Speed  Parameters
+   1  Q.MAMMAL+G4    1.1268  Q.MAMMAL+G4{0.764564}
+   2  Q.MAMMAL+G4    0.5296  Q.MAMMAL+G4{0.657271}
+   3  FLU+F+G4       0.3889  FLU+F+G4{0.447631}
+   4  Q.BIRD+G4      1.6371  Q.BIRD+G4{0.846294}
+   5  Q.PLANT+G4     0.3559  Q.PLANT+G4{0.33423}
+   6  HIVB+F+G4      0.8364  HIVB+F+G4{0.393998}
+   7  JTT+G4         0.8069  JTT+G4{0.473578}
+   8  JTT+I          0.1411  JTT+I{0.741819}
+   9  JTT+F+I        0.2815  JTT+F+I{0.528627}
+  10  Q.MAMMAL+G4    0.8098  Q.MAMMAL+G4{0.941855}
+  11  VT+I+R2        3.9113  VT+I{0.145842}+R2{0.829088,0.603772,0.0250703,19.9208}
+  12  Q.PLANT+F+G4   2.1883  Q.PLANT+F+G4{2.75289}
+  13  JTT+F+G4       2.5550  JTT+F+G4{1.76102}
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -195621.1867 (s.e. 635.4720)
+Unconstrained log-likelihood (without tree): -188517.0369
+Number of free parameters (#branches + #model parameters): 129
+Akaike information criterion (AIC) score: 391500.3734
+Corrected Akaike information criterion (AICc) score: 391501.3128
+Bayesian information criterion (BIC) score: 392595.1480
+
+Marginal log-likelihood of the tree: -200567.6687
+Marginal Akaike information criterion (mAIC) score: 401393.3373
+
+Total tree length (sum of branch lengths): 1.0110
+Sum of internal branch lengths: 0.5237 (51.8012% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Ip' is drawn at root
+Numbers in parentheses are SH-aLRT support (%) / ultrafast bootstrap support (%)
+
+            +-----------Bg
++-----------| (100/100)
+|           +----------Ee
+|
+|                                                    +-----Bb
++----------------------------------------------------| (100/100)
+|                                                    +---Pk
+|
++-------------------------Ip
+
+Tree in newick format:
+
+((Bg:0.0985157687,Ee:0.0940687203)100/100:0.1021552777,(Bb:0.0509075694,Pk:0.0340231051)100/100:0.4215645846,Ip:0.2097839428);
+
+FOR PARTITION abrab.faa+asb10.faa+best2.faa+gdnfa.faa+ntn5.faa+prrg4.faa+sh2d5.faa:
+
+Log-likelihood of the tree: -21838.985811
+Unconstrained log-likelihood (without tree): -20381.085962
+Number of free parameters (#branches + #model parameters): 8
+Akaike information criterion (AIC) score: 43693.971622
+Corrected Akaike information criterion (AICc) score: 43694.012812
+Bayesian information criterion (BIC) score: 43743.267188
+
+Total tree length (sum of branch lengths): 1.139195
+Sum of internal branch lengths: 0.590117 (51.801191% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Ip' is drawn at root
+
+            +-----------Bg
++-----------| (100/100)
+|           +----------Ee
+|
+|                                                    +-----Bb
++----------------------------------------------------| (100/100)
+|                                                    +---Pk
+|
++-------------------------Ip
+
+Tree in newick format:
+
+((Bg:0.1110055401,Ee:0.1059946975)100/100:0.1151064639,(Bb:0.0573616012,Pk:0.0383365344)100/100:0.4750102955,Ip:0.2363802281);
+
+FOR PARTITION ache.faa+egr3.faa+foxd2.faa+kbtbd12.faa+mbnl3.faa+mybpc1.faa+myoz2b.faa+osbpl1a.faa+smyd1b.faa+tnnt2e.faa+trib3.faa:
+
+Log-likelihood of the tree: -32770.2975379
+Unconstrained log-likelihood (without tree): -32834.0995208
+Number of free parameters (#branches + #model parameters): 8
+Akaike information criterion (AIC) score: 65556.5950758
+Corrected Akaike information criterion (AICc) score: 65556.6173117
+Bayesian information criterion (BIC) score: 65610.8130526
+
+Total tree length (sum of branch lengths): 0.5353941
+Sum of internal branch lengths: 0.2773405 (51.8011905% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Ip' is drawn at root
+
+            +-----------Bg
++-----------| (100/100)
+|           +----------Ee
+|
+|                                                    +-----Bb
++----------------------------------------------------| (100/100)
+|                                                    +---Pk
+|
++-------------------------Ip
+
+Tree in newick format:
+
+((Bg:0.0521699038,Ee:0.0498149297)100/100:0.0540972383,(Bb:0.0269585573,Pk:0.0180172387)100/100:0.2232432850,Ip:0.1110929576);
+
+FOR PARTITION ankrd28b.faa+megf10.faa:
+
+Log-likelihood of the tree: -10600.9901298
+Unconstrained log-likelihood (without tree): -10240.2163928
+Number of free parameters (#branches + #model parameters): 27
+Akaike information criterion (AIC) score: 21255.9802597
+Corrected Akaike information criterion (AICc) score: 21256.6322648
+Bayesian information criterion (BIC) score: 21411.5243760
+
+Total tree length (sum of branch lengths): 0.3932166
+Sum of internal branch lengths: 0.2036909 (51.8011905% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Ip' is drawn at root
+
+            +-----------Bg
++-----------| (100/100)
+|           +----------Ee
+|
+|                                                    +-----Bb
++----------------------------------------------------| (100/100)
+|                                                    +---Pk
+|
++-------------------------Ip
+
+Tree in newick format:
+
+((Bg:0.0383158306,Ee:0.0365862358)100/100:0.0397313482,(Bb:0.0197995288,Pk:0.0132326383)100/100:0.1639595103,Ip:0.0815914662);
+
+FOR PARTITION arl13a.faa+gprc5c.faa:
+
+Log-likelihood of the tree: -6847.6975815
+Unconstrained log-likelihood (without tree): -5908.1012859
+Number of free parameters (#branches + #model parameters): 8
+Akaike information criterion (AIC) score: 13711.3951631
+Corrected Akaike information criterion (AICc) score: 13711.5344280
+Bayesian information criterion (BIC) score: 13750.9940147
+
+Total tree length (sum of branch lengths): 1.6550993
+Sum of internal branch lengths: 0.8573611 (51.8011905% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Ip' is drawn at root
+
+            +-----------Bg
++-----------| (100/100)
+|           +----------Ee
+|
+|                                                    +-----Bb
++----------------------------------------------------| (100/100)
+|                                                    +---Pk
+|
++-------------------------Ip
+
+Tree in newick format:
+
+((Bg:0.1612762778,Ee:0.1539961903)100/100:0.1672343744,(Bb:0.0833387732,Pk:0.0556978829)100/100:0.6901267478,Ip:0.3434290153);
+
+FOR PARTITION atp1a2a.faa+dnajb5.faa+hspb7.faa+ndrg1a.faa+rnf207b.faa+slc8a3.faa+smpx.faa+tnnt1.faa+tpm3.faa:
+
+Log-likelihood of the tree: -19526.7111085
+Unconstrained log-likelihood (without tree): -20693.0473606
+Number of free parameters (#branches + #model parameters): 8
+Akaike information criterion (AIC) score: 39069.4222169
+Corrected Akaike information criterion (AICc) score: 39069.4549070
+Bayesian information criterion (BIC) score: 39120.5625096
+
+Total tree length (sum of branch lengths): 0.3597787
+Sum of internal branch lengths: 0.1863696 (51.8011905% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Ip' is drawn at root
+
+            +-----------Bg
++-----------| (100/100)
+|           +----------Ee
+|
+|                                                    +-----Bb
++----------------------------------------------------| (100/100)
+|                                                    +---Pk
+|
++-------------------------Ip
+
+Tree in newick format:
+
+((Bg:0.0350575762,Ee:0.0334750607)100/100:0.0363527228,(Bb:0.0181158409,Pk:0.0121073775)100/100:0.1500169237,Ip:0.0746531917);
+
+FOR PARTITION casq1b.faa:
+
+Log-likelihood of the tree: -2473.0039450
+Unconstrained log-likelihood (without tree): -2141.4168469
+Number of free parameters (#branches + #model parameters): 27
+Akaike information criterion (AIC) score: 5000.0078899
+Corrected Akaike information criterion (AICc) score: 5003.2180810
+Bayesian information criterion (BIC) score: 5113.7482545
+
+Total tree length (sum of branch lengths): 0.8456579
+Sum of internal branch lengths: 0.4380608 (51.8011905% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Ip' is drawn at root
+
+            +-----------Bg
++-----------| (100/100)
+|           +----------Ee
+|
+|                                                    +-----Bb
++----------------------------------------------------| (100/100)
+|                                                    +---Pk
+|
++-------------------------Ip
+
+Tree in newick format:
+
+((Bg:0.0824026415,Ee:0.0786829473)100/100:0.0854468766,(Bb:0.0425811852,Pk:0.0284583247)100/100:0.3526139602,Ip:0.1754719195);
+
+FOR PARTITION cpm.faa+dusp2.faa+klc3.faa+scn4ab.faa:
+
+Log-likelihood of the tree: -19102.9163456
+Unconstrained log-likelihood (without tree): -17459.0875958
+Number of free parameters (#branches + #model parameters): 8
+Akaike information criterion (AIC) score: 38221.8326912
+Corrected Akaike information criterion (AICc) score: 38221.8760778
+Bayesian information criterion (BIC) score: 38270.7137056
+
+Total tree length (sum of branch lengths): 0.8157638
+Sum of internal branch lengths: 0.4225754 (51.8011905% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Ip' is drawn at root
+
+            +-----------Bg
++-----------| (100/100)
+|           +----------Ee
+|
+|                                                    +-----Bb
++----------------------------------------------------| (100/100)
+|                                                    +---Pk
+|
++-------------------------Ip
+
+Tree in newick format:
+
+((Bg:0.0794897075,Ee:0.0759015045)100/100:0.0824263288,(Bb:0.0410759400,Pk:0.0274523227)100/100:0.3401490539,Ip:0.1692689857);
+
+FOR PARTITION epha7.faa+myl10.faa+rpl3.faa+six2a.faa+tnnc1b.faa:
+
+Log-likelihood of the tree: -7858.3032640
+Unconstrained log-likelihood (without tree): -7954.9209086
+Number of free parameters (#branches + #model parameters): 8
+Akaike information criterion (AIC) score: 15732.6065279
+Corrected Akaike information criterion (AICc) score: 15732.6742608
+Bayesian information criterion (BIC) score: 15777.9363033
+
+Total tree length (sum of branch lengths): 0.1426147
+Sum of internal branch lengths: 0.0738761 (51.8011905% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Ip' is drawn at root
+
+            +-----------Bg
++-----------| (100/100)
+|           +----------Ee
+|
+|                                                    +-----Bb
++----------------------------------------------------| (100/100)
+|                                                    +---Pk
+|
++-------------------------Ip
+
+Tree in newick format:
+
+((Bg:0.0138966680,Ee:0.0132693658)100/100:0.0144100584,(Bb:0.0071810391,Pk:0.0047993108)100/100:0.0594660443,Ip:0.0295921946);
+
+FOR PARTITION foxj3.faa:
+
+Log-likelihood of the tree: -2869.4607713
+Unconstrained log-likelihood (without tree): -3016.3883437
+Number of free parameters (#branches + #model parameters): 27
+Akaike information criterion (AIC) score: 5792.9215425
+Corrected Akaike information criterion (AICc) score: 5795.0784612
+Bayesian information criterion (BIC) score: 5916.8967333
+
+Total tree length (sum of branch lengths): 0.2846355
+Sum of internal branch lengths: 0.1474446 (51.8011905% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Ip' is drawn at root
+
+            +-----------Bg
++-----------| (100/100)
+|           +----------Ee
+|
+|                                                    +-----Bb
++----------------------------------------------------| (100/100)
+|                                                    +---Pk
+|
++-------------------------Ip
+
+Tree in newick format:
+
+((Bg:0.0277354647,Ee:0.0264834727)100/100:0.0287601076,(Bb:0.0143321736,Pk:0.0095786354)100/100:0.1186844485,Ip:0.0590611557);
+
+FOR PARTITION hspb1.faa+lrrc14b.faa+mcf2a.faa+myom3.faa+specc1.faa:
+
+Log-likelihood of the tree: -26116.1935800
+Unconstrained log-likelihood (without tree): -24119.8614580
+Number of free parameters (#branches + #model parameters): 8
+Akaike information criterion (AIC) score: 52248.3871600
+Corrected Akaike information criterion (AICc) score: 52248.4193029
+Bayesian information criterion (BIC) score: 52299.6622419
+
+Total tree length (sum of branch lengths): 0.8187013
+Sum of internal branch lengths: 0.4240970 (51.8011905% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Ip' is drawn at root
+
+            +-----------Bg
++-----------| (100/100)
+|           +----------Ee
+|
+|                                                    +-----Bb
++----------------------------------------------------| (100/100)
+|                                                    +---Pk
+|
++-------------------------Ip
+
+Tree in newick format:
+
+((Bg:0.0797759384,Ee:0.0761748148)100/100:0.0827231341,(Bb:0.0412238485,Pk:0.0275511745)100/100:0.3413738814,Ip:0.1698784989);
+
+FOR PARTITION pcdh20.faa:
+
+Log-likelihood of the tree: -8901.3706111
+Unconstrained log-likelihood (without tree): -5566.7078167
+Number of free parameters (#branches + #model parameters): 10
+Akaike information criterion (AIC) score: 17822.7412223
+Corrected Akaike information criterion (AICc) score: 17822.9848546
+Bayesian information criterion (BIC) score: 17870.9195280
+
+Total tree length (sum of branch lengths): 3.9544310
+Sum of internal branch lengths: 2.0484424 (51.8011905% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Ip' is drawn at root
+
+            +-----------Bg
++-----------| (100/100)
+|           +----------Ee
+|
+|                                                    +-----Bb
++----------------------------------------------------| (100/100)
+|                                                    +---Pk
+|
++-------------------------Ip
+
+Tree in newick format:
+
+((Bg:0.3853278966,Ee:0.3679340130)100/100:0.3995632253,(Bb:0.1991164145,Pk:0.1330756659)100/100:1.6488791266,Ip:0.8205346868);
+
+FOR PARTITION prx.faa:
+
+Log-likelihood of the tree: -28567.3342991
+Unconstrained log-likelihood (without tree): -30877.7522940
+Number of free parameters (#branches + #model parameters): 27
+Akaike information criterion (AIC) score: 57188.6685981
+Corrected Akaike information criterion (AICc) score: 57188.9872493
+Bayesian information criterion (BIC) score: 57363.3783167
+
+Total tree length (sum of branch lengths): 2.2124417
+Sum of internal branch lengths: 1.1460712 (51.8011905% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Ip' is drawn at root
+
+            +-----------Bg
++-----------| (100/100)
+|           +----------Ee
+|
+|                                                    +-----Bb
++----------------------------------------------------| (100/100)
+|                                                    +---Pk
+|
++-------------------------Ip
+
+Tree in newick format:
+
+((Bg:0.2155848766,Ee:0.2058532733)100/100:0.2235493184,(Bb:0.1114024913,Pk:0.0744537348)100/100:0.9225218476,Ip:0.4590762070);
+
+FOR PARTITION trdn.faa:
+
+Log-likelihood of the tree: -8147.9217773
+Unconstrained log-likelihood (without tree): -7324.3511008
+Number of free parameters (#branches + #model parameters): 27
+Akaike information criterion (AIC) score: 16349.8435547
+Corrected Akaike information criterion (AICc) score: 16351.1652330
+Bayesian information criterion (BIC) score: 16486.6381629
+
+Total tree length (sum of branch lengths): 2.5831141
+Sum of internal branch lengths: 1.3380839 (51.8011905% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Ip' is drawn at root
+
+            +-----------Bg
++-----------| (100/100)
+|           +----------Ee
+|
+|                                                    +-----Bb
++----------------------------------------------------| (100/100)
+|                                                    +---Pk
+|
++-------------------------Ip
+
+Tree in newick format:
+
+((Bg:0.2517039558,Ee:0.2403419202)100/100:0.2610027597,(Bb:0.1300668590,Pk:0.0869277097)100/100:1.0770811107,Ip:0.5359898112);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -195621.1867619
+Robinson-Foulds distance between ML tree and consensus tree: 0
+
+Branches with support >0.0000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
+            +-----------Bg
++-----------| (100)
+|           +----------Ee
+|
+|                                                    +-----Bb
++----------------------------------------------------| (100)
+|                                                    +---Pk
+|
++-------------------------Ip
+
+
+Consensus tree in newick format: 
+
+((Bg:0.0985160094,Ee:0.0940645376)100:0.1021807148,(Bb:0.0508924583,Pk:0.0340295730)100:0.4215533815,Ip:0.2097626488);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t ../../results/ml_iqtree/aa_partitioned//aa_partitioned.treefile -p ../../results/ml_iqtree/aa_partitioned//aa_partitioned.best_model.nex
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s <alignment.phy> --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s <alignment.phy> --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Sat Apr 25 16:24:33 2026
+Total CPU time used: 264.30439 seconds (0h:4m:24s)
+Total wall-clock time used: 136.5334668 seconds (0h:2m:16s)
+

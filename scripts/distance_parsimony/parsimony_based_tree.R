@@ -2,13 +2,11 @@ library(ape)
 library(adegenet)
 library(phangorn)
 
-indir <- "../../results/msa_macse/cleaned_nt"
-files <- list.files(indir, pattern = "\\.macse\\.cleaned\\.fna$", full.names = TRUE)
+indir <- "../../results/msa_macse/reordered_cleaned_nt"
+files <- list.files(indir, pattern = "\\.fna$", full.names = TRUE)
 
 outdir <- "../../results/distance_parsimony/parsimony"
 dir.create(outdir, recursive = TRUE, showWarnings = FALSE)
-
-species <- c("Bg", "Bb", "Pk", "Ip", "Ee")
 
 cat("Calculating per-gene maximum parsimony trees\n")
 gene_trees <- list()
@@ -20,16 +18,9 @@ for (f in files) {
 	cat("Processing file:", basename(f), "\n")
 
 	x <- read.dna(f, format = "fasta")
-	rownames(x) <- sapply(strsplit(rownames(x), "\\|"), function(z) z[1])
-
-	if (!all(species %in% rownames(x))) {
-	stop("Missing species in file: ", basename(f))
-	}
-	x <- x[species, ]
 
 	# convert the DNA alignment to a phangorn phyDat object for parsimony analysis
 	x_phy <- as.phyDat(x)
-
 	# calculate a raw-distance NJ tree as the starting tree for maximum parsimony search
 	tre_ini <- nj(dist.dna(x, model = "raw", pairwise.deletion = TRUE))
 

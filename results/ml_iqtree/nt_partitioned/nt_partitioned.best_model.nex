@@ -1,0 +1,38 @@
+#nexus
+begin sets;
+  charset abrab.fna_best2.fna_cpm.fna_dusp2.fna_gdnfa.fna_klc3.fna_lrrc14b.fna_ntn5.fna_prrg4.fna_sh2d5.fna = ../../results/msa_macse/reordered_cleaned_macse_nt/abrab.fna,../../results/msa_macse/reordered_cleaned_macse_nt/best2.fna,../../results/msa_macse/reordered_cleaned_macse_nt/cpm.fna,../../results/msa_macse/reordered_cleaned_macse_nt/dusp2.fna,../../results/msa_macse/reordered_cleaned_macse_nt/gdnfa.fna,../../results/msa_macse/reordered_cleaned_macse_nt/klc3.fna,../../results/msa_macse/reordered_cleaned_macse_nt/lrrc14b.fna,../../results/msa_macse/reordered_cleaned_macse_nt/ntn5.fna,../../results/msa_macse/reordered_cleaned_macse_nt/prrg4.fna,../../results/msa_macse/reordered_cleaned_macse_nt/sh2d5.fna: DNA;
+  charset ache.fna_dnajb5.fna_hspb7.fna_smpx.fna_tnnc1b.fna_tnnt1.fna_tnnt2e.fna = ../../results/msa_macse/reordered_cleaned_macse_nt/ache.fna,../../results/msa_macse/reordered_cleaned_macse_nt/dnajb5.fna,../../results/msa_macse/reordered_cleaned_macse_nt/hspb7.fna,../../results/msa_macse/reordered_cleaned_macse_nt/smpx.fna,../../results/msa_macse/reordered_cleaned_macse_nt/tnnc1b.fna,../../results/msa_macse/reordered_cleaned_macse_nt/tnnt1.fna,../../results/msa_macse/reordered_cleaned_macse_nt/tnnt2e.fna: DNA;
+  charset ankrd28b.fna_myoz2b.fna_slc8a3.fna_trib3.fna = ../../results/msa_macse/reordered_cleaned_macse_nt/ankrd28b.fna,../../results/msa_macse/reordered_cleaned_macse_nt/myoz2b.fna,../../results/msa_macse/reordered_cleaned_macse_nt/slc8a3.fna,../../results/msa_macse/reordered_cleaned_macse_nt/trib3.fna: DNA;
+  charset arl13a.fna = ../../results/msa_macse/reordered_cleaned_macse_nt/arl13a.fna: DNA;
+  charset asb10.fna = ../../results/msa_macse/reordered_cleaned_macse_nt/asb10.fna: DNA;
+  charset atp1a2a.fna_scn4ab.fna = ../../results/msa_macse/reordered_cleaned_macse_nt/atp1a2a.fna,../../results/msa_macse/reordered_cleaned_macse_nt/scn4ab.fna: DNA;
+  charset casq1b.fna_tpm3.fna = ../../results/msa_macse/reordered_cleaned_macse_nt/casq1b.fna,../../results/msa_macse/reordered_cleaned_macse_nt/tpm3.fna: DNA;
+  charset egr3.fna_foxd2.fna_kbtbd12.fna_mybpc1.fna_osbpl1a.fna = ../../results/msa_macse/reordered_cleaned_macse_nt/egr3.fna,../../results/msa_macse/reordered_cleaned_macse_nt/foxd2.fna,../../results/msa_macse/reordered_cleaned_macse_nt/kbtbd12.fna,../../results/msa_macse/reordered_cleaned_macse_nt/mybpc1.fna,../../results/msa_macse/reordered_cleaned_macse_nt/osbpl1a.fna: DNA;
+  charset epha7.fna_megf10.fna_ndrg1a.fna_rnf207b.fna_rpl3.fna_six2a.fna_smyd1b.fna = ../../results/msa_macse/reordered_cleaned_macse_nt/epha7.fna,../../results/msa_macse/reordered_cleaned_macse_nt/megf10.fna,../../results/msa_macse/reordered_cleaned_macse_nt/ndrg1a.fna,../../results/msa_macse/reordered_cleaned_macse_nt/rnf207b.fna,../../results/msa_macse/reordered_cleaned_macse_nt/rpl3.fna,../../results/msa_macse/reordered_cleaned_macse_nt/six2a.fna,../../results/msa_macse/reordered_cleaned_macse_nt/smyd1b.fna: DNA;
+  charset foxj3.fna = ../../results/msa_macse/reordered_cleaned_macse_nt/foxj3.fna: DNA;
+  charset gprc5c.fna = ../../results/msa_macse/reordered_cleaned_macse_nt/gprc5c.fna: DNA;
+  charset hspb1.fna_mbnl3.fna_specc1.fna = ../../results/msa_macse/reordered_cleaned_macse_nt/hspb1.fna,../../results/msa_macse/reordered_cleaned_macse_nt/mbnl3.fna,../../results/msa_macse/reordered_cleaned_macse_nt/specc1.fna: DNA;
+  charset mcf2a.fna_myom3.fna = ../../results/msa_macse/reordered_cleaned_macse_nt/mcf2a.fna,../../results/msa_macse/reordered_cleaned_macse_nt/myom3.fna: DNA;
+  charset myl10.fna = ../../results/msa_macse/reordered_cleaned_macse_nt/myl10.fna: DNA;
+  charset pcdh20.fna = ../../results/msa_macse/reordered_cleaned_macse_nt/pcdh20.fna: DNA;
+  charset prx.fna = ../../results/msa_macse/reordered_cleaned_macse_nt/prx.fna: DNA;
+  charset trdn.fna = ../../results/msa_macse/reordered_cleaned_macse_nt/trdn.fna: DNA;
+  charpartition mymodels =
+    TIM2{1.22503,3.32079,4.06239}+F{0.238882,0.279619,0.27943,0.20207}+I{0.376408}: abrab.fna_best2.fna_cpm.fna_dusp2.fna_gdnfa.fna_klc3.fna_lrrc14b.fna_ntn5.fna_prrg4.fna_sh2d5.fna{1.01253},
+    TIM2{1.71735,3.52457,7.29806}+F{0.286686,0.225661,0.282322,0.205331}+G4{0.554736}: ache.fna_dnajb5.fna_hspb7.fna_smpx.fna_tnnc1b.fna_tnnt1.fna_tnnt2e.fna{0.592274},
+    TIM3{1.47318,4.22026,7.81781}+F{0.229742,0.281105,0.28323,0.205923}+G4{0.386725}: ankrd28b.fna_myoz2b.fna_slc8a3.fna_trib3.fna{0.846359},
+    TPM3u{1.56762,4.20406}+F{0.314085,0.205927,0.295295,0.184693}+G4{0.934545}: arl13a.fna{1.28822},
+    HKY{3.97931}+F{0.198642,0.315507,0.312394,0.173458}+G4{0.482362}: asb10.fna{1.27423},
+    GTR{2.25188,4.86314,1.75488,2.18348,6.93409}+F{0.254559,0.242127,0.252797,0.250517}+G4{0.458843}: atp1a2a.fna_scn4ab.fna{0.851025},
+    TIM3{2.19371,3.91057,14.1778}+F{0.299168,0.193028,0.294311,0.213493}+I{0.436639}+R2{0.518242,0.787954,0.0451187,13.1132}: casq1b.fna_tpm3.fna{1.27},
+    TN{2.64687,4.24239}+F{0.255295,0.267575,0.277727,0.199403}+I{0.446896}: egr3.fna_foxd2.fna_kbtbd12.fna_mybpc1.fna_osbpl1a.fna{0.694535},
+    TIM3{1.37402,3.98487,7.65261}+F{0.241379,0.277115,0.283596,0.197909}+G4{0.309703}: epha7.fna_megf10.fna_ndrg1a.fna_rnf207b.fna_rpl3.fna_six2a.fna_smyd1b.fna{0.642723},
+    TN{3.57506,6.00759}+F{0.25249,0.357031,0.232253,0.158226}+G4{0.243359}: foxj3.fna{0.553796},
+    TPM3u{1.62157,3.6255}+F{0.171564,0.312259,0.293856,0.222321}+I{0.397135}: gprc5c.fna{1.47273},
+    TN{3.18929,4.80272}+F{0.237281,0.299075,0.303108,0.160536}+I{0.451834}: hspb1.fna_mbnl3.fna_specc1.fna{0.888242},
+    TIM3{1.34542,3.29248,4.61474}+F{0.24187,0.265547,0.295267,0.197316}+I{0.38947}: mcf2a.fna_myom3.fna{0.801212},
+    TN{2.68376,9.18248}+F{0.308543,0.232265,0.259725,0.199466}+I{0.606972}: myl10.fna{0.404444},
+    TPM3u{2.31772,7.86784}+F{0.274054,0.236581,0.244951,0.244414}+R2{0.554388,0.00926313,0.445612,2.23258}: pcdh20.fna{76.8956},
+    TPM3u{1.22151,2.4368}+F{0.361221,0.172585,0.230206,0.235989}+I{0.173604}: prx.fna{1.29413},
+    TIM2{1.29919,2.20524,4.07872}+F{0.372344,0.208271,0.280821,0.138563}+I{0.135269}: trdn.fna{1.48285};
+end;

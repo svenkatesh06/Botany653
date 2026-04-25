@@ -2,29 +2,22 @@ library(ape)
 library(adegenet)
 library(phangorn)
 
-indir <- "../../results/msa_macse/cleaned_nt"
-files <- list.files(indir, pattern = "\\.macse\\.cleaned\\.fna$", full.names = TRUE)
+indir <- "../../results/msa_macse/reordered_cleaned_nt"
+files <- list.files(indir, pattern = "\\.fna$", full.names = TRUE)
 
 outdir <- file.path("../../results/distance_parsimony/BioNJ")
 dir.create(outdir, recursive = TRUE, showWarnings = FALSE)
 
-species <- c("Bg", "Bb", "Pk", "Ip", "Ee")
 
 for (model in c("F84", "TN93")) {
 	cat("Calculating per-gene distance matrices and BioNJ trees for model:", model, "\n")
 	gene_trees <- list()
 
-	## estimate one BioNJ tree per gene, ensuring that the order of species is consistent across all files
+	## estimate one BioNJ tree per gene
 	for (f in files) {
 
 		cat("Processing file:", basename(f), "\n")
 		x <- read.dna(f, format = "fasta")
-		rownames(x) <- sapply(strsplit(rownames(x), "\\|"), function(z) z[1])
-
-		if (!all(species %in% rownames(x))) {
-			stop("Missing species in file: ", basename(f))
-		}
-		x <- x[species, ]
 
 		# calculate the distance matrix for this gene
 		d <- dist.dna(x, model = model, pairwise.deletion = TRUE)

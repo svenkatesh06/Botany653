@@ -31,6 +31,12 @@ In `dist.dna()`, I used `pairwise.deletion = TRUE`. Although the input is a mult
 BioNJ estimates unrooted trees from the distance matrices. I first inferred the per-gene BioNJ trees as unrooted trees, then created a majority-rule consensus tree from them. To make the final consensus tree biologically interpretable, I rooted the consensus tree using *Ictalurus punctatus* as the outgroup because it is the non-electric fish in this dataset. Rooting with the outgroup places the root on the branch separating *I. punctatus* from the electric fish taxa and provides directionality for interpreting relationships among the electric lineages. After rooting, I ladderized the consensus tree to make the plotted topology easier to read. Ladderizing only changes the visual ordering of branches; it does not change the inferred relationships or branch lengths.
 
 ```bash
+## pwd = scripts/gene_seq_alignment
+Rscript reorder_cleaned_macse.R
+```
+I reordered the MACSE alignments to ensure that the order of species was consistent across all files. This is important for all the downstream analyses, including all the tree inference methods.
+
+```bash
 ## pwd = scripts/distance_parsimony
 mkdir -p ../../results/distance_parsimony/BioNJ
 Rscript distance_based_tree.R 2>&1 | tee ../../results/distance_parsimony/BioNJ/_BioNJ_run.log

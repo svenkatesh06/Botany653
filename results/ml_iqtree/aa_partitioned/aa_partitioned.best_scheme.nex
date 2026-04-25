@@ -1,0 +1,30 @@
+#nexus
+begin sets;
+  charset abrab.faa_asb10.faa_best2.faa_gdnfa.faa_ntn5.faa_prrg4.faa_sh2d5.faa = ../../results/msa_macse/reordered_cleaned_macse_aa/abrab.faa,../../results/msa_macse/reordered_cleaned_macse_aa/asb10.faa,../../results/msa_macse/reordered_cleaned_macse_aa/best2.faa,../../results/msa_macse/reordered_cleaned_macse_aa/gdnfa.faa,../../results/msa_macse/reordered_cleaned_macse_aa/ntn5.faa,../../results/msa_macse/reordered_cleaned_macse_aa/prrg4.faa,../../results/msa_macse/reordered_cleaned_macse_aa/sh2d5.faa: ;
+  charset ache.faa_egr3.faa_foxd2.faa_kbtbd12.faa_mbnl3.faa_mybpc1.faa_myoz2b.faa_osbpl1a.faa_smyd1b.faa_tnnt2e.faa_trib3.faa = ../../results/msa_macse/reordered_cleaned_macse_aa/ache.faa,../../results/msa_macse/reordered_cleaned_macse_aa/egr3.faa,../../results/msa_macse/reordered_cleaned_macse_aa/foxd2.faa,../../results/msa_macse/reordered_cleaned_macse_aa/kbtbd12.faa,../../results/msa_macse/reordered_cleaned_macse_aa/mbnl3.faa,../../results/msa_macse/reordered_cleaned_macse_aa/mybpc1.faa,../../results/msa_macse/reordered_cleaned_macse_aa/myoz2b.faa,../../results/msa_macse/reordered_cleaned_macse_aa/osbpl1a.faa,../../results/msa_macse/reordered_cleaned_macse_aa/smyd1b.faa,../../results/msa_macse/reordered_cleaned_macse_aa/tnnt2e.faa,../../results/msa_macse/reordered_cleaned_macse_aa/trib3.faa: ;
+  charset ankrd28b.faa_megf10.faa = ../../results/msa_macse/reordered_cleaned_macse_aa/ankrd28b.faa,../../results/msa_macse/reordered_cleaned_macse_aa/megf10.faa: ;
+  charset arl13a.faa_gprc5c.faa = ../../results/msa_macse/reordered_cleaned_macse_aa/arl13a.faa,../../results/msa_macse/reordered_cleaned_macse_aa/gprc5c.faa: ;
+  charset atp1a2a.faa_dnajb5.faa_hspb7.faa_ndrg1a.faa_rnf207b.faa_slc8a3.faa_smpx.faa_tnnt1.faa_tpm3.faa = ../../results/msa_macse/reordered_cleaned_macse_aa/atp1a2a.faa,../../results/msa_macse/reordered_cleaned_macse_aa/dnajb5.faa,../../results/msa_macse/reordered_cleaned_macse_aa/hspb7.faa,../../results/msa_macse/reordered_cleaned_macse_aa/ndrg1a.faa,../../results/msa_macse/reordered_cleaned_macse_aa/rnf207b.faa,../../results/msa_macse/reordered_cleaned_macse_aa/slc8a3.faa,../../results/msa_macse/reordered_cleaned_macse_aa/smpx.faa,../../results/msa_macse/reordered_cleaned_macse_aa/tnnt1.faa,../../results/msa_macse/reordered_cleaned_macse_aa/tpm3.faa: ;
+  charset casq1b.faa = ../../results/msa_macse/reordered_cleaned_macse_aa/casq1b.faa: ;
+  charset cpm.faa_dusp2.faa_klc3.faa_scn4ab.faa = ../../results/msa_macse/reordered_cleaned_macse_aa/cpm.faa,../../results/msa_macse/reordered_cleaned_macse_aa/dusp2.faa,../../results/msa_macse/reordered_cleaned_macse_aa/klc3.faa,../../results/msa_macse/reordered_cleaned_macse_aa/scn4ab.faa: ;
+  charset epha7.faa_myl10.faa_rpl3.faa_six2a.faa_tnnc1b.faa = ../../results/msa_macse/reordered_cleaned_macse_aa/epha7.faa,../../results/msa_macse/reordered_cleaned_macse_aa/myl10.faa,../../results/msa_macse/reordered_cleaned_macse_aa/rpl3.faa,../../results/msa_macse/reordered_cleaned_macse_aa/six2a.faa,../../results/msa_macse/reordered_cleaned_macse_aa/tnnc1b.faa: ;
+  charset foxj3.faa = ../../results/msa_macse/reordered_cleaned_macse_aa/foxj3.faa: ;
+  charset hspb1.faa_lrrc14b.faa_mcf2a.faa_myom3.faa_specc1.faa = ../../results/msa_macse/reordered_cleaned_macse_aa/hspb1.faa,../../results/msa_macse/reordered_cleaned_macse_aa/lrrc14b.faa,../../results/msa_macse/reordered_cleaned_macse_aa/mcf2a.faa,../../results/msa_macse/reordered_cleaned_macse_aa/myom3.faa,../../results/msa_macse/reordered_cleaned_macse_aa/specc1.faa: ;
+  charset pcdh20.faa = ../../results/msa_macse/reordered_cleaned_macse_aa/pcdh20.faa: ;
+  charset prx.faa = ../../results/msa_macse/reordered_cleaned_macse_aa/prx.faa: ;
+  charset trdn.faa = ../../results/msa_macse/reordered_cleaned_macse_aa/trdn.faa: ;
+  charpartition mymodels =
+    Q.MAMMAL+G4: abrab.faa_asb10.faa_best2.faa_gdnfa.faa_ntn5.faa_prrg4.faa_sh2d5.faa,
+    Q.MAMMAL+G4: ache.faa_egr3.faa_foxd2.faa_kbtbd12.faa_mbnl3.faa_mybpc1.faa_myoz2b.faa_osbpl1a.faa_smyd1b.faa_tnnt2e.faa_trib3.faa,
+    FLU+F+G4: ankrd28b.faa_megf10.faa,
+    Q.BIRD+G4: arl13a.faa_gprc5c.faa,
+    Q.PLANT+G4: atp1a2a.faa_dnajb5.faa_hspb7.faa_ndrg1a.faa_rnf207b.faa_slc8a3.faa_smpx.faa_tnnt1.faa_tpm3.faa,
+    HIVB+F+G4: casq1b.faa,
+    JTT+G4: cpm.faa_dusp2.faa_klc3.faa_scn4ab.faa,
+    JTT+I: epha7.faa_myl10.faa_rpl3.faa_six2a.faa_tnnc1b.faa,
+    JTT+F+I: foxj3.faa,
+    Q.MAMMAL+G4: hspb1.faa_lrrc14b.faa_mcf2a.faa_myom3.faa_specc1.faa,
+    VT+I+R2: pcdh20.faa,
+    Q.PLANT+F+G4: prx.faa,
+    JTT+F+G4: trdn.faa;
+end;

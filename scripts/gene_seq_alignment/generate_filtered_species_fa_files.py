@@ -1,6 +1,8 @@
 import pandas as pd
 import os
 import re
+from Bio import SeqIO
+from Bio.SeqRecord import SeqRecord
 #----------------------------------------
 # define functions
 #----------------------------------------
@@ -9,7 +11,7 @@ def get_genes_in_fasta(fasta_file, allowed_genes=None):
 
 	found = set()
 	for rec in SeqIO.parse(fasta_file, "fasta"):
-		 m = gene_pattern.search(rec.description)
+		m = gene_pattern.search(rec.description)
 		if m:
 			gene = m.group(1).strip()
 			gene_cmp = gene.lower()
