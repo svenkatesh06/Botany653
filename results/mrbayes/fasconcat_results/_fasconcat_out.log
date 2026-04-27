@@ -1,0 +1,444 @@
+
+        ------------------------------------------------------------
+                        Welcome to FASconCAT-G v1.0 !
+                   A perlscript for sequence concatenation
+              written by Patrick Kueck (ZFMK Bonn, 2010/14)
+        ------------------------------------------------------------
+
+
+
+	#### FASconCAT-G: START ! ####
+	------------------------------------------------------------
+
+
+	Sampling taxon names of abrab.fas
+	Sampling taxon names of ache.fas
+	Sampling taxon names of ankrd28b.fas
+	Sampling taxon names of arl13a.fas
+	Sampling taxon names of asb10.fas
+	Sampling taxon names of atp1a2a.fas
+	Sampling taxon names of best2.fas
+	Sampling taxon names of casq1b.fas
+	Sampling taxon names of cpm.fas
+	Sampling taxon names of dnajb5.fas
+	Sampling taxon names of dusp2.fas
+	Sampling taxon names of egr3.fas
+	Sampling taxon names of epha7.fas
+	Sampling taxon names of foxd2.fas
+	Sampling taxon names of foxj3.fas
+	Sampling taxon names of gdnfa.fas
+	Sampling taxon names of gprc5c.fas
+	Sampling taxon names of hspb1.fas
+	Sampling taxon names of hspb7.fas
+	Sampling taxon names of kbtbd12.fas
+	Sampling taxon names of klc3.fas
+	Sampling taxon names of lrrc14b.fas
+	Sampling taxon names of mbnl3.fas
+	Sampling taxon names of mcf2a.fas
+	Sampling taxon names of megf10.fas
+	Sampling taxon names of mybpc1.fas
+	Sampling taxon names of myl10.fas
+	Sampling taxon names of myom3.fas
+	Sampling taxon names of myoz2b.fas
+	Sampling taxon names of ndrg1a.fas
+	Sampling taxon names of ntn5.fas
+	Sampling taxon names of osbpl1a.fas
+	Sampling taxon names of pcdh20.fas
+	Sampling taxon names of prrg4.fas
+	Sampling taxon names of prx.fas
+	Sampling taxon names of rnf207b.fas
+	Sampling taxon names of rpl3.fas
+	Sampling taxon names of scn4ab.fas
+	Sampling taxon names of sh2d5.fas
+	Sampling taxon names of six2a.fas
+	Sampling taxon names of slc8a3.fas
+	Sampling taxon names of smpx.fas
+	Sampling taxon names of smyd1b.fas
+	Sampling taxon names of specc1.fas
+	Sampling taxon names of tnnc1b.fas
+	Sampling taxon names of tnnt1.fas
+	Sampling taxon names of tnnt2e.fas
+	Sampling taxon names of tpm3.fas
+	Sampling taxon names of trdn.fas
+	Sampling taxon names of trib3.fas
+
+	Sampled taxon names:
+	Bb	50 file(s)
+	Bg	50 file(s)
+	Ee	50 file(s)
+	Ip	50 file(s)
+	Pk	50 file(s)
+
+	READ IN abrab.fas
+	!FILE-INFO!: Infile abrab.fas identified as NUC data set !
+
+	Concatenate abrab.fas...
+
+	READ IN ache.fas
+	!FILE-INFO!: Infile ache.fas identified as NUC data set !
+
+	Concatenate ache.fas...
+
+	READ IN ankrd28b.fas
+	!FILE-INFO!: Infile ankrd28b.fas identified as NUC data set !
+
+	Concatenate ankrd28b.fas...
+
+	READ IN arl13a.fas
+	!FILE-INFO!: Infile arl13a.fas identified as NUC data set !
+
+	Concatenate arl13a.fas...
+
+	READ IN asb10.fas
+	!FILE-INFO!: Infile asb10.fas identified as NUC data set !
+
+	Concatenate asb10.fas...
+
+	READ IN atp1a2a.fas
+	!FILE-INFO!: Infile atp1a2a.fas identified as NUC data set !
+
+	Concatenate atp1a2a.fas...
+
+	READ IN best2.fas
+	!FILE-INFO!: Infile best2.fas identified as NUC data set !
+
+	Concatenate best2.fas...
+
+	READ IN casq1b.fas
+	!FILE-INFO!: Infile casq1b.fas identified as NUC data set !
+
+	Concatenate casq1b.fas...
+
+	READ IN cpm.fas
+	!FILE-INFO!: Infile cpm.fas identified as NUC data set !
+
+	Concatenate cpm.fas...
+
+	READ IN dnajb5.fas
+	!FILE-INFO!: Infile dnajb5.fas identified as NUC data set !
+
+	Concatenate dnajb5.fas...
+
+	READ IN dusp2.fas
+	!FILE-INFO!: Infile dusp2.fas identified as NUC data set !
+
+	Concatenate dusp2.fas...
+
+	READ IN egr3.fas
+	!FILE-INFO!: Infile egr3.fas identified as NUC data set !
+
+	Concatenate egr3.fas...
+
+	READ IN epha7.fas
+	!FILE-INFO!: Infile epha7.fas identified as NUC data set !
+
+	Concatenate epha7.fas...
+
+	READ IN foxd2.fas
+	!FILE-INFO!: Infile foxd2.fas identified as NUC data set !
+
+	Concatenate foxd2.fas...
+
+	READ IN foxj3.fas
+	!FILE-INFO!: Infile foxj3.fas identified as NUC data set !
+
+	Concatenate foxj3.fas...
+
+	READ IN gdnfa.fas
+	!FILE-INFO!: Infile gdnfa.fas identified as NUC data set !
+
+	Concatenate gdnfa.fas...
+
+	READ IN gprc5c.fas
+	!FILE-INFO!: Infile gprc5c.fas identified as NUC data set !
+
+	Concatenate gprc5c.fas...
+
+	READ IN hspb1.fas
+	!FILE-INFO!: Infile hspb1.fas identified as NUC data set !
+
+	Concatenate hspb1.fas...
+
+	READ IN hspb7.fas
+	!FILE-INFO!: Infile hspb7.fas identified as NUC data set !
+
+	Concatenate hspb7.fas...
+
+	READ IN kbtbd12.fas
+	!FILE-INFO!: Infile kbtbd12.fas identified as NUC data set !
+
+	Concatenate kbtbd12.fas...
+
+	READ IN klc3.fas
+	!FILE-INFO!: Infile klc3.fas identified as NUC data set !
+
+	Concatenate klc3.fas...
+
+	READ IN lrrc14b.fas
+	!FILE-INFO!: Infile lrrc14b.fas identified as NUC data set !
+
+	Concatenate lrrc14b.fas...
+
+	READ IN mbnl3.fas
+	!FILE-INFO!: Infile mbnl3.fas identified as NUC data set !
+
+	Concatenate mbnl3.fas...
+
+	READ IN mcf2a.fas
+	!FILE-INFO!: Infile mcf2a.fas identified as NUC data set !
+
+	Concatenate mcf2a.fas...
+
+	READ IN megf10.fas
+	!FILE-INFO!: Infile megf10.fas identified as NUC data set !
+
+	Concatenate megf10.fas...
+
+	READ IN mybpc1.fas
+	!FILE-INFO!: Infile mybpc1.fas identified as NUC data set !
+
+	Concatenate mybpc1.fas...
+
+	READ IN myl10.fas
+	!FILE-INFO!: Infile myl10.fas identified as NUC data set !
+
+	Concatenate myl10.fas...
+
+	READ IN myom3.fas
+	!FILE-INFO!: Infile myom3.fas identified as NUC data set !
+
+	Concatenate myom3.fas...
+
+	READ IN myoz2b.fas
+	!FILE-INFO!: Infile myoz2b.fas identified as NUC data set !
+
+	Concatenate myoz2b.fas...
+
+	READ IN ndrg1a.fas
+	!FILE-INFO!: Infile ndrg1a.fas identified as NUC data set !
+
+	Concatenate ndrg1a.fas...
+
+	READ IN ntn5.fas
+	!FILE-INFO!: Infile ntn5.fas identified as NUC data set !
+
+	Concatenate ntn5.fas...
+
+	READ IN osbpl1a.fas
+	!FILE-INFO!: Infile osbpl1a.fas identified as NUC data set !
+
+	Concatenate osbpl1a.fas...
+
+	READ IN pcdh20.fas
+	!FILE-INFO!: Infile pcdh20.fas identified as NUC data set !
+
+	Concatenate pcdh20.fas...
+
+	READ IN prrg4.fas
+	!FILE-INFO!: Infile prrg4.fas identified as NUC data set !
+
+	Concatenate prrg4.fas...
+
+	READ IN prx.fas
+	!FILE-INFO!: Infile prx.fas identified as NUC data set !
+
+	Concatenate prx.fas...
+
+	READ IN rnf207b.fas
+	!FILE-INFO!: Infile rnf207b.fas identified as NUC data set !
+
+	Concatenate rnf207b.fas...
+
+	READ IN rpl3.fas
+	!FILE-INFO!: Infile rpl3.fas identified as NUC data set !
+
+	Concatenate rpl3.fas...
+
+	READ IN scn4ab.fas
+	!FILE-INFO!: Infile scn4ab.fas identified as NUC data set !
+
+	Concatenate scn4ab.fas...
+
+	READ IN sh2d5.fas
+	!FILE-INFO!: Infile sh2d5.fas identified as NUC data set !
+
+	Concatenate sh2d5.fas...
+
+	READ IN six2a.fas
+	!FILE-INFO!: Infile six2a.fas identified as NUC data set !
+
+	Concatenate six2a.fas...
+
+	READ IN slc8a3.fas
+	!FILE-INFO!: Infile slc8a3.fas identified as NUC data set !
+
+	Concatenate slc8a3.fas...
+
+	READ IN smpx.fas
+	!FILE-INFO!: Infile smpx.fas identified as NUC data set !
+
+	Concatenate smpx.fas...
+
+	READ IN smyd1b.fas
+	!FILE-INFO!: Infile smyd1b.fas identified as NUC data set !
+
+	Concatenate smyd1b.fas...
+
+	READ IN specc1.fas
+	!FILE-INFO!: Infile specc1.fas identified as NUC data set !
+
+	Concatenate specc1.fas...
+
+	READ IN tnnc1b.fas
+	!FILE-INFO!: Infile tnnc1b.fas identified as NUC data set !
+
+	Concatenate tnnc1b.fas...
+
+	READ IN tnnt1.fas
+	!FILE-INFO!: Infile tnnt1.fas identified as NUC data set !
+
+	Concatenate tnnt1.fas...
+
+	READ IN tnnt2e.fas
+	!FILE-INFO!: Infile tnnt2e.fas identified as NUC data set !
+
+	Concatenate tnnt2e.fas...
+
+	READ IN tpm3.fas
+	!FILE-INFO!: Infile tpm3.fas identified as NUC data set !
+
+	Concatenate tpm3.fas...
+
+	READ IN trdn.fas
+	!FILE-INFO!: Infile trdn.fas identified as NUC data set !
+
+	Concatenate trdn.fas...
+
+	READ IN trib3.fas
+	!FILE-INFO!: Infile trib3.fas identified as NUC data set !
+
+	Concatenate trib3.fas...
+
+	Supermatrix Site Range Of File...
+	abrab:	Site Pos.1 to 1260
+	ache:	Site Pos.1261 to 3177
+	ankrd28b:	Site Pos.3178 to 6567
+	arl13a:	Site Pos.6568 to 8013
+	asb10:	Site Pos.8014 to 9438
+	atp1a2a:	Site Pos.9439 to 12609
+	best2:	Site Pos.12610 to 14646
+	casq1b:	Site Pos.14647 to 16143
+	cpm:	Site Pos.16144 to 17589
+	dnajb5:	Site Pos.17590 to 18858
+	dusp2:	Site Pos.18859 to 19941
+	egr3:	Site Pos.19942 to 21393
+	epha7:	Site Pos.21394 to 24480
+	foxd2:	Site Pos.24481 to 25665
+	foxj3:	Site Pos.25666 to 27852
+	gdnfa:	Site Pos.27853 to 28818
+	gprc5c:	Site Pos.28819 to 30501
+	hspb1:	Site Pos.30502 to 31158
+	hspb7:	Site Pos.31159 to 31644
+	kbtbd12:	Site Pos.31645 to 33516
+	klc3:	Site Pos.33517 to 35286
+	lrrc14b:	Site Pos.35287 to 36867
+	mbnl3:	Site Pos.36868 to 38271
+	mcf2a:	Site Pos.38272 to 41718
+	megf10:	Site Pos.41719 to 45369
+	mybpc1:	Site Pos.45370 to 49608
+	myl10:	Site Pos.49609 to 50214
+	myom3:	Site Pos.50215 to 54681
+	myoz2b:	Site Pos.54682 to 55470
+	ndrg1a:	Site Pos.55471 to 56673
+	ntn5:	Site Pos.56674 to 59475
+	osbpl1a:	Site Pos.59476 to 62430
+	pcdh20:	Site Pos.62431 to 65172
+	prrg4:	Site Pos.65173 to 65850
+	prx:	Site Pos.65851 to 80169
+	rnf207b:	Site Pos.80170 to 82152
+	rpl3:	Site Pos.82153 to 83481
+	scn4ab:	Site Pos.83482 to 89166
+	sh2d5:	Site Pos.89167 to 90513
+	six2a:	Site Pos.90514 to 91410
+	slc8a3:	Site Pos.91411 to 94215
+	smpx:	Site Pos.94216 to 94662
+	smyd1b:	Site Pos.94663 to 96126
+	specc1:	Site Pos.96127 to 99441
+	tnnc1b:	Site Pos.99442 to 99927
+	tnnt1:	Site Pos.99928 to 100788
+	tnnt2e:	Site Pos.100789 to 101889
+	tpm3:	Site Pos.101890 to 102906
+	trdn:	Site Pos.102907 to 106422
+	trib3:	Site Pos.106423 to 107499
+	
+	Percent Missing Data (X or ?) Of File...
+	abrab:	0%
+	ache:	0%
+	ankrd28b:	0%
+	arl13a:	0%
+	asb10:	0%
+	atp1a2a:	0%
+	best2:	0%
+	casq1b:	0%
+	cpm:	0%
+	dnajb5:	0%
+	dusp2:	0%
+	egr3:	0%
+	epha7:	0%
+	foxd2:	0%
+	foxj3:	0%
+	gdnfa:	0%
+	gprc5c:	0%
+	hspb1:	0%
+	hspb7:	0%
+	kbtbd12:	0%
+	klc3:	0%
+	lrrc14b:	0%
+	mbnl3:	0%
+	mcf2a:	0%
+	megf10:	0%
+	mybpc1:	0%
+	myl10:	0%
+	myom3:	0%
+	myoz2b:	0%
+	ndrg1a:	0%
+	ntn5:	0%
+	osbpl1a:	0%
+	pcdh20:	0%
+	prrg4:	0%
+	prx:	0%
+	rnf207b:	0%
+	rpl3:	0%
+	scn4ab:	0%
+	sh2d5:	0%
+	six2a:	0%
+	slc8a3:	0%
+	smpx:	0%
+	smyd1b:	0%
+	specc1:	0%
+	tnnc1b:	0%
+	tnnt1:	0%
+	tnnt2e:	0%
+	tpm3:	0%
+	trdn:	0%
+	trib3:	0%
+	Supermatrix:	0%
+
+	SEQUENCE Concatenation Process:
+	Concatenated Supermatrix FILE Printed As FcC_supermatrix.fas
+	Concatenated Supermatrix FILE Printed As FcC_supermatrix.nex (Block)
+	Lacking gene sequences filled with missing characters (N|X)
+
+	Partition File Print OUT:
+	RAxML Partition File Printed As FcC_supermatrix_partition.txt
+	NEXUS (Block) Partition File Printed As FcC_supermatrix_partition.nex
+
+	FILE INFO Print OUT:
+	Extensive SEQUENCE Info Of Supermatrix Printed To FcC_info.xls
+	Extensive SEQUENCE Info Of INFILES Printed To FcC_info.xls
+		
+			***  time used: 3.05 sec  ***
+		
+	------------------------------------------------------------
+	#### FASconCAT Log Off ! ####
+

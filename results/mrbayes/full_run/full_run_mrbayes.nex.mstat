@@ -1,0 +1,6 @@
+[ID: 5330633224]
+
+
+Model	Probability	Std_dev	Min_prob	Max_prob
+gtrsubmodel{all}[121343]	7.949401e-01	1.129864e-02	7.869507e-01	8.029294e-01
+gtrsubmodel{all}[123454]	1.504660e-01	1.129864e-02	1.424767e-01	1.584554e-01

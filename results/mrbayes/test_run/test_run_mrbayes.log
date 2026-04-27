@@ -1,0 +1,634 @@
+
+
+                            MrBayes 3.2.7 x86_64
+
+                      (Bayesian Analysis of Phylogeny)
+
+              Distributed under the GNU General Public License
+
+
+               Type "help" or "help <command>" for information
+                     on the commands that are available.
+
+                   Type "about" for authorship and general
+                       information about the program.
+
+
+
+   Executing file "test_run_mrbayes.nex"
+   UNIX line termination
+   Longest line length = 131
+   Parsing file
+   Expecting NEXUS formatted file
+   Reading data block
+      Allocated taxon set
+      Allocated matrix
+      Defining new matrix with 5 taxa and 107499 characters
+      Data is Dna
+      Missing data coded as -
+      Taxon 1 -> Bg
+      Taxon 2 -> Ip
+      Taxon 3 -> Pk
+      Taxon 4 -> Ee
+      Taxon 5 -> Bb
+      Successfully read matrix
+      Setting default partition (does not divide up characters)
+      Setting model defaults
+      Seed (for generating default start values) = 1777265219
+      Setting output file names to "test_run_mrbayes.nex.run<i>.<p|t>"
+   Exiting data block
+   Reading mrbayes block
+      Setting autoclose to yes
+      Setting nowarnings to yes
+      Defining charset called 'codon1'
+      Defining charset called 'codon2'
+      Defining charset called 'codon3'
+      Defining partition called 'codonpos'
+      Setting codonpos as the partition, dividing characters into 3 parts.
+      Setting model defaults
+      Seed (for generating default start values) = 240861847
+      Setting Nst to Mixed for partition 1
+      Setting Nst to Mixed for partition 2
+      Setting Nst to Mixed for partition 3
+      Setting Rates to Gamma for partition 1
+      Setting Rates to Gamma for partition 2
+      Setting Rates to Gamma for partition 3
+      Successfully set likelihood model parameters to all
+         applicable data partitions 
+      Unlinking
+      Setting Ratepr to Variable [Dirichlet(..,1,..)] for partition 1
+      Setting Ratepr to Variable [Dirichlet(..,1,..)] for partition 2
+      Setting Ratepr to Variable [Dirichlet(..,1,..)] for partition 3
+      Successfully set prior model parameters to all
+      applicable data partitions 
+      Setting number of generations to 10000
+      Setting sample frequency to 1000
+      Setting print frequency to 1000
+      Setting diagnosing frequency to 5000
+      Setting number of runs to 2
+      Setting number of chains to 4
+      Using relative burnin (a fraction of samples discarded).
+      Setting burnin fraction to 0.25
+      Setting chain output file names to "test_run_mrbayes.nex.run<i>.<p/t>"
+      Successfully set chain parameters
+      Running Markov chain
+      MCMC stamp = 5841821644
+      Seed = 992468967
+      Swapseed = 1777265219
+      Model settings:
+
+         Settings for partition 1 --
+            Datatype  = DNA
+            Nucmodel  = 4by4
+            Nst       = Mixed
+                        Substitution rates, expressed as proportions
+                        of the rate sum, have a Dirichlet prior
+                        (1.00,1.00,1.00,1.00,1.00,1.00)
+            Covarion  = No
+            # States  = 4
+                        State frequencies have a Dirichlet prior
+                        (1.00,1.00,1.00,1.00)
+            Rates     = Gamma
+                        The distribution is approximated using 4 categories.
+                        Shape parameter is exponentially
+                        distributed with parameter (1.00).
+
+         Settings for partition 2 --
+            Datatype  = DNA
+            Nucmodel  = 4by4
+            Nst       = Mixed
+                        Substitution rates, expressed as proportions
+                        of the rate sum, have a Dirichlet prior
+                        (1.00,1.00,1.00,1.00,1.00,1.00)
+            Covarion  = No
+            # States  = 4
+                        State frequencies have a Dirichlet prior
+                        (1.00,1.00,1.00,1.00)
+            Rates     = Gamma
+                        The distribution is approximated using 4 categories.
+                        Shape parameter is exponentially
+                        distributed with parameter (1.00).
+
+         Settings for partition 3 --
+            Datatype  = DNA
+            Nucmodel  = 4by4
+            Nst       = Mixed
+                        Substitution rates, expressed as proportions
+                        of the rate sum, have a Dirichlet prior
+                        (1.00,1.00,1.00,1.00,1.00,1.00)
+            Covarion  = No
+            # States  = 4
+                        State frequencies have a Dirichlet prior
+                        (1.00,1.00,1.00,1.00)
+            Rates     = Gamma
+                        The distribution is approximated using 4 categories.
+                        Shape parameter is exponentially
+                        distributed with parameter (1.00).
+
+      Active parameters: 
+
+                             Partition(s)
+         Parameters          1  2  3
+         ---------------------------
+         Revmat              1  1  1
+         Statefreq           2  3  4
+         Shape               5  6  7
+         Ratemultiplier      8  8  8
+         Topology            9  9  9
+         Brlens             10 10 10
+         ---------------------------
+
+         Parameters can be linked or unlinked across partitions using 'link' and 'unlink'
+
+         1 --  Parameter  = Revmat{all}
+               Type       = Rates of reversible rate matrix
+               Prior      = All GTR submodels have equal probability
+                            All revmat rates have a Symmetric Dirichlet(1.00) prior
+               Partitions = All
+
+         2 --  Parameter  = Pi{1}
+               Type       = Stationary state frequencies
+               Prior      = Dirichlet
+               Partition  = 1
+
+         3 --  Parameter  = Pi{2}
+               Type       = Stationary state frequencies
+               Prior      = Dirichlet
+               Partition  = 2
+
+         4 --  Parameter  = Pi{3}
+               Type       = Stationary state frequencies
+               Prior      = Dirichlet
+               Partition  = 3
+
+         5 --  Parameter  = Alpha{1}
+               Type       = Shape of scaled gamma distribution of site rates
+               Prior      = Exponential(1.00)
+               Partition  = 1
+
+         6 --  Parameter  = Alpha{2}
+               Type       = Shape of scaled gamma distribution of site rates
+               Prior      = Exponential(1.00)
+               Partition  = 2
+
+         7 --  Parameter  = Alpha{3}
+               Type       = Shape of scaled gamma distribution of site rates
+               Prior      = Exponential(1.00)
+               Partition  = 3
+
+         8 --  Parameter  = Ratemultiplier{all}
+               Type       = Partition-specific rate multiplier
+               Prior      = Dirichlet(1.00,1.00,1.00)
+               Partitions = All
+
+         9 --  Parameter  = Tau{all}
+               Type       = Topology
+               Prior      = All topologies equally probable a priori
+               Partitions = All
+               Subparam.  = V{all}
+
+        10 --  Parameter  = V{all}
+               Type       = Branch lengths
+               Prior      = Unconstrained:GammaDir(1.0,0.1000,1.0,1.0)
+               Partitions = All
+
+
+
+      The MCMC sampler will use the following moves:
+         With prob.  Chain will use move
+            1.65 %   Dirichlet(Revmat{all})
+            1.65 %   Splitmerge1(Revmat{all})
+            1.65 %   Splitmerge2(Revmat{all})
+            0.83 %   Dirichlet(Pi{1})
+            0.83 %   Slider(Pi{1})
+            0.83 %   Dirichlet(Pi{2})
+            0.83 %   Slider(Pi{2})
+            0.83 %   Dirichlet(Pi{3})
+            0.83 %   Slider(Pi{3})
+            1.65 %   Multiplier(Alpha{1})
+            1.65 %   Multiplier(Alpha{2})
+            1.65 %   Multiplier(Alpha{3})
+            1.24 %   Dirichlet(Ratemultiplier{all})
+            1.24 %   Slider(Ratemultiplier{all})
+            8.26 %   ExtSPR(Tau{all},V{all})
+            8.26 %   ExtTBR(Tau{all},V{all})
+            8.26 %   NNI(Tau{all},V{all})
+            8.26 %   ParsSPR(Tau{all},V{all})
+           33.06 %   Multiplier(V{all})
+           11.57 %   Nodeslider(V{all})
+            4.96 %   TLMultiplier(V{all})
+
+      Division 1 has 1033 unique site patterns
+      Division 2 has 945 unique site patterns
+      Division 3 has 1423 unique site patterns
+      Initializing conditional likelihoods
+
+      Running benchmarks to automatically select fastest BEAGLE resource...       Failed to start BEAGLE instance
+
+      Running benchmarks to automatically select fastest BEAGLE resource...       Failed to start BEAGLE instance
+      Using standard FMA likelihood calculator for division 1 (single-precision)
+
+      Running benchmarks to automatically select fastest BEAGLE resource...       Failed to start BEAGLE instance
+      Using standard FMA likelihood calculator for division 2 (single-precision)
+
+      Running benchmarks to automatically select fastest BEAGLE resource...       Failed to start BEAGLE instance
+      Using standard FMA likelihood calculator for division 3 (single-precision)
+
+      Initial log likelihoods and log prior probs for run 1:
+         Chain 1 -- -428017.479988 -- 8.909288
+         Chain 2 -- -416755.434639 -- 8.909288
+         Chain 3 -- -428017.479988 -- 8.909288
+         Chain 4 -- -481856.273161 -- 8.909288
+
+      Initial log likelihoods and log prior probs for run 2:
+         Chain 1 -- -490450.648457 -- 8.909288
+         Chain 2 -- -463636.846909 -- 8.909288
+         Chain 3 -- -416755.434639 -- 8.909288
+         Chain 4 -- -491790.180023 -- 8.909288
+
+
+      Using a relative burnin of 25.0 % for diagnostics
+
+      Chain results (10000 generations requested):
+
+          0 -- [-428017.480] (-416755.435) (-428017.480) (-481856.273) * [-490450.648] (-463636.847) (-416755.435) (-491790.180) 
+       1000 -- (-356102.023) [-352214.762] (-354290.322) (-353353.519) * (-352926.895) (-353208.600) [-352707.537] (-353570.953) -- 0:00:18
+       2000 -- (-351368.411) [-350982.181] (-351905.328) (-351109.750) * (-351896.305) (-351269.533) [-351004.072] (-351279.917) -- 0:00:16
+       3000 -- (-350934.259) [-350892.550] (-350944.794) (-351092.222) * (-350989.390) (-350962.457) [-350919.682] (-350968.070) -- 0:00:14
+       4000 -- (-350883.229) [-350852.868] (-350903.213) (-350935.729) * (-350917.459) (-350863.608) (-350911.645) [-350869.930] -- 0:00:12
+       5000 -- (-350862.772) [-350852.992] (-350893.513) (-350906.227) * (-350889.430) [-350860.372] (-350902.463) (-350859.226) -- 0:00:10
+
+      Average standard deviation of split frequencies: 0.000000
+
+       6000 -- [-350852.942] (-350847.574) (-350843.057) (-350899.876) * (-350874.629) (-350852.965) (-350899.983) [-350846.600] -- 0:00:08
+       7000 -- [-350860.425] (-350841.043) (-350843.886) (-350890.929) * (-350871.842) [-350839.181] (-350896.701) (-350848.587) -- 0:00:06
+       8000 -- [-350854.374] (-350841.775) (-350844.002) (-350872.667) * (-350873.314) [-350840.837] (-350880.736) (-350849.278) -- 0:00:05
+       9000 -- (-350856.808) [-350844.235] (-350843.042) (-350871.240) * (-350860.768) (-350837.555) (-350884.338) [-350846.675] -- 0:00:02
+      10000 -- (-350849.949) [-350847.580] (-350852.035) (-350857.427) * (-350852.401) (-350836.741) (-350860.829) [-350844.859] -- 0:00:00
+
+      Average standard deviation of split frequencies: 0.000000
+
+      Analysis completed in 27 seconds
+      Analysis used 19.35 seconds of CPU time
+      Likelihood of best state for "cold" chain of run 1 was -350839.31
+      Likelihood of best state for "cold" chain of run 2 was -350839.31
+
+      Acceptance rates for the moves in the "cold" chain of run 1:
+         With prob.   (last 100)   chain accepted proposals by move
+             4.7 %     (  7 %)     Dirichlet(Revmat{all})
+             3.1 %     (  3 %)     Splitmerge1(Revmat{all})
+             3.4 %     (  5 %)     Splitmerge2(Revmat{all})
+             9.1 %     ( 10 %)     Dirichlet(Pi{1})
+             NA           NA       Slider(Pi{1})
+             NA           NA       Dirichlet(Pi{2})
+             NA           NA       Slider(Pi{2})
+             NA           NA       Dirichlet(Pi{3})
+             NA           NA       Slider(Pi{3})
+            14.2 %     ( 16 %)     Multiplier(Alpha{1})
+            16.5 %     ( 21 %)     Multiplier(Alpha{2})
+            35.8 %     ( 37 %)     Multiplier(Alpha{3})
+             8.4 %     ( 11 %)     Dirichlet(Ratemultiplier{all})
+            30.5 %     ( 31 %)     Slider(Ratemultiplier{all})
+             0.0 %     (  0 %)     ExtSPR(Tau{all},V{all})
+             0.0 %     (  0 %)     ExtTBR(Tau{all},V{all})
+             0.1 %     (  0 %)     NNI(Tau{all},V{all})
+             0.0 %     (  0 %)     ParsSPR(Tau{all},V{all})
+             6.6 %     (  6 %)     Multiplier(V{all})
+             1.1 %     (  1 %)     Nodeslider(V{all})
+             3.1 %     (  3 %)     TLMultiplier(V{all})
+
+      Acceptance rates for the moves in the "cold" chain of run 2:
+         With prob.   (last 100)   chain accepted proposals by move
+             6.9 %     (  9 %)     Dirichlet(Revmat{all})
+             4.8 %     (  6 %)     Splitmerge1(Revmat{all})
+             3.3 %     (  5 %)     Splitmerge2(Revmat{all})
+             6.9 %     (  7 %)     Dirichlet(Pi{1})
+             NA           NA       Slider(Pi{1})
+             NA           NA       Dirichlet(Pi{2})
+             NA           NA       Slider(Pi{2})
+             NA           NA       Dirichlet(Pi{3})
+             NA           NA       Slider(Pi{3})
+            10.9 %     ( 14 %)     Multiplier(Alpha{1})
+            19.2 %     ( 21 %)     Multiplier(Alpha{2})
+            38.4 %     ( 44 %)     Multiplier(Alpha{3})
+             5.2 %     (  5 %)     Dirichlet(Ratemultiplier{all})
+            28.5 %     ( 34 %)     Slider(Ratemultiplier{all})
+             0.0 %     (  0 %)     ExtSPR(Tau{all},V{all})
+             0.0 %     (  0 %)     ExtTBR(Tau{all},V{all})
+             0.0 %     (  0 %)     NNI(Tau{all},V{all})
+             0.0 %     (  0 %)     ParsSPR(Tau{all},V{all})
+             6.9 %     (  3 %)     Multiplier(V{all})
+             0.6 %     (  0 %)     Nodeslider(V{all})
+             2.6 %     (  1 %)     TLMultiplier(V{all})
+
+      Chain swap information for run 1:
+
+                 1     2     3     4 
+           --------------------------
+         1 |        0.44  0.18  0.05 
+         2 |  1707        0.37  0.09 
+         3 |  1707  1648        0.26 
+         4 |  1649  1663  1626       
+
+      Chain swap information for run 2:
+
+                 1     2     3     4 
+           --------------------------
+         1 |        0.45  0.08  0.02 
+         2 |  1699        0.28  0.07 
+         3 |  1685  1633        0.31 
+         4 |  1671  1696  1616       
+
+      Upper diagonal: Proportion of successful state exchanges between chains
+      Lower diagonal: Number of attempted state exchanges between chains
+
+      Chain information:
+
+        ID -- Heat 
+       -----------
+         1 -- 1.00  (cold chain)
+         2 -- 0.91 
+         3 -- 0.83 
+         4 -- 0.77 
+
+      Heat = 1 / (1 + T * (ID - 1))
+         (where T = 0.10 is the temperature and ID is the chain number)
+
+      Using relative burnin (a fraction of samples discarded).
+      Setting burnin fraction to 0.25
+      Summarizing parameters in files test_run_mrbayes.nex.run1.p and test_run_mrbayes.nex.run2.p
+      Writing summary statistics to file test_run_mrbayes.nex.pstat
+      Using relative burnin ('relburnin=yes'), discarding the first 25 % of samples
+
+      Below are rough plots of the generation (x-axis) versus the log   
+      probability of observing the data (y-axis). You can use these     
+      graphs to determine what the burn in for your analysis should be. 
+      When the log probability starts to plateau you may be at station- 
+      arity. Sample trees and parameters after the log probability      
+      plateaus. Of course, this is not a guarantee that you are at sta- 
+      tionarity. Also examine the convergence diagnostics provided by   
+      the 'sump' and 'sumt' commands for all the parameters in your     
+      model. Remember that the burn in is the number of samples to dis- 
+      card. There are a total of ngen / samplefreq samples taken during 
+      a MCMC analysis.                                                  
+
+      Overlay plot for both runs:
+      (1 = Run number 1; 2 = Run number 2; * = Both runs)
+
+      +------------------------------------------------------------+ -350839.20
+      |                              2      2       2      *      *|
+      |               1      *       1      1       1              |
+      |               2                                            |
+      |                                                            |
+      |       1                                                    |
+      |                                                            |
+      |                                                            |
+      |       2                                                    |
+      |                                                            |
+      |                                                            |
+      |                                                            |
+      |                                                            |
+      |                                                            |
+      |1                                                           |
+      |2                                                           |
+      +------+-----+-----+-----+-----+-----+-----+-----+-----+-----+ -351004.10
+      ^                                                            ^
+      2000                                                         10000
+
+
+      Estimated marginal likelihoods for runs sampled in files
+         "test_run_mrbayes.nex.run1.p" and "test_run_mrbayes.nex.run2.p":
+         (Use the harmonic mean for Bayes factor comparisons of models)
+
+         (Values are saved to the file test_run_mrbayes.nex.lstat)
+
+      Run   Arithmetic mean   Harmonic mean
+      --------------------------------------
+        1     -350846.36        -350980.00
+        2     -350841.21        -351001.90
+      --------------------------------------
+      TOTAL   -350841.90        -351001.21
+      --------------------------------------
+
+
+      Model parameter summaries over the runs sampled in files
+         "test_run_mrbayes.nex.run1.p" and "test_run_mrbayes.nex.run2.p":
+         Summaries are based on a total of 18 samples from 2 runs.
+         Each run produced 11 samples of which 9 samples were included.
+         Parameter summaries saved to file "test_run_mrbayes.nex.pstat".
+
+                                                95% HPD Interval
+                                              --------------------
+      Parameter         Mean      Variance     Lower       Upper       Median    min ESS*  avg ESS    PSRF+ 
+      ------------------------------------------------------------------------------------------------------
+      TL{all}         0.890087    0.000170    0.864499    0.902195    0.889550      9.00      9.00    0.947
+      r(A<->C){all}   0.121395    0.000021    0.113822    0.125882    0.124486      9.00      9.00    1.173
+      r(A<->G){all}   0.285355    0.000051    0.280362    0.300741    0.281894      2.68      3.90    1.112
+      r(A<->T){all}   0.123557    0.000033    0.113822    0.132488    0.125408      9.00      9.00    1.148
+      r(C<->G){all}   0.073642    0.000012    0.068954    0.080413    0.074011      4.48      4.78    1.325
+      r(C<->T){all}   0.322987    0.000098    0.300741    0.332617    0.327842      2.80      5.90    1.041
+      r(G<->T){all}   0.073062    0.000017    0.064423    0.080413    0.074011      4.48      6.74    1.470
+      k_revmat{all}   4.111111    0.222222    3.000000    5.000000    4.000000      9.00      9.00    0.943
+      pi(A){1}        0.281632    0.000020    0.275600    0.286411    0.280627      9.00      9.00    0.968
+      pi(C){1}        0.238720    0.000020    0.229858    0.242662    0.237716      4.76      6.88    0.943
+      pi(G){1}        0.322606    0.000019    0.311360    0.328300    0.323879      4.97      6.98    0.978
+      pi(T){1}        0.157042    0.000018    0.148518    0.161201    0.155991      9.00      9.00    1.069
+      pi(A){2}        0.326193    0.000038    0.308094    0.332992    0.326269      6.68      7.84    0.943
+      pi(C){2}        0.233826    0.000007    0.228437    0.236093    0.234348      9.00      9.00    0.988
+      pi(G){2}        0.194768    0.000013    0.188248    0.196105    0.195272      9.00      9.00    1.043
+      pi(T){2}        0.245214    0.000006    0.240645    0.247454    0.247245      5.67      6.57    0.971
+      pi(A){3}        0.187931    0.000015    0.179611    0.191852    0.188605      5.17      5.26    1.263
+      pi(C){3}        0.307528    0.000022    0.303597    0.317852    0.307146      4.07      4.76    0.973
+      pi(G){3}        0.297528    0.000029    0.286029    0.303591    0.299294      4.11      4.21    0.959
+      pi(T){3}        0.207012    0.000009    0.203685    0.213732    0.205951      3.51      3.54    1.031
+      alpha{1}        0.430037    0.000556    0.388020    0.460882    0.431199      6.41      7.71    0.965
+      alpha{2}        0.252348    0.000208    0.230663    0.271857    0.248765      6.81      7.90    1.023
+      alpha{3}        6.567011    0.819617    5.440709    8.355943    6.456252      5.99      6.51    0.995
+      m{1}            0.693291    0.000327    0.668566    0.702862    0.695455      9.00      9.00    0.948
+      m{2}            0.474241    0.000106    0.439603    0.482621    0.475040      7.00      8.00    1.022
+      m{3}            1.832468    0.000179    1.808310    1.857099    1.834024      9.00      9.00    1.051
+      ------------------------------------------------------------------------------------------------------
+      * Convergence diagnostic (ESS = Estimated Sample Size); min and avg values
+        correspond to minimal and average ESS among runs. 
+        ESS value below 100 may indicate that the parameter is undersampled. 
+      + Convergence diagnostic (PSRF = Potential Scale Reduction Factor; Gelman
+        and Rubin, 1992) should approach 1.0 as runs converge.
+
+
+      Model probabilities above 0.050
+      Estimates saved to file "test_run_mrbayes.nex.mstat".
+
+                                      Posterior      Standard         Min.           Max.   
+      Model                          Probability     Deviation     Probability    Probability
+      ---------------------------------------------------------------------------------------
+      gtrsubmodel{all}[121343]          0.722          0.236          0.556          0.889
+      gtrsubmodel{all}[123454]          0.111          0.000          0.111          0.111
+      gtrsubmodel{all}[121323]          0.056          0.079          0.000          0.111
+      gtrsubmodel{all}[121345]          0.056          0.079          0.000          0.111
+      gtrsubmodel{all}[123424]          0.056          0.079          0.000          0.111
+      ---------------------------------------------------------------------------------------
+
+   Using relative burnin (a fraction of samples discarded).
+   Setting burnin fraction to 0.25
+   Summarizing trees in files "test_run_mrbayes.nex.run1.t" and "test_run_mrbayes.nex.run2.t"
+   Using relative burnin ('relburnin=yes'), discarding the first 25 % of sampled trees
+   Writing statistics to files test_run_mrbayes.nex.<parts|tstat|vstat|trprobs|con>
+   Examining first file ...
+   Found one tree block in file "test_run_mrbayes.nex.run1.t" with 11 trees in last block
+   Expecting the same number of trees in the last tree block of all files
+
+   Tree reading status:
+
+   0      10      20      30      40      50      60      70      80      90     100
+   v-------v-------v-------v-------v-------v-------v-------v-------v-------v-------v
+   *********************************************************************************
+
+   Read a total of 22 trees in 2 files (sampling 18 of them)
+      (Each file contained 11 trees of which 9 were sampled)
+                                                                                   
+   General explanation:                                                          
+                                                                                   
+   In an unrooted tree, a taxon bipartition (split) is specified by removing a   
+   branch, thereby dividing the species into those to the left and those to the  
+   right of the branch. Here, taxa to one side of the removed branch are denoted 
+   '.' and those to the other side are denoted '*'. Specifically, the '.' symbol 
+   is used for the taxa on the same side as the outgroup.                        
+                                                                                   
+   In a rooted or clock tree, the tree is rooted using the model and not by      
+   reference to an outgroup. Each bipartition therefore corresponds to a clade,  
+   that is, a group that includes all the descendants of a particular branch in  
+   the tree.  Taxa that are included in each clade are denoted using '*', and    
+   taxa that are not included are denoted using the '.' symbol.                  
+                                                                                   
+   The output first includes a key to all the bipartitions with frequency larger 
+   or equual to (Minpartfreq) in at least one run. Minpartfreq is a parameter to 
+   sumt command and currently it is set to 0.10.  This is followed by a table  
+   with statistics for the informative bipartitions (those including at least    
+   two taxa), sorted from highest to lowest probability. For each bipartition,   
+   the table gives the number of times the partition or split was observed in all
+   runs (#obs) and the posterior probability of the bipartition (Probab.), which 
+   is the same as the split frequency. If several runs are summarized, this is   
+   followed by the minimum split frequency (Min(s)), the maximum frequency       
+   (Max(s)), and the standard deviation of frequencies (Stddev(s)) across runs.  
+   The latter value should approach 0 for all bipartitions as MCMC runs converge.
+                                                                                   
+   This is followed by a table summarizing branch lengths, node heights (if a    
+   clock model was used) and relaxed clock parameters (if a relaxed clock model  
+   was used). The mean, variance, and 95 % credible interval are given for each 
+   of these parameters. If several runs are summarized, the potential scale      
+   reduction factor (PSRF) is also given; it should approach 1 as runs converge. 
+   Node heights will take calibration points into account, if such points were   
+   used in the analysis.                                                         
+                                                                                 
+   Note that Stddev may be unreliable if the partition is not present in all     
+   runs (the last column indicates the number of runs that sampled the partition 
+   if more than one run is summarized). The PSRF is not calculated at all if     
+   the partition is not present in all runs.The PSRF is also sensitive to small  
+   sample sizes and it should only be considered a rough guide to convergence    
+   since some of the assumptions allowing one to interpret it as a true potential
+   scale reduction factor are violated in MrBayes.                               
+                                                                                 
+   List of taxa in bipartitions:                                                 
+                                                                                   
+      1 -- Bg
+      2 -- Ip
+      3 -- Pk
+      4 -- Ee
+      5 -- Bb
+
+   Key to taxon bipartitions (saved to file "test_run_mrbayes.nex.parts"):
+
+   ID -- Partition
+   -----------
+    1 -- .****
+    2 -- .*...
+    3 -- ..*..
+    4 -- ...*.
+    5 -- ....*
+    6 -- .**.*
+    7 -- ..*.*
+   -----------
+
+   Summary statistics for informative taxon bipartitions
+      (saved to file "test_run_mrbayes.nex.tstat"):
+
+   ID   #obs    Probab.     Sd(s)+      Min(s)      Max(s)   Nruns 
+   ----------------------------------------------------------------
+    6    18    1.000000    0.000000    1.000000    1.000000    2
+    7    18    1.000000    0.000000    1.000000    1.000000    2
+   ----------------------------------------------------------------
+   + Convergence diagnostic (standard deviation of split frequencies)
+     should approach 0.0 as runs converge.
+
+
+   Summary statistics for branch and node parameters
+      (saved to file "test_run_mrbayes.nex.vstat"):
+
+                                               95% HPD Interval
+                                             --------------------
+   Parameter          Mean       Variance     Lower       Upper       Median     PSRF+  Nruns
+   ------------------------------------------------------------------------------------------
+   length{all}[1]    0.087564    0.000002    0.084538    0.089291    0.087822    0.971    2
+   length{all}[2]    0.184736    0.000021    0.174730    0.190830    0.186342    1.009    2
+   length{all}[3]    0.027103    0.000002    0.024584    0.029412    0.027220    1.157    2
+   length{all}[4]    0.072787    0.000003    0.068945    0.074688    0.073194    1.030    2
+   length{all}[5]    0.040587    0.000002    0.037486    0.042905    0.041058    0.994    2
+   length{all}[6]    0.086538    0.000010    0.079265    0.089661    0.087080    0.956    2
+   length{all}[7]    0.390773    0.000087    0.374126    0.401201    0.392554    0.943    2
+   ------------------------------------------------------------------------------------------
+   + Convergence diagnostic (PSRF = Potential Scale Reduction Factor; Gelman
+     and Rubin, 1992) should approach 1.0 as runs converge. NA is reported when
+     deviation of parameter values within all runs is 0 or when a parameter
+     value (a branch length, for instance) is not sampled in all runs.
+
+
+   Summary statistics for partitions with frequency >= 0.10 in at least one run:
+       Average standard deviation of split frequencies = 0.000000
+       Maximum standard deviation of split frequencies = 0.000000
+       Average PSRF for parameter values (excluding NA and >10.0) = 1.009
+       Maximum PSRF for parameter values = 1.157
+
+
+   Clade credibility values:
+
+   /------------------------------------------------------------------------ Bg (1)
+   |                                                                               
+   |------------------------------------------------------------------------ Ee (4)
+   +                                                                               
+   |                       /------------------------------------------------ Ip (2)
+   |                       |                                                       
+   \----------100----------+                       /------------------------ Pk (3)
+                           \----------100----------+                               
+                                                   \------------------------ Bb (5)
+                                                                                   
+
+   Phylogram (based on average branch lengths):
+
+   /------------ Bg (1)
+   |                                                                               
+   |---------- Ee (4)
+   +                                                                               
+   |           /-------------------------- Ip (2)
+   |           |                                                                   
+   \-----------+                                                     /---- Pk (3)
+               \-----------------------------------------------------+             
+                                                                     \------ Bb (5)
+                                                                                   
+   |------------| 0.100 expected changes per site
+
+   Calculating tree probabilities...
+
+   Credible sets of trees (1 tree sampled):
+      99 % credible set contains 1 tree
+
+   Exiting mrbayes block
+   Deleting previously defined characters
+   Deleting previously defined taxa
+   Quitting program
+
+
+   Tasks completed, exiting program because mode is noninteractive
+   To return control to the command line after completion of file processing, 
+   set mode to interactive with 'mb -i <filename>' (i is for interactive)
+   or use 'set mode=interactive'
+
