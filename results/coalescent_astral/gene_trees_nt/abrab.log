@@ -1,0 +1,2319 @@
+IQ-TREE version 3.1.1 for Linux x86 64-bit built Apr  8 2026
+Developed by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren
+Contributed by Lam-Tung Nguyen, Dominik Schrempf, Chris Bielow,
+Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
+
+Host:    roy-exec-3.discovery.wisc.edu (AVX512, FMA3, 1509 GB RAM)
+Command: iqtree -s ../../results/msa_macse/reordered_cleaned_macse_nt/abrab.fna --seqtype DNA -m MFP -B 1000 -alrt 1000 -T 2 --seed 12345 --verbose --prefix ../../results/coalescent_astral/gene_trees_nt/abrab
+Seed:    12345 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Apr 28 22:45:07 2026
+Kernel:  AVX+FMA - 2 threads (112 CPU cores detected)
+
+Reading alignment file ../../results/msa_macse/reordered_cleaned_macse_nt/abrab.fna ... Fasta format detected
+Reading fasta file: done in 0.000167236 secs using 10.17% CPU
+Name shortening took 0.000006 seconds.
+Duplicate sequence name check took 0.000006 seconds.
+Sequence Type detection took 0.000305 seconds.
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.00105327 secs using 193.8% CPU
+Time to read input file was 0.123267 sec.
+Time to count constant sites was 0.000007 sec.
+Alignment has 5 sequences with 1260 columns, 223 distinct patterns
+334 parsimony-informative, 237 singleton sites, 688 constant sites
+Alignment state count time was 0.000012 seconds.
+Empirical state frequencies: 0.2950819672 0.2532445355 0.2995218579 0.1521516394 
+    Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 9.84594e-06 secs using 91.41% CPU
+   1  Bg   11.43%    passed     32.77%
+   2  Bb    0.95%    passed     33.80%
+   3  Pk    0.95%    passed     47.39%
+   4  Ip   12.14%    failed      1.05%
+   5  Ee    9.76%    passed     38.01%
+****  TOTAL    7.05%  1 sequences failed composition chi2 test (p-value<5%; df=3)
+Hashing sequences took 0.000 wall-clock seconds
+Checking for duplicate sequences took 0.000 wall-clock seconds
+Checking for duplicate sequences: done in 3.57833e-05 secs using 97.81% CPU
+Printing alignment to phylip file  took 0.000 sec
+
+Printing alignment to phylip file  took 0.000 sec
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.000 seconds
+Parsimony of PLL Parsimony tree was 753
+Alignment state count time was 0.000 seconds.
+Empirical state frequencies: 0.2950819672 0.2532445355 0.2995218579 0.1521516394 
+Perform fast likelihood tree search using GTR+I+G model...
+Estimate model parameters (epsilon = 5.0000000000)
+1. Initial log-likelihood: -4700.7405003125 (took 0.0001532356 wall-clock sec)
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.57041  A-G: 4.22384  A-T: 1.54393  C-G: 1.21134  C-T: 7.49476  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Proportion of invariable sites: 0.275
+Gamma shape alpha: 2.198
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.61792  A-G: 4.06207  A-T: 1.58292  C-G: 1.27246  C-T: 7.52765  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Proportion of invariable sites: 0.278
+Gamma shape alpha: 2.473
+Optimal log-likelihood: -4546.943
+Perform nearest neighbor interchange...
+Optimizing NNI: done in 0.00120993 secs using 176.7% CPU
+NOTE: Input tree is already NNI-optimal
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -4546.943 (took 0.000 wall-clock sec)
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.63482  A-G: 4.00009  A-T: 1.56393  C-G: 1.27977  C-T: 7.37942  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Proportion of invariable sites: 0.280
+Gamma shape alpha: 2.897
+Optimal log-likelihood: -4546.644
+Parameters optimization took 1 rounds (0.003 sec)
+Time for fast ML tree search: 0.013 seconds
+
+NOTE: ModelFinder requires 1 MB RAM!
+ModelFinder will test up to 968 DNA models (sample size: 1260 epsilon: 0.100) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+Optimizing model JC
+1. Initial log-likelihood: -4775.274 (took 0.000 wall-clock sec)
+Optimal log-likelihood: -4721.790
+  1  JC            4721.790     7   9457.580     9457.669     9493.552
+Optimizing model JC+I
+1. Initial log-likelihood: -4706.488 (took 0.000 wall-clock sec)
+Rate parameters:  A-C: 1.00000  A-G: 1.00000  A-T: 1.00000  C-G: 1.00000  C-T: 1.00000  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.285
+Rate parameters:  A-C: 1.00000  A-G: 1.00000  A-T: 1.00000  C-G: 1.00000  C-T: 1.00000  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.286
+Optimal log-likelihood: -4703.012
+  2  JC+I          4703.012     8   9422.024     9422.139     9463.135
+Optimizing model JC+G4
+1. Initial log-likelihood: -4704.168 (took 0.000 wall-clock sec)
+Rate parameters:  A-C: 1.00000  A-G: 1.00000  A-T: 1.00000  C-G: 1.00000  C-T: 1.00000  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 1.094
+Rate parameters:  A-C: 1.00000  A-G: 1.00000  A-T: 1.00000  C-G: 1.00000  C-T: 1.00000  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 1.132
+Optimal log-likelihood: -4702.740
+  3  JC+G4         4702.740     8   9421.480     9421.595     9462.591
+Optimizing model JC+I+G4
+1. Initial log-likelihood: -4705.844 (took 0.000 wall-clock sec)
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 1.00000  A-T: 1.00000  C-G: 1.00000  C-T: 1.00000  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.281
+Gamma shape alpha: 6.667
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 1.00000  A-T: 1.00000  C-G: 1.00000  C-T: 1.00000  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.281
+Gamma shape alpha: 12.335
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 1.00000  A-T: 1.00000  C-G: 1.00000  C-T: 1.00000  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.280
+Gamma shape alpha: 16.446
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 1.00000  A-T: 1.00000  C-G: 1.00000  C-T: 1.00000  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.279
+Gamma shape alpha: 17.809
+Optimal log-likelihood: -4702.907
+  4  JC+I+G4       4702.907     9   9423.813     9423.957     9470.063
+Initialised +R2 from Gamma 1.132
+Optimizing model JC+R2
+1. Initial log-likelihood: -4703.565 (took 0.000 wall-clock sec)
+Optimizing +R2 model parameters by 2-BFGS,EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 1.00000  A-T: 1.00000  C-G: 1.00000  C-T: 1.00000  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Site proportion and rates:  (0.503,0.317) (0.497,1.699)
+Optimizing +R2 model parameters by 2-BFGS,EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 1.00000  A-T: 1.00000  C-G: 1.00000  C-T: 1.00000  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Site proportion and rates:  (0.505,0.304) (0.495,1.725)
+Optimizing +R2 model parameters by 2-BFGS,EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 1.00000  A-T: 1.00000  C-G: 1.00000  C-T: 1.00000  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Site proportion and rates:  (0.506,0.296) (0.494,1.741)
+Optimal log-likelihood: -4702.815
+  5  JC+R2         4702.815     9   9423.631     9423.775     9469.881
+Initialised +R3 from Gamma 1.132
+Optimizing model JC+R3
+Initialised +R3 from +R2
++R3 initialized from +R2
+1. Initial log-likelihood: -4706.249 (took 0.000 wall-clock sec)
+Optimizing +R3 model parameters by 2-BFGS,EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 1.00000  A-T: 1.00000  C-G: 1.00000  C-T: 1.00000  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Site proportion and rates:  (0.346,0.244) (0.327,0.981) (0.327,1.873)
+Optimizing +R3 model parameters by 2-BFGS,EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 1.00000  A-T: 1.00000  C-G: 1.00000  C-T: 1.00000  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Site proportion and rates:  (0.352,0.217) (0.323,0.965) (0.325,1.972)
+Optimizing +R3 model parameters by 2-BFGS,EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 1.00000  A-T: 1.00000  C-G: 1.00000  C-T: 1.00000  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Site proportion and rates:  (0.355,0.203) (0.320,0.956) (0.325,2.028)
+Optimizing +R3 model parameters by 2-BFGS,EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 1.00000  A-T: 1.00000  C-G: 1.00000  C-T: 1.00000  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Site proportion and rates:  (0.357,0.196) (0.319,0.951) (0.324,2.057)
+Optimal log-likelihood: -4702.726
+  6  JC+R3         4702.726     11  9427.452     9427.664     9483.980
+Initialised +R2 from Gamma 1.132
+Optimizing model JC+I+R2
+1. Initial log-likelihood: -4715.683 (took 0.000 wall-clock sec)
+Optimizing +I+R2 model parameters by 2-BFGS,EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 1.00000  A-T: 1.00000  C-G: 1.00000  C-T: 1.00000  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.248
+Site proportion and rates:  (0.373,0.556) (0.379,2.034)
+Optimizing +I+R2 model parameters by 2-BFGS,EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 1.00000  A-T: 1.00000  C-G: 1.00000  C-T: 1.00000  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.234
+Site proportion and rates:  (0.379,0.605) (0.387,1.913)
+Optimizing +I+R2 model parameters by 2-BFGS,EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 1.00000  A-T: 1.00000  C-G: 1.00000  C-T: 1.00000  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.227
+Site proportion and rates:  (0.383,0.634) (0.391,1.850)
+Optimizing +I+R2 model parameters by 2-BFGS,EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 1.00000  A-T: 1.00000  C-G: 1.00000  C-T: 1.00000  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.222
+Site proportion and rates:  (0.385,0.651) (0.393,1.811)
+Optimizing +I+R2 model parameters by 2-BFGS,EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 1.00000  A-T: 1.00000  C-G: 1.00000  C-T: 1.00000  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.219
+Site proportion and rates:  (0.387,0.663) (0.395,1.786)
+Optimizing +I+R2 model parameters by 2-BFGS,EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 1.00000  A-T: 1.00000  C-G: 1.00000  C-T: 1.00000  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.217
+Site proportion and rates:  (0.388,0.670) (0.395,1.771)
+Optimal log-likelihood: -4702.743
+ 14  JC+I+R2       4702.743     10  9425.487     9425.663     9476.875
+Initialised +R3 from Gamma 1.132
+Optimizing model JC+I+R3
+Initialised +R3 from +R2
++I+R3 initialized from +I+R2
+1. Initial log-likelihood: -4702.962 (took 0.000 wall-clock sec)
+Optimizing +I+R3 model parameters by 2-BFGS,EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 1.00000  A-T: 1.00000  C-G: 1.00000  C-T: 1.00000  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.220
+Site proportion and rates:  (0.258,0.685) (0.260,1.276) (0.263,1.880)
+Optimizing +I+R3 model parameters by 2-BFGS,EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 1.00000  A-T: 1.00000  C-G: 1.00000  C-T: 1.00000  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.222
+Site proportion and rates:  (0.258,0.677) (0.259,1.274) (0.262,1.904)
+Optimal log-likelihood: -4702.743
+ 15  JC+I+R3       4702.743     12  9429.486     9429.736     9491.152
+ 24  JC+I          4703.012     8   9422.024     9422.139     9463.135
+ 25  JC+G4         4702.740     8   9421.480     9421.595     9462.591
+ 26  JC+I+G4       4702.907     9   9423.813     9423.957     9470.063
+ 27  JC+R2         4702.815     9   9423.631     9423.775     9469.881
+Optimizing model F81+I
+1. Initial log-likelihood: -4703.070 (took 0.000 wall-clock sec)
+Rate parameters:  A-C: 1.00000  A-G: 1.00000  A-T: 1.00000  C-G: 1.00000  C-T: 1.00000  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.286
+Optimal log-likelihood: -4703.012
+ 46  F81+I         4703.012     8   9422.025     9422.140     9463.136
+Optimizing model F81+G4
+1. Initial log-likelihood: -4703.366 (took 0.000 wall-clock sec)
+Rate parameters:  A-C: 1.00000  A-G: 1.00000  A-T: 1.00000  C-G: 1.00000  C-T: 1.00000  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 1.145
+Rate parameters:  A-C: 1.00000  A-G: 1.00000  A-T: 1.00000  C-G: 1.00000  C-T: 1.00000  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 1.151
+Optimal log-likelihood: -4702.735
+ 47  F81+G4        4702.735     8   9421.470     9421.585     9462.581
+Optimizing model F81+I+G4
+1. Initial log-likelihood: -4703.277 (took 0.000 wall-clock sec)
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 1.00000  A-T: 1.00000  C-G: 1.00000  C-T: 1.00000  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.278
+Gamma shape alpha: 17.708
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 1.00000  A-T: 1.00000  C-G: 1.00000  C-T: 1.00000  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.277
+Gamma shape alpha: 16.759
+Optimal log-likelihood: -4702.891
+ 48  F81+I+G4      4702.891     9   9423.781     9423.925     9470.031
+Optimizing model F81+R2
+1. Initial log-likelihood: -4702.857 (took 0.000 wall-clock sec)
+Optimizing +R2 model parameters by 2-BFGS,EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 1.00000  A-T: 1.00000  C-G: 1.00000  C-T: 1.00000  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Site proportion and rates:  (0.507,0.289) (0.493,1.735)
+Optimal log-likelihood: -4702.787
+ 49  F81+R2        4702.787     9   9423.573     9423.717     9469.823
+Alignment state count time was 0.000 seconds.
+Empirical state frequencies: 0.2950819672 0.2532445355 0.2995218579 0.1521516394 
+Optimizing model F81+F+I
+1. Initial log-likelihood: -4643.3715537427 (took 0.0000351109 wall-clock sec)
+Rate parameters:  A-C: 1.00000  A-G: 1.00000  A-T: 1.00000  C-G: 1.00000  C-T: 1.00000  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Proportion of invariable sites: 0.297
+Rate parameters:  A-C: 1.00000  A-G: 1.00000  A-T: 1.00000  C-G: 1.00000  C-T: 1.00000  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Proportion of invariable sites: 0.298
+Optimal log-likelihood: -4643.213
+ 68  F81+F+I       4643.213     11  9308.426     9308.637     9364.953
+Alignment state count time was 0.000 seconds.
+Empirical state frequencies: 0.2950819672 0.2532445355 0.2995218579 0.1521516394 
+Optimizing model F81+F+G4
+1. Initial log-likelihood: -4644.0299411546 (took 0.0000440748 wall-clock sec)
+Rate parameters:  A-C: 1.00000  A-G: 1.00000  A-T: 1.00000  C-G: 1.00000  C-T: 1.00000  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Gamma shape alpha: 1.102
+Rate parameters:  A-C: 1.00000  A-G: 1.00000  A-T: 1.00000  C-G: 1.00000  C-T: 1.00000  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Gamma shape alpha: 1.087
+Optimal log-likelihood: -4643.608
+ 69  F81+F+G4      4643.608     11  9309.216     9309.428     9365.744
+Alignment state count time was 0.000 seconds.
+Empirical state frequencies: 0.2950819672 0.2532445355 0.2995218579 0.1521516394 
+Optimizing model F81+F+I+G4
+1. Initial log-likelihood: -4643.6233971412 (took 0.0000739642 wall-clock sec)
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 1.00000  A-T: 1.00000  C-G: 1.00000  C-T: 1.00000  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Proportion of invariable sites: 0.276
+Gamma shape alpha: 12.633
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 1.00000  A-T: 1.00000  C-G: 1.00000  C-T: 1.00000  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Proportion of invariable sites: 0.275
+Gamma shape alpha: 11.476
+Optimal log-likelihood: -4643.128
+ 70  F81+F+I+G4    4643.128     12  9310.255     9310.506     9371.922
+Alignment state count time was 0.000 seconds.
+Empirical state frequencies: 0.2950819672 0.2532445355 0.2995218579 0.1521516394 
+Optimizing model F81+F+R2
+1. Initial log-likelihood: -4643.5973494692 (took 0.0000453657 wall-clock sec)
+Optimizing +R2 model parameters by 2-BFGS,EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 1.00000  A-T: 1.00000  C-G: 1.00000  C-T: 1.00000  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Site proportion and rates:  (0.509,0.279) (0.491,1.751)
+Optimizing +R2 model parameters by 2-BFGS,EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 1.00000  A-T: 1.00000  C-G: 1.00000  C-T: 1.00000  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Site proportion and rates:  (0.509,0.273) (0.491,1.761)
+Optimal log-likelihood: -4643.439
+ 71  F81+F+R2      4643.439     12  9310.879     9311.129     9372.545
+Optimizing model K2P+I
+1. Initial log-likelihood: -4703.706 (took 0.000 wall-clock sec)
+Rate parameters:  A-C: 1.00000  A-G: 7.97674  A-T: 1.00000  C-G: 1.00000  C-T: 7.97674  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.363
+Rate parameters:  A-C: 1.00000  A-G: 4.76461  A-T: 1.00000  C-G: 1.00000  C-T: 4.76461  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.396
+Rate parameters:  A-C: 1.00000  A-G: 3.91946  A-T: 1.00000  C-G: 1.00000  C-T: 3.91946  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.363
+Rate parameters:  A-C: 1.00000  A-G: 3.61137  A-T: 1.00000  C-G: 1.00000  C-T: 3.61137  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.344
+Rate parameters:  A-C: 1.00000  A-G: 3.49811  A-T: 1.00000  C-G: 1.00000  C-T: 3.49811  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.336
+Rate parameters:  A-C: 1.00000  A-G: 3.46694  A-T: 1.00000  C-G: 1.00000  C-T: 3.46694  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.334
+Optimal log-likelihood: -4612.555
+ 90  K2P+I         4612.555     9   9243.111     9243.255     9289.361
+Optimizing model K2P+G4
+1. Initial log-likelihood: -4704.234 (took 0.000 wall-clock sec)
+Rate parameters:  A-C: 1.00000  A-G: 8.03479  A-T: 1.00000  C-G: 1.00000  C-T: 8.03479  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.822
+Rate parameters:  A-C: 1.00000  A-G: 3.99541  A-T: 1.00000  C-G: 1.00000  C-T: 3.99541  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.628
+Rate parameters:  A-C: 1.00000  A-G: 3.85612  A-T: 1.00000  C-G: 1.00000  C-T: 3.85612  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.719
+Rate parameters:  A-C: 1.00000  A-G: 3.71774  A-T: 1.00000  C-G: 1.00000  C-T: 3.71774  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.773
+Rate parameters:  A-C: 1.00000  A-G: 3.64703  A-T: 1.00000  C-G: 1.00000  C-T: 3.64703  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.808
+Rate parameters:  A-C: 1.00000  A-G: 3.60579  A-T: 1.00000  C-G: 1.00000  C-T: 3.60579  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.826
+Optimal log-likelihood: -4612.010
+ 91  K2P+G4        4612.010     9   9242.020     9242.164     9288.270
+Optimizing model K2P+I+G4
+1. Initial log-likelihood: -4710.945 (took 0.000 wall-clock sec)
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 7.99239  A-T: 1.00000  C-G: 1.00000  C-T: 7.99239  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.256
+Gamma shape alpha: 3.395
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 4.13110  A-T: 1.00000  C-G: 1.00000  C-T: 4.13110  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.260
+Gamma shape alpha: 1.515
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 3.90808  A-T: 1.00000  C-G: 1.00000  C-T: 3.90808  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.262
+Gamma shape alpha: 2.023
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 3.73832  A-T: 1.00000  C-G: 1.00000  C-T: 3.73832  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.263
+Gamma shape alpha: 2.452
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 3.64669  A-T: 1.00000  C-G: 1.00000  C-T: 3.64669  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.264
+Gamma shape alpha: 2.785
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 3.59351  A-T: 1.00000  C-G: 1.00000  C-T: 3.59351  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.264
+Gamma shape alpha: 2.995
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 3.56473  A-T: 1.00000  C-G: 1.00000  C-T: 3.56473  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.263
+Gamma shape alpha: 3.128
+Optimal log-likelihood: -4611.843
+ 92  K2P+I+G4      4611.843     10  9243.686     9243.862     9295.074
+Optimizing model K2P+R2
+1. Initial log-likelihood: -4707.693 (took 0.000 wall-clock sec)
+Optimizing +R2 model parameters by 2-BFGS,EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 8.00026  A-T: 1.00000  C-G: 1.00000  C-T: 8.00026  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Site proportion and rates:  (0.491,0.261) (0.509,1.964)
+Optimizing +R2 model parameters by 2-BFGS,EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 3.86469  A-T: 1.00000  C-G: 1.00000  C-T: 3.86469  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Site proportion and rates:  (0.525,0.208) (0.475,1.851)
+Optimizing +R2 model parameters by 2-BFGS,EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 3.59530  A-T: 1.00000  C-G: 1.00000  C-T: 3.59530  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Site proportion and rates:  (0.526,0.209) (0.474,1.823)
+Optimizing +R2 model parameters by 2-BFGS,EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 3.55377  A-T: 1.00000  C-G: 1.00000  C-T: 3.55377  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Site proportion and rates:  (0.526,0.212) (0.474,1.810)
+Optimal log-likelihood: -4612.109
+ 93  K2P+R2        4612.109     10  9244.218     9244.394     9295.606
+112  K2P+I         4612.555     9   9243.111     9243.255     9289.361
+113  K2P+G4        4612.010     9   9242.020     9242.164     9288.270
+114  K2P+I+G4      4611.843     10  9243.686     9243.862     9295.074
+115  K2P+R2        4612.109     10  9244.218     9244.394     9295.606
+Optimizing model HKY+I
+1. Initial log-likelihood: -4612.948 (took 0.000 wall-clock sec)
+Rate parameters:  A-C: 1.00000  A-G: 3.45596  A-T: 1.00000  C-G: 1.00000  C-T: 3.45596  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.333
+Rate parameters:  A-C: 1.00000  A-G: 3.45396  A-T: 1.00000  C-G: 1.00000  C-T: 3.45396  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.333
+Optimal log-likelihood: -4612.554
+134  HKY+I         4612.554     9   9243.107     9243.251     9289.357
+Optimizing model HKY+G4
+1. Initial log-likelihood: -4613.207 (took 0.000 wall-clock sec)
+Rate parameters:  A-C: 1.00000  A-G: 3.58544  A-T: 1.00000  C-G: 1.00000  C-T: 3.58544  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.837
+Rate parameters:  A-C: 1.00000  A-G: 3.57351  A-T: 1.00000  C-G: 1.00000  C-T: 3.57351  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.844
+Optimal log-likelihood: -4611.994
+135  HKY+G4        4611.994     9   9241.988     9242.132     9288.238
+Optimizing model HKY+I+G4
+1. Initial log-likelihood: -4611.960 (took 0.000 wall-clock sec)
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 3.54729  A-T: 1.00000  C-G: 1.00000  C-T: 3.54729  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.263
+Gamma shape alpha: 3.210
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 3.53935  A-T: 1.00000  C-G: 1.00000  C-T: 3.53935  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.263
+Gamma shape alpha: 3.239
+Optimal log-likelihood: -4611.833
+136  HKY+I+G4      4611.833     10  9243.665     9243.841     9295.054
+Optimizing model HKY+R2
+1. Initial log-likelihood: -4612.108 (took 0.000 wall-clock sec)
+Optimizing +R2 model parameters by 2-BFGS,EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 3.53959  A-T: 1.00000  C-G: 1.00000  C-T: 3.53959  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Site proportion and rates:  (0.526,0.220) (0.474,1.861)
+Optimal log-likelihood: -4612.101
+137  HKY+R2        4612.101     10  9244.202     9244.378     9295.590
+Alignment state count time was 0.000 seconds.
+Empirical state frequencies: 0.2950819672 0.2532445355 0.2995218579 0.1521516394 
+Optimizing model HKY+F+I
+1. Initial log-likelihood: -4647.3815576074 (took 0.0000308570 wall-clock sec)
+Rate parameters:  A-C: 1.00000  A-G: 7.81854  A-T: 1.00000  C-G: 1.00000  C-T: 7.81854  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Proportion of invariable sites: 0.389
+Rate parameters:  A-C: 1.00000  A-G: 5.18605  A-T: 1.00000  C-G: 1.00000  C-T: 5.18605  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Proportion of invariable sites: 0.408
+Rate parameters:  A-C: 1.00000  A-G: 4.22208  A-T: 1.00000  C-G: 1.00000  C-T: 4.22208  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Proportion of invariable sites: 0.389
+Rate parameters:  A-C: 1.00000  A-G: 3.82956  A-T: 1.00000  C-G: 1.00000  C-T: 3.82956  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Proportion of invariable sites: 0.374
+Rate parameters:  A-C: 1.00000  A-G: 3.68966  A-T: 1.00000  C-G: 1.00000  C-T: 3.68966  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Proportion of invariable sites: 0.367
+Rate parameters:  A-C: 1.00000  A-G: 3.62353  A-T: 1.00000  C-G: 1.00000  C-T: 3.62353  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Proportion of invariable sites: 0.364
+Optimal log-likelihood: -4557.000
+156  HKY+F+I       4557.000     12  9138.001     9138.251     9199.667
+Alignment state count time was 0.000 seconds.
+Empirical state frequencies: 0.2950819672 0.2532445355 0.2995218579 0.1521516394 
+Optimizing model HKY+F+G4
+1. Initial log-likelihood: -4647.4926674730 (took 0.0000579343 wall-clock sec)
+Rate parameters:  A-C: 1.00000  A-G: 7.87644  A-T: 1.00000  C-G: 1.00000  C-T: 7.87644  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Gamma shape alpha: 0.726
+Rate parameters:  A-C: 1.00000  A-G: 4.13292  A-T: 1.00000  C-G: 1.00000  C-T: 4.13292  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Gamma shape alpha: 0.556
+Rate parameters:  A-C: 1.00000  A-G: 3.99946  A-T: 1.00000  C-G: 1.00000  C-T: 3.99946  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Gamma shape alpha: 0.620
+Rate parameters:  A-C: 1.00000  A-G: 3.85348  A-T: 1.00000  C-G: 1.00000  C-T: 3.85348  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Gamma shape alpha: 0.658
+Rate parameters:  A-C: 1.00000  A-G: 3.78195  A-T: 1.00000  C-G: 1.00000  C-T: 3.78195  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Gamma shape alpha: 0.684
+Rate parameters:  A-C: 1.00000  A-G: 3.73049  A-T: 1.00000  C-G: 1.00000  C-T: 3.73049  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Gamma shape alpha: 0.698
+Optimal log-likelihood: -4557.894
+157  HKY+F+G4      4557.894     12  9139.787     9140.038     9201.454
+Alignment state count time was 0.000 seconds.
+Empirical state frequencies: 0.2950819672 0.2532445355 0.2995218579 0.1521516394 
+Optimizing model HKY+F+I+G4
+1. Initial log-likelihood: -4655.5607779709 (took 0.0000708951 wall-clock sec)
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 7.83512  A-T: 1.00000  C-G: 1.00000  C-T: 7.83512  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Proportion of invariable sites: 0.254
+Gamma shape alpha: 2.626
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 4.33140  A-T: 1.00000  C-G: 1.00000  C-T: 4.33140  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Proportion of invariable sites: 0.259
+Gamma shape alpha: 1.249
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 4.09765  A-T: 1.00000  C-G: 1.00000  C-T: 4.09765  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Proportion of invariable sites: 0.261
+Gamma shape alpha: 1.550
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 3.91724  A-T: 1.00000  C-G: 1.00000  C-T: 3.91724  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Proportion of invariable sites: 0.263
+Gamma shape alpha: 1.798
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 3.80815  A-T: 1.00000  C-G: 1.00000  C-T: 3.80815  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Proportion of invariable sites: 0.265
+Gamma shape alpha: 2.003
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 3.75234  A-T: 1.00000  C-G: 1.00000  C-T: 3.75234  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Proportion of invariable sites: 0.266
+Gamma shape alpha: 2.148
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 3.71034  A-T: 1.00000  C-G: 1.00000  C-T: 3.71034  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Proportion of invariable sites: 0.268
+Gamma shape alpha: 2.257
+Optimal log-likelihood: -4556.868
+158  HKY+F+I+G4    4556.868     13  9139.735     9140.028     9206.541
+Alignment state count time was 0.000 seconds.
+Empirical state frequencies: 0.2950819672 0.2532445355 0.2995218579 0.1521516394 
+Optimizing model HKY+F+R2
+1. Initial log-likelihood: -4652.7928248972 (took 0.0000399943 wall-clock sec)
+Optimizing +R2 model parameters by 2-BFGS,EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 7.83870  A-T: 1.00000  C-G: 1.00000  C-T: 7.83870  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Site proportion and rates:  (0.487,0.235) (0.513,1.964)
+Optimizing +R2 model parameters by 2-BFGS,EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 3.97029  A-T: 1.00000  C-G: 1.00000  C-T: 3.97029  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Site proportion and rates:  (0.525,0.177) (0.475,1.871)
+Optimizing +R2 model parameters by 2-BFGS,EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 3.69277  A-T: 1.00000  C-G: 1.00000  C-T: 3.69277  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Site proportion and rates:  (0.527,0.173) (0.473,1.852)
+Optimizing +R2 model parameters by 2-BFGS,EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 3.66217  A-T: 1.00000  C-G: 1.00000  C-T: 3.66217  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Site proportion and rates:  (0.525,0.173) (0.475,1.844)
+Optimal log-likelihood: -4557.275
+159  HKY+F+R2      4557.275     13  9140.550     9140.842     9207.355
+Optimizing model TNe+I
+1. Initial log-likelihood: -4614.600 (took 0.000 wall-clock sec)
+Rate parameters:  A-C: 1.00000  A-G: 3.63948  A-T: 1.00000  C-G: 1.00000  C-T: 3.54108  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.342
+Rate parameters:  A-C: 1.00000  A-G: 3.54186  A-T: 1.00000  C-G: 1.00000  C-T: 3.46496  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.336
+Rate parameters:  A-C: 1.00000  A-G: 3.49980  A-T: 1.00000  C-G: 1.00000  C-T: 3.44197  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.334
+Optimal log-likelihood: -4612.548
+178  TNe+I         4612.548     10  9245.096     9245.272     9296.484
+Optimizing model TNe+G4
+1. Initial log-likelihood: -4615.075 (took 0.000 wall-clock sec)
+Rate parameters:  A-C: 1.00000  A-G: 3.78853  A-T: 1.00000  C-G: 1.00000  C-T: 3.57277  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.781
+Rate parameters:  A-C: 1.00000  A-G: 3.71275  A-T: 1.00000  C-G: 1.00000  C-T: 3.56292  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.809
+Rate parameters:  A-C: 1.00000  A-G: 3.66531  A-T: 1.00000  C-G: 1.00000  C-T: 3.52397  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.824
+Optimal log-likelihood: -4611.969
+179  TNe+G4        4611.969     10  9243.937     9244.113     9295.326
+Optimizing model TNe+I+G4
+1. Initial log-likelihood: -4612.406 (took 0.000 wall-clock sec)
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 3.75565  A-T: 1.00000  C-G: 1.00000  C-T: 3.55114  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.268
+Gamma shape alpha: 2.797
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 3.67507  A-T: 1.00000  C-G: 1.00000  C-T: 3.54806  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.268
+Gamma shape alpha: 3.051
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 3.62482  A-T: 1.00000  C-G: 1.00000  C-T: 3.51419  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.268
+Gamma shape alpha: 3.197
+Optimal log-likelihood: -4611.836
+180  TNe+I+G4      4611.836     11  9245.672     9245.883     9302.199
+Optimizing model TNe+R2
+1. Initial log-likelihood: -4612.783 (took 0.000 wall-clock sec)
+Optimizing +R2 model parameters by 2-BFGS,EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 3.74077  A-T: 1.00000  C-G: 1.00000  C-T: 3.51877  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Site proportion and rates:  (0.519,0.192) (0.481,1.871)
+Optimizing +R2 model parameters by 2-BFGS,EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 3.67645  A-T: 1.00000  C-G: 1.00000  C-T: 3.52579  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Site proportion and rates:  (0.517,0.199) (0.483,1.847)
+Optimizing +R2 model parameters by 2-BFGS,EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 3.62866  A-T: 1.00000  C-G: 1.00000  C-T: 3.50057  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Site proportion and rates:  (0.516,0.203) (0.484,1.831)
+Optimal log-likelihood: -4612.097
+181  TNe+R2        4612.097     11  9246.195     9246.406     9302.722
+200  TNe+I         4612.548     10  9245.096     9245.272     9296.484
+201  TNe+G4        4611.969     10  9243.937     9244.113     9295.326
+202  TNe+I+G4      4611.836     11  9245.672     9245.883     9302.199
+203  TNe+R2        4612.097     11  9246.195     9246.406     9302.722
+Optimizing model TN+I
+1. Initial log-likelihood: -4612.949 (took 0.000 wall-clock sec)
+Rate parameters:  A-C: 1.00000  A-G: 3.48944  A-T: 1.00000  C-G: 1.00000  C-T: 3.42007  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.333
+Rate parameters:  A-C: 1.00000  A-G: 3.48355  A-T: 1.00000  C-G: 1.00000  C-T: 3.41755  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.333
+Optimal log-likelihood: -4612.544
+222  TN+I          4612.544     10  9245.089     9245.265     9296.478
+Optimizing model TN+G4
+1. Initial log-likelihood: -4613.138 (took 0.000 wall-clock sec)
+Rate parameters:  A-C: 1.00000  A-G: 3.64547  A-T: 1.00000  C-G: 1.00000  C-T: 3.50384  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.834
+Rate parameters:  A-C: 1.00000  A-G: 3.63341  A-T: 1.00000  C-G: 1.00000  C-T: 3.49465  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.840
+Optimal log-likelihood: -4611.956
+223  TN+G4         4611.956     10  9243.912     9244.088     9295.300
+Optimizing model TN+I+G4
+1. Initial log-likelihood: -4611.988 (took 0.000 wall-clock sec)
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 3.58997  A-T: 1.00000  C-G: 1.00000  C-T: 3.48246  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.262
+Gamma shape alpha: 3.213
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 3.58174  A-T: 1.00000  C-G: 1.00000  C-T: 3.47176  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.262
+Gamma shape alpha: 3.207
+Optimal log-likelihood: -4611.806
+224  TN+I+G4       4611.806     11  9245.612     9245.823     9302.139
+Optimizing model TN+R2
+1. Initial log-likelihood: -4612.100 (took 0.000 wall-clock sec)
+Optimizing +R2 model parameters by 2-BFGS,EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 3.60459  A-T: 1.00000  C-G: 1.00000  C-T: 3.47582  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Site proportion and rates:  (0.516,0.208) (0.484,1.839)
+Optimal log-likelihood: -4612.079
+225  TN+R2         4612.079     11  9246.159     9246.370     9302.686
+Alignment state count time was 0.000 seconds.
+Empirical state frequencies: 0.2950819672 0.2532445355 0.2995218579 0.1521516394 
+Optimizing model TN+F+I
+1. Initial log-likelihood: -4557.4540601720 (took 0.0000339630 wall-clock sec)
+Rate parameters:  A-C: 1.00000  A-G: 2.81741  A-T: 1.00000  C-G: 1.00000  C-T: 5.23086  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Proportion of invariable sites: 0.353
+Rate parameters:  A-C: 1.00000  A-G: 2.76359  A-T: 1.00000  C-G: 1.00000  C-T: 5.17042  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Proportion of invariable sites: 0.351
+Rate parameters:  A-C: 1.00000  A-G: 2.74882  A-T: 1.00000  C-G: 1.00000  C-T: 5.16073  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Proportion of invariable sites: 0.349
+Optimal log-likelihood: -4548.092
+244  TN+F+I        4548.092     13  9122.184     9122.476     9188.990
+Alignment state count time was 0.000 seconds.
+Empirical state frequencies: 0.2950819672 0.2532445355 0.2995218579 0.1521516394 
+Optimizing model TN+F+G4
+1. Initial log-likelihood: -4559.7848627665 (took 0.0000674780 wall-clock sec)
+Rate parameters:  A-C: 1.00000  A-G: 2.92590  A-T: 1.00000  C-G: 1.00000  C-T: 5.25963  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Gamma shape alpha: 0.732
+Rate parameters:  A-C: 1.00000  A-G: 2.88765  A-T: 1.00000  C-G: 1.00000  C-T: 5.19891  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Gamma shape alpha: 0.747
+Rate parameters:  A-C: 1.00000  A-G: 2.86546  A-T: 1.00000  C-G: 1.00000  C-T: 5.15240  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Gamma shape alpha: 0.761
+Optimal log-likelihood: -4549.860
+245  TN+F+G4       4549.860     13  9125.720     9126.012     9192.526
+Alignment state count time was 0.000 seconds.
+Empirical state frequencies: 0.2950819672 0.2532445355 0.2995218579 0.1521516394 
+Optimizing model TN+F+I+G4
+1. Initial log-likelihood: -4556.9205366325 (took 0.0000704452 wall-clock sec)
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 2.88021  A-T: 1.00000  C-G: 1.00000  C-T: 5.31507  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Proportion of invariable sites: 0.270
+Gamma shape alpha: 2.585
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 2.83959  A-T: 1.00000  C-G: 1.00000  C-T: 5.25541  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Proportion of invariable sites: 0.271
+Gamma shape alpha: 2.783
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 2.81731  A-T: 1.00000  C-G: 1.00000  C-T: 5.20962  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Proportion of invariable sites: 0.273
+Gamma shape alpha: 2.964
+Optimal log-likelihood: -4548.286
+246  TN+F+I+G4     4548.286     14  9124.572     9124.909     9196.516
+Alignment state count time was 0.000 seconds.
+Empirical state frequencies: 0.2950819672 0.2532445355 0.2995218579 0.1521516394 
+Optimizing model TN+F+R2
+1. Initial log-likelihood: -4557.3466300340 (took 0.0000410252 wall-clock sec)
+Optimizing +R2 model parameters by 2-BFGS,EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 2.87928  A-T: 1.00000  C-G: 1.00000  C-T: 5.19724  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Site proportion and rates:  (0.521,0.182) (0.479,1.874)
+Optimizing +R2 model parameters by 2-BFGS,EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 2.85022  A-T: 1.00000  C-G: 1.00000  C-T: 5.14401  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Site proportion and rates:  (0.518,0.183) (0.482,1.857)
+Optimal log-likelihood: -4549.269
+247  TN+F+R2       4549.269     14  9126.538     9126.875     9198.482
+Optimizing model K3P+I
+1. Initial log-likelihood: -4614.376 (took 0.000 wall-clock sec)
+Rate parameters:  A-C: 1.00000  A-G: 3.40358  A-T: 0.96872  C-G: 0.96872  C-T: 3.40358  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.333
+Rate parameters:  A-C: 1.00000  A-G: 3.40278  A-T: 0.96965  C-G: 0.96965  C-T: 3.40278  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.333
+Optimal log-likelihood: -4612.542
+266  K3P+I         4612.542     10  9245.083     9245.259     9296.472
+Optimizing model K3P+G4
+1. Initial log-likelihood: -4613.024 (took 0.000 wall-clock sec)
+Rate parameters:  A-C: 1.00000  A-G: 3.52504  A-T: 0.97494  C-G: 0.97494  C-T: 3.52504  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.847
+Rate parameters:  A-C: 1.00000  A-G: 3.52398  A-T: 0.97649  C-G: 0.97649  C-T: 3.52398  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.849
+Optimal log-likelihood: -4611.985
+267  K3P+G4        4611.985     10  9243.970     9244.146     9295.358
+Optimizing model K3P+I+G4
+1. Initial log-likelihood: -4611.977 (took 0.000 wall-clock sec)
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 3.48833  A-T: 0.97265  C-G: 0.97265  C-T: 3.48833  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.262
+Gamma shape alpha: 3.254
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 3.48745  A-T: 0.97360  C-G: 0.97360  C-T: 3.48745  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.262
+Gamma shape alpha: 3.251
+Optimal log-likelihood: -4611.821
+268  K3P+I+G4      4611.821     11  9245.641     9245.853     9302.169
+Optimizing model K3P+R2
+1. Initial log-likelihood: -4612.102 (took 0.000 wall-clock sec)
+Optimizing +R2 model parameters by 2-BFGS,EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 3.49032  A-T: 0.97471  C-G: 0.97471  C-T: 3.49032  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Site proportion and rates:  (0.525,0.221) (0.475,1.859)
+Optimal log-likelihood: -4612.090
+269  K3P+R2        4612.090     11  9246.181     9246.392     9302.708
+288  K3P+I         4612.542     10  9245.083     9245.259     9296.472
+289  K3P+G4        4611.985     10  9243.970     9244.146     9295.358
+290  K3P+I+G4      4611.821     11  9245.641     9245.853     9302.169
+291  K3P+R2        4612.090     11  9246.181     9246.392     9302.708
+Optimizing model K3Pu+I
+1. Initial log-likelihood: -4612.860 (took 0.000 wall-clock sec)
+Rate parameters:  A-C: 1.00000  A-G: 3.41347  A-T: 0.97108  C-G: 0.97108  C-T: 3.41347  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.333
+Rate parameters:  A-C: 1.00000  A-G: 3.41171  A-T: 0.97218  C-G: 0.97218  C-T: 3.41171  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.333
+Optimal log-likelihood: -4612.541
+310  K3Pu+I        4612.541     10  9245.083     9245.259     9296.472
+Optimizing model K3Pu+G4
+1. Initial log-likelihood: -4612.879 (took 0.000 wall-clock sec)
+Rate parameters:  A-C: 1.00000  A-G: 3.51220  A-T: 0.97877  C-G: 0.97877  C-T: 3.51220  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.857
+Rate parameters:  A-C: 1.00000  A-G: 3.51277  A-T: 0.97586  C-G: 0.97586  C-T: 3.51277  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.854
+Optimal log-likelihood: -4611.985
+311  K3Pu+G4       4611.985     10  9243.969     9244.145     9295.358
+Optimizing model K3Pu+I+G4
+1. Initial log-likelihood: -4611.952 (took 0.000 wall-clock sec)
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 3.50864  A-T: 0.98144  C-G: 0.98144  C-T: 3.50864  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.261
+Gamma shape alpha: 3.226
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 3.48215  A-T: 0.97119  C-G: 0.97119  C-T: 3.48215  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.261
+Gamma shape alpha: 3.218
+Optimal log-likelihood: -4611.818
+312  K3Pu+I+G4     4611.818     11  9245.637     9245.848     9302.164
+Optimizing model K3Pu+R2
+1. Initial log-likelihood: -4612.092 (took 0.000 wall-clock sec)
+Optimizing +R2 model parameters by 2-BFGS,EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 3.48129  A-T: 0.97347  C-G: 0.97347  C-T: 3.48129  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Site proportion and rates:  (0.525,0.222) (0.475,1.860)
+Optimal log-likelihood: -4612.089
+313  K3Pu+R2       4612.089     11  9246.179     9246.391     9302.707
+Alignment state count time was 0.000 seconds.
+Empirical state frequencies: 0.2950819672 0.2532445355 0.2995218579 0.1521516394 
+Optimizing model K3Pu+F+I
+1. Initial log-likelihood: -4557.6070628766 (took 0.0000337008 wall-clock sec)
+Rate parameters:  A-C: 1.00000  A-G: 3.32086  A-T: 0.92267  C-G: 0.92267  C-T: 3.32086  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Proportion of invariable sites: 0.355
+Rate parameters:  A-C: 1.00000  A-G: 3.39834  A-T: 0.92849  C-G: 0.92849  C-T: 3.39834  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Proportion of invariable sites: 0.358
+Optimal log-likelihood: -4556.934
+332  K3Pu+F+I      4556.934     13  9139.867     9140.159     9206.673
+Alignment state count time was 0.000 seconds.
+Empirical state frequencies: 0.2950819672 0.2532445355 0.2995218579 0.1521516394 
+Optimizing model K3Pu+F+G4
+1. Initial log-likelihood: -4558.5198528184 (took 0.0000690180 wall-clock sec)
+Rate parameters:  A-C: 1.00000  A-G: 3.39385  A-T: 0.94254  C-G: 0.94254  C-T: 3.39385  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Gamma shape alpha: 0.784
+Rate parameters:  A-C: 1.00000  A-G: 3.46721  A-T: 0.94747  C-G: 0.94747  C-T: 3.46721  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Gamma shape alpha: 0.760
+Rate parameters:  A-C: 1.00000  A-G: 3.47262  A-T: 0.93734  C-G: 0.93734  C-T: 3.47262  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Gamma shape alpha: 0.748
+Optimal log-likelihood: -4557.848
+333  K3Pu+F+G4     4557.848     13  9141.695     9141.988     9208.501
+Alignment state count time was 0.000 seconds.
+Empirical state frequencies: 0.2950819672 0.2532445355 0.2995218579 0.1521516394 
+Optimizing model K3Pu+F+I+G4
+1. Initial log-likelihood: -4557.5338657794 (took 0.0000508130 wall-clock sec)
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 3.40285  A-T: 0.93735  C-G: 0.93735  C-T: 3.40285  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Proportion of invariable sites: 0.261
+Gamma shape alpha: 2.629
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 3.45275  A-T: 0.93662  C-G: 0.93662  C-T: 3.45275  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Proportion of invariable sites: 0.261
+Gamma shape alpha: 2.507
+Optimal log-likelihood: -4556.843
+334  K3Pu+F+I+G4   4556.843     14  9141.686     9142.024     9213.630
+Alignment state count time was 0.000 seconds.
+Empirical state frequencies: 0.2950819672 0.2532445355 0.2995218579 0.1521516394 
+Optimizing model K3Pu+F+R2
+1. Initial log-likelihood: -4558.0550531164 (took 0.0000428287 wall-clock sec)
+Optimizing +R2 model parameters by 2-BFGS,EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 3.38735  A-T: 0.94284  C-G: 0.94284  C-T: 3.38735  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Site proportion and rates:  (0.528,0.208) (0.472,1.895)
+Optimizing +R2 model parameters by 2-BFGS,EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 3.39563  A-T: 0.92752  C-G: 0.92752  C-T: 3.39563  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Site proportion and rates:  (0.528,0.201) (0.472,1.920)
+Optimizing +R2 model parameters by 2-BFGS,EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 3.46843  A-T: 0.94320  C-G: 0.94320  C-T: 3.46843  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Site proportion and rates:  (0.527,0.196) (0.473,1.937)
+Optimal log-likelihood: -4557.297
+335  K3Pu+F+R2     4557.297     14  9142.594     9142.932     9214.539
+Optimizing model TPM2+I
+1. Initial log-likelihood: -4614.694 (took 0.000 wall-clock sec)
+Rate parameters:  A-C: 1.35375  A-G: 4.04113  A-T: 1.35375  C-G: 1.00000  C-T: 4.04113  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.333
+Rate parameters:  A-C: 1.35233  A-G: 4.04184  A-T: 1.35233  C-G: 1.00000  C-T: 4.04184  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.333
+Optimal log-likelihood: -4610.896
+354  TPM2+I        4610.896     10  9241.791     9241.967     9293.180
+Optimizing model TPM2+G4
+1. Initial log-likelihood: -4612.984 (took 0.000 wall-clock sec)
+Rate parameters:  A-C: 1.31207  A-G: 4.10068  A-T: 1.31207  C-G: 1.00000  C-T: 4.10068  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.848
+Rate parameters:  A-C: 1.31525  A-G: 4.10069  A-T: 1.31525  C-G: 1.00000  C-T: 4.10069  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.852
+Optimal log-likelihood: -4610.715
+355  TPM2+G4       4610.715     10  9241.430     9241.606     9292.818
+Optimizing model TPM2+I+G4
+1. Initial log-likelihood: -4611.960 (took 0.000 wall-clock sec)
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.32675  A-G: 4.08042  A-T: 1.32675  C-G: 1.00000  C-T: 4.08042  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.263
+Gamma shape alpha: 3.306
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.33216  A-G: 4.08146  A-T: 1.33216  C-G: 1.00000  C-T: 4.08146  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.262
+Gamma shape alpha: 3.334
+Optimal log-likelihood: -4610.362
+356  TPM2+I+G4     4610.362     11  9242.724     9242.935     9299.251
+Optimizing model TPM2+R2
+1. Initial log-likelihood: -4612.108 (took 0.000 wall-clock sec)
+Optimizing +R2 model parameters by 2-BFGS,EM algorithm...
+Rate parameters:  A-C: 1.32122  A-G: 4.07158  A-T: 1.32122  C-G: 1.00000  C-T: 4.07158  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Site proportion and rates:  (0.525,0.221) (0.475,1.859)
+Optimizing +R2 model parameters by 2-BFGS,EM algorithm...
+Rate parameters:  A-C: 1.32574  A-G: 4.07217  A-T: 1.32574  C-G: 1.00000  C-T: 4.07217  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Site proportion and rates:  (0.525,0.221) (0.475,1.857)
+Optimal log-likelihood: -4610.694
+357  TPM2+R2       4610.694     11  9243.388     9243.599     9299.915
+376  TPM2+I        4610.896     10  9241.791     9241.967     9293.180
+377  TPM2+G4       4610.715     10  9241.430     9241.606     9292.818
+378  TPM2+I+G4     4610.362     11  9242.724     9242.935     9299.251
+379  TPM2+R2       4610.694     11  9243.388     9243.599     9299.915
+Optimizing model TPM2u+I
+1. Initial log-likelihood: -4611.176 (took 0.000 wall-clock sec)
+Rate parameters:  A-C: 1.35730  A-G: 4.06059  A-T: 1.35730  C-G: 1.00000  C-T: 4.06059  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.334
+Rate parameters:  A-C: 1.35799  A-G: 4.05863  A-T: 1.35799  C-G: 1.00000  C-T: 4.05863  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.334
+Optimal log-likelihood: -4610.894
+398  TPM2u+I       4610.894     10  9241.789     9241.965     9293.177
+Optimizing model TPM2u+G4
+1. Initial log-likelihood: -4611.550 (took 0.000 wall-clock sec)
+Rate parameters:  A-C: 1.31322  A-G: 4.07658  A-T: 1.31322  C-G: 1.00000  C-T: 4.07658  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.860
+Rate parameters:  A-C: 1.31105  A-G: 4.07956  A-T: 1.31105  C-G: 1.00000  C-T: 4.07956  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.858
+Optimal log-likelihood: -4610.716
+399  TPM2u+G4      4610.716     10  9241.431     9241.608     9292.820
+Optimizing model TPM2u+I+G4
+1. Initial log-likelihood: -4610.500 (took 0.000 wall-clock sec)
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.32993  A-G: 4.07560  A-T: 1.32993  C-G: 1.00000  C-T: 4.07560  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.262
+Gamma shape alpha: 3.331
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.34063  A-G: 4.09370  A-T: 1.34063  C-G: 1.00000  C-T: 4.09370  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.262
+Gamma shape alpha: 3.342
+Optimal log-likelihood: -4610.361
+400  TPM2u+I+G4    4610.361     11  9242.721     9242.933     9299.249
+Optimizing model TPM2u+R2
+1. Initial log-likelihood: -4610.695 (took 0.000 wall-clock sec)
+Optimizing +R2 model parameters by 2-BFGS,EM algorithm...
+Rate parameters:  A-C: 1.33424  A-G: 4.09552  A-T: 1.33424  C-G: 1.00000  C-T: 4.09552  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Site proportion and rates:  (0.524,0.222) (0.476,1.859)
+Optimal log-likelihood: -4610.693
+401  TPM2u+R2      4610.693     11  9243.385     9243.597     9299.913
+Alignment state count time was 0.000 seconds.
+Empirical state frequencies: 0.2950819672 0.2532445355 0.2995218579 0.1521516394 
+Optimizing model TPM2u+F+I
+1. Initial log-likelihood: -4555.9904475453 (took 0.0000375491 wall-clock sec)
+Rate parameters:  A-C: 1.37798  A-G: 4.08073  A-T: 1.37798  C-G: 1.00000  C-T: 4.08073  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Proportion of invariable sites: 0.355
+Rate parameters:  A-C: 1.39323  A-G: 4.19244  A-T: 1.39323  C-G: 1.00000  C-T: 4.19244  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Proportion of invariable sites: 0.358
+Optimal log-likelihood: -4555.346
+420  TPM2u+F+I     4555.346     13  9136.692     9136.984     9203.497
+Alignment state count time was 0.000 seconds.
+Empirical state frequencies: 0.2950819672 0.2532445355 0.2995218579 0.1521516394 
+Optimizing model TPM2u+F+G4
+1. Initial log-likelihood: -4557.2762345270 (took 0.0000786968 wall-clock sec)
+Rate parameters:  A-C: 1.34329  A-G: 4.07272  A-T: 1.34329  C-G: 1.00000  C-T: 4.07272  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Gamma shape alpha: 0.786
+Rate parameters:  A-C: 1.34887  A-G: 4.15760  A-T: 1.34887  C-G: 1.00000  C-T: 4.15760  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Gamma shape alpha: 0.764
+Rate parameters:  A-C: 1.33770  A-G: 4.16437  A-T: 1.33770  C-G: 1.00000  C-T: 4.16437  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Gamma shape alpha: 0.751
+Optimal log-likelihood: -4556.603
+421  TPM2u+F+G4    4556.603     13  9139.206     9139.498     9206.011
+Alignment state count time was 0.000 seconds.
+Empirical state frequencies: 0.2950819672 0.2532445355 0.2995218579 0.1521516394 
+Optimizing model TPM2u+F+I+G4
+1. Initial log-likelihood: -4556.1630453363 (took 0.0000659758 wall-clock sec)
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.37674  A-G: 4.14819  A-T: 1.37674  C-G: 1.00000  C-T: 4.14819  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Proportion of invariable sites: 0.262
+Gamma shape alpha: 2.711
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.35685  A-G: 4.15841  A-T: 1.35685  C-G: 1.00000  C-T: 4.15841  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Proportion of invariable sites: 0.263
+Gamma shape alpha: 2.586
+Optimal log-likelihood: -4555.453
+422  TPM2u+F+I+G4  4555.453     14  9138.905     9139.243     9210.850
+Alignment state count time was 0.000 seconds.
+Empirical state frequencies: 0.2950819672 0.2532445355 0.2995218579 0.1521516394 
+Optimizing model TPM2u+F+R2
+1. Initial log-likelihood: -4556.6549280982 (took 0.0000445340 wall-clock sec)
+Optimizing +R2 model parameters by 2-BFGS,EM algorithm...
+Rate parameters:  A-C: 1.35661  A-G: 4.08374  A-T: 1.35661  C-G: 1.00000  C-T: 4.08374  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Site proportion and rates:  (0.526,0.207) (0.474,1.892)
+Optimizing +R2 model parameters by 2-BFGS,EM algorithm...
+Rate parameters:  A-C: 1.36176  A-G: 4.14726  A-T: 1.36176  C-G: 1.00000  C-T: 4.14726  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Site proportion and rates:  (0.526,0.200) (0.474,1.918)
+Optimizing +R2 model parameters by 2-BFGS,EM algorithm...
+Rate parameters:  A-C: 1.34951  A-G: 4.15517  A-T: 1.34951  C-G: 1.00000  C-T: 4.15517  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Site proportion and rates:  (0.525,0.195) (0.475,1.932)
+Optimal log-likelihood: -4555.926
+423  TPM2u+F+R2    4555.926     14  9139.853     9140.190     9211.797
+Optimizing model TPM3+I
+1. Initial log-likelihood: -4614.557 (took 0.000 wall-clock sec)
+Rate parameters:  A-C: 1.90524  A-G: 5.15539  A-T: 1.00000  C-G: 1.90524  C-T: 5.15539  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.326
+Rate parameters:  A-C: 1.90005  A-G: 5.03890  A-T: 1.00000  C-G: 1.90005  C-T: 5.03890  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.319
+Rate parameters:  A-C: 1.91302  A-G: 5.03436  A-T: 1.00000  C-G: 1.91302  C-T: 5.03436  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.317
+Optimal log-likelihood: -4605.378
+442  TPM3+I        4605.378     10  9230.756     9230.932     9282.145
+Optimizing model TPM3+G4
+1. Initial log-likelihood: -4614.308 (took 0.000 wall-clock sec)
+Rate parameters:  A-C: 2.08273  A-G: 5.62347  A-T: 1.00000  C-G: 2.08273  C-T: 5.62347  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.851
+Rate parameters:  A-C: 2.09774  A-G: 5.61454  A-T: 1.00000  C-G: 2.09774  C-T: 5.61454  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.879
+Rate parameters:  A-C: 2.06114  A-G: 5.49159  A-T: 1.00000  C-G: 2.06114  C-T: 5.49159  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.893
+Optimal log-likelihood: -4603.817
+443  TPM3+G4       4603.817     10  9227.635     9227.811     9279.023
+Optimizing model TPM3+I+G4
+1. Initial log-likelihood: -4611.943 (took 0.000 wall-clock sec)
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.99054  A-G: 5.41596  A-T: 1.00000  C-G: 1.99054  C-T: 5.41596  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.262
+Gamma shape alpha: 3.191
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 2.00799  A-G: 5.40696  A-T: 1.00000  C-G: 2.00799  C-T: 5.40696  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.261
+Gamma shape alpha: 3.437
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 2.01831  A-G: 5.39838  A-T: 1.00000  C-G: 2.01831  C-T: 5.39838  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.260
+Gamma shape alpha: 3.528
+Optimal log-likelihood: -4604.321
+444  TPM3+I+G4     4604.321     11  9230.642     9230.853     9287.169
+Optimizing model TPM3+R2
+1. Initial log-likelihood: -4612.332 (took 0.000 wall-clock sec)
+Optimizing +R2 model parameters by 2-BFGS,EM algorithm...
+Rate parameters:  A-C: 2.01828  A-G: 5.45749  A-T: 1.00000  C-G: 2.01828  C-T: 5.45749  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Site proportion and rates:  (0.528,0.225) (0.472,1.826)
+Optimizing +R2 model parameters by 2-BFGS,EM algorithm...
+Rate parameters:  A-C: 2.04087  A-G: 5.44507  A-T: 1.00000  C-G: 2.04087  C-T: 5.44507  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Site proportion and rates:  (0.528,0.230) (0.472,1.809)
+Optimizing +R2 model parameters by 2-BFGS,EM algorithm...
+Rate parameters:  A-C: 2.05050  A-G: 5.43586  A-T: 1.00000  C-G: 2.05050  C-T: 5.43586  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Site proportion and rates:  (0.529,0.234) (0.471,1.799)
+Optimal log-likelihood: -4604.271
+445  TPM3+R2       4604.271     11  9230.543     9230.754     9287.070
+464  TPM3+I        4605.378     10  9230.756     9230.932     9282.145
+465  TPM3+G4       4603.817     10  9227.635     9227.811     9279.023
+466  TPM3+I+G4     4604.321     11  9230.642     9230.853     9287.169
+467  TPM3+R2       4604.271     11  9230.543     9230.754     9287.070
+Optimizing model TPM3u+I
+1. Initial log-likelihood: -4605.923 (took 0.000 wall-clock sec)
+Rate parameters:  A-C: 1.91410  A-G: 5.04487  A-T: 1.00000  C-G: 1.91410  C-T: 5.04487  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.318
+Rate parameters:  A-C: 1.92023  A-G: 5.04222  A-T: 1.00000  C-G: 1.92023  C-T: 5.04222  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.317
+Optimal log-likelihood: -4605.376
+486  TPM3u+I       4605.376     10  9230.752     9230.928     9282.141
+Optimizing model TPM3u+G4
+1. Initial log-likelihood: -4605.006 (took 0.000 wall-clock sec)
+Rate parameters:  A-C: 2.07281  A-G: 5.48852  A-T: 1.00000  C-G: 2.07281  C-T: 5.48852  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.909
+Rate parameters:  A-C: 2.07500  A-G: 5.48661  A-T: 1.00000  C-G: 2.07500  C-T: 5.48661  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.909
+Optimal log-likelihood: -4603.811
+487  TPM3u+G4      4603.811     10  9227.623     9227.799     9279.012
+Optimizing model TPM3u+I+G4
+1. Initial log-likelihood: -4604.477 (took 0.000 wall-clock sec)
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.99234  A-G: 5.31414  A-T: 1.00000  C-G: 1.99234  C-T: 5.31414  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.259
+Gamma shape alpha: 3.586
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.99524  A-G: 5.31175  A-T: 1.00000  C-G: 1.99524  C-T: 5.31175  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.258
+Gamma shape alpha: 3.573
+Optimal log-likelihood: -4604.291
+488  TPM3u+I+G4    4604.291     11  9230.583     9230.794     9287.110
+Optimizing model TPM3u+R2
+1. Initial log-likelihood: -4604.270 (took 0.000 wall-clock sec)
+Optimizing +R2 model parameters by 2-BFGS,EM algorithm...
+Rate parameters:  A-C: 2.00682  A-G: 5.30878  A-T: 1.00000  C-G: 2.00682  C-T: 5.30878  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Site proportion and rates:  (0.530,0.243) (0.470,1.845)
+Optimal log-likelihood: -4604.253
+489  TPM3u+R2      4604.253     11  9230.506     9230.718     9287.034
+Alignment state count time was 0.000 seconds.
+Empirical state frequencies: 0.2950819672 0.2532445355 0.2995218579 0.1521516394 
+Optimizing model TPM3u+F+I
+1. Initial log-likelihood: -4562.8220467463 (took 0.0000307118 wall-clock sec)
+Rate parameters:  A-C: 1.15460  A-G: 3.67646  A-T: 1.00000  C-G: 1.15460  C-T: 3.67646  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Proportion of invariable sites: 0.347
+Rate parameters:  A-C: 1.13661  A-G: 3.76884  A-T: 1.00000  C-G: 1.13661  C-T: 3.76884  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Proportion of invariable sites: 0.354
+Rate parameters:  A-C: 1.11743  A-G: 3.77642  A-T: 1.00000  C-G: 1.11743  C-T: 3.77642  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Proportion of invariable sites: 0.357
+Optimal log-likelihood: -4556.780
+508  TPM3u+F+I     4556.780     13  9139.560     9139.852     9206.365
+Alignment state count time was 0.000 seconds.
+Empirical state frequencies: 0.2950819672 0.2532445355 0.2995218579 0.1521516394 
+Optimizing model TPM3u+F+G4
+1. Initial log-likelihood: -4558.3571306527 (took 0.0000784094 wall-clock sec)
+Rate parameters:  A-C: 1.23201  A-G: 3.93962  A-T: 1.00000  C-G: 1.23201  C-T: 3.93962  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Gamma shape alpha: 0.810
+Rate parameters:  A-C: 1.21695  A-G: 3.99684  A-T: 1.00000  C-G: 1.21695  C-T: 3.99684  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Gamma shape alpha: 0.781
+Rate parameters:  A-C: 1.20213  A-G: 4.00295  A-T: 1.00000  C-G: 1.20213  C-T: 4.00295  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Gamma shape alpha: 0.765
+Optimal log-likelihood: -4557.355
+509  TPM3u+F+G4    4557.355     13  9140.709     9141.002     9207.515
+Alignment state count time was 0.000 seconds.
+Empirical state frequencies: 0.2950819672 0.2532445355 0.2995218579 0.1521516394 
+Optimizing model TPM3u+F+I+G4
+1. Initial log-likelihood: -4557.5948206760 (took 0.0001247600 wall-clock sec)
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.18071  A-G: 3.85604  A-T: 1.00000  C-G: 1.18071  C-T: 3.85604  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Proportion of invariable sites: 0.257
+Gamma shape alpha: 2.713
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.15759  A-G: 3.86565  A-T: 1.00000  C-G: 1.15759  C-T: 3.86565  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Proportion of invariable sites: 0.257
+Gamma shape alpha: 2.540
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.17328  A-G: 3.94778  A-T: 1.00000  C-G: 1.17328  C-T: 3.94778  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Proportion of invariable sites: 0.258
+Gamma shape alpha: 2.442
+Optimal log-likelihood: -4556.526
+510  TPM3u+F+I+G4  4556.526     14  9141.053     9141.390     9212.997
+Alignment state count time was 0.000 seconds.
+Empirical state frequencies: 0.2950819672 0.2532445355 0.2995218579 0.1521516394 
+Optimizing model TPM3u+F+R2
+1. Initial log-likelihood: -4558.3441817962 (took 0.0000475300 wall-clock sec)
+Optimizing +R2 model parameters by 2-BFGS,EM algorithm...
+Rate parameters:  A-C: 1.20424  A-G: 3.85720  A-T: 1.00000  C-G: 1.20424  C-T: 3.85720  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Site proportion and rates:  (0.534,0.225) (0.466,1.894)
+Optimizing +R2 model parameters by 2-BFGS,EM algorithm...
+Rate parameters:  A-C: 1.17951  A-G: 3.86660  A-T: 1.00000  C-G: 1.17951  C-T: 3.86660  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Site proportion and rates:  (0.534,0.216) (0.466,1.927)
+Optimizing +R2 model parameters by 2-BFGS,EM algorithm...
+Rate parameters:  A-C: 1.18380  A-G: 3.93586  A-T: 1.00000  C-G: 1.18380  C-T: 3.93586  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Site proportion and rates:  (0.534,0.210) (0.466,1.950)
+Optimal log-likelihood: -4557.021
+511  TPM3u+F+R2    4557.021     14  9142.043     9142.380     9213.987
+Optimizing model TIMe+I
+1. Initial log-likelihood: -4613.894 (took 0.000 wall-clock sec)
+Rate parameters:  A-C: 1.00000  A-G: 3.53420  A-T: 0.97196  C-G: 0.97196  C-T: 3.44547  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.339
+Rate parameters:  A-C: 1.00000  A-G: 3.45850  A-T: 0.96911  C-G: 0.96911  C-T: 3.39013  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.335
+Optimal log-likelihood: -4612.538
+530  TIMe+I        4612.538     11  9247.077     9247.288     9303.604
+Optimizing model TIMe+G4
+1. Initial log-likelihood: -4613.680 (took 0.000 wall-clock sec)
+Rate parameters:  A-C: 1.00000  A-G: 3.67474  A-T: 0.98445  C-G: 0.98445  C-T: 3.49154  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.814
+Rate parameters:  A-C: 1.00000  A-G: 3.63685  A-T: 0.98458  C-G: 0.98458  C-T: 3.49837  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.828
+Optimal log-likelihood: -4611.960
+531  TIMe+G4       4611.960     11  9245.921     9246.132     9302.448
+Optimizing model TIMe+I+G4
+1. Initial log-likelihood: -4611.975 (took 0.000 wall-clock sec)
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 3.63798  A-T: 0.97825  C-G: 0.97825  C-T: 3.49854  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.258
+Gamma shape alpha: 2.735
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 3.59228  A-T: 0.97983  C-G: 0.97983  C-T: 3.48648  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.258
+Gamma shape alpha: 2.879
+Optimal log-likelihood: -4611.802
+532  TIMe+I+G4     4611.802     12  9247.603     9247.853     9309.270
+Optimizing model TIMe+R2
+1. Initial log-likelihood: -4612.259 (took 0.000 wall-clock sec)
+Optimizing +R2 model parameters by 2-BFGS,EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 3.62464  A-T: 0.97578  C-G: 0.97578  C-T: 3.45871  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Site proportion and rates:  (0.532,0.214) (0.468,1.886)
+Optimizing +R2 model parameters by 2-BFGS,EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 3.59875  A-T: 0.98045  C-G: 0.98045  C-T: 3.46306  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Site proportion and rates:  (0.531,0.218) (0.469,1.872)
+Optimal log-likelihood: -4612.081
+533  TIMe+R2       4612.081     12  9248.162     9248.412     9309.828
+552  TIMe+I        4612.538     11  9247.077     9247.288     9303.604
+553  TIMe+G4       4611.960     11  9245.921     9246.132     9302.448
+554  TIMe+I+G4     4611.802     12  9247.603     9247.853     9309.270
+555  TIMe+R2       4612.081     12  9248.162     9248.412     9309.828
+Optimizing model TIM+I
+1. Initial log-likelihood: -4612.974 (took 0.000 wall-clock sec)
+Rate parameters:  A-C: 1.00000  A-G: 3.45626  A-T: 0.97569  C-G: 0.97569  C-T: 3.38833  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.334
+Rate parameters:  A-C: 1.00000  A-G: 3.45349  A-T: 0.97763  C-G: 0.97763  C-T: 3.38644  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.333
+Optimal log-likelihood: -4612.534
+574  TIM+I         4612.534     11  9247.067     9247.279     9303.595
+Optimizing model TIM+G4
+1. Initial log-likelihood: -4612.960 (took 0.000 wall-clock sec)
+Rate parameters:  A-C: 1.00000  A-G: 3.57914  A-T: 0.97487  C-G: 0.97487  C-T: 3.45271  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.843
+Rate parameters:  A-C: 1.00000  A-G: 3.57928  A-T: 0.97685  C-G: 0.97685  C-T: 3.45114  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.845
+Optimal log-likelihood: -4611.947
+575  TIM+G4        4611.947     11  9245.894     9246.105     9302.421
+Optimizing model TIM+I+G4
+1. Initial log-likelihood: -4611.877 (took 0.000 wall-clock sec)
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 3.59040  A-T: 0.98487  C-G: 0.98487  C-T: 3.48372  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.257
+Gamma shape alpha: 2.934
+Optimal log-likelihood: -4611.795
+576  TIM+I+G4      4611.795     12  9247.591     9247.841     9309.257
+Optimizing model TIM+R2
+1. Initial log-likelihood: -4612.090 (took 0.000 wall-clock sec)
+Optimizing +R2 model parameters by 2-BFGS,EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 3.54413  A-T: 0.97523  C-G: 0.97523  C-T: 3.43159  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Site proportion and rates:  (0.516,0.210) (0.484,1.838)
+Optimal log-likelihood: -4612.066
+577  TIM+R2        4612.066     12  9248.131     9248.381     9309.798
+Alignment state count time was 0.000 seconds.
+Empirical state frequencies: 0.2950819672 0.2532445355 0.2995218579 0.1521516394 
+Optimizing model TIM+F+I
+1. Initial log-likelihood: -4548.3630104907 (took 0.0000319988 wall-clock sec)
+Rate parameters:  A-C: 1.00000  A-G: 2.63405  A-T: 0.91871  C-G: 0.91871  C-T: 4.91822  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Proportion of invariable sites: 0.349
+Rate parameters:  A-C: 1.00000  A-G: 2.63275  A-T: 0.92039  C-G: 0.92039  C-T: 4.91757  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Proportion of invariable sites: 0.348
+Optimal log-likelihood: -4548.004
+596  TIM+F+I       4548.004     14  9124.008     9124.346     9195.953
+Alignment state count time was 0.000 seconds.
+Empirical state frequencies: 0.2950819672 0.2532445355 0.2995218579 0.1521516394 
+Optimizing model TIM+F+G4
+1. Initial log-likelihood: -4550.8521018088 (took 0.0000697039 wall-clock sec)
+Rate parameters:  A-C: 1.00000  A-G: 2.76757  A-T: 0.93961  C-G: 0.93961  C-T: 4.97340  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Gamma shape alpha: 0.769
+Rate parameters:  A-C: 1.00000  A-G: 2.76572  A-T: 0.94430  C-G: 0.94430  C-T: 4.97251  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Gamma shape alpha: 0.774
+Optimal log-likelihood: -4549.807
+597  TIM+F+G4      4549.807     14  9127.613     9127.950     9199.557
+Alignment state count time was 0.000 seconds.
+Empirical state frequencies: 0.2950819672 0.2532445355 0.2995218579 0.1521516394 
+Optimizing model TIM+F+I+G4
+1. Initial log-likelihood: -4548.3799884702 (took 0.0000713319 wall-clock sec)
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 2.70590  A-T: 0.92793  C-G: 0.92793  C-T: 5.00806  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Proportion of invariable sites: 0.275
+Gamma shape alpha: 3.077
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 2.70370  A-T: 0.93318  C-G: 0.93318  C-T: 5.00697  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Proportion of invariable sites: 0.276
+Gamma shape alpha: 3.209
+Optimal log-likelihood: -4548.184
+598  TIM+F+I+G4    4548.184     15  9126.369     9126.755     9203.452
+Alignment state count time was 0.000 seconds.
+Empirical state frequencies: 0.2950819672 0.2532445355 0.2995218579 0.1521516394 
+Optimizing model TIM+F+R2
+1. Initial log-likelihood: -4549.2747594420 (took 0.0000447650 wall-clock sec)
+Optimizing +R2 model parameters by 2-BFGS,EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 2.73959  A-T: 0.93333  C-G: 0.93333  C-T: 4.94397  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Site proportion and rates:  (0.514,0.185) (0.486,1.864)
+Optimal log-likelihood: -4549.178
+599  TIM+F+R2      4549.178     15  9128.356     9128.742     9205.439
+Optimizing model TIM2e+I
+1. Initial log-likelihood: -4622.070 (took 0.000 wall-clock sec)
+Rate parameters:  A-C: 1.40104  A-G: 4.40382  A-T: 1.40104  C-G: 1.00000  C-T: 4.43652  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.350
+Rate parameters:  A-C: 1.37279  A-G: 4.20765  A-T: 1.37279  C-G: 1.00000  C-T: 4.12613  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.340
+Rate parameters:  A-C: 1.36665  A-G: 4.14766  A-T: 1.36665  C-G: 1.00000  C-T: 4.05562  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.336
+Optimal log-likelihood: -4610.894
+618  TIM2e+I       4610.894     11  9243.788     9243.999     9300.315
+Optimizing model TIM2e+G4
+1. Initial log-likelihood: -4612.225 (took 0.000 wall-clock sec)
+Rate parameters:  A-C: 1.33849  A-G: 4.30873  A-T: 1.33849  C-G: 1.00000  C-T: 4.12398  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.820
+Rate parameters:  A-C: 1.32399  A-G: 4.22250  A-T: 1.32399  C-G: 1.00000  C-T: 4.06212  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.832
+Optimal log-likelihood: -4610.691
+619  TIM2e+G4      4610.691     11  9243.381     9243.593     9299.909
+Optimizing model TIM2e+I+G4
+1. Initial log-likelihood: -4610.530 (took 0.000 wall-clock sec)
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.33872  A-G: 4.21972  A-T: 1.33872  C-G: 1.00000  C-T: 4.06261  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.276
+Gamma shape alpha: 3.521
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.34893  A-G: 4.21562  A-T: 1.34893  C-G: 1.00000  C-T: 4.06287  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.276
+Gamma shape alpha: 3.697
+Optimal log-likelihood: -4610.368
+620  TIM2e+I+G4    4610.368     12  9244.736     9244.986     9306.402
+Optimizing model TIM2e+R2
+1. Initial log-likelihood: -4610.914 (took 0.000 wall-clock sec)
+Optimizing +R2 model parameters by 2-BFGS,EM algorithm...
+Rate parameters:  A-C: 1.33975  A-G: 4.25563  A-T: 1.33975  C-G: 1.00000  C-T: 4.06592  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Site proportion and rates:  (0.511,0.193) (0.489,1.841)
+Optimizing +R2 model parameters by 2-BFGS,EM algorithm...
+Rate parameters:  A-C: 1.34608  A-G: 4.22862  A-T: 1.34608  C-G: 1.00000  C-T: 4.07917  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Site proportion and rates:  (0.509,0.197) (0.491,1.827)
+Optimal log-likelihood: -4610.676
+621  TIM2e+R2      4610.676     12  9245.352     9245.602     9307.018
+640  TIM2e+I       4610.894     11  9243.788     9243.999     9300.315
+641  TIM2e+G4      4610.691     11  9243.381     9243.593     9299.909
+642  TIM2e+I+G4    4610.368     12  9244.736     9244.986     9306.402
+643  TIM2e+R2      4610.676     12  9245.352     9245.602     9307.018
+Optimizing model TIM2+I
+1. Initial log-likelihood: -4611.207 (took 0.000 wall-clock sec)
+Rate parameters:  A-C: 1.37280  A-G: 4.14279  A-T: 1.37280  C-G: 1.00000  C-T: 4.05360  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.335
+Rate parameters:  A-C: 1.36170  A-G: 4.09661  A-T: 1.36170  C-G: 1.00000  C-T: 4.03773  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.334
+Optimal log-likelihood: -4610.887
+662  TIM2+I        4610.887     11  9243.773     9243.985     9300.301
+Optimizing model TIM2+G4
+1. Initial log-likelihood: -4611.684 (took 0.000 wall-clock sec)
+Rate parameters:  A-C: 1.32874  A-G: 4.22046  A-T: 1.32874  C-G: 1.00000  C-T: 4.06101  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.840
+Rate parameters:  A-C: 1.33155  A-G: 4.21757  A-T: 1.33155  C-G: 1.00000  C-T: 4.05967  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.844
+Optimal log-likelihood: -4610.684
+663  TIM2+G4       4610.684     11  9243.368     9243.580     9299.896
+Optimizing model TIM2+I+G4
+1. Initial log-likelihood: -4610.541 (took 0.000 wall-clock sec)
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.34135  A-G: 4.15478  A-T: 1.34135  C-G: 1.00000  C-T: 4.03625  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.262
+Gamma shape alpha: 3.305
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.34107  A-G: 4.15506  A-T: 1.34107  C-G: 1.00000  C-T: 4.03619  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.262
+Gamma shape alpha: 3.292
+Optimal log-likelihood: -4610.338
+664  TIM2+I+G4     4610.338     12  9244.677     9244.927     9306.343
+Optimizing model TIM2+R2
+1. Initial log-likelihood: -4610.680 (took 0.000 wall-clock sec)
+Optimizing +R2 model parameters by 2-BFGS,EM algorithm...
+Rate parameters:  A-C: 1.35214  A-G: 4.22522  A-T: 1.35214  C-G: 1.00000  C-T: 4.07736  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Site proportion and rates:  (0.508,0.200) (0.492,1.824)
+Optimal log-likelihood: -4610.663
+665  TIM2+R2       4610.663     12  9245.325     9245.575     9306.992
+Alignment state count time was 0.000 seconds.
+Empirical state frequencies: 0.2950819672 0.2532445355 0.2995218579 0.1521516394 
+Optimizing model TIM2+F+I
+1. Initial log-likelihood: -4548.3608379090 (took 0.0000381651 wall-clock sec)
+Rate parameters:  A-C: 1.35742  A-G: 3.21182  A-T: 1.35742  C-G: 1.00000  C-T: 6.00149  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Proportion of invariable sites: 0.349
+Rate parameters:  A-C: 1.35795  A-G: 3.21156  A-T: 1.35795  C-G: 1.00000  C-T: 6.00061  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Proportion of invariable sites: 0.349
+Optimal log-likelihood: -4546.401
+684  TIM2+F+I      4546.401     14  9120.803     9121.140     9192.747
+Alignment state count time was 0.000 seconds.
+Empirical state frequencies: 0.2950819672 0.2532445355 0.2995218579 0.1521516394 
+Optimizing model TIM2+F+G4
+1. Initial log-likelihood: -4550.8344856949 (took 0.0000757971 wall-clock sec)
+Rate parameters:  A-C: 1.32719  A-G: 3.29934  A-T: 1.32719  C-G: 1.00000  C-T: 5.90604  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Gamma shape alpha: 0.770
+Rate parameters:  A-C: 1.32973  A-G: 3.29541  A-T: 1.32973  C-G: 1.00000  C-T: 5.90697  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Gamma shape alpha: 0.777
+Optimal log-likelihood: -4548.516
+685  TIM2+F+G4     4548.516     14  9125.033     9125.370     9196.977
+Alignment state count time was 0.000 seconds.
+Empirical state frequencies: 0.2950819672 0.2532445355 0.2995218579 0.1521516394 
+Optimizing model TIM2+F+I+G4
+1. Initial log-likelihood: -4548.3680930743 (took 0.0000684331 wall-clock sec)
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.34517  A-G: 3.26913  A-T: 1.34517  C-G: 1.00000  C-T: 6.05923  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Proportion of invariable sites: 0.275
+Gamma shape alpha: 3.118
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.35053  A-G: 3.26689  A-T: 1.35053  C-G: 1.00000  C-T: 6.05792  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Proportion of invariable sites: 0.276
+Gamma shape alpha: 3.276
+Optimal log-likelihood: -4546.729
+686  TIM2+F+I+G4   4546.729     15  9123.459     9123.844     9200.542
+Alignment state count time was 0.000 seconds.
+Empirical state frequencies: 0.2950819672 0.2532445355 0.2995218579 0.1521516394 
+Optimizing model TIM2+F+R2
+1. Initial log-likelihood: -4549.2782427208 (took 0.0000417251 wall-clock sec)
+Optimizing +R2 model parameters by 2-BFGS,EM algorithm...
+Rate parameters:  A-C: 1.34579  A-G: 3.29910  A-T: 1.34579  C-G: 1.00000  C-T: 5.96997  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Site proportion and rates:  (0.514,0.184) (0.486,1.865)
+Optimizing +R2 model parameters by 2-BFGS,EM algorithm...
+Rate parameters:  A-C: 1.35032  A-G: 3.29695  A-T: 1.35032  C-G: 1.00000  C-T: 5.96895  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Site proportion and rates:  (0.511,0.183) (0.489,1.859)
+Optimal log-likelihood: -4547.698
+687  TIM2+F+R2     4547.698     15  9125.396     9125.782     9202.479
+Optimizing model TIM3e+I
+1. Initial log-likelihood: -4622.142 (took 0.000 wall-clock sec)
+Rate parameters:  A-C: 1.86191  A-G: 5.45092  A-T: 1.00000  C-G: 1.86191  C-T: 5.37694  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.343
+Rate parameters:  A-C: 1.88497  A-G: 5.19994  A-T: 1.00000  C-G: 1.88497  C-T: 5.00673  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.326
+Rate parameters:  A-C: 1.92665  A-G: 5.18874  A-T: 1.00000  C-G: 1.92665  C-T: 4.99970  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.320
+Rate parameters:  A-C: 1.92979  A-G: 5.14328  A-T: 1.00000  C-G: 1.92979  C-T: 4.99864  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.318
+Optimal log-likelihood: -4605.352
+706  TIM3e+I       4605.352     11  9232.705     9232.916     9289.232
+Optimizing model TIM3e+G4
+1. Initial log-likelihood: -4606.346 (took 0.000 wall-clock sec)
+Rate parameters:  A-C: 2.08434  A-G: 5.77653  A-T: 1.00000  C-G: 2.08434  C-T: 5.49235  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.852
+Rate parameters:  A-C: 2.09700  A-G: 5.70515  A-T: 1.00000  C-G: 2.09700  C-T: 5.50363  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.875
+Optimal log-likelihood: -4603.805
+707  TIM3e+G4      4603.805     11  9229.609     9229.821     9286.137
+Optimizing model TIM3e+I+G4
+1. Initial log-likelihood: -4604.714 (took 0.000 wall-clock sec)
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.98082  A-G: 5.50736  A-T: 1.00000  C-G: 1.98082  C-T: 5.24858  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.275
+Gamma shape alpha: 3.790
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.99326  A-G: 5.45729  A-T: 1.00000  C-G: 1.99326  C-T: 5.25033  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.274
+Gamma shape alpha: 4.032
+Optimal log-likelihood: -4604.410
+708  TIM3e+I+G4    4604.410     12  9232.819     9233.070     9294.486
+Optimizing model TIM3e+R2
+1. Initial log-likelihood: -4605.055 (took 0.000 wall-clock sec)
+Optimizing +R2 model parameters by 2-BFGS,EM algorithm...
+Rate parameters:  A-C: 1.97765  A-G: 5.51821  A-T: 1.00000  C-G: 1.97765  C-T: 5.22625  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Site proportion and rates:  (0.506,0.198) (0.494,1.816)
+Optimizing +R2 model parameters by 2-BFGS,EM algorithm...
+Rate parameters:  A-C: 1.99987  A-G: 5.47778  A-T: 1.00000  C-G: 1.99987  C-T: 5.24994  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Site proportion and rates:  (0.505,0.206) (0.495,1.792)
+Optimizing +R2 model parameters by 2-BFGS,EM algorithm...
+Rate parameters:  A-C: 2.01548  A-G: 5.47145  A-T: 1.00000  C-G: 2.01548  C-T: 5.24733  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Site proportion and rates:  (0.505,0.211) (0.495,1.778)
+Optimal log-likelihood: -4604.347
+709  TIM3e+R2      4604.347     12  9232.694     9232.944     9294.360
+728  TIM3e+I       4605.352     11  9232.705     9232.916     9289.232
+729  TIM3e+G4      4603.805     11  9229.609     9229.821     9286.137
+730  TIM3e+I+G4    4604.410     12  9232.819     9233.070     9294.486
+731  TIM3e+R2      4604.347     12  9232.694     9232.944     9294.360
+Optimizing model TIM3+I
+1. Initial log-likelihood: -4605.774 (took 0.000 wall-clock sec)
+Rate parameters:  A-C: 1.93457  A-G: 5.14152  A-T: 1.00000  C-G: 1.93457  C-T: 4.99440  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.317
+Rate parameters:  A-C: 1.91865  A-G: 5.11074  A-T: 1.00000  C-G: 1.91865  C-T: 4.92469  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.317
+Optimal log-likelihood: -4605.350
+750  TIM3+I        4605.350     11  9232.700     9232.911     9289.227
+Optimizing model TIM3+G4
+1. Initial log-likelihood: -4605.179 (took 0.000 wall-clock sec)
+Rate parameters:  A-C: 2.10781  A-G: 5.69981  A-T: 1.00000  C-G: 2.10781  C-T: 5.49807  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.886
+Rate parameters:  A-C: 2.11369  A-G: 5.68874  A-T: 1.00000  C-G: 2.11369  C-T: 5.48868  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.893
+Optimal log-likelihood: -4603.790
+751  TIM3+G4       4603.790     11  9229.580     9229.792     9286.108
+Optimizing model TIM3+I+G4
+1. Initial log-likelihood: -4604.499 (took 0.000 wall-clock sec)
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 2.00349  A-G: 5.40085  A-T: 1.00000  C-G: 2.00349  C-T: 5.20952  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.256
+Gamma shape alpha: 3.498
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.99722  A-G: 5.40142  A-T: 1.00000  C-G: 1.99722  C-T: 5.20870  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.255
+Gamma shape alpha: 3.460
+Optimal log-likelihood: -4604.235
+752  TIM3+I+G4     4604.235     12  9232.469     9232.719     9294.136
+Optimizing model TIM3+R2
+1. Initial log-likelihood: -4604.257 (took 0.000 wall-clock sec)
+Optimizing +R2 model parameters by 2-BFGS,EM algorithm...
+Rate parameters:  A-C: 2.01423  A-G: 5.40273  A-T: 1.00000  C-G: 2.01423  C-T: 5.21815  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Site proportion and rates:  (0.531,0.245) (0.469,1.846)
+Optimal log-likelihood: -4604.213
+753  TIM3+R2       4604.213     12  9232.427     9232.677     9294.093
+Alignment state count time was 0.000 seconds.
+Empirical state frequencies: 0.2950819672 0.2532445355 0.2995218579 0.1521516394 
+Optimizing model TIM3+F+I
+1. Initial log-likelihood: -4548.9743215064 (took 0.0000417721 wall-clock sec)
+Rate parameters:  A-C: 1.08777  A-G: 2.89893  A-T: 1.00000  C-G: 1.08777  C-T: 5.38751  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Proportion of invariable sites: 0.348
+Rate parameters:  A-C: 1.09165  A-G: 2.89798  A-T: 1.00000  C-G: 1.09165  C-T: 5.38692  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Proportion of invariable sites: 0.347
+Optimal log-likelihood: -4547.990
+772  TIM3+F+I      4547.990     14  9123.981     9124.318     9195.925
+Alignment state count time was 0.000 seconds.
+Empirical state frequencies: 0.2950819672 0.2532445355 0.2995218579 0.1521516394 
+Optimizing model TIM3+F+G4
+1. Initial log-likelihood: -4550.9498557097 (took 0.0000663302 wall-clock sec)
+Rate parameters:  A-C: 1.20073  A-G: 3.21547  A-T: 1.00000  C-G: 1.20073  C-T: 5.76881  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Gamma shape alpha: 0.773
+Rate parameters:  A-C: 1.20895  A-G: 3.21367  A-T: 1.00000  C-G: 1.20895  C-T: 5.76677  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Gamma shape alpha: 0.781
+Optimal log-likelihood: -4549.437
+773  TIM3+F+G4     4549.437     14  9126.875     9127.212     9198.819
+Alignment state count time was 0.000 seconds.
+Empirical state frequencies: 0.2950819672 0.2532445355 0.2995218579 0.1521516394 
+Optimizing model TIM3+F+I+G4
+1. Initial log-likelihood: -4548.3707011379 (took 0.0000695330 wall-clock sec)
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.13028  A-G: 3.04010  A-T: 1.00000  C-G: 1.13028  C-T: 5.60575  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Proportion of invariable sites: 0.274
+Gamma shape alpha: 3.070
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.13761  A-G: 3.03853  A-T: 1.00000  C-G: 1.13761  C-T: 5.60427  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Proportion of invariable sites: 0.276
+Gamma shape alpha: 3.218
+Optimal log-likelihood: -4548.054
+774  TIM3+F+I+G4   4548.054     15  9126.109     9126.495     9203.192
+Alignment state count time was 0.000 seconds.
+Empirical state frequencies: 0.2950819672 0.2532445355 0.2995218579 0.1521516394 
+Optimizing model TIM3+F+R2
+1. Initial log-likelihood: -4549.2773131538 (took 0.0000437349 wall-clock sec)
+Optimizing +R2 model parameters by 2-BFGS,EM algorithm...
+Rate parameters:  A-C: 1.15057  A-G: 3.10245  A-T: 1.00000  C-G: 1.15057  C-T: 5.58570  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Site proportion and rates:  (0.514,0.186) (0.486,1.860)
+Optimizing +R2 model parameters by 2-BFGS,EM algorithm...
+Rate parameters:  A-C: 1.15908  A-G: 3.10033  A-T: 1.00000  C-G: 1.15908  C-T: 5.58409  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Site proportion and rates:  (0.512,0.186) (0.488,1.851)
+Optimal log-likelihood: -4548.951
+775  TIM3+F+R2     4548.951     15  9127.902     9128.288     9204.985
+Optimizing model TVMe+I
+1. Initial log-likelihood: -4611.525 (took 0.000 wall-clock sec)
+Rate parameters:  A-C: 2.69203  A-G: 6.64248  A-T: 1.54756  C-G: 2.07053  C-T: 6.64248  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.335
+Rate parameters:  A-C: 2.77970  A-G: 6.54780  A-T: 1.54678  C-G: 2.16512  C-T: 6.54780  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.323
+Rate parameters:  A-C: 2.78787  A-G: 6.52333  A-T: 1.56240  C-G: 2.18128  C-T: 6.52333  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.319
+Optimal log-likelihood: -4603.727
+794  TVMe+I        4603.727     12  9231.455     9231.705     9293.121
+Optimizing model TVMe+G4
+1. Initial log-likelihood: -4604.894 (took 0.000 wall-clock sec)
+Rate parameters:  A-C: 2.72368  A-G: 6.62292  A-T: 1.38355  C-G: 2.14980  C-T: 6.62292  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.861
+Rate parameters:  A-C: 2.84867  A-G: 6.82716  A-T: 1.47514  C-G: 2.27243  C-T: 6.82716  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.883
+Rate parameters:  A-C: 2.85746  A-G: 6.81529  A-T: 1.48608  C-G: 2.28436  C-T: 6.81529  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.897
+Optimal log-likelihood: -4602.479
+795  TVMe+G4       4602.479     12  9228.958     9229.209     9290.625
+Optimizing model TVMe+I+G4
+1. Initial log-likelihood: -4603.221 (took 0.000 wall-clock sec)
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 2.83639  A-G: 6.83256  A-T: 1.52604  C-G: 2.22419  C-T: 6.83256  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.275
+Gamma shape alpha: 3.888
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 2.85037  A-G: 6.80677  A-T: 1.55150  C-G: 2.24266  C-T: 6.80677  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.274
+Gamma shape alpha: 4.143
+Optimal log-likelihood: -4602.911
+796  TVMe+I+G4     4602.911     13  9231.822     9232.114     9298.627
+Optimizing model TVMe+R2
+1. Initial log-likelihood: -4603.550 (took 0.000 wall-clock sec)
+Optimizing +R2 model parameters by 2-BFGS,EM algorithm...
+Rate parameters:  A-C: 2.82858  A-G: 6.83164  A-T: 1.51400  C-G: 2.21962  C-T: 6.83164  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Site proportion and rates:  (0.507,0.201) (0.493,1.819)
+Optimizing +R2 model parameters by 2-BFGS,EM algorithm...
+Rate parameters:  A-C: 2.84698  A-G: 6.80543  A-T: 1.53105  C-G: 2.24637  C-T: 6.80543  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Site proportion and rates:  (0.506,0.208) (0.494,1.796)
+Optimizing +R2 model parameters by 2-BFGS,EM algorithm...
+Rate parameters:  A-C: 2.85787  A-G: 6.78708  A-T: 1.53641  C-G: 2.26250  C-T: 6.78708  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Site proportion and rates:  (0.506,0.213) (0.494,1.781)
+Optimal log-likelihood: -4602.907
+797  TVMe+R2       4602.907     13  9231.815     9232.107     9298.620
+816  TVMe+I        4603.727     12  9231.455     9231.705     9293.121
+817  TVMe+G4       4602.479     12  9228.958     9229.209     9290.625
+818  TVMe+I+G4     4602.911     13  9231.822     9232.114     9298.627
+819  TVMe+R2       4602.907     13  9231.815     9232.107     9298.620
+Optimizing model TVM+I
+1. Initial log-likelihood: -4604.096 (took 0.000 wall-clock sec)
+Rate parameters:  A-C: 2.78991  A-G: 6.50250  A-T: 1.56047  C-G: 2.18932  C-T: 6.50250  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.318
+Rate parameters:  A-C: 2.64119  A-G: 6.16550  A-T: 1.48141  C-G: 2.06343  C-T: 6.16550  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.318
+Optimal log-likelihood: -4603.707
+838  TVM+I         4603.707     12  9231.415     9231.665     9293.081
+Optimizing model TVM+G4
+1. Initial log-likelihood: -4603.600 (took 0.000 wall-clock sec)
+Rate parameters:  A-C: 2.86287  A-G: 6.80868  A-T: 1.48802  C-G: 2.29004  C-T: 6.80868  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.903
+Rate parameters:  A-C: 2.86482  A-G: 6.80398  A-T: 1.49024  C-G: 2.29266  C-T: 6.80398  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.907
+Optimal log-likelihood: -4602.475
+839  TVM+G4        4602.475     12  9228.951     9229.201     9290.617
+Optimizing model TVM+I+G4
+1. Initial log-likelihood: -4603.069 (took 0.000 wall-clock sec)
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 2.85645  A-G: 6.79031  A-T: 1.55708  C-G: 2.25247  C-T: 6.79031  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.272
+Gamma shape alpha: 4.258
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 2.85850  A-G: 6.76958  A-T: 1.55776  C-G: 2.25543  C-T: 6.76958  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.271
+Gamma shape alpha: 4.258
+Optimal log-likelihood: -4602.881
+840  TVM+I+G4      4602.881     13  9231.761     9232.054     9298.567
+Optimizing model TVM+R2
+1. Initial log-likelihood: -4602.911 (took 0.000 wall-clock sec)
+Optimizing +R2 model parameters by 2-BFGS,EM algorithm...
+Rate parameters:  A-C: 2.86428  A-G: 6.77218  A-T: 1.53881  C-G: 2.27183  C-T: 6.77218  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Site proportion and rates:  (0.506,0.219) (0.494,1.794)
+Optimal log-likelihood: -4602.890
+841  TVM+R2        4602.890     13  9231.781     9232.073     9298.586
+Alignment state count time was 0.000 seconds.
+Empirical state frequencies: 0.2950819672 0.2532445355 0.2995218579 0.1521516394 
+Optimizing model TVM+F+I
+1. Initial log-likelihood: -4556.4639420088 (took 0.0000377712 wall-clock sec)
+Rate parameters:  A-C: 1.60919  A-G: 4.76702  A-T: 1.51560  C-G: 1.20317  C-T: 4.76702  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Proportion of invariable sites: 0.359
+Rate parameters:  A-C: 1.61210  A-G: 4.76857  A-T: 1.50660  C-G: 1.20265  C-T: 4.76857  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Proportion of invariable sites: 0.359
+Optimal log-likelihood: -4555.090
+860  TVM+F+I       4555.090     15  9140.179     9140.565     9217.262
+Alignment state count time was 0.000 seconds.
+Empirical state frequencies: 0.2950819672 0.2532445355 0.2995218579 0.1521516394 
+Optimizing model TVM+F+G4
+1. Initial log-likelihood: -4557.3186026564 (took 0.0000696108 wall-clock sec)
+Rate parameters:  A-C: 1.70840  A-G: 5.10608  A-T: 1.53266  C-G: 1.32368  C-T: 5.10608  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Gamma shape alpha: 0.746
+Rate parameters:  A-C: 1.70750  A-G: 5.11004  A-T: 1.50603  C-G: 1.33037  C-T: 5.11004  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Gamma shape alpha: 0.744
+Optimal log-likelihood: -4556.010
+861  TVM+F+G4      4556.010     15  9142.020     9142.406     9219.103
+Alignment state count time was 0.000 seconds.
+Empirical state frequencies: 0.2950819672 0.2532445355 0.2995218579 0.1521516394 
+Optimizing model TVM+F+I+G4
+1. Initial log-likelihood: -4555.6115816564 (took 0.0000762180 wall-clock sec)
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.67392  A-G: 4.97986  A-T: 1.54311  C-G: 1.27476  C-T: 4.97986  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Proportion of invariable sites: 0.264
+Gamma shape alpha: 2.526
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.67049  A-G: 4.98407  A-T: 1.50857  C-G: 1.27714  C-T: 4.98407  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Proportion of invariable sites: 0.264
+Gamma shape alpha: 2.510
+Optimal log-likelihood: -4555.019
+862  TVM+F+I+G4    4555.019     16  9142.037     9142.475     9224.259
+Alignment state count time was 0.000 seconds.
+Empirical state frequencies: 0.2950819672 0.2532445355 0.2995218579 0.1521516394 
+Optimizing model TVM+F+R2
+1. Initial log-likelihood: -4555.9597311214 (took 0.0000456632 wall-clock sec)
+Optimizing +R2 model parameters by 2-BFGS,EM algorithm...
+Rate parameters:  A-C: 1.67573  A-G: 5.00245  A-T: 1.54315  C-G: 1.28180  C-T: 5.00245  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Site proportion and rates:  (0.524,0.188) (0.476,1.900)
+Optimizing +R2 model parameters by 2-BFGS,EM algorithm...
+Rate parameters:  A-C: 1.67065  A-G: 5.00759  A-T: 1.51975  C-G: 1.28303  C-T: 5.00759  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Site proportion and rates:  (0.523,0.187) (0.477,1.902)
+Optimal log-likelihood: -4555.460
+863  TVM+F+R2      4555.460     16  9142.919     9143.357     9225.141
+Optimizing model SYM+I
+1. Initial log-likelihood: -4607.787 (took 0.000 wall-clock sec)
+Rate parameters:  A-C: 2.65438  A-G: 6.26211  A-T: 1.47631  C-G: 2.06256  C-T: 6.06801  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.318
+Rate parameters:  A-C: 2.65419  A-G: 6.26272  A-T: 1.47491  C-G: 2.06565  C-T: 6.06705  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.318
+Optimal log-likelihood: -4603.682
+882  SYM+I         4603.682     13  9233.363     9233.655     9300.168
+Optimizing model SYM+G4
+1. Initial log-likelihood: -4603.527 (took 0.000 wall-clock sec)
+Rate parameters:  A-C: 2.86783  A-G: 6.91003  A-T: 1.48779  C-G: 2.29410  C-T: 6.68686  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.903
+Rate parameters:  A-C: 2.86757  A-G: 6.90847  A-T: 1.49772  C-G: 2.29269  C-T: 6.68320  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.905
+Optimal log-likelihood: -4602.444
+883  SYM+G4        4602.444     13  9230.887     9231.180     9297.693
+Optimizing model SYM+I+G4
+1. Initial log-likelihood: -4603.078 (took 0.000 wall-clock sec)
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 2.85077  A-G: 6.87189  A-T: 1.56112  C-G: 2.24725  C-T: 6.62329  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.270
+Gamma shape alpha: 4.167
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 2.84847  A-G: 6.85474  A-T: 1.54458  C-G: 2.24505  C-T: 6.60961  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.268
+Gamma shape alpha: 4.105
+Optimal log-likelihood: -4602.823
+884  SYM+I+G4      4602.823     14  9233.645     9233.982     9305.589
+Optimizing model SYM+R2
+1. Initial log-likelihood: -4602.894 (took 0.000 wall-clock sec)
+Optimizing +R2 model parameters by 2-BFGS,EM algorithm...
+Rate parameters:  A-C: 2.87047  A-G: 6.85879  A-T: 1.53763  C-G: 2.28189  C-T: 6.64680  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Site proportion and rates:  (0.507,0.221) (0.493,1.794)
+Optimal log-likelihood: -4602.856
+885  SYM+R2        4602.856     14  9233.711     9234.049     9305.655
+904  SYM+I         4603.682     13  9233.363     9233.655     9300.168
+905  SYM+G4        4602.444     13  9230.887     9231.180     9297.693
+906  SYM+I+G4      4602.823     14  9233.645     9233.982     9305.589
+907  SYM+R2        4602.856     14  9233.711     9234.049     9305.655
+Optimizing model GTR+I
+1. Initial log-likelihood: -4604.021 (took 0.000 wall-clock sec)
+Rate parameters:  A-C: 2.65590  A-G: 6.26266  A-T: 1.47529  C-G: 2.06665  C-T: 6.06632  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.318
+Rate parameters:  A-C: 2.65672  A-G: 6.26305  A-T: 1.47459  C-G: 2.06618  C-T: 6.06650  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.318
+Optimal log-likelihood: -4603.679
+926  GTR+I         4603.679     13  9233.358     9233.650     9300.163
+Optimizing model GTR+G4
+1. Initial log-likelihood: -4603.476 (took 0.000 wall-clock sec)
+Rate parameters:  A-C: 2.86681  A-G: 6.90691  A-T: 1.49302  C-G: 2.29266  C-T: 6.67704  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.905
+Rate parameters:  A-C: 2.86590  A-G: 6.90510  A-T: 1.49747  C-G: 2.29178  C-T: 6.67444  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.906
+Optimal log-likelihood: -4602.444
+927  GTR+G4        4602.444     13  9230.887     9231.179     9297.692
+Optimizing model GTR+I+G4
+1. Initial log-likelihood: -4603.024 (took 0.000 wall-clock sec)
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 2.84579  A-G: 6.84839  A-T: 1.55566  C-G: 2.24093  C-T: 6.60419  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.267
+Gamma shape alpha: 4.052
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 2.84106  A-G: 6.84048  A-T: 1.54376  C-G: 2.24119  C-T: 6.59661  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.266
+Gamma shape alpha: 3.981
+Optimal log-likelihood: -4602.801
+928  GTR+I+G4      4602.801     14  9233.603     9233.940     9305.547
+Optimizing model GTR+R2
+1. Initial log-likelihood: -4602.859 (took 0.000 wall-clock sec)
+Optimizing +R2 model parameters by 2-BFGS,EM algorithm...
+Rate parameters:  A-C: 2.86690  A-G: 6.85489  A-T: 1.54632  C-G: 2.27208  C-T: 6.64147  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Site proportion and rates:  (0.508,0.223) (0.492,1.798)
+Optimal log-likelihood: -4602.851
+929  GTR+R2        4602.851     14  9233.703     9234.040     9305.647
+Alignment state count time was 0.000 seconds.
+Empirical state frequencies: 0.2950819672 0.2532445355 0.2995218579 0.1521516394 
+Optimizing model GTR+F+I
+1. Initial log-likelihood: -4547.3375328198 (took 0.0000401759 wall-clock sec)
+Rate parameters:  A-C: 1.52265  A-G: 3.56503  A-T: 1.48197  C-G: 1.17074  C-T: 6.64519  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Proportion of invariable sites: 0.348
+Rate parameters:  A-C: 1.52387  A-G: 3.56452  A-T: 1.48213  C-G: 1.17494  C-T: 6.64376  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Proportion of invariable sites: 0.348
+Optimal log-likelihood: -4546.270
+948  GTR+F+I       4546.270     16  9124.540     9124.978     9206.762
+Alignment state count time was 0.000 seconds.
+Empirical state frequencies: 0.2950819672 0.2532445355 0.2995218579 0.1521516394 
+Optimizing model GTR+F+G4
+1. Initial log-likelihood: -4549.3668441800 (took 0.0000670999 wall-clock sec)
+Rate parameters:  A-C: 1.61291  A-G: 3.84051  A-T: 1.45617  C-G: 1.27518  C-T: 6.87599  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Gamma shape alpha: 0.784
+Rate parameters:  A-C: 1.63447  A-G: 3.84660  A-T: 1.43526  C-G: 1.29391  C-T: 6.87372  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Gamma shape alpha: 0.792
+Optimal log-likelihood: -4548.048
+949  GTR+F+G4      4548.048     16  9128.095     9128.533     9210.317
+Alignment state count time was 0.000 seconds.
+Empirical state frequencies: 0.2950819672 0.2532445355 0.2995218579 0.1521516394 
+Optimizing model GTR+F+I+G4
+1. Initial log-likelihood: -4546.8269746037 (took 0.0000676201 wall-clock sec)
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.56528  A-G: 3.70761  A-T: 1.48374  C-G: 1.21967  C-T: 6.86550  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Proportion of invariable sites: 0.278
+Gamma shape alpha: 3.341
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.57074  A-G: 3.70691  A-T: 1.48309  C-G: 1.22954  C-T: 6.86214  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Proportion of invariable sites: 0.279
+Gamma shape alpha: 3.488
+Optimal log-likelihood: -4546.465
+950  GTR+F+I+G4    4546.465     17  9126.931     9127.423     9214.291
+Alignment state count time was 0.000 seconds.
+Empirical state frequencies: 0.2950819672 0.2532445355 0.2995218579 0.1521516394 
+Optimizing model GTR+F+R2
+1. Initial log-likelihood: -4547.7039432253 (took 0.0000393852 wall-clock sec)
+Optimizing +R2 model parameters by 2-BFGS,EM algorithm...
+Rate parameters:  A-C: 1.58091  A-G: 3.76107  A-T: 1.47664  C-G: 1.23324  C-T: 6.78189  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Site proportion and rates:  (0.508,0.182) (0.492,1.844)
+Optimizing +R2 model parameters by 2-BFGS,EM algorithm...
+Rate parameters:  A-C: 1.58716  A-G: 3.75868  A-T: 1.47547  C-G: 1.24250  C-T: 6.78032  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Site proportion and rates:  (0.505,0.181) (0.495,1.838)
+Optimal log-likelihood: -4547.346
+951  GTR+F+R2      4547.346     17  9128.693     9129.186     9216.054
+Akaike Information Criterion:           TIM2+F+I
+Corrected Akaike Information Criterion: TIM2+F+I
+Bayesian Information Criterion:         TN+F+I
+Best-fit model: TN+F+I chosen according to BIC
+
+All model information printed to ../../results/coalescent_astral/gene_trees_nt/abrab.model.gz
+CPU time for ModelFinder: 1.259 seconds (0h:0m:1s)
+Wall-clock time for ModelFinder: 0.738 seconds (0h:0m:0s)
+Alignment state count time was 0.000 seconds.
+Empirical state frequencies: 0.2950819672 0.2532445355 0.2995218579 0.1521516394 
+Generating 1000 samples for ultrafast bootstrap (seed: 12345)...
+Alignment state count time was 0.0000626990 seconds.
+Empirical state frequencies: 0.2950819672 0.2532445355 0.2995218579 0.1521516394 
+
+ML-TREE SEARCH START WITH THE FOLLOWING PARAMETERS:
+Model of evolution: TN+F+I with counted frequencies (13 free parameters)
+Fixed branch lengths: No
+Tree search algorithm: Stochastic nearest neighbor interchange
+Termination condition: min 0.9900000000 correlation coefficient
+NNI assessed on: 5 branches
+Phylogenetic likelihood library: No
+Branch length optimization method: Newton
+Number of Newton-Raphson steps in NNI evaluation and branch length optimization: 10 / 10
+SSE instructions: Yes
+
+NOTE: 0 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.1000000000)
+1. Initial log-likelihood: -4548.2612150847 (took 0.0000578379 wall-clock sec)
+Rate parameters:  A-C: 1.00000  A-G: 2.74164  A-T: 1.00000  C-G: 1.00000  C-T: 5.11540  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Proportion of invariable sites: 0.349
+2. Current log-likelihood: -4548.091 (after 0.001 wall-clock sec)
+Rate parameters:  A-C: 1.00000  A-G: 2.74016  A-T: 1.00000  C-G: 1.00000  C-T: 5.11443  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Proportion of invariable sites: 0.348
+Optimal log-likelihood: -4548.089
+Parameters optimization took 2 rounds (0.002 sec)
+Best tree printed to ../../results/coalescent_astral/gene_trees_nt/abrab.treefile
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+0.000102s Longest distance was 1.146652
+Calculating distance matrix: done in 0.000113846 secs using 668.4% CPU
+Distance calculation time: 0.000139 seconds
+Computing ML distances took 0.000158 sec (of wall-clock time) 0.000806 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000188132 secs using 124.9% CPU
+Constructing RapidNJ tree: done in 0.000357053 secs using 137% CPU
+Computing RapidNJ tree took 0.000627 sec (of wall-clock time) 0.000875 sec (of CPU time)
+Computing RapidNJ tree (from in-memory) distance matrix took 0.001 sec.
+Time taken to write distance file: 0.006 seconds 
+Loading tree (from file ../../results/coalescent_astral/gene_trees_nt/abrab.bionj) took 0.000 sec.
+Wall-clock time spent creating initial tree was 0.006 seconds
+Log-likelihood of RapidNJ tree: -4548.089
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 99 parsimony trees... 0.016 second
+Computing log-likelihood of 4 initial trees ... 0.002 seconds
+Current best score: -4548.089
+
+Do NNI search on 5 best initial trees
+Optimizing NNI: done in 0.00101598 secs using 197.1% CPU
+NOTE: Input tree is already NNI-optimal
+Iteration 1 / LogL: -4548.089 / Time: 0h:0m:0s
+Optimizing NNI: done in 0.00219386 secs using 144.6% CPU
+Iteration 2 / LogL: -4549.091 / Time: 0h:0m:0s
+Optimizing NNI: done in 0.00224908 secs using 187.3% CPU
+Iteration 3 / LogL: -4549.049 / Time: 0h:0m:0s
+Optimizing NNI: done in 0.00217639 secs using 191.3% CPU
+Iteration 4 / LogL: -4559.036 / Time: 0h:0m:0s
+Optimizing NNI: done in 0.00217313 secs using 191.4% CPU
+Iteration 5 / LogL: -4558.062 / Time: 0h:0m:0s
+Best tree printed to ../../results/coalescent_astral/gene_trees_nt/abrab.treefile
+Finish initializing candidate tree set (5)
+Current best tree score: -4548.089 / CPU time: 0.039
+Number of iterations: 5
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Optimizing NNI: done in 0.00203787 secs using 197.2% CPU
+UPDATE BEST LOG-LIKELIHOOD: -4548.089
+Iteration 6 / LogL: -4548.089 / Time: 0h:0m:0s
+Best tree printed to ../../results/coalescent_astral/gene_trees_nt/abrab.treefile
+Optimizing NNI: done in 0.0033021 secs using 144.2% CPU
+Iteration 7 / LogL: -4549.567 / Time: 0h:0m:0s
+Optimizing NNI: done in 0.0033869 secs using 188.1% CPU
+Iteration 8 / LogL: -4548.462 / Time: 0h:0m:0s
+Optimizing NNI: done in 0.00303421 secs using 198.3% CPU
+Iteration 9 / LogL: -4550.201 / Time: 0h:0m:0s
+Optimizing NNI: done in 0.00324531 secs using 191.9% CPU
+Iteration 10 / LogL: -4549.567 / Time: 0h:0m:0s
+Optimizing NNI: done in 0.00194917 secs using 151.3% CPU
+UPDATE BEST LOG-LIKELIHOOD: -4548.089
+Iteration 11 / LogL: -4548.089 / Time: 0h:0m:0s
+Best tree printed to ../../results/coalescent_astral/gene_trees_nt/abrab.treefile
+Optimizing NNI: done in 0.00325043 secs using 193.1% CPU
+Iteration 12 / LogL: -4549.567 / Time: 0h:0m:0s
+Optimizing NNI: done in 0.00222013 secs using 143.9% CPU
+Iteration 13 / LogL: -4549.407 / Time: 0h:0m:0s
+Optimizing NNI: done in 0.00345947 secs using 215% CPU
+Iteration 14 / LogL: -4548.462 / Time: 0h:0m:0s
+Optimizing NNI: done in 0.00309279 secs using 196.5% CPU
+Iteration 15 / LogL: -4550.201 / Time: 0h:0m:0s
+Optimizing NNI: done in 0.00192277 secs using 203.6% CPU
+UPDATE BEST LOG-LIKELIHOOD: -4548.088
+Iteration 16 / LogL: -4548.088 / Time: 0h:0m:0s
+Best tree printed to ../../results/coalescent_astral/gene_trees_nt/abrab.treefile
+Optimizing NNI: done in 0.00309209 secs using 196.2% CPU
+Iteration 17 / LogL: -4550.201 / Time: 0h:0m:0s
+Optimizing NNI: done in 0.00327228 secs using 190.9% CPU
+Iteration 18 / LogL: -4559.400 / Time: 0h:0m:1s
+Optimizing NNI: done in 0.00223714 secs using 143.9% CPU
+Iteration 19 / LogL: -4549.407 / Time: 0h:0m:1s
+Optimizing NNI: done in 0.00325298 secs using 191.7% CPU
+Iteration 20 / LogL: -4559.159 / Time: 0h:0m:1s
+Optimizing NNI: done in 0.00181052 secs using 209.8% CPU
+Iteration 21 / LogL: -4558.682 / Time: 0h:0m:1s (0h:0m:1s left)
+Optimizing NNI: done in 0.00317489 secs using 162.1% CPU
+Iteration 22 / LogL: -4562.378 / Time: 0h:0m:1s (0h:0m:1s left)
+Optimizing NNI: done in 0.00322381 secs using 192.6% CPU
+Iteration 23 / LogL: -4549.567 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.000840414 secs using 216.9% CPU
+NOTE: Input tree is already NNI-optimal
+Iteration 24 / LogL: -4559.741 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.00205715 secs using 196% CPU
+Iteration 25 / LogL: -4549.092 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.00327677 secs using 191.1% CPU
+Iteration 26 / LogL: -4549.522 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.00083284 secs using 219.4% CPU
+NOTE: Input tree is already NNI-optimal
+Iteration 27 / LogL: -4559.741 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.00194396 secs using 202.2% CPU
+Iteration 28 / LogL: -4558.248 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.00315425 secs using 163.8% CPU
+Iteration 29 / LogL: -4562.378 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.00298999 secs using 199.5% CPU
+Iteration 30 / LogL: -4550.201 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.00321332 secs using 223.9% CPU
+Iteration 31 / LogL: -4562.378 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.00339808 secs using 158.4% CPU
+Iteration 32 / LogL: -4555.512 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.00182708 secs using 100.1% CPU
+Iteration 33 / LogL: -4558.682 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.00195288 secs using 201.9% CPU
+UPDATE BEST LOG-LIKELIHOOD: -4548.088
+Iteration 34 / LogL: -4548.088 / Time: 0h:0m:1s (0h:0m:0s left)
+Best tree printed to ../../results/coalescent_astral/gene_trees_nt/abrab.treefile
+Optimizing NNI: done in 0.0032541 secs using 191.3% CPU
+Iteration 35 / LogL: -4550.740 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.00193093 secs using 153.9% CPU
+UPDATE BEST LOG-LIKELIHOOD: -4548.088
+Iteration 36 / LogL: -4548.088 / Time: 0h:0m:1s (0h:0m:0s left)
+Best tree printed to ../../results/coalescent_astral/gene_trees_nt/abrab.treefile
+Optimizing NNI: done in 0.00199541 secs using 162.1% CPU
+UPDATE BEST LOG-LIKELIHOOD: -4548.088
+Iteration 37 / LogL: -4548.088 / Time: 0h:0m:1s (0h:0m:1s left)
+Best tree printed to ../../results/coalescent_astral/gene_trees_nt/abrab.treefile
+Optimizing NNI: done in 0.00203149 secs using 159.6% CPU
+Iteration 38 / LogL: -4558.248 / Time: 0h:0m:1s (0h:0m:1s left)
+Optimizing NNI: done in 0.00181459 secs using 155.1% CPU
+Iteration 39 / LogL: -4558.682 / Time: 0h:0m:1s (0h:0m:1s left)
+Optimizing NNI: done in 0.00191317 secs using 203.8% CPU
+UPDATE BEST LOG-LIKELIHOOD: -4548.088
+Iteration 40 / LogL: -4548.088 / Time: 0h:0m:1s (0h:0m:1s left)
+Best tree printed to ../../results/coalescent_astral/gene_trees_nt/abrab.treefile
+Optimizing NNI: done in 0.00230231 secs using 170.1% CPU
+Iteration 41 / LogL: -4549.406 / Time: 0h:0m:1s (0h:0m:1s left)
+Optimizing NNI: done in 0.00333035 secs using 189.6% CPU
+Iteration 42 / LogL: -4555.512 / Time: 0h:0m:1s (0h:0m:1s left)
+Optimizing NNI: done in 0.00312606 secs using 195.2% CPU
+Iteration 43 / LogL: -4559.400 / Time: 0h:0m:1s (0h:0m:1s left)
+Optimizing NNI: done in 0.00333006 secs using 189.6% CPU
+Iteration 44 / LogL: -4548.462 / Time: 0h:0m:1s (0h:0m:1s left)
+Optimizing NNI: done in 0.00188234 secs using 205.5% CPU
+Iteration 45 / LogL: -4548.088 / Time: 0h:0m:1s (0h:0m:1s left)
+Optimizing NNI: done in 0.00207044 secs using 197.6% CPU
+Iteration 46 / LogL: -4549.050 / Time: 0h:0m:1s (0h:0m:1s left)
+Optimizing NNI: done in 0.00202948 secs using 197.7% CPU
+Iteration 47 / LogL: -4549.092 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.00333887 secs using 218.7% CPU
+Iteration 48 / LogL: -4548.462 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.0020553 secs using 196.6% CPU
+Iteration 49 / LogL: -4549.050 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.00203978 secs using 197.5% CPU
+Iteration 50 / LogL: -4549.092 / Time: 0h:0m:1s (0h:0m:0s left)
+1000 tree(s) converted
+Using hash_map
+Converting collection of tree(s) into split system...
+Log-likelihood cutoff on original alignment: -4562.819
+Optimizing NNI: done in 0.00434475 secs using 166.8% CPU
+Iteration 51 / LogL: -4555.512 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.00331724 secs using 189.3% CPU
+Iteration 52 / LogL: -4559.159 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.00330441 secs using 190.9% CPU
+Iteration 53 / LogL: -4555.512 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.0018098 secs using 209.9% CPU
+Iteration 54 / LogL: -4558.682 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.00308476 secs using 196.3% CPU
+Iteration 55 / LogL: -4550.165 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.00206703 secs using 196.2% CPU
+Iteration 56 / LogL: -4549.050 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.000822308 secs using 220.6% CPU
+NOTE: Input tree is already NNI-optimal
+Iteration 57 / LogL: -4562.209 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.00193879 secs using 202.5% CPU
+Iteration 58 / LogL: -4558.248 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.00327883 secs using 192% CPU
+Iteration 59 / LogL: -4549.522 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.00189492 secs using 205% CPU
+Iteration 60 / LogL: -4548.088 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.0031168 secs using 163.3% CPU
+Iteration 61 / LogL: -4562.378 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.00317607 secs using 193.9% CPU
+Iteration 62 / LogL: -4549.567 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.00203263 secs using 197.6% CPU
+Iteration 63 / LogL: -4549.050 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.00326665 secs using 192% CPU
+Iteration 64 / LogL: -4549.522 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.00082104 secs using 220.9% CPU
+NOTE: Input tree is already NNI-optimal
+Iteration 65 / LogL: -4559.741 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.00310182 secs using 163.7% CPU
+Iteration 66 / LogL: -4559.400 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.00334137 secs using 189.3% CPU
+Iteration 67 / LogL: -4548.462 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.00325237 secs using 191.6% CPU
+Iteration 68 / LogL: -4550.740 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.00195521 secs using 151.8% CPU
+Iteration 69 / LogL: -4558.248 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.00208894 secs using 99.57% CPU
+Iteration 70 / LogL: -4549.092 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.00193943 secs using 202.6% CPU
+Iteration 71 / LogL: -4548.088 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.00335001 secs using 189% CPU
+Iteration 72 / LogL: -4548.462 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.00312529 secs using 227.2% CPU
+Iteration 73 / LogL: -4562.378 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.00193388 secs using 202.9% CPU
+Iteration 74 / LogL: -4558.248 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.00323471 secs using 161.4% CPU
+Iteration 75 / LogL: -4559.159 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.00297311 secs using 134.4% CPU
+Iteration 76 / LogL: -4550.201 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.00181883 secs using 209.2% CPU
+Iteration 77 / LogL: -4558.682 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.00330057 secs using 189.9% CPU
+Iteration 78 / LogL: -4549.522 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.000830962 secs using 219.6% CPU
+NOTE: Input tree is already NNI-optimal
+Iteration 79 / LogL: -4562.209 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.00222985 secs using 144.9% CPU
+Iteration 80 / LogL: -4549.406 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.0020861 secs using 195.1% CPU
+Iteration 81 / LogL: -4549.709 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.00340511 secs using 158.4% CPU
+Iteration 82 / LogL: -4555.512 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.00180587 secs using 210% CPU
+Iteration 83 / LogL: -4558.682 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.00204385 secs using 197.3% CPU
+Iteration 84 / LogL: -4549.092 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.00317653 secs using 193.9% CPU
+Iteration 85 / LogL: -4549.567 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.00314041 secs using 226.7% CPU
+Iteration 86 / LogL: -4559.400 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.00335384 secs using 159.4% CPU
+Iteration 87 / LogL: -4548.462 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.00189363 secs using 152.1% CPU
+Iteration 88 / LogL: -4548.088 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.00184577 secs using 207.4% CPU
+Iteration 89 / LogL: -4558.682 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.00318605 secs using 193.6% CPU
+Iteration 90 / LogL: -4562.378 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.0020863 secs using 149.5% CPU
+Iteration 91 / LogL: -4549.050 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.00321867 secs using 192.1% CPU
+Iteration 92 / LogL: -4549.567 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.00318093 secs using 225% CPU
+Iteration 93 / LogL: -4549.567 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.00194226 secs using 202.3% CPU
+Iteration 94 / LogL: -4558.248 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.00184423 secs using 154.3% CPU
+Iteration 95 / LogL: -4558.682 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.00313316 secs using 163.2% CPU
+Iteration 96 / LogL: -4562.378 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.00193001 secs using 152.6% CPU
+Iteration 97 / LogL: -4558.248 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.00183056 secs using 154.1% CPU
+Iteration 98 / LogL: -4558.682 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.0031012 secs using 195.6% CPU
+Iteration 99 / LogL: -4562.378 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.00189097 secs using 204.6% CPU
+Iteration 100 / LogL: -4548.088 / Time: 0h:0m:1s (0h:0m:0s left)
+1000 tree(s) converted
+Using hash_map
+Converting collection of tree(s) into split system...
+Log-likelihood cutoff on original alignment: -4562.819
+0 new splits compared to old boot_splits
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 1.000
+Optimizing NNI: done in 0.00329787 secs using 190.3% CPU
+Iteration 101 / LogL: -4550.740 / Time: 0h:0m:1s (0h:0m:1s left)
+0 new splits compared to old boot_splits
+TREE SEARCH COMPLETED AFTER 101 ITERATIONS / Time: 0h:0m:1s
+
+Log-likelihoods of 5 best candidate trees: 
+-4548.088 -4563.562 -4563.655 -4706.026 -4706.389 
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -4548.088 (took 0.000 wall-clock sec)
+Rate parameters:  A-C: 1.00000  A-G: 2.73849  A-T: 1.00000  C-G: 1.00000  C-T: 5.11243  G-T: 1.00000
+Base frequencies:  A: 0.295  C: 0.253  G: 0.300  T: 0.152
+Proportion of invariable sites: 0.348
+Optimal log-likelihood: -4548.088
+Parameters optimization took 1 rounds (0.001 sec)
+BEST SCORE FOUND : -4548.088
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+0.021 sec.
+Creating bootstrap support values...
+1000 tree(s) converted
+max_tree_id = 1   max_weight = 1 (0.100%)
+Using hash_map
+Converting collection of tree(s) into split system...
+7 splits found
+Split supports printed to NEXUS file ../../results/coalescent_astral/gene_trees_nt/abrab.splits.nex
+Total tree length: 1.074
+
+Total number of iterations: 101
+CPU time used for tree search: 1.046 sec (0h:0m:1s)
+Wall-clock time used for tree search: 1.092 sec (0h:0m:1s)
+Total CPU time used: 2.423 sec (0h:0m:2s)
+Total wall-clock time used: 2.015 sec (0h:0m:2s)
+
+Computing bootstrap consensus tree...
+Reading input file ../../results/coalescent_astral/gene_trees_nt/abrab.splits.nex...
+Reading "TAXA" block...
+Reading "SPLITS" block...
+5 taxa and 7 splits.
+Rescaling split weights by 1.000
+Consensus tree written to ../../results/coalescent_astral/gene_trees_nt/abrab.contree
+Reading input trees file ../../results/coalescent_astral/gene_trees_nt/abrab.contree
+Log-likelihood of consensus tree: -4548.089
+Best tree printed to ../../results/coalescent_astral/gene_trees_nt/abrab.treefile
+Tree contains 5 taxa and 7 branches
+
+Analysis results written to: 
+  IQ-TREE report:                ../../results/coalescent_astral/gene_trees_nt/abrab.iqtree
+  Maximum-likelihood tree:       ../../results/coalescent_astral/gene_trees_nt/abrab.treefile
+  Likelihood distances:          ../../results/coalescent_astral/gene_trees_nt/abrab.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          ../../results/coalescent_astral/gene_trees_nt/abrab.splits.nex
+  Consensus tree:                ../../results/coalescent_astral/gene_trees_nt/abrab.contree
+  Screen log file:               ../../results/coalescent_astral/gene_trees_nt/abrab.log
+
+Date and Time: Tue Apr 28 22:45:09 2026

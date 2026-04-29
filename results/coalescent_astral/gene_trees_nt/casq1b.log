@@ -1,0 +1,1895 @@
+IQ-TREE version 3.1.1 for Linux x86 64-bit built Apr  8 2026
+Developed by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren
+Contributed by Lam-Tung Nguyen, Dominik Schrempf, Chris Bielow,
+Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
+
+Host:    roy-exec-3.discovery.wisc.edu (AVX512, FMA3, 1509 GB RAM)
+Command: iqtree -s ../../results/msa_macse/reordered_cleaned_macse_nt/casq1b.fna --seqtype DNA -m MFP -B 1000 -alrt 1000 -T 2 --seed 12345 --verbose --prefix ../../results/coalescent_astral/gene_trees_nt/casq1b
+Seed:    12345 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Apr 28 22:45:19 2026
+Kernel:  AVX+FMA - 2 threads (112 CPU cores detected)
+
+Reading alignment file ../../results/msa_macse/reordered_cleaned_macse_nt/casq1b.fna ... Fasta format detected
+Reading fasta file: done in 0.000354875 secs using 73.83% CPU
+Name shortening took 0.000005 seconds.
+Duplicate sequence name check took 0.000005 seconds.
+Sequence Type detection took 0.000283 seconds.
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.00121638 secs using 158.1% CPU
+Time to read input file was 0.021565 sec.
+Time to count constant sites was 0.000005 sec.
+Alignment has 5 sequences with 1497 columns, 196 distinct patterns
+304 parsimony-informative, 197 singleton sites, 996 constant sites
+Alignment state count time was 0.000017 seconds.
+Empirical state frequencies: 0.2924569914 0.1840905752 0.2664314071 0.2570210263 
+    Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 7.78493e-06 secs using 64.23% CPU
+   1  Bg   10.02%    passed     80.11%
+   2  Bb    8.22%    passed     96.80%
+   3  Pk    9.62%    passed     86.16%
+   4  Ip    4.41%    passed     76.83%
+   5  Ee   13.43%    passed     95.16%
+****  TOTAL    9.14%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Hashing sequences took 0.000 wall-clock seconds
+Checking for duplicate sequences took 0.000 wall-clock seconds
+Checking for duplicate sequences: done in 3.01329e-05 secs
+Printing alignment to phylip file  took 0.000 sec
+
+Printing alignment to phylip file  took 0.000 sec
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.000 seconds
+Parsimony of PLL Parsimony tree was 657
+Alignment state count time was 0.000 seconds.
+Empirical state frequencies: 0.2924569914 0.1840905752 0.2664314071 0.2570210263 
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+Perform fast likelihood tree search using GTR+I+G model...
+Estimate model parameters (epsilon = 5.0000000000)
+1. Initial log-likelihood: -4876.5169895967 (took 0.0001173299 wall-clock sec)
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 2.65581  A-G: 4.39983  A-T: 1.31977  C-G: 1.26431  C-T: 12.45898  G-T: 1.00000
+Base frequencies:  A: 0.292  C: 0.184  G: 0.266  T: 0.257
+Proportion of invariable sites: 0.326
+Gamma shape alpha: 1.689
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 2.55649  A-G: 4.13248  A-T: 1.28072  C-G: 1.22214  C-T: 12.58252  G-T: 1.00000
+Base frequencies:  A: 0.292  C: 0.184  G: 0.266  T: 0.257
+Proportion of invariable sites: 0.323
+Gamma shape alpha: 1.431
+Optimal log-likelihood: -4676.983
+Perform nearest neighbor interchange...
+Optimizing NNI: done in 0.000614803 secs using 85.39% CPU
+NOTE: Input tree is already NNI-optimal
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -4676.983 (took 0.000 wall-clock sec)
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 2.49796  A-G: 4.07260  A-T: 1.19246  C-G: 1.15524  C-T: 12.67953  G-T: 1.00000
+Base frequencies:  A: 0.292  C: 0.184  G: 0.266  T: 0.257
+Proportion of invariable sites: 0.321
+Gamma shape alpha: 1.316
+Optimal log-likelihood: -4676.649
+Parameters optimization took 1 rounds (0.002 sec)
+Time for fast ML tree search: 0.011 seconds
+
+NOTE: ModelFinder requires 1 MB RAM!
+ModelFinder will test up to 968 DNA models (sample size: 1497 epsilon: 0.100) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+Optimizing model JC
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4976.514 (took 0.000 wall-clock sec)
+Optimal log-likelihood: -4898.499
+  1  JC            4898.499     7   9810.999     9811.074     9848.177
+Optimizing model JC+I
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4868.419 (took 0.000 wall-clock sec)
+Rate parameters:  A-C: 1.00000  A-G: 1.00000  A-T: 1.00000  C-G: 1.00000  C-T: 1.00000  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.432
+Rate parameters:  A-C: 1.00000  A-G: 1.00000  A-T: 1.00000  C-G: 1.00000  C-T: 1.00000  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.439
+Rate parameters:  A-C: 1.00000  A-G: 1.00000  A-T: 1.00000  C-G: 1.00000  C-T: 1.00000  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.440
+Optimal log-likelihood: -4861.335
+  2  JC+I          4861.335     8   9738.670     9738.767     9781.160
+Optimizing model JC+G4
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4862.434 (took 0.000 wall-clock sec)
+Rate parameters:  A-C: 1.00000  A-G: 1.00000  A-T: 1.00000  C-G: 1.00000  C-T: 1.00000  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.667
+Rate parameters:  A-C: 1.00000  A-G: 1.00000  A-T: 1.00000  C-G: 1.00000  C-T: 1.00000  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.623
+Rate parameters:  A-C: 1.00000  A-G: 1.00000  A-T: 1.00000  C-G: 1.00000  C-T: 1.00000  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.614
+Optimal log-likelihood: -4858.621
+  3  JC+G4         4858.621     8   9733.243     9733.339     9775.732
+Optimizing model JC+I+G4
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4860.526 (took 0.000 wall-clock sec)
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 1.00000  A-T: 1.00000  C-G: 1.00000  C-T: 1.00000  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.322
+Gamma shape alpha: 1.743
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 1.00000  A-T: 1.00000  C-G: 1.00000  C-T: 1.00000  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.321
+Gamma shape alpha: 1.894
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 1.00000  A-T: 1.00000  C-G: 1.00000  C-T: 1.00000  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.320
+Gamma shape alpha: 1.928
+Optimal log-likelihood: -4859.173
+  4  JC+I+G4       4859.173     9   9736.346     9736.467     9784.147
+Initialised +R2 from Gamma 0.614
+Optimizing model JC+R2
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4863.400 (took 0.000 wall-clock sec)
+Optimizing +R2 model parameters by 2-BFGS,EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 1.00000  A-T: 1.00000  C-G: 1.00000  C-T: 1.00000  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Site proportion and rates:  (0.511,0.164) (0.489,1.871)
+Optimizing +R2 model parameters by 2-BFGS,EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 1.00000  A-T: 1.00000  C-G: 1.00000  C-T: 1.00000  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Site proportion and rates:  (0.519,0.150) (0.481,1.911)
+Optimizing +R2 model parameters by 2-BFGS,EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 1.00000  A-T: 1.00000  C-G: 1.00000  C-T: 1.00000  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Site proportion and rates:  (0.526,0.143) (0.474,1.937)
+Optimizing +R2 model parameters by 2-BFGS,EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 1.00000  A-T: 1.00000  C-G: 1.00000  C-T: 1.00000  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Site proportion and rates:  (0.531,0.139) (0.469,1.954)
+Optimizing +R2 model parameters by 2-BFGS,EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 1.00000  A-T: 1.00000  C-G: 1.00000  C-T: 1.00000  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Site proportion and rates:  (0.535,0.138) (0.465,1.965)
+Optimal log-likelihood: -4860.174
+  5  JC+R2         4860.174     9   9738.347     9738.468     9786.148
+Initialised +R3 from Gamma 0.614
+Optimizing model JC+R3
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+Initialised +R3 from +R2
++R3 initialized from +R2
+1. Initial log-likelihood: -4865.982 (took 0.000 wall-clock sec)
+Optimizing +R3 model parameters by 2-BFGS,EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 1.00000  A-T: 1.00000  C-G: 1.00000  C-T: 1.00000  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Site proportion and rates:  (0.374,0.104) (0.323,0.908) (0.303,2.264)
+Optimizing +R3 model parameters by 2-BFGS,EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 1.00000  A-T: 1.00000  C-G: 1.00000  C-T: 1.00000  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Site proportion and rates:  (0.385,0.090) (0.318,0.841) (0.297,2.450)
+Optimizing +R3 model parameters by 2-BFGS,EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 1.00000  A-T: 1.00000  C-G: 1.00000  C-T: 1.00000  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Site proportion and rates:  (0.390,0.086) (0.317,0.802) (0.293,2.554)
+Optimizing +R3 model parameters by 2-BFGS,EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 1.00000  A-T: 1.00000  C-G: 1.00000  C-T: 1.00000  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Site proportion and rates:  (0.393,0.087) (0.317,0.780) (0.290,2.608)
+Optimizing +R3 model parameters by 2-BFGS,EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 1.00000  A-T: 1.00000  C-G: 1.00000  C-T: 1.00000  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Site proportion and rates:  (0.394,0.090) (0.319,0.766) (0.287,2.639)
+Optimal log-likelihood: -4858.993
+  6  JC+R3         4858.993     11  9739.986     9740.164     9798.410
+Initialised +R2 from Gamma 0.614
+Optimizing model JC+I+R2
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4870.665 (took 0.000 wall-clock sec)
+Optimizing +I+R2 model parameters by 2-BFGS,EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 1.00000  A-T: 1.00000  C-G: 1.00000  C-T: 1.00000  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.309
+Site proportion and rates:  (0.334,0.380) (0.357,2.471)
+Optimizing +I+R2 model parameters by 2-BFGS,EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 1.00000  A-T: 1.00000  C-G: 1.00000  C-T: 1.00000  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.299
+Site proportion and rates:  (0.336,0.430) (0.365,2.367)
+Optimizing +I+R2 model parameters by 2-BFGS,EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 1.00000  A-T: 1.00000  C-G: 1.00000  C-T: 1.00000  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.294
+Site proportion and rates:  (0.339,0.458) (0.367,2.313)
+Optimizing +I+R2 model parameters by 2-BFGS,EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 1.00000  A-T: 1.00000  C-G: 1.00000  C-T: 1.00000  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.291
+Site proportion and rates:  (0.341,0.474) (0.368,2.285)
+Optimizing +I+R2 model parameters by 2-BFGS,EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 1.00000  A-T: 1.00000  C-G: 1.00000  C-T: 1.00000  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.289
+Site proportion and rates:  (0.343,0.484) (0.368,2.269)
+Optimal log-likelihood: -4859.661
+ 14  JC+I+R2       4859.661     10  9739.322     9739.470     9792.434
+Initialised +R3 from Gamma 0.614
+Optimizing model JC+I+R3
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+Initialised +R3 from +R2
++I+R3 initialized from +I+R2
+1. Initial log-likelihood: -4860.889 (took 0.000 wall-clock sec)
+Optimizing +I+R3 model parameters by 2-BFGS,EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 1.00000  A-T: 1.00000  C-G: 1.00000  C-T: 1.00000  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.297
+Site proportion and rates:  (0.230,0.447) (0.232,1.372) (0.242,2.421)
+Optimizing +I+R3 model parameters by 2-BFGS,EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 1.00000  A-T: 1.00000  C-G: 1.00000  C-T: 1.00000  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.300
+Site proportion and rates:  (0.231,0.433) (0.230,1.333) (0.239,2.522)
+Optimizing +I+R3 model parameters by 2-BFGS,EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 1.00000  A-T: 1.00000  C-G: 1.00000  C-T: 1.00000  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.301
+Site proportion and rates:  (0.232,0.430) (0.229,1.296) (0.238,2.593)
+Optimizing +I+R3 model parameters by 2-BFGS,EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 1.00000  A-T: 1.00000  C-G: 1.00000  C-T: 1.00000  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.301
+Site proportion and rates:  (0.234,0.433) (0.229,1.261) (0.236,2.644)
+Optimizing +I+R3 model parameters by 2-BFGS,EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 1.00000  A-T: 1.00000  C-G: 1.00000  C-T: 1.00000  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.300
+Site proportion and rates:  (0.236,0.440) (0.230,1.227) (0.235,2.686)
+Optimal log-likelihood: -4859.283
+ 15  JC+I+R3       4859.283     12  9742.566     9742.777     9806.301
+ 24  JC+I          4861.335     8   9738.670     9738.767     9781.160
+ 25  JC+G4         4858.621     8   9733.243     9733.339     9775.732
+ 26  JC+I+G4       4859.173     9   9736.346     9736.467     9784.147
+Optimizing model F81+I
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4861.606 (took 0.000 wall-clock sec)
+Rate parameters:  A-C: 1.00000  A-G: 1.00000  A-T: 1.00000  C-G: 1.00000  C-T: 1.00000  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.440
+Rate parameters:  A-C: 1.00000  A-G: 1.00000  A-T: 1.00000  C-G: 1.00000  C-T: 1.00000  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.440
+Optimal log-likelihood: -4861.335
+ 46  F81+I         4861.335     8   9738.670     9738.767     9781.160
+Optimizing model F81+G4
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4859.068 (took 0.000 wall-clock sec)
+Rate parameters:  A-C: 1.00000  A-G: 1.00000  A-T: 1.00000  C-G: 1.00000  C-T: 1.00000  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.612
+Rate parameters:  A-C: 1.00000  A-G: 1.00000  A-T: 1.00000  C-G: 1.00000  C-T: 1.00000  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.611
+Optimal log-likelihood: -4858.620
+ 47  F81+G4        4858.620     8   9733.240     9733.337     9775.730
+Optimizing model F81+I+G4
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4859.181 (took 0.000 wall-clock sec)
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 1.00000  A-T: 1.00000  C-G: 1.00000  C-T: 1.00000  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.319
+Gamma shape alpha: 1.928
+Optimal log-likelihood: -4859.167
+ 48  F81+I+G4      4859.167     9   9736.333     9736.454     9784.134
+Alignment state count time was 0.000 seconds.
+Empirical state frequencies: 0.2924569914 0.1840905752 0.2664314071 0.2570210263 
+Optimizing model F81+F+I
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4850.8606251933 (took 0.0000214027 wall-clock sec)
+Rate parameters:  A-C: 1.00000  A-G: 1.00000  A-T: 1.00000  C-G: 1.00000  C-T: 1.00000  G-T: 1.00000
+Base frequencies:  A: 0.292  C: 0.184  G: 0.266  T: 0.257
+Proportion of invariable sites: 0.430
+Rate parameters:  A-C: 1.00000  A-G: 1.00000  A-T: 1.00000  C-G: 1.00000  C-T: 1.00000  G-T: 1.00000
+Base frequencies:  A: 0.292  C: 0.184  G: 0.266  T: 0.257
+Proportion of invariable sites: 0.429
+Optimal log-likelihood: -4850.322
+ 68  F81+F+I       4850.322     11  9722.643     9722.821     9781.067
+Alignment state count time was 0.000 seconds.
+Empirical state frequencies: 0.2924569914 0.1840905752 0.2664314071 0.2570210263 
+Optimizing model F81+F+G4
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4848.5578153257 (took 0.0000310610 wall-clock sec)
+Rate parameters:  A-C: 1.00000  A-G: 1.00000  A-T: 1.00000  C-G: 1.00000  C-T: 1.00000  G-T: 1.00000
+Base frequencies:  A: 0.292  C: 0.184  G: 0.266  T: 0.257
+Gamma shape alpha: 0.639
+Rate parameters:  A-C: 1.00000  A-G: 1.00000  A-T: 1.00000  C-G: 1.00000  C-T: 1.00000  G-T: 1.00000
+Base frequencies:  A: 0.292  C: 0.184  G: 0.266  T: 0.257
+Gamma shape alpha: 0.644
+Optimal log-likelihood: -4847.932
+ 69  F81+F+G4      4847.932     11  9717.863     9718.041     9776.287
+Alignment state count time was 0.000 seconds.
+Empirical state frequencies: 0.2924569914 0.1840905752 0.2664314071 0.2570210263 
+Optimizing model F81+F+I+G4
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4848.5619183552 (took 0.0000454299 wall-clock sec)
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 1.00000  A-T: 1.00000  C-G: 1.00000  C-T: 1.00000  G-T: 1.00000
+Base frequencies:  A: 0.292  C: 0.184  G: 0.266  T: 0.257
+Proportion of invariable sites: 0.319
+Gamma shape alpha: 2.100
+Optimal log-likelihood: -4848.493
+ 70  F81+F+I+G4    4848.493     12  9720.985     9721.195     9784.720
+Optimizing model K2P+I
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4861.574 (took 0.000 wall-clock sec)
+Rate parameters:  A-C: 1.00000  A-G: 4.26605  A-T: 1.00000  C-G: 1.00000  C-T: 4.26605  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.471
+Rate parameters:  A-C: 1.00000  A-G: 4.70358  A-T: 1.00000  C-G: 1.00000  C-T: 4.70358  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.494
+Rate parameters:  A-C: 1.00000  A-G: 4.89999  A-T: 1.00000  C-G: 1.00000  C-T: 4.89999  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.501
+Rate parameters:  A-C: 1.00000  A-G: 4.97766  A-T: 1.00000  C-G: 1.00000  C-T: 4.97766  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.504
+Optimal log-likelihood: -4727.589
+ 90  K2P+I         4727.589     9   9473.177     9473.298     9520.978
+Optimizing model K2P+G4
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4864.898 (took 0.000 wall-clock sec)
+Rate parameters:  A-C: 1.00000  A-G: 4.42743  A-T: 1.00000  C-G: 1.00000  C-T: 4.42743  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.536
+Rate parameters:  A-C: 1.00000  A-G: 4.80361  A-T: 1.00000  C-G: 1.00000  C-T: 4.80361  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.462
+Rate parameters:  A-C: 1.00000  A-G: 5.01900  A-T: 1.00000  C-G: 1.00000  C-T: 5.01900  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.436
+Rate parameters:  A-C: 1.00000  A-G: 5.13866  A-T: 1.00000  C-G: 1.00000  C-T: 5.13866  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.423
+Rate parameters:  A-C: 1.00000  A-G: 5.19222  A-T: 1.00000  C-G: 1.00000  C-T: 5.19222  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.417
+Optimal log-likelihood: -4723.734
+ 91  K2P+G4        4723.734     9   9465.467     9465.588     9513.268
+Optimizing model K2P+I+G4
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4869.454 (took 0.000 wall-clock sec)
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 4.42796  A-T: 1.00000  C-G: 1.00000  C-T: 4.42796  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.312
+Gamma shape alpha: 1.561
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 4.79249  A-T: 1.00000  C-G: 1.00000  C-T: 4.79249  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.310
+Gamma shape alpha: 1.196
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 5.01500  A-T: 1.00000  C-G: 1.00000  C-T: 5.01500  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.308
+Gamma shape alpha: 1.079
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 5.14367  A-T: 1.00000  C-G: 1.00000  C-T: 5.14367  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.307
+Gamma shape alpha: 1.022
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 5.20239  A-T: 1.00000  C-G: 1.00000  C-T: 5.20239  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.306
+Gamma shape alpha: 0.994
+Optimal log-likelihood: -4723.803
+ 92  K2P+I+G4      4723.803     10  9467.605     9467.753     9520.717
+112  K2P+I         4727.589     9   9473.177     9473.298     9520.978
+113  K2P+G4        4723.734     9   9465.467     9465.588     9513.268
+114  K2P+I+G4      4723.803     10  9467.605     9467.753     9520.717
+Optimizing model HKY+I
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4728.544 (took 0.000 wall-clock sec)
+Rate parameters:  A-C: 1.00000  A-G: 5.02551  A-T: 1.00000  C-G: 1.00000  C-T: 5.02551  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.506
+Rate parameters:  A-C: 1.00000  A-G: 5.04178  A-T: 1.00000  C-G: 1.00000  C-T: 5.04178  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.506
+Optimal log-likelihood: -4727.577
+134  HKY+I         4727.577     9   9473.153     9473.274     9520.954
+Optimizing model HKY+G4
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4724.459 (took 0.000 wall-clock sec)
+Rate parameters:  A-C: 1.00000  A-G: 5.22324  A-T: 1.00000  C-G: 1.00000  C-T: 5.22324  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.414
+Rate parameters:  A-C: 1.00000  A-G: 5.24037  A-T: 1.00000  C-G: 1.00000  C-T: 5.24037  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.412
+Optimal log-likelihood: -4723.723
+135  HKY+G4        4723.723     9   9465.445     9465.566     9513.246
+Optimizing model HKY+I+G4
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4723.807 (took 0.000 wall-clock sec)
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 5.24155  A-T: 1.00000  C-G: 1.00000  C-T: 5.24155  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.306
+Gamma shape alpha: 0.977
+Optimal log-likelihood: -4723.786
+136  HKY+I+G4      4723.786     10  9467.572     9467.720     9520.685
+Alignment state count time was 0.000 seconds.
+Empirical state frequencies: 0.2924569914 0.1840905752 0.2664314071 0.2570210263 
+Optimizing model HKY+F+I
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4867.8638574281 (took 0.0000194917 wall-clock sec)
+Rate parameters:  A-C: 1.00000  A-G: 4.24948  A-T: 1.00000  C-G: 1.00000  C-T: 4.24948  G-T: 1.00000
+Base frequencies:  A: 0.292  C: 0.184  G: 0.266  T: 0.257
+Proportion of invariable sites: 0.472
+Rate parameters:  A-C: 1.00000  A-G: 4.76310  A-T: 1.00000  C-G: 1.00000  C-T: 4.76310  G-T: 1.00000
+Base frequencies:  A: 0.292  C: 0.184  G: 0.266  T: 0.257
+Proportion of invariable sites: 0.494
+Rate parameters:  A-C: 1.00000  A-G: 4.99462  A-T: 1.00000  C-G: 1.00000  C-T: 4.99462  G-T: 1.00000
+Base frequencies:  A: 0.292  C: 0.184  G: 0.266  T: 0.257
+Proportion of invariable sites: 0.501
+Rate parameters:  A-C: 1.00000  A-G: 5.09184  A-T: 1.00000  C-G: 1.00000  C-T: 5.09184  G-T: 1.00000
+Base frequencies:  A: 0.292  C: 0.184  G: 0.266  T: 0.257
+Proportion of invariable sites: 0.504
+Optimal log-likelihood: -4716.626
+156  HKY+F+I       4716.626     12  9457.252     9457.462     9520.987
+Alignment state count time was 0.000 seconds.
+Empirical state frequencies: 0.2924569914 0.1840905752 0.2664314071 0.2570210263 
+Optimizing model HKY+F+G4
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4855.7939702606 (took 0.0000416781 wall-clock sec)
+Rate parameters:  A-C: 1.00000  A-G: 4.40309  A-T: 1.00000  C-G: 1.00000  C-T: 4.40309  G-T: 1.00000
+Base frequencies:  A: 0.292  C: 0.184  G: 0.266  T: 0.257
+Gamma shape alpha: 0.542
+Rate parameters:  A-C: 1.00000  A-G: 4.82954  A-T: 1.00000  C-G: 1.00000  C-T: 4.82954  G-T: 1.00000
+Base frequencies:  A: 0.292  C: 0.184  G: 0.266  T: 0.257
+Gamma shape alpha: 0.463
+Rate parameters:  A-C: 1.00000  A-G: 5.09818  A-T: 1.00000  C-G: 1.00000  C-T: 5.09818  G-T: 1.00000
+Base frequencies:  A: 0.292  C: 0.184  G: 0.266  T: 0.257
+Gamma shape alpha: 0.434
+Rate parameters:  A-C: 1.00000  A-G: 5.24565  A-T: 1.00000  C-G: 1.00000  C-T: 5.24565  G-T: 1.00000
+Base frequencies:  A: 0.292  C: 0.184  G: 0.266  T: 0.257
+Gamma shape alpha: 0.419
+Rate parameters:  A-C: 1.00000  A-G: 5.31279  A-T: 1.00000  C-G: 1.00000  C-T: 5.31279  G-T: 1.00000
+Base frequencies:  A: 0.292  C: 0.184  G: 0.266  T: 0.257
+Gamma shape alpha: 0.413
+Optimal log-likelihood: -4712.894
+157  HKY+F+G4      4712.894     12  9449.787     9449.998     9513.522
+Alignment state count time was 0.000 seconds.
+Empirical state frequencies: 0.2924569914 0.1840905752 0.2664314071 0.2570210263 
+Optimizing model HKY+F+I+G4
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4861.0900546301 (took 0.0000438942 wall-clock sec)
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 4.40571  A-T: 1.00000  C-G: 1.00000  C-T: 4.40571  G-T: 1.00000
+Base frequencies:  A: 0.292  C: 0.184  G: 0.266  T: 0.257
+Proportion of invariable sites: 0.311
+Gamma shape alpha: 1.595
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 4.81540  A-T: 1.00000  C-G: 1.00000  C-T: 4.81540  G-T: 1.00000
+Base frequencies:  A: 0.292  C: 0.184  G: 0.266  T: 0.257
+Proportion of invariable sites: 0.308
+Gamma shape alpha: 1.199
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 5.08894  A-T: 1.00000  C-G: 1.00000  C-T: 5.08894  G-T: 1.00000
+Base frequencies:  A: 0.292  C: 0.184  G: 0.266  T: 0.257
+Proportion of invariable sites: 0.306
+Gamma shape alpha: 1.072
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 5.24423  A-T: 1.00000  C-G: 1.00000  C-T: 5.24423  G-T: 1.00000
+Base frequencies:  A: 0.292  C: 0.184  G: 0.266  T: 0.257
+Proportion of invariable sites: 0.305
+Gamma shape alpha: 1.010
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 5.31589  A-T: 1.00000  C-G: 1.00000  C-T: 5.31589  G-T: 1.00000
+Base frequencies:  A: 0.292  C: 0.184  G: 0.266  T: 0.257
+Proportion of invariable sites: 0.305
+Gamma shape alpha: 0.979
+Optimal log-likelihood: -4712.988
+158  HKY+F+I+G4    4712.988     13  9451.977     9452.222     9521.023
+Optimizing model TNe+I
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4728.681 (took 0.000 wall-clock sec)
+Rate parameters:  A-C: 1.00000  A-G: 3.39703  A-T: 1.00000  C-G: 1.00000  C-T: 7.38476  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.488
+Rate parameters:  A-C: 1.00000  A-G: 3.36381  A-T: 1.00000  C-G: 1.00000  C-T: 7.55239  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.487
+Rate parameters:  A-C: 1.00000  A-G: 3.35395  A-T: 1.00000  C-G: 1.00000  C-T: 7.58631  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.488
+Optimal log-likelihood: -4712.504
+178  TNe+I         4712.504     10  9445.009     9445.157     9498.121
+Optimizing model TNe+G4
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4710.370 (took 0.000 wall-clock sec)
+Rate parameters:  A-C: 1.00000  A-G: 3.55355  A-T: 1.00000  C-G: 1.00000  C-T: 7.96628  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.430
+Rate parameters:  A-C: 1.00000  A-G: 3.52809  A-T: 1.00000  C-G: 1.00000  C-T: 7.96510  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.430
+Optimal log-likelihood: -4709.210
+179  TNe+G4        4709.210     10  9438.419     9438.567     9491.531
+Optimizing model TNe+I+G4
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4709.215 (took 0.000 wall-clock sec)
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 3.55433  A-T: 1.00000  C-G: 1.00000  C-T: 8.08884  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.304
+Gamma shape alpha: 1.025
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 3.53731  A-T: 1.00000  C-G: 1.00000  C-T: 8.08915  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.304
+Gamma shape alpha: 1.027
+Optimal log-likelihood: -4709.107
+180  TNe+I+G4      4709.107     11  9440.213     9440.391     9498.637
+200  TNe+I         4712.504     10  9445.009     9445.157     9498.121
+201  TNe+G4        4709.210     10  9438.419     9438.567     9491.531
+202  TNe+I+G4      4709.107     11  9440.213     9440.391     9498.637
+Optimizing model TN+I
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4713.869 (took 0.000 wall-clock sec)
+Rate parameters:  A-C: 1.00000  A-G: 3.37721  A-T: 1.00000  C-G: 1.00000  C-T: 7.60697  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.489
+Rate parameters:  A-C: 1.00000  A-G: 3.36737  A-T: 1.00000  C-G: 1.00000  C-T: 7.62545  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.489
+Optimal log-likelihood: -4712.504
+222  TN+I          4712.504     10  9445.008     9445.156     9498.120
+Optimizing model TN+G4
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4710.196 (took 0.000 wall-clock sec)
+Rate parameters:  A-C: 1.00000  A-G: 3.52390  A-T: 1.00000  C-G: 1.00000  C-T: 7.94625  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.430
+Rate parameters:  A-C: 1.00000  A-G: 3.52606  A-T: 1.00000  C-G: 1.00000  C-T: 7.94704  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.430
+Optimal log-likelihood: -4709.209
+223  TN+G4         4709.209     10  9438.417     9438.566     9491.530
+Optimizing model TN+I+G4
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4709.141 (took 0.000 wall-clock sec)
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 3.52389  A-T: 1.00000  C-G: 1.00000  C-T: 8.05744  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.304
+Gamma shape alpha: 1.031
+Optimal log-likelihood: -4709.107
+224  TN+I+G4       4709.107     11  9440.215     9440.393     9498.638
+Alignment state count time was 0.000 seconds.
+Empirical state frequencies: 0.2924569914 0.1840905752 0.2664314071 0.2570210263 
+Optimizing model TN+F+I
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4718.9683365423 (took 0.0000216258 wall-clock sec)
+Rate parameters:  A-C: 1.00000  A-G: 2.97449  A-T: 1.00000  C-G: 1.00000  C-T: 9.01664  G-T: 1.00000
+Base frequencies:  A: 0.292  C: 0.184  G: 0.266  T: 0.257
+Proportion of invariable sites: 0.474
+Rate parameters:  A-C: 1.00000  A-G: 2.87459  A-T: 1.00000  C-G: 1.00000  C-T: 8.89461  G-T: 1.00000
+Base frequencies:  A: 0.292  C: 0.184  G: 0.266  T: 0.257
+Proportion of invariable sites: 0.471
+Rate parameters:  A-C: 1.00000  A-G: 2.86794  A-T: 1.00000  C-G: 1.00000  C-T: 8.89068  G-T: 1.00000
+Base frequencies:  A: 0.292  C: 0.184  G: 0.266  T: 0.257
+Proportion of invariable sites: 0.471
+Optimal log-likelihood: -4687.185
+244  TN+F+I        4687.185     13  9400.370     9400.616     9469.416
+Alignment state count time was 0.000 seconds.
+Empirical state frequencies: 0.2924569914 0.1840905752 0.2664314071 0.2570210263 
+Optimizing model TN+F+G4
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4713.9806012369 (took 0.0000414089 wall-clock sec)
+Rate parameters:  A-C: 1.00000  A-G: 3.00654  A-T: 1.00000  C-G: 1.00000  C-T: 9.38820  G-T: 1.00000
+Base frequencies:  A: 0.292  C: 0.184  G: 0.266  T: 0.257
+Gamma shape alpha: 0.457
+Rate parameters:  A-C: 1.00000  A-G: 2.97345  A-T: 1.00000  C-G: 1.00000  C-T: 9.38783  G-T: 1.00000
+Base frequencies:  A: 0.292  C: 0.184  G: 0.266  T: 0.257
+Gamma shape alpha: 0.455
+Rate parameters:  A-C: 1.00000  A-G: 2.97220  A-T: 1.00000  C-G: 1.00000  C-T: 9.39007  G-T: 1.00000
+Base frequencies:  A: 0.292  C: 0.184  G: 0.266  T: 0.257
+Gamma shape alpha: 0.453
+Optimal log-likelihood: -4683.319
+245  TN+F+G4       4683.319     13  9392.638     9392.884     9461.684
+Alignment state count time was 0.000 seconds.
+Empirical state frequencies: 0.2924569914 0.1840905752 0.2664314071 0.2570210263 
+Optimizing model TN+F+I+G4
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4713.0612137662 (took 0.0000438769 wall-clock sec)
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 3.01380  A-T: 1.00000  C-G: 1.00000  C-T: 9.46172  G-T: 1.00000
+Base frequencies:  A: 0.292  C: 0.184  G: 0.266  T: 0.257
+Proportion of invariable sites: 0.304
+Gamma shape alpha: 1.137
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 2.97406  A-T: 1.00000  C-G: 1.00000  C-T: 9.46386  G-T: 1.00000
+Base frequencies:  A: 0.292  C: 0.184  G: 0.266  T: 0.257
+Proportion of invariable sites: 0.303
+Gamma shape alpha: 1.129
+Optimal log-likelihood: -4683.335
+246  TN+F+I+G4     4683.335     14  9394.670     9394.953     9469.027
+Optimizing model K3P+I
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4729.064 (took 0.000 wall-clock sec)
+Rate parameters:  A-C: 1.00000  A-G: 4.71478  A-T: 0.86340  C-G: 0.86340  C-T: 4.71478  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.507
+Rate parameters:  A-C: 1.00000  A-G: 4.66111  A-T: 0.84662  C-G: 0.84662  C-T: 4.66111  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.506
+Optimal log-likelihood: -4727.387
+266  K3P+I         4727.387     10  9474.774     9474.922     9527.886
+Optimizing model K3P+G4
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4724.588 (took 0.000 wall-clock sec)
+Rate parameters:  A-C: 1.00000  A-G: 4.81533  A-T: 0.83307  C-G: 0.83307  C-T: 4.81533  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.412
+Rate parameters:  A-C: 1.00000  A-G: 4.75077  A-T: 0.81183  C-G: 0.81183  C-T: 4.75077  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.413
+Optimal log-likelihood: -4723.431
+267  K3P+G4        4723.431     10  9466.862     9467.010     9519.975
+Optimizing model K3P+I+G4
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4723.796 (took 0.000 wall-clock sec)
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 4.81202  A-T: 0.82778  C-G: 0.82778  C-T: 4.81202  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.305
+Gamma shape alpha: 0.968
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 4.70396  A-T: 0.79413  C-G: 0.79413  C-T: 4.70396  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.305
+Gamma shape alpha: 0.966
+Optimal log-likelihood: -4723.480
+268  K3P+I+G4      4723.480     11  9468.960     9469.138     9527.384
+288  K3P+I         4727.387     10  9474.774     9474.922     9527.886
+289  K3P+G4        4723.431     10  9466.862     9467.010     9519.975
+290  K3P+I+G4      4723.480     11  9468.960     9469.138     9527.384
+Optimizing model K3Pu+I
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4728.301 (took 0.000 wall-clock sec)
+Rate parameters:  A-C: 1.00000  A-G: 4.68878  A-T: 0.85358  C-G: 0.85358  C-T: 4.68878  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.507
+Rate parameters:  A-C: 1.00000  A-G: 4.68249  A-T: 0.85527  C-G: 0.85527  C-T: 4.68249  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.506
+Optimal log-likelihood: -4727.384
+310  K3Pu+I        4727.384     10  9474.769     9474.917     9527.881
+Optimizing model K3Pu+G4
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4724.195 (took 0.000 wall-clock sec)
+Rate parameters:  A-C: 1.00000  A-G: 4.72897  A-T: 0.81390  C-G: 0.81390  C-T: 4.72897  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.417
+Rate parameters:  A-C: 1.00000  A-G: 4.72917  A-T: 0.81241  C-G: 0.81241  C-T: 4.72917  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.415
+Optimal log-likelihood: -4723.433
+311  K3Pu+G4       4723.433     10  9466.866     9467.014     9519.978
+Optimizing model K3Pu+I+G4
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4723.497 (took 0.000 wall-clock sec)
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 4.73203  A-T: 0.80289  C-G: 0.80289  C-T: 4.73203  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.304
+Gamma shape alpha: 0.968
+Optimal log-likelihood: -4723.479
+312  K3Pu+I+G4     4723.479     11  9468.957     9469.135     9527.380
+Alignment state count time was 0.000 seconds.
+Empirical state frequencies: 0.2924569914 0.1840905752 0.2664314071 0.2570210263 
+Optimizing model K3Pu+F+I
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4717.0071262485 (took 0.0000187396 wall-clock sec)
+Rate parameters:  A-C: 1.00000  A-G: 4.79608  A-T: 0.85237  C-G: 0.85237  C-T: 4.79608  G-T: 1.00000
+Base frequencies:  A: 0.292  C: 0.184  G: 0.266  T: 0.257
+Proportion of invariable sites: 0.507
+Rate parameters:  A-C: 1.00000  A-G: 4.79501  A-T: 0.85480  C-G: 0.85480  C-T: 4.79501  G-T: 1.00000
+Base frequencies:  A: 0.292  C: 0.184  G: 0.266  T: 0.257
+Proportion of invariable sites: 0.507
+Optimal log-likelihood: -4716.433
+332  K3Pu+F+I      4716.433     13  9458.865     9459.110     9527.911
+Alignment state count time was 0.000 seconds.
+Empirical state frequencies: 0.2924569914 0.1840905752 0.2664314071 0.2570210263 
+Optimizing model K3Pu+F+G4
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4713.2435389855 (took 0.0000424869 wall-clock sec)
+Rate parameters:  A-C: 1.00000  A-G: 4.76831  A-T: 0.79843  C-G: 0.79843  C-T: 4.76831  G-T: 1.00000
+Base frequencies:  A: 0.292  C: 0.184  G: 0.266  T: 0.257
+Gamma shape alpha: 0.414
+Rate parameters:  A-C: 1.00000  A-G: 4.77054  A-T: 0.79464  C-G: 0.79464  C-T: 4.77054  G-T: 1.00000
+Base frequencies:  A: 0.292  C: 0.184  G: 0.266  T: 0.257
+Gamma shape alpha: 0.411
+Optimal log-likelihood: -4712.579
+333  K3Pu+F+G4     4712.579     13  9451.158     9451.404     9520.204
+Alignment state count time was 0.000 seconds.
+Empirical state frequencies: 0.2924569914 0.1840905752 0.2664314071 0.2570210263 
+Optimizing model K3Pu+F+I+G4
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4712.6705892083 (took 0.0000453279 wall-clock sec)
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 4.77386  A-T: 0.78796  C-G: 0.78796  C-T: 4.77386  G-T: 1.00000
+Base frequencies:  A: 0.292  C: 0.184  G: 0.266  T: 0.257
+Proportion of invariable sites: 0.304
+Gamma shape alpha: 0.962
+Optimal log-likelihood: -4712.654
+334  K3Pu+F+I+G4   4712.654     14  9453.309     9453.592     9527.666
+Optimizing model TPM2+I
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4728.889 (took 0.000 wall-clock sec)
+Rate parameters:  A-C: 1.93539  A-G: 7.35667  A-T: 1.93539  C-G: 1.00000  C-T: 7.35667  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.509
+Rate parameters:  A-C: 1.94644  A-G: 7.37288  A-T: 1.94644  C-G: 1.00000  C-T: 7.37288  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.508
+Optimal log-likelihood: -4722.463
+354  TPM2+I        4722.463     10  9464.927     9465.075     9518.039
+Optimizing model TPM2+G4
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4724.416 (took 0.000 wall-clock sec)
+Rate parameters:  A-C: 2.05886  A-G: 7.94763  A-T: 2.05886  C-G: 1.00000  C-T: 7.94763  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.407
+Rate parameters:  A-C: 2.10780  A-G: 8.11757  A-T: 2.10780  C-G: 1.00000  C-T: 8.11757  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.404
+Optimal log-likelihood: -4718.140
+355  TPM2+G4       4718.140     10  9456.280     9456.428     9509.392
+Optimizing model TPM2+I+G4
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4723.816 (took 0.000 wall-clock sec)
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 2.06511  A-G: 7.99067  A-T: 2.06511  C-G: 1.00000  C-T: 7.99067  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.305
+Gamma shape alpha: 0.950
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 2.12961  A-G: 8.21195  A-T: 2.12961  C-G: 1.00000  C-T: 8.21195  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.304
+Gamma shape alpha: 0.934
+Optimal log-likelihood: -4718.164
+356  TPM2+I+G4     4718.164     11  9458.329     9458.506     9516.752
+376  TPM2+I        4722.463     10  9464.927     9465.075     9518.039
+377  TPM2+G4       4718.140     10  9456.280     9456.428     9509.392
+378  TPM2+I+G4     4718.164     11  9458.329     9458.506     9516.752
+Optimizing model TPM2u+I
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4723.435 (took 0.000 wall-clock sec)
+Rate parameters:  A-C: 1.95454  A-G: 7.50874  A-T: 1.95454  C-G: 1.00000  C-T: 7.50874  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.510
+Rate parameters:  A-C: 1.96847  A-G: 7.50416  A-T: 1.96847  C-G: 1.00000  C-T: 7.50416  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.509
+Optimal log-likelihood: -4722.460
+398  TPM2u+I       4722.460     10  9464.921     9465.069     9518.033
+Optimizing model TPM2u+G4
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4718.951 (took 0.000 wall-clock sec)
+Rate parameters:  A-C: 2.09959  A-G: 8.06692  A-T: 2.09959  C-G: 1.00000  C-T: 8.06692  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.406
+Rate parameters:  A-C: 2.08950  A-G: 8.07339  A-T: 2.08950  C-G: 1.00000  C-T: 8.07339  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.403
+Optimal log-likelihood: -4718.142
+399  TPM2u+G4      4718.142     10  9456.284     9456.432     9509.396
+Optimizing model TPM2u+I+G4
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4718.182 (took 0.000 wall-clock sec)
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 2.08024  A-G: 8.08366  A-T: 2.08024  C-G: 1.00000  C-T: 8.08366  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.304
+Gamma shape alpha: 0.929
+Optimal log-likelihood: -4718.168
+400  TPM2u+I+G4    4718.168     11  9458.336     9458.514     9516.759
+Alignment state count time was 0.000 seconds.
+Empirical state frequencies: 0.2924569914 0.1840905752 0.2664314071 0.2570210263 
+Optimizing model TPM2u+F+I
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4713.5204422809 (took 0.0000182660 wall-clock sec)
+Rate parameters:  A-C: 1.83568  A-G: 7.41875  A-T: 1.83568  C-G: 1.00000  C-T: 7.41875  G-T: 1.00000
+Base frequencies:  A: 0.292  C: 0.184  G: 0.266  T: 0.257
+Proportion of invariable sites: 0.510
+Rate parameters:  A-C: 1.83704  A-G: 7.41835  A-T: 1.83704  C-G: 1.00000  C-T: 7.41835  G-T: 1.00000
+Base frequencies:  A: 0.292  C: 0.184  G: 0.266  T: 0.257
+Proportion of invariable sites: 0.510
+Optimal log-likelihood: -4712.768
+420  TPM2u+F+I     4712.768     13  9451.536     9451.782     9520.582
+Alignment state count time was 0.000 seconds.
+Empirical state frequencies: 0.2924569914 0.1840905752 0.2664314071 0.2570210263 
+Optimizing model TPM2u+F+G4
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4709.3927716685 (took 0.0000456381 wall-clock sec)
+Rate parameters:  A-C: 1.94427  A-G: 7.92241  A-T: 1.94427  C-G: 1.00000  C-T: 7.92241  G-T: 1.00000
+Base frequencies:  A: 0.292  C: 0.184  G: 0.266  T: 0.257
+Gamma shape alpha: 0.404
+Rate parameters:  A-C: 1.92732  A-G: 7.93167  A-T: 1.92732  C-G: 1.00000  C-T: 7.93167  G-T: 1.00000
+Base frequencies:  A: 0.292  C: 0.184  G: 0.266  T: 0.257
+Gamma shape alpha: 0.401
+Optimal log-likelihood: -4708.671
+421  TPM2u+F+G4    4708.671     13  9443.342     9443.587     9512.387
+Alignment state count time was 0.000 seconds.
+Empirical state frequencies: 0.2924569914 0.1840905752 0.2664314071 0.2570210263 
+Optimizing model TPM2u+F+I+G4
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4708.7399065664 (took 0.0000407128 wall-clock sec)
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.92212  A-G: 7.94429  A-T: 1.92212  C-G: 1.00000  C-T: 7.94429  G-T: 1.00000
+Base frequencies:  A: 0.292  C: 0.184  G: 0.266  T: 0.257
+Proportion of invariable sites: 0.303
+Gamma shape alpha: 0.924
+Optimal log-likelihood: -4708.724
+422  TPM2u+F+I+G4  4708.724     14  9445.448     9445.731     9519.805
+Optimizing model TPM3+I
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4729.400 (took 0.000 wall-clock sec)
+Rate parameters:  A-C: 1.10958  A-G: 5.32909  A-T: 1.00000  C-G: 1.10958  C-T: 5.32909  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.507
+Rate parameters:  A-C: 1.11152  A-G: 5.32816  A-T: 1.00000  C-G: 1.11152  C-T: 5.32816  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.506
+Optimal log-likelihood: -4727.442
+442  TPM3+I        4727.442     10  9474.884     9475.032     9527.996
+Optimizing model TPM3+G4
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4724.525 (took 0.000 wall-clock sec)
+Rate parameters:  A-C: 1.18800  A-G: 5.70726  A-T: 1.00000  C-G: 1.18800  C-T: 5.70726  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.413
+Rate parameters:  A-C: 1.18705  A-G: 5.70830  A-T: 1.00000  C-G: 1.18705  C-T: 5.70830  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.412
+Optimal log-likelihood: -4723.382
+443  TPM3+G4       4723.382     10  9466.764     9466.912     9519.877
+Optimizing model TPM3+I+G4
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4723.797 (took 0.000 wall-clock sec)
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.18607  A-G: 5.71766  A-T: 1.00000  C-G: 1.18607  C-T: 5.71766  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.305
+Gamma shape alpha: 0.969
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.18331  A-G: 5.71925  A-T: 1.00000  C-G: 1.18331  C-T: 5.71925  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.305
+Gamma shape alpha: 0.964
+Optimal log-likelihood: -4723.446
+444  TPM3+I+G4     4723.446     11  9468.892     9469.069     9527.315
+464  TPM3+I        4727.442     10  9474.884     9475.032     9527.996
+465  TPM3+G4       4723.382     10  9466.764     9466.912     9519.877
+466  TPM3+I+G4     4723.446     11  9468.892     9469.069     9527.315
+Optimizing model TPM3u+I
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4728.371 (took 0.000 wall-clock sec)
+Rate parameters:  A-C: 1.12553  A-G: 5.41515  A-T: 1.00000  C-G: 1.12553  C-T: 5.41515  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.508
+Rate parameters:  A-C: 1.11158  A-G: 5.34447  A-T: 1.00000  C-G: 1.11158  C-T: 5.34447  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.507
+Optimal log-likelihood: -4727.440
+486  TPM3u+I       4727.440     10  9474.880     9475.028     9527.992
+Optimizing model TPM3u+G4
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4724.163 (took 0.000 wall-clock sec)
+Rate parameters:  A-C: 1.19428  A-G: 5.70495  A-T: 1.00000  C-G: 1.19428  C-T: 5.70495  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.416
+Rate parameters:  A-C: 1.19110  A-G: 5.70571  A-T: 1.00000  C-G: 1.19110  C-T: 5.70571  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.414
+Optimal log-likelihood: -4723.384
+487  TPM3u+G4      4723.384     10  9466.768     9466.916     9519.880
+Optimizing model TPM3u+I+G4
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4723.462 (took 0.000 wall-clock sec)
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.18133  A-G: 5.70940  A-T: 1.00000  C-G: 1.18133  C-T: 5.70940  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.304
+Gamma shape alpha: 0.964
+Optimal log-likelihood: -4723.446
+488  TPM3u+I+G4    4723.446     11  9468.892     9469.070     9527.316
+Alignment state count time was 0.000 seconds.
+Empirical state frequencies: 0.2924569914 0.1840905752 0.2664314071 0.2570210263 
+Optimizing model TPM3u+F+I
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4716.0659714709 (took 0.0000214153 wall-clock sec)
+Rate parameters:  A-C: 1.41420  A-G: 6.14351  A-T: 1.00000  C-G: 1.41420  C-T: 6.14351  G-T: 1.00000
+Base frequencies:  A: 0.292  C: 0.184  G: 0.266  T: 0.257
+Proportion of invariable sites: 0.505
+Rate parameters:  A-C: 1.40162  A-G: 6.04139  A-T: 1.00000  C-G: 1.40162  C-T: 6.04139  G-T: 1.00000
+Base frequencies:  A: 0.292  C: 0.184  G: 0.266  T: 0.257
+Proportion of invariable sites: 0.504
+Optimal log-likelihood: -4715.045
+508  TPM3u+F+I     4715.045     13  9456.091     9456.336     9525.136
+Alignment state count time was 0.000 seconds.
+Empirical state frequencies: 0.2924569914 0.1840905752 0.2664314071 0.2570210263 
+Optimizing model TPM3u+F+G4
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4711.4187469471 (took 0.0000459272 wall-clock sec)
+Rate parameters:  A-C: 1.56973  A-G: 6.59988  A-T: 1.00000  C-G: 1.56973  C-T: 6.59988  G-T: 1.00000
+Base frequencies:  A: 0.292  C: 0.184  G: 0.266  T: 0.257
+Gamma shape alpha: 0.416
+Rate parameters:  A-C: 1.56418  A-G: 6.60191  A-T: 1.00000  C-G: 1.56418  C-T: 6.60191  G-T: 1.00000
+Base frequencies:  A: 0.292  C: 0.184  G: 0.266  T: 0.257
+Gamma shape alpha: 0.413
+Optimal log-likelihood: -4710.527
+509  TPM3u+F+G4    4710.527     13  9447.055     9447.300     9516.101
+Alignment state count time was 0.000 seconds.
+Empirical state frequencies: 0.2924569914 0.1840905752 0.2664314071 0.2570210263 
+Optimizing model TPM3u+F+I+G4
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4710.6729320050 (took 0.0000407468 wall-clock sec)
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.54924  A-G: 6.60815  A-T: 1.00000  C-G: 1.54924  C-T: 6.60815  G-T: 1.00000
+Base frequencies:  A: 0.292  C: 0.184  G: 0.266  T: 0.257
+Proportion of invariable sites: 0.304
+Gamma shape alpha: 0.960
+Optimal log-likelihood: -4710.654
+510  TPM3u+F+I+G4  4710.654     14  9449.309     9449.592     9523.666
+Optimizing model TIMe+I
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4728.807 (took 0.000 wall-clock sec)
+Rate parameters:  A-C: 1.00000  A-G: 3.13779  A-T: 0.84855  C-G: 0.84855  C-T: 6.75665  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.487
+Rate parameters:  A-C: 1.00000  A-G: 3.09375  A-T: 0.84725  C-G: 0.84725  C-T: 6.90094  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.486
+Rate parameters:  A-C: 1.00000  A-G: 3.08033  A-T: 0.84140  C-G: 0.84140  C-T: 6.91829  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.486
+Optimal log-likelihood: -4712.345
+530  TIMe+I        4712.345     11  9446.690     9446.868     9505.114
+Optimizing model TIMe+G4
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4710.146 (took 0.000 wall-clock sec)
+Rate parameters:  A-C: 1.00000  A-G: 3.18441  A-T: 0.79504  C-G: 0.79504  C-T: 7.10611  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.433
+Rate parameters:  A-C: 1.00000  A-G: 3.18062  A-T: 0.80483  C-G: 0.80483  C-T: 7.10615  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.432
+Optimal log-likelihood: -4708.909
+531  TIMe+G4       4708.909     11  9439.817     9439.995     9498.241
+Optimizing model TIMe+I+G4
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4708.993 (took 0.000 wall-clock sec)
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 3.20195  A-T: 0.79936  C-G: 0.79936  C-T: 7.26191  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.303
+Gamma shape alpha: 1.023
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 3.19869  A-T: 0.80747  C-G: 0.80747  C-T: 7.26169  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.303
+Gamma shape alpha: 1.027
+Optimal log-likelihood: -4708.811
+532  TIMe+I+G4     4708.811     12  9441.622     9441.833     9505.357
+552  TIMe+I        4712.345     11  9446.690     9446.868     9505.114
+553  TIMe+G4       4708.909     11  9439.817     9439.995     9498.241
+554  TIMe+I+G4     4708.811     12  9441.622     9441.833     9505.357
+Optimizing model TIM+I
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4713.761 (took 0.000 wall-clock sec)
+Rate parameters:  A-C: 1.00000  A-G: 3.09274  A-T: 0.84803  C-G: 0.84803  C-T: 7.00640  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.488
+Rate parameters:  A-C: 1.00000  A-G: 3.09568  A-T: 0.84523  C-G: 0.84523  C-T: 7.00669  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.488
+Optimal log-likelihood: -4712.343
+574  TIM+I         4712.343     11  9446.685     9446.863     9505.109
+Optimizing model TIM+G4
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4709.860 (took 0.000 wall-clock sec)
+Rate parameters:  A-C: 1.00000  A-G: 3.16672  A-T: 0.80425  C-G: 0.80425  C-T: 7.11213  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.433
+Rate parameters:  A-C: 1.00000  A-G: 3.16672  A-T: 0.80296  C-G: 0.80296  C-T: 7.11244  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.433
+Optimal log-likelihood: -4708.907
+575  TIM+G4        4708.907     11  9439.814     9439.992     9498.237
+Optimizing model TIM+I+G4
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4708.850 (took 0.000 wall-clock sec)
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 3.19682  A-T: 0.81055  C-G: 0.81055  C-T: 7.26143  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.303
+Gamma shape alpha: 1.033
+Optimal log-likelihood: -4708.812
+576  TIM+I+G4      4708.812     12  9441.623     9441.834     9505.358
+Alignment state count time was 0.000 seconds.
+Empirical state frequencies: 0.2924569914 0.1840905752 0.2664314071 0.2570210263 
+Optimizing model TIM+F+I
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4689.8013807004 (took 0.0000214819 wall-clock sec)
+Rate parameters:  A-C: 1.00000  A-G: 2.69685  A-T: 0.88055  C-G: 0.88055  C-T: 8.33230  G-T: 1.00000
+Base frequencies:  A: 0.292  C: 0.184  G: 0.266  T: 0.257
+Proportion of invariable sites: 0.472
+Rate parameters:  A-C: 1.00000  A-G: 2.69696  A-T: 0.88416  C-G: 0.88416  C-T: 8.33151  G-T: 1.00000
+Base frequencies:  A: 0.292  C: 0.184  G: 0.266  T: 0.257
+Proportion of invariable sites: 0.471
+Optimal log-likelihood: -4687.072
+596  TIM+F+I       4687.072     14  9402.145     9402.428     9476.502
+Alignment state count time was 0.000 seconds.
+Empirical state frequencies: 0.2924569914 0.1840905752 0.2664314071 0.2570210263 
+Optimizing model TIM+F+G4
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4684.5996502571 (took 0.0000477438 wall-clock sec)
+Rate parameters:  A-C: 1.00000  A-G: 2.67889  A-T: 0.80483  C-G: 0.80483  C-T: 8.42941  G-T: 1.00000
+Base frequencies:  A: 0.292  C: 0.184  G: 0.266  T: 0.257
+Gamma shape alpha: 0.455
+Rate parameters:  A-C: 1.00000  A-G: 2.67886  A-T: 0.80700  C-G: 0.80700  C-T: 8.42958  G-T: 1.00000
+Base frequencies:  A: 0.292  C: 0.184  G: 0.266  T: 0.257
+Gamma shape alpha: 0.456
+Optimal log-likelihood: -4683.046
+597  TIM+F+G4      4683.046     14  9394.092     9394.375     9468.449
+Alignment state count time was 0.000 seconds.
+Empirical state frequencies: 0.2924569914 0.1840905752 0.2664314071 0.2570210263 
+Optimizing model TIM+F+I+G4
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4683.3635748707 (took 0.0000418341 wall-clock sec)
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 2.68627  A-T: 0.81110  C-G: 0.81110  C-T: 8.53214  G-T: 1.00000
+Base frequencies:  A: 0.292  C: 0.184  G: 0.266  T: 0.257
+Proportion of invariable sites: 0.303
+Gamma shape alpha: 1.123
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.00000  A-G: 2.68681  A-T: 0.81255  C-G: 0.81255  C-T: 8.53272  G-T: 1.00000
+Base frequencies:  A: 0.292  C: 0.184  G: 0.266  T: 0.257
+Proportion of invariable sites: 0.302
+Gamma shape alpha: 1.123
+Optimal log-likelihood: -4683.086
+598  TIM+F+I+G4    4683.086     15  9396.172     9396.497     9475.841
+Optimizing model TIM2e+I
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4715.673 (took 0.000 wall-clock sec)
+Rate parameters:  A-C: 1.73214  A-G: 4.56709  A-T: 1.73214  C-G: 1.00000  C-T: 11.19735  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.493
+Rate parameters:  A-C: 1.79631  A-G: 4.77937  A-T: 1.79631  C-G: 1.00000  C-T: 11.02122  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.493
+Rate parameters:  A-C: 1.78785  A-G: 4.75925  A-T: 1.78785  C-G: 1.00000  C-T: 10.82652  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.493
+Optimal log-likelihood: -4707.716
+618  TIM2e+I       4707.716     11  9437.431     9437.609     9495.855
+Optimizing model TIM2e+G4
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4704.741 (took 0.000 wall-clock sec)
+Rate parameters:  A-C: 1.85430  A-G: 4.94338  A-T: 1.85430  C-G: 1.00000  C-T: 11.01433  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.432
+Rate parameters:  A-C: 1.88561  A-G: 5.04074  A-T: 1.88561  C-G: 1.00000  C-T: 11.33704  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.426
+Optimal log-likelihood: -4703.872
+619  TIM2e+G4      4703.872     11  9429.743     9429.921     9488.167
+Optimizing model TIM2e+I+G4
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4704.004 (took 0.000 wall-clock sec)
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.89316  A-G: 5.03101  A-T: 1.89316  C-G: 1.00000  C-T: 11.33512  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.302
+Gamma shape alpha: 1.027
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.86913  A-G: 5.03541  A-T: 1.86913  C-G: 1.00000  C-T: 11.33890  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.301
+Gamma shape alpha: 1.003
+Optimal log-likelihood: -4703.777
+620  TIM2e+I+G4    4703.777     12  9431.553     9431.763     9495.288
+640  TIM2e+I       4707.716     11  9437.431     9437.609     9495.855
+641  TIM2e+G4      4703.872     11  9429.743     9429.921     9488.167
+642  TIM2e+I+G4    4703.777     12  9431.553     9431.763     9495.288
+Optimizing model TIM2+I
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4708.786 (took 0.000 wall-clock sec)
+Rate parameters:  A-C: 1.78625  A-G: 4.74292  A-T: 1.78625  C-G: 1.00000  C-T: 10.75843  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.492
+Rate parameters:  A-C: 1.79245  A-G: 4.73969  A-T: 1.79245  C-G: 1.00000  C-T: 10.75343  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.492
+Optimal log-likelihood: -4707.709
+662  TIM2+I        4707.709     11  9437.418     9437.596     9495.841
+Optimizing model TIM2+G4
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4704.796 (took 0.000 wall-clock sec)
+Rate parameters:  A-C: 1.87576  A-G: 5.04472  A-T: 1.87576  C-G: 1.00000  C-T: 11.33842  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.423
+Rate parameters:  A-C: 1.86762  A-G: 5.04981  A-T: 1.86762  C-G: 1.00000  C-T: 11.34190  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.421
+Optimal log-likelihood: -4703.863
+663  TIM2+G4       4703.863     11  9429.726     9429.903     9488.149
+Optimizing model TIM2+I+G4
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4703.792 (took 0.000 wall-clock sec)
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.86572  A-G: 5.02335  A-T: 1.86572  C-G: 1.00000  C-T: 11.41661  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.301
+Gamma shape alpha: 0.994
+Optimal log-likelihood: -4703.768
+664  TIM2+I+G4     4703.768     12  9431.536     9431.746     9495.271
+Alignment state count time was 0.000 seconds.
+Empirical state frequencies: 0.2924569914 0.1840905752 0.2664314071 0.2570210263 
+Optimizing model TIM2+F+I
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4690.3164410967 (took 0.0000192490 wall-clock sec)
+Rate parameters:  A-C: 1.58403  A-G: 3.72418  A-T: 1.58403  C-G: 1.00000  C-T: 11.52669  G-T: 1.00000
+Base frequencies:  A: 0.292  C: 0.184  G: 0.266  T: 0.257
+Proportion of invariable sites: 0.473
+Rate parameters:  A-C: 1.59112  A-G: 3.72639  A-T: 1.59112  C-G: 1.00000  C-T: 11.52636  G-T: 1.00000
+Base frequencies:  A: 0.292  C: 0.184  G: 0.266  T: 0.257
+Proportion of invariable sites: 0.473
+Optimal log-likelihood: -4683.641
+684  TIM2+F+I      4683.641     14  9395.283     9395.566     9469.640
+Alignment state count time was 0.000 seconds.
+Empirical state frequencies: 0.2924569914 0.1840905752 0.2664314071 0.2570210263 
+Optimizing model TIM2+F+G4
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4684.4210590261 (took 0.0000452963 wall-clock sec)
+Rate parameters:  A-C: 1.69792  A-G: 4.02846  A-T: 1.69792  C-G: 1.00000  C-T: 12.70736  G-T: 1.00000
+Base frequencies:  A: 0.292  C: 0.184  G: 0.266  T: 0.257
+Gamma shape alpha: 0.450
+Rate parameters:  A-C: 1.69609  A-G: 4.02967  A-T: 1.69609  C-G: 1.00000  C-T: 12.70849  G-T: 1.00000
+Base frequencies:  A: 0.292  C: 0.184  G: 0.266  T: 0.257
+Gamma shape alpha: 0.447
+Optimal log-likelihood: -4679.266
+685  TIM2+F+G4     4679.266     14  9386.532     9386.815     9460.889
+Alignment state count time was 0.000 seconds.
+Empirical state frequencies: 0.2924569914 0.1840905752 0.2664314071 0.2570210263 
+Optimizing model TIM2+F+I+G4
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4683.3730031932 (took 0.0000666487 wall-clock sec)
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.69235  A-G: 4.01862  A-T: 1.69235  C-G: 1.00000  C-T: 12.80777  G-T: 1.00000
+Base frequencies:  A: 0.292  C: 0.184  G: 0.266  T: 0.257
+Proportion of invariable sites: 0.302
+Gamma shape alpha: 1.103
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.68925  A-G: 4.02029  A-T: 1.68925  C-G: 1.00000  C-T: 12.80903  G-T: 1.00000
+Base frequencies:  A: 0.292  C: 0.184  G: 0.266  T: 0.257
+Proportion of invariable sites: 0.302
+Gamma shape alpha: 1.087
+Optimal log-likelihood: -4679.295
+686  TIM2+F+I+G4   4679.295     15  9388.590     9388.914     9468.258
+Optimizing model TIM3e+I
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4715.649 (took 0.000 wall-clock sec)
+Rate parameters:  A-C: 1.09157  A-G: 3.50625  A-T: 1.00000  C-G: 1.09157  C-T: 8.74285  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.491
+Rate parameters:  A-C: 1.08401  A-G: 3.54647  A-T: 1.00000  C-G: 1.08401  C-T: 8.25889  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.491
+Rate parameters:  A-C: 1.10700  A-G: 3.58878  A-T: 1.00000  C-G: 1.10700  C-T: 8.22214  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.490
+Optimal log-likelihood: -4712.450
+706  TIM3e+I       4712.450     11  9446.900     9447.078     9505.323
+Optimizing model TIM3e+G4
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4709.752 (took 0.000 wall-clock sec)
+Rate parameters:  A-C: 1.21311  A-G: 3.84421  A-T: 1.00000  C-G: 1.21311  C-T: 8.60408  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.438
+Rate parameters:  A-C: 1.20510  A-G: 3.84596  A-T: 1.00000  C-G: 1.20510  C-T: 8.60567  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.435
+Optimal log-likelihood: -4708.894
+707  TIM3e+G4      4708.894     11  9439.787     9439.965     9498.211
+Optimizing model TIM3e+I+G4
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4708.873 (took 0.000 wall-clock sec)
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.19559  A-G: 3.83501  A-T: 1.00000  C-G: 1.19559  C-T: 8.61310  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.301
+Gamma shape alpha: 1.049
+Optimal log-likelihood: -4708.827
+708  TIM3e+I+G4    4708.827     12  9441.653     9441.863     9505.388
+728  TIM3e+I       4712.450     11  9446.900     9447.078     9505.323
+729  TIM3e+G4      4708.894     11  9439.787     9439.965     9498.211
+730  TIM3e+I+G4    4708.827     12  9441.653     9441.863     9505.388
+Optimizing model TIM3+I
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4713.317 (took 0.000 wall-clock sec)
+Rate parameters:  A-C: 1.08836  A-G: 3.53516  A-T: 1.00000  C-G: 1.08836  C-T: 8.04429  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.489
+Rate parameters:  A-C: 1.09390  A-G: 3.53477  A-T: 1.00000  C-G: 1.09390  C-T: 8.04305  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.489
+Optimal log-likelihood: -4712.432
+750  TIM3+I        4712.432     11  9446.864     9447.042     9505.287
+Optimizing model TIM3+G4
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4709.739 (took 0.000 wall-clock sec)
+Rate parameters:  A-C: 1.20198  A-G: 3.84665  A-T: 1.00000  C-G: 1.20198  C-T: 8.60731  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.434
+Rate parameters:  A-C: 1.19800  A-G: 3.84744  A-T: 1.00000  C-G: 1.19800  C-T: 8.61233  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.433
+Optimal log-likelihood: -4708.892
+751  TIM3+G4       4708.892     11  9439.785     9439.963     9498.208
+Optimizing model TIM3+I+G4
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4708.841 (took 0.000 wall-clock sec)
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.19045  A-G: 3.81675  A-T: 1.00000  C-G: 1.19045  C-T: 8.63765  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.301
+Gamma shape alpha: 1.038
+Optimal log-likelihood: -4708.820
+752  TIM3+I+G4     4708.820     12  9441.639     9441.849     9505.374
+Alignment state count time was 0.000 seconds.
+Empirical state frequencies: 0.2924569914 0.1840905752 0.2664314071 0.2570210263 
+Optimizing model TIM3+F+I
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4689.6498599104 (took 0.0000216700 wall-clock sec)
+Rate parameters:  A-C: 1.46531  A-G: 3.44692  A-T: 1.00000  C-G: 1.46531  C-T: 10.62499  G-T: 1.00000
+Base frequencies:  A: 0.292  C: 0.184  G: 0.266  T: 0.257
+Proportion of invariable sites: 0.468
+Rate parameters:  A-C: 1.48861  A-G: 3.44409  A-T: 1.00000  C-G: 1.48861  C-T: 10.62134  G-T: 1.00000
+Base frequencies:  A: 0.292  C: 0.184  G: 0.266  T: 0.257
+Proportion of invariable sites: 0.466
+Optimal log-likelihood: -4685.694
+772  TIM3+F+I      4685.694     14  9399.388     9399.671     9473.745
+Alignment state count time was 0.000 seconds.
+Empirical state frequencies: 0.2924569914 0.1840905752 0.2664314071 0.2570210263 
+Optimizing model TIM3+F+G4
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4684.8111674557 (took 0.0000472870 wall-clock sec)
+Rate parameters:  A-C: 1.79762  A-G: 3.94117  A-T: 1.00000  C-G: 1.79762  C-T: 12.53465  G-T: 1.00000
+Base frequencies:  A: 0.292  C: 0.184  G: 0.266  T: 0.257
+Gamma shape alpha: 0.457
+Rate parameters:  A-C: 1.81066  A-G: 3.93748  A-T: 1.00000  C-G: 1.81066  C-T: 12.53449  G-T: 1.00000
+Base frequencies:  A: 0.292  C: 0.184  G: 0.266  T: 0.257
+Gamma shape alpha: 0.458
+Optimal log-likelihood: -4680.462
+773  TIM3+F+G4     4680.462     14  9388.924     9389.207     9463.281
+Alignment state count time was 0.000 seconds.
+Empirical state frequencies: 0.2924569914 0.1840905752 0.2664314071 0.2570210263 
+Optimizing model TIM3+F+I+G4
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4683.3894059014 (took 0.0000506882 wall-clock sec)
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.75749  A-G: 3.89984  A-T: 1.00000  C-G: 1.75749  C-T: 12.49971  G-T: 1.00000
+Base frequencies:  A: 0.292  C: 0.184  G: 0.266  T: 0.257
+Proportion of invariable sites: 0.302
+Gamma shape alpha: 1.121
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 1.76707  A-G: 3.89862  A-T: 1.00000  C-G: 1.76707  C-T: 12.49975  G-T: 1.00000
+Base frequencies:  A: 0.292  C: 0.184  G: 0.266  T: 0.257
+Proportion of invariable sites: 0.301
+Gamma shape alpha: 1.117
+Optimal log-likelihood: -4680.694
+774  TIM3+F+I+G4   4680.694     15  9391.389     9391.713     9471.057
+Optimizing model TVMe+I
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4734.463 (took 0.000 wall-clock sec)
+Rate parameters:  A-C: 1.95988  A-G: 6.44922  A-T: 1.46192  C-G: 0.79200  C-T: 6.44922  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.507
+Rate parameters:  A-C: 1.95061  A-G: 6.45788  A-T: 1.49860  C-G: 0.75263  C-T: 6.45788  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.506
+Rate parameters:  A-C: 1.95675  A-G: 6.49667  A-T: 1.48484  C-G: 0.79466  C-T: 6.49667  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.506
+Optimal log-likelihood: -4722.029
+794  TVMe+I        4722.029     12  9468.059     9468.269     9531.793
+Optimizing model TVMe+G4
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4718.387 (took 0.000 wall-clock sec)
+Rate parameters:  A-C: 2.23253  A-G: 7.07063  A-T: 1.58809  C-G: 0.85186  C-T: 7.07063  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.427
+Rate parameters:  A-C: 2.23112  A-G: 7.15414  A-T: 1.58288  C-G: 0.82959  C-T: 7.15414  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.417
+Rate parameters:  A-C: 2.21808  A-G: 7.17504  A-T: 1.56321  C-G: 0.79659  C-T: 7.17504  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.412
+Optimal log-likelihood: -4717.474
+795  TVMe+G4       4717.474     12  9458.947     9459.158     9522.682
+Optimizing model TVMe+I+G4
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4718.057 (took 0.000 wall-clock sec)
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 2.25088  A-G: 7.14938  A-T: 1.58825  C-G: 0.84283  C-T: 7.14938  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.300
+Gamma shape alpha: 0.977
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 2.22915  A-G: 7.22953  A-T: 1.59020  C-G: 0.82040  C-T: 7.22953  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.300
+Gamma shape alpha: 0.947
+Optimal log-likelihood: -4717.497
+796  TVMe+I+G4     4717.497     13  9460.993     9461.239     9530.039
+816  TVMe+I        4722.029     12  9468.059     9468.269     9531.793
+817  TVMe+G4       4717.474     12  9458.947     9459.158     9522.682
+818  TVMe+I+G4     4717.497     13  9460.993     9461.239     9530.039
+Optimizing model TVM+I
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4723.140 (took 0.000 wall-clock sec)
+Rate parameters:  A-C: 1.96070  A-G: 6.50053  A-T: 1.50984  C-G: 0.76936  C-T: 6.50053  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.506
+Rate parameters:  A-C: 1.96980  A-G: 6.53211  A-T: 1.49913  C-G: 0.79141  C-T: 6.53211  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.506
+Optimal log-likelihood: -4722.026
+838  TVM+I         4722.026     12  9468.052     9468.263     9531.787
+Optimizing model TVM+G4
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4718.410 (took 0.000 wall-clock sec)
+Rate parameters:  A-C: 2.33191  A-G: 7.54135  A-T: 1.65048  C-G: 0.85005  C-T: 7.54135  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.408
+Rate parameters:  A-C: 2.32396  A-G: 7.54515  A-T: 1.64619  C-G: 0.84470  C-T: 7.54515  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.406
+Optimal log-likelihood: -4717.449
+839  TVM+G4        4717.449     12  9458.898     9459.108     9522.633
+Optimizing model TVM+I+G4
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4717.505 (took 0.000 wall-clock sec)
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 2.22559  A-G: 7.24764  A-T: 1.56745  C-G: 0.79199  C-T: 7.24764  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.299
+Gamma shape alpha: 0.928
+Optimal log-likelihood: -4717.474
+840  TVM+I+G4      4717.474     13  9460.949     9461.194     9529.995
+Alignment state count time was 0.000 seconds.
+Empirical state frequencies: 0.2924569914 0.1840905752 0.2664314071 0.2570210263 
+Optimizing model TVM+F+I
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4713.3930557544 (took 0.0000219471 wall-clock sec)
+Rate parameters:  A-C: 2.42740  A-G: 7.65427  A-T: 1.50036  C-G: 1.05597  C-T: 7.65427  G-T: 1.00000
+Base frequencies:  A: 0.292  C: 0.184  G: 0.266  T: 0.257
+Proportion of invariable sites: 0.506
+Rate parameters:  A-C: 2.44949  A-G: 7.63233  A-T: 1.51711  C-G: 1.08193  C-T: 7.63233  G-T: 1.00000
+Base frequencies:  A: 0.292  C: 0.184  G: 0.266  T: 0.257
+Proportion of invariable sites: 0.504
+Optimal log-likelihood: -4710.981
+860  TVM+F+I       4710.981     15  9451.961     9452.286     9531.630
+Alignment state count time was 0.000 seconds.
+Empirical state frequencies: 0.2924569914 0.1840905752 0.2664314071 0.2570210263 
+Optimizing model TVM+F+G4
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4709.8160537271 (took 0.0000450960 wall-clock sec)
+Rate parameters:  A-C: 2.71909  A-G: 8.12952  A-T: 1.45210  C-G: 1.06217  C-T: 8.12952  G-T: 1.00000
+Base frequencies:  A: 0.292  C: 0.184  G: 0.266  T: 0.257
+Gamma shape alpha: 0.405
+Rate parameters:  A-C: 2.72841  A-G: 8.21660  A-T: 1.46266  C-G: 1.10577  C-T: 8.21660  G-T: 1.00000
+Base frequencies:  A: 0.292  C: 0.184  G: 0.266  T: 0.257
+Gamma shape alpha: 0.406
+Optimal log-likelihood: -4705.974
+861  TVM+F+G4      4705.974     15  9441.948     9442.272     9521.617
+Alignment state count time was 0.000 seconds.
+Empirical state frequencies: 0.2924569914 0.1840905752 0.2664314071 0.2570210263 
+Optimizing model TVM+F+I+G4
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4708.7768204078 (took 0.0000621751 wall-clock sec)
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 2.81656  A-G: 8.48718  A-T: 1.52512  C-G: 1.10971  C-T: 8.48718  G-T: 1.00000
+Base frequencies:  A: 0.292  C: 0.184  G: 0.266  T: 0.257
+Proportion of invariable sites: 0.303
+Gamma shape alpha: 0.922
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 2.81921  A-G: 8.48827  A-T: 1.52305  C-G: 1.11008  C-T: 8.48827  G-T: 1.00000
+Base frequencies:  A: 0.292  C: 0.184  G: 0.266  T: 0.257
+Proportion of invariable sites: 0.302
+Gamma shape alpha: 0.921
+Optimal log-likelihood: -4706.046
+862  TVM+F+I+G4    4706.046     16  9444.093     9444.460     9529.072
+Optimizing model SYM+I
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4708.386 (took 0.000 wall-clock sec)
+Rate parameters:  A-C: 1.78418  A-G: 4.25594  A-T: 1.43689  C-G: 0.81944  C-T: 9.60236  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.490
+Rate parameters:  A-C: 1.80272  A-G: 4.25574  A-T: 1.44448  C-G: 0.83704  C-T: 9.59624  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.489
+Optimal log-likelihood: -4707.402
+882  SYM+I         4707.402     13  9440.804     9441.050     9509.850
+Optimizing model SYM+G4
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4705.081 (took 0.000 wall-clock sec)
+Rate parameters:  A-C: 2.18707  A-G: 5.03081  A-T: 1.57538  C-G: 0.94376  C-T: 11.20261  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.422
+Rate parameters:  A-C: 2.21431  A-G: 5.00148  A-T: 1.53692  C-G: 0.92927  C-T: 11.20401  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.422
+Optimal log-likelihood: -4703.205
+883  SYM+G4        4703.205     13  9432.409     9432.655     9501.455
+Optimizing model SYM+I+G4
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4703.790 (took 0.000 wall-clock sec)
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 2.19052  A-G: 4.99495  A-T: 1.54551  C-G: 0.92628  C-T: 11.28449  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.300
+Gamma shape alpha: 0.984
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 2.18907  A-G: 4.99019  A-T: 1.53670  C-G: 0.91257  C-T: 11.28531  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.299
+Gamma shape alpha: 0.977
+Optimal log-likelihood: -4703.128
+884  SYM+I+G4      4703.128     14  9434.255     9434.539     9508.612
+904  SYM+I         4707.402     13  9440.804     9441.050     9509.850
+905  SYM+G4        4703.205     13  9432.409     9432.655     9501.455
+906  SYM+I+G4      4703.128     14  9434.255     9434.539     9508.612
+Optimizing model GTR+I
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4709.041 (took 0.000 wall-clock sec)
+Rate parameters:  A-C: 1.79929  A-G: 4.26563  A-T: 1.43709  C-G: 0.82172  C-T: 9.59570  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.490
+Rate parameters:  A-C: 1.80591  A-G: 4.26538  A-T: 1.44207  C-G: 0.83638  C-T: 9.59217  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.489
+Optimal log-likelihood: -4707.399
+926  GTR+I         4707.399     13  9440.797     9441.043     9509.843
+Optimizing model GTR+G4
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4704.442 (took 0.000 wall-clock sec)
+Rate parameters:  A-C: 2.20960  A-G: 4.99511  A-T: 1.53639  C-G: 0.92052  C-T: 11.20352  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.422
+Rate parameters:  A-C: 2.20098  A-G: 4.98050  A-T: 1.52895  C-G: 0.92515  C-T: 11.20073  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 0.421
+Optimal log-likelihood: -4703.203
+927  GTR+G4        4703.203     13  9432.407     9432.652     9501.453
+Optimizing model GTR+I+G4
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4703.156 (took 0.000 wall-clock sec)
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 2.19044  A-G: 4.97001  A-T: 1.52836  C-G: 0.91690  C-T: 11.28283  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.299
+Gamma shape alpha: 0.974
+Optimal log-likelihood: -4703.126
+928  GTR+I+G4      4703.126     14  9434.253     9434.536     9508.610
+Alignment state count time was 0.000 seconds.
+Empirical state frequencies: 0.2924569914 0.1840905752 0.2664314071 0.2570210263 
+Optimizing model GTR+F+I
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4686.8527131293 (took 0.0000199978 wall-clock sec)
+Rate parameters:  A-C: 2.20343  A-G: 3.95797  A-T: 1.29725  C-G: 1.12018  C-T: 12.14128  G-T: 1.00000
+Base frequencies:  A: 0.292  C: 0.184  G: 0.266  T: 0.257
+Proportion of invariable sites: 0.469
+Rate parameters:  A-C: 2.23882  A-G: 3.96268  A-T: 1.30551  C-G: 1.15626  C-T: 12.12488  G-T: 1.00000
+Base frequencies:  A: 0.292  C: 0.184  G: 0.266  T: 0.257
+Proportion of invariable sites: 0.466
+Optimal log-likelihood: -4681.926
+948  GTR+F+I       4681.926     16  9395.851     9396.219     9480.831
+Alignment state count time was 0.000 seconds.
+Empirical state frequencies: 0.2924569914 0.1840905752 0.2664314071 0.2570210263 
+Optimizing model GTR+F+G4
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4681.0368526461 (took 0.0000319201 wall-clock sec)
+Rate parameters:  A-C: 2.78745  A-G: 4.54513  A-T: 1.30488  C-G: 1.28001  C-T: 14.34230  G-T: 1.00000
+Base frequencies:  A: 0.292  C: 0.184  G: 0.266  T: 0.257
+Gamma shape alpha: 0.450
+Rate parameters:  A-C: 2.79321  A-G: 4.53094  A-T: 1.29251  C-G: 1.30130  C-T: 14.34577  G-T: 1.00000
+Base frequencies:  A: 0.292  C: 0.184  G: 0.266  T: 0.257
+Gamma shape alpha: 0.451
+Optimal log-likelihood: -4676.042
+949  GTR+F+G4      4676.042     16  9384.083     9384.451     9469.063
+Alignment state count time was 0.000 seconds.
+Empirical state frequencies: 0.2924569914 0.1840905752 0.2664314071 0.2570210263 
+Optimizing model GTR+F+I+G4
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1. Initial log-likelihood: -4679.3598914224 (took 0.0000310461 wall-clock sec)
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 2.78397  A-G: 4.58244  A-T: 1.33144  C-G: 1.29366  C-T: 14.65502  G-T: 1.00000
+Base frequencies:  A: 0.292  C: 0.184  G: 0.266  T: 0.257
+Proportion of invariable sites: 0.301
+Gamma shape alpha: 1.077
+Optimizing +I+G4 model parameters by EM algorithm...
+Rate parameters:  A-C: 2.78499  A-G: 4.57839  A-T: 1.31903  C-G: 1.30276  C-T: 14.65572  G-T: 1.00000
+Base frequencies:  A: 0.292  C: 0.184  G: 0.266  T: 0.257
+Proportion of invariable sites: 0.300
+Gamma shape alpha: 1.073
+Optimal log-likelihood: -4676.296
+950  GTR+F+I+G4    4676.296     17  9386.591     9387.005     9476.882
+Akaike Information Criterion:           GTR+F+G4
+Corrected Akaike Information Criterion: GTR+F+G4
+Bayesian Information Criterion:         TIM2+F+G4
+Best-fit model: TIM2+F+G4 chosen according to BIC
+
+All model information printed to ../../results/coalescent_astral/gene_trees_nt/casq1b.model.gz
+CPU time for ModelFinder: 0.495 seconds (0h:0m:0s)
+Wall-clock time for ModelFinder: 0.261 seconds (0h:0m:0s)
+Alignment state count time was 0.000 seconds.
+Empirical state frequencies: 0.2924569914 0.1840905752 0.2664314071 0.2570210263 
+Generating 1000 samples for ultrafast bootstrap (seed: 12345)...
+Alignment state count time was 0.0000667390 seconds.
+Empirical state frequencies: 0.2924569914 0.1840905752 0.2664314071 0.2570210263 
+
+ML-TREE SEARCH START WITH THE FOLLOWING PARAMETERS:
+Model of evolution: TIM2+F+G4 with counted frequencies (14 free parameters)
+Fixed branch lengths: No
+Tree search algorithm: Stochastic nearest neighbor interchange
+Termination condition: min 0.9900000000 correlation coefficient
+NNI assessed on: 5 branches
+Phylogenetic likelihood library: No
+Branch length optimization method: Newton
+Number of Newton-Raphson steps in NNI evaluation and branch length optimization: 10 / 10
+SSE instructions: Yes
+
+NOTE: 0 MB RAM (0 GB) is required!
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+Estimate model parameters (epsilon = 0.1000000000)
+1. Initial log-likelihood: -4679.4632350680 (took 0.0000429018 wall-clock sec)
+Rate parameters:  A-C: 1.68892  A-G: 4.00584  A-T: 1.68892  C-G: 1.00000  C-T: 12.73411  G-T: 1.00000
+Base frequencies:  A: 0.292  C: 0.184  G: 0.266  T: 0.257
+Gamma shape alpha: 0.447
+2. Current log-likelihood: -4679.278 (after 0.001 wall-clock sec)
+Rate parameters:  A-C: 1.69371  A-G: 4.03731  A-T: 1.69371  C-G: 1.00000  C-T: 12.73629  G-T: 1.00000
+Base frequencies:  A: 0.292  C: 0.184  G: 0.266  T: 0.257
+Gamma shape alpha: 0.445
+Optimal log-likelihood: -4679.261
+Parameters optimization took 2 rounds (0.002 sec)
+Best tree printed to ../../results/coalescent_astral/gene_trees_nt/casq1b.treefile
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+0.000101s Longest distance was 0.763348
+Calculating distance matrix: done in 0.000109029 secs using 800.7% CPU
+Distance calculation time: 0.000131 seconds
+Computing ML distances took 0.000145 sec (of wall-clock time) 0.000912 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000176804 secs
+Constructing RapidNJ tree: done in 0.000442407 secs using 32.1% CPU
+Computing RapidNJ tree took 0.000662 sec (of wall-clock time) 0.000269 sec (of CPU time)
+Computing RapidNJ tree (from in-memory) distance matrix took 0.002 sec.
+Time taken to write distance file: 0.005 seconds 
+Loading tree (from file ../../results/coalescent_astral/gene_trees_nt/casq1b.bionj) took 0.000 sec.
+Wall-clock time spent creating initial tree was 0.005 seconds
+Log-likelihood of RapidNJ tree: -4679.261
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 99 parsimony trees... 0.016 second
+Computing log-likelihood of 4 initial trees ... 0.001 seconds
+Current best score: -4679.261
+
+Do NNI search on 5 best initial trees
+Optimizing NNI: done in 0.000814659 secs using 99.67% CPU
+NOTE: Input tree is already NNI-optimal
+Iteration 1 / LogL: -4679.261 / Time: 0h:0m:0s
+Optimizing NNI: done in 0.0015862 secs using 160.7% CPU
+Iteration 2 / LogL: -4680.125 / Time: 0h:0m:0s
+Optimizing NNI: done in 0.00168762 secs using 217.7% CPU
+Iteration 3 / LogL: -4680.202 / Time: 0h:0m:0s
+Optimizing NNI: done in 0.00156964 secs using 226.6% CPU
+Iteration 4 / LogL: -4686.603 / Time: 0h:0m:0s
+Optimizing NNI: done in 0.00159971 secs using 161.8% CPU
+Iteration 5 / LogL: -4687.919 / Time: 0h:0m:0s
+Best tree printed to ../../results/coalescent_astral/gene_trees_nt/casq1b.treefile
+Finish initializing candidate tree set (5)
+Current best tree score: -4679.261 / CPU time: 0.031
+Number of iterations: 5
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Optimizing NNI: done in 0.001353 secs using 172.1% CPU
+UPDATE BEST LOG-LIKELIHOOD: -4679.260
+Iteration 6 / LogL: -4679.260 / Time: 0h:0m:0s
+Best tree printed to ../../results/coalescent_astral/gene_trees_nt/casq1b.treefile
+Optimizing NNI: done in 0.00139702 secs using 190.1% CPU
+Iteration 7 / LogL: -4680.155 / Time: 0h:0m:0s
+Optimizing NNI: done in 0.0013514 secs using 173.4% CPU
+Iteration 8 / LogL: -4680.063 / Time: 0h:0m:0s
+Optimizing NNI: done in 0.00129512 secs using 176.7% CPU
+Iteration 9 / LogL: -4680.155 / Time: 0h:0m:0s
+Optimizing NNI: done in 0.00195425 secs using 201.7% CPU
+Iteration 10 / LogL: -4680.461 / Time: 0h:0m:0s
+Optimizing NNI: done in 0.00210614 secs using 197.5% CPU
+Iteration 11 / LogL: -4687.561 / Time: 0h:0m:0s
+Optimizing NNI: done in 0.00195995 secs using 199.9% CPU
+Iteration 12 / LogL: -4681.068 / Time: 0h:0m:0s
+Optimizing NNI: done in 0.000556442 secs using 106.6% CPU
+NOTE: Input tree is already NNI-optimal
+Iteration 13 / LogL: -4720.530 / Time: 0h:0m:0s
+Optimizing NNI: done in 0.00209541 secs using 193.9% CPU
+Iteration 14 / LogL: -4687.561 / Time: 0h:0m:0s
+Optimizing NNI: done in 0.0013041 secs using 251.7% CPU
+Iteration 15 / LogL: -4680.155 / Time: 0h:0m:0s
+Optimizing NNI: done in 0.00194454 secs using 201.6% CPU
+Iteration 16 / LogL: -4681.068 / Time: 0h:0m:0s
+Optimizing NNI: done in 0.00210566 secs using 194.5% CPU
+Iteration 17 / LogL: -4686.932 / Time: 0h:0m:0s
+Optimizing NNI: done in 0.00130615 secs using 252.2% CPU
+Iteration 18 / LogL: -4680.708 / Time: 0h:0m:0s
+Optimizing NNI: done in 0.00128234 secs using 100.1% CPU
+Iteration 19 / LogL: -4680.155 / Time: 0h:0m:0s
+Optimizing NNI: done in 0.00132657 secs using 174.7% CPU
+Iteration 20 / LogL: -4680.708 / Time: 0h:0m:0s
+Optimizing NNI: done in 0.00138867 secs using 173.8% CPU
+Iteration 21 / LogL: -4687.563 / Time: 0h:0m:0s (0h:0m:1s left)
+Optimizing NNI: done in 0.00228828 secs using 186.3% CPU
+Iteration 22 / LogL: -4679.759 / Time: 0h:0m:0s (0h:0m:1s left)
+Optimizing NNI: done in 0.000546855 secs using 281.4% CPU
+NOTE: Input tree is already NNI-optimal
+Iteration 23 / LogL: -4720.530 / Time: 0h:0m:0s (0h:0m:0s left)
+Optimizing NNI: done in 0.00210805 secs using 194.4% CPU
+Iteration 24 / LogL: -4681.703 / Time: 0h:0m:0s (0h:0m:0s left)
+Optimizing NNI: done in 0.00215015 secs using 147.4% CPU
+Iteration 25 / LogL: -4686.932 / Time: 0h:0m:0s (0h:0m:0s left)
+Optimizing NNI: done in 0.00138299 secs using 243.7% CPU
+UPDATE BEST LOG-LIKELIHOOD: -4679.260
+Iteration 26 / LogL: -4679.260 / Time: 0h:0m:0s (0h:0m:0s left)
+Best tree printed to ../../results/coalescent_astral/gene_trees_nt/casq1b.treefile
+Optimizing NNI: done in 0.00142453 secs using 169.5% CPU
+Iteration 27 / LogL: -4680.706 / Time: 0h:0m:0s (0h:0m:0s left)
+Optimizing NNI: done in 0.00210021 secs using 194.5% CPU
+Iteration 28 / LogL: -4688.081 / Time: 0h:0m:0s (0h:0m:0s left)
+Optimizing NNI: done in 0.00131156 secs using 175.6% CPU
+Iteration 29 / LogL: -4680.155 / Time: 0h:0m:0s (0h:0m:0s left)
+Optimizing NNI: done in 0.00216915 secs using 146.1% CPU
+Iteration 30 / LogL: -4679.759 / Time: 0h:0m:0s (0h:0m:0s left)
+Optimizing NNI: done in 0.00196222 secs using 201.3% CPU
+Iteration 31 / LogL: -4681.068 / Time: 0h:0m:0s (0h:0m:0s left)
+Optimizing NNI: done in 0.00197268 secs using 200.8% CPU
+Iteration 32 / LogL: -4680.805 / Time: 0h:0m:0s (0h:0m:0s left)
+Optimizing NNI: done in 0.00206398 secs using 196.4% CPU
+Iteration 33 / LogL: -4680.805 / Time: 0h:0m:0s (0h:0m:0s left)
+Optimizing NNI: done in 0.00136377 secs using 172.9% CPU
+Iteration 34 / LogL: -4687.563 / Time: 0h:0m:0s (0h:0m:0s left)
+Optimizing NNI: done in 0.00128492 secs using 254.8% CPU
+Iteration 35 / LogL: -4687.563 / Time: 0h:0m:0s (0h:0m:0s left)
+Optimizing NNI: done in 0.00193386 secs using 151.5% CPU
+Iteration 36 / LogL: -4681.068 / Time: 0h:0m:0s (0h:0m:0s left)
+Optimizing NNI: done in 0.00128859 secs using 176.8% CPU
+Iteration 37 / LogL: -4686.788 / Time: 0h:0m:0s (0h:0m:0s left)
+Optimizing NNI: done in 0.00204228 secs using 149.1% CPU
+Iteration 38 / LogL: -4680.805 / Time: 0h:0m:0s (0h:0m:0s left)
+Optimizing NNI: done in 0.00203912 secs using 196.8% CPU
+Iteration 39 / LogL: -4680.461 / Time: 0h:0m:0s (0h:0m:0s left)
+Optimizing NNI: done in 0.00132115 secs using 250.4% CPU
+Iteration 40 / LogL: -4680.170 / Time: 0h:0m:0s (0h:0m:0s left)
+Optimizing NNI: done in 0.00206797 secs using 196.1% CPU
+Iteration 41 / LogL: -4680.591 / Time: 0h:0m:0s (0h:0m:0s left)
+Optimizing NNI: done in 0.00214861 secs using 146.1% CPU
+Iteration 42 / LogL: -4679.759 / Time: 0h:0m:0s (0h:0m:0s left)
+Optimizing NNI: done in 0.00131837 secs using 175.1% CPU
+UPDATE BEST LOG-LIKELIHOOD: -4679.260
+Iteration 43 / LogL: -4679.260 / Time: 0h:0m:0s (0h:0m:0s left)
+Best tree printed to ../../results/coalescent_astral/gene_trees_nt/casq1b.treefile
+Optimizing NNI: done in 0.00214906 secs using 145.6% CPU
+Iteration 44 / LogL: -4680.461 / Time: 0h:0m:0s (0h:0m:0s left)
+Optimizing NNI: done in 0.00130964 secs using 175.8% CPU
+Iteration 45 / LogL: -4687.563 / Time: 0h:0m:0s (0h:0m:0s left)
+Optimizing NNI: done in 0.00129509 secs using 99.07% CPU
+UPDATE BEST LOG-LIKELIHOOD: -4679.260
+Iteration 46 / LogL: -4679.260 / Time: 0h:0m:0s (0h:0m:0s left)
+Best tree printed to ../../results/coalescent_astral/gene_trees_nt/casq1b.treefile
+Optimizing NNI: done in 0.00142959 secs using 80.58% CPU
+Iteration 47 / LogL: -4680.170 / Time: 0h:0m:0s (0h:0m:0s left)
+Optimizing NNI: done in 0.00209901 secs using 148.6% CPU
+Iteration 48 / LogL: -4687.561 / Time: 0h:0m:0s (0h:0m:0s left)
+Optimizing NNI: done in 0.00135474 secs using 172% CPU
+Iteration 49 / LogL: -4680.063 / Time: 0h:0m:0s (0h:0m:0s left)
+Optimizing NNI: done in 0.00126677 secs using 101.4% CPU
+UPDATE BEST LOG-LIKELIHOOD: -4679.260
+Iteration 50 / LogL: -4679.260 / Time: 0h:0m:0s (0h:0m:0s left)
+1000 tree(s) converted
+Using hash_map
+Converting collection of tree(s) into split system...
+Log-likelihood cutoff on original alignment: -4688.081
+Best tree printed to ../../results/coalescent_astral/gene_trees_nt/casq1b.treefile
+Optimizing NNI: done in 0.00144689 secs using 154.3% CPU
+Iteration 51 / LogL: -4686.788 / Time: 0h:0m:0s (0h:0m:0s left)
+Optimizing NNI: done in 0.00129319 secs using 176.7% CPU
+Iteration 52 / LogL: -4687.563 / Time: 0h:0m:0s (0h:0m:0s left)
+Optimizing NNI: done in 0.00131754 secs using 98.29% CPU
+UPDATE BEST LOG-LIKELIHOOD: -4679.260
+Iteration 53 / LogL: -4679.260 / Time: 0h:0m:0s (0h:0m:0s left)
+Best tree printed to ../../results/coalescent_astral/gene_trees_nt/casq1b.treefile
+Optimizing NNI: done in 0.0013565 secs using 112.9% CPU
+UPDATE BEST LOG-LIKELIHOOD: -4679.260
+Iteration 54 / LogL: -4679.260 / Time: 0h:0m:1s (0h:0m:0s left)
+Best tree printed to ../../results/coalescent_astral/gene_trees_nt/casq1b.treefile
+Optimizing NNI: done in 0.0014506 secs using 153.2% CPU
+Iteration 55 / LogL: -4680.063 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.000522634 secs using 99.69% CPU
+NOTE: Input tree is already NNI-optimal
+Iteration 56 / LogL: -4720.530 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.00212784 secs using 240% CPU
+Iteration 57 / LogL: -4687.561 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.00212656 secs using 193.5% CPU
+Iteration 58 / LogL: -4687.561 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.0013583 secs using 246.3% CPU
+Iteration 59 / LogL: -4687.563 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.00193587 secs using 202.6% CPU
+Iteration 60 / LogL: -4681.068 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.00128831 secs using 176.7% CPU
+Iteration 61 / LogL: -4687.563 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.00206564 secs using 148.6% CPU
+Iteration 62 / LogL: -4686.932 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.00212713 secs using 146.7% CPU
+Iteration 63 / LogL: -4679.759 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.00128701 secs using 254.5% CPU
+UPDATE BEST LOG-LIKELIHOOD: -4679.260
+Iteration 64 / LogL: -4679.260 / Time: 0h:0m:1s (0h:0m:0s left)
+Best tree printed to ../../results/coalescent_astral/gene_trees_nt/casq1b.treefile
+Optimizing NNI: done in 0.00209107 secs using 142.3% CPU
+Iteration 65 / LogL: -4680.461 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.00121105 secs using 99.17% CPU
+UPDATE BEST LOG-LIKELIHOOD: -4679.260
+Iteration 66 / LogL: -4679.260 / Time: 0h:0m:1s (0h:0m:0s left)
+Best tree printed to ../../results/coalescent_astral/gene_trees_nt/casq1b.treefile
+Optimizing NNI: done in 0.00144772 secs using 162.9% CPU
+Iteration 67 / LogL: -4680.063 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.00211866 secs using 193.8% CPU
+Iteration 68 / LogL: -4688.081 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.00204696 secs using 148.6% CPU
+Iteration 69 / LogL: -4686.932 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.00219455 secs using 190% CPU
+Iteration 70 / LogL: -4687.220 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.00135673 secs using 172.9% CPU
+Iteration 71 / LogL: -4680.170 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.00137168 secs using 245% CPU
+Iteration 72 / LogL: -4680.063 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.0020844 secs using 147.4% CPU
+Iteration 73 / LogL: -4687.561 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.00198144 secs using 150.4% CPU
+Iteration 74 / LogL: -4680.461 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.00126044 secs using 178.7% CPU
+Iteration 75 / LogL: -4680.704 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.00222381 secs using 189.3% CPU
+Iteration 76 / LogL: -4687.220 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.00214609 secs using 147.5% CPU
+Iteration 77 / LogL: -4687.561 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.0020943 secs using 194.7% CPU
+Iteration 78 / LogL: -4681.489 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.00136113 secs using 246.1% CPU
+Iteration 79 / LogL: -4687.563 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.00199681 secs using 199.6% CPU
+Iteration 80 / LogL: -4681.068 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.00134196 secs using 248.2% CPU
+Iteration 81 / LogL: -4679.260 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.00140299 secs using 170.6% CPU
+Iteration 82 / LogL: -4680.170 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.00225814 secs using 186.9% CPU
+Iteration 83 / LogL: -4687.220 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.00206726 secs using 148.2% CPU
+Iteration 84 / LogL: -4680.461 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.00131709 secs using 101.2% CPU
+Iteration 85 / LogL: -4680.155 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.00212458 secs using 193.3% CPU
+Iteration 86 / LogL: -4687.561 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.00211092 secs using 194% CPU
+Iteration 87 / LogL: -4679.759 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.00196508 secs using 201% CPU
+Iteration 88 / LogL: -4681.068 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.00196648 secs using 151% CPU
+Iteration 89 / LogL: -4681.068 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.00133181 secs using 174.3% CPU
+Iteration 90 / LogL: -4680.170 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.00134263 secs using 248% CPU
+Iteration 91 / LogL: -4680.155 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.000560247 secs using 98.35% CPU
+NOTE: Input tree is already NNI-optimal
+Iteration 92 / LogL: -4720.530 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.00212524 secs using 193.5% CPU
+Iteration 93 / LogL: -4686.932 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.0012888 secs using 176.9% CPU
+Iteration 94 / LogL: -4680.704 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.0013737 secs using 172.1% CPU
+Iteration 95 / LogL: -4686.788 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.0014147 secs using 240.6% CPU
+Iteration 96 / LogL: -4680.155 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.00219165 secs using 190.6% CPU
+Iteration 97 / LogL: -4688.081 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.00135764 secs using 173.1% CPU
+Iteration 98 / LogL: -4686.788 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.00214644 secs using 146.1% CPU
+Iteration 99 / LogL: -4686.932 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.00196891 secs using 201% CPU
+Iteration 100 / LogL: -4680.461 / Time: 0h:0m:1s (0h:0m:0s left)
+1000 tree(s) converted
+Using hash_map
+Converting collection of tree(s) into split system...
+Log-likelihood cutoff on original alignment: -4688.081
+0 new splits compared to old boot_splits
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 1.000
+Optimizing NNI: done in 0.00207438 secs using 147.8% CPU
+Iteration 101 / LogL: -4681.489 / Time: 0h:0m:1s (0h:0m:1s left)
+0 new splits compared to old boot_splits
+TREE SEARCH COMPLETED AFTER 101 ITERATIONS / Time: 0h:0m:1s
+
+Log-likelihoods of 5 best candidate trees: 
+-4679.260 -4726.415 -4727.525 -4877.625 -4877.675 
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -4679.260 (took 0.000 wall-clock sec)
+Rate parameters:  A-C: 1.70254  A-G: 4.03266  A-T: 1.70254  C-G: 1.00000  C-T: 12.77389  G-T: 1.00000
+Base frequencies:  A: 0.292  C: 0.184  G: 0.266  T: 0.257
+Gamma shape alpha: 0.444
+Optimal log-likelihood: -4679.260
+Parameters optimization took 1 rounds (0.001 sec)
+BEST SCORE FOUND : -4679.260
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+0.023 sec.
+Creating bootstrap support values...
+1000 tree(s) converted
+max_tree_id = 1   max_weight = 1 (0.100%)
+Using hash_map
+Converting collection of tree(s) into split system...
+7 splits found
+Split supports printed to NEXUS file ../../results/coalescent_astral/gene_trees_nt/casq1b.splits.nex
+Total tree length: 0.890
+
+Total number of iterations: 101
+CPU time used for tree search: 0.874 sec (0h:0m:0s)
+Wall-clock time used for tree search: 1.079 sec (0h:0m:1s)
+Total CPU time used: 1.485 sec (0h:0m:1s)
+Total wall-clock time used: 1.410 sec (0h:0m:1s)
+
+Computing bootstrap consensus tree...
+Reading input file ../../results/coalescent_astral/gene_trees_nt/casq1b.splits.nex...
+Reading "TAXA" block...
+Reading "SPLITS" block...
+5 taxa and 7 splits.
+Rescaling split weights by 1.000
+Consensus tree written to ../../results/coalescent_astral/gene_trees_nt/casq1b.contree
+Reading input trees file ../../results/coalescent_astral/gene_trees_nt/casq1b.contree
+Log-likelihood of consensus tree: -4679.260
+Best tree printed to ../../results/coalescent_astral/gene_trees_nt/casq1b.treefile
+Tree contains 5 taxa and 7 branches
+
+Analysis results written to: 
+  IQ-TREE report:                ../../results/coalescent_astral/gene_trees_nt/casq1b.iqtree
+  Maximum-likelihood tree:       ../../results/coalescent_astral/gene_trees_nt/casq1b.treefile
+  Likelihood distances:          ../../results/coalescent_astral/gene_trees_nt/casq1b.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          ../../results/coalescent_astral/gene_trees_nt/casq1b.splits.nex
+  Consensus tree:                ../../results/coalescent_astral/gene_trees_nt/casq1b.contree
+  Screen log file:               ../../results/coalescent_astral/gene_trees_nt/casq1b.log
+
+Date and Time: Tue Apr 28 22:45:20 2026

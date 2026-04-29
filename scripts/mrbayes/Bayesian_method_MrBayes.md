@@ -1,8 +1,15 @@
 # BAYESIAN INFERENCE WITH MrBayes
 
-Useful Link:
+Useful Links:
 1. https://github.com/PatrickKueck/FASconCAT-G/tree/master
 2. https://github.com/NBISweden/MrBayes/blob/develop/doc/manual/Manual_MrBayes_v3.2.pdf
+
+
+| Software | Description | Strengths | Weaknesses | Assumptions | User choices |
+| :---: | :--- | :--- | :--- | :--- | :--- |
+| FASconCAT-G | Alignment processing tool used to concatenate per-gene alignments into a supermatrix for phylogenetic analysis. | Convenient for combining many alignments; can generate concatenated output and partition/block information useful for downstream phylogenetic programs. | output files and partition boundaries still need to be checked before running downstream analyses. | Input alignments are correctly formatted, have consistent taxon labels, and represent homologous regions. | I used FASconCAT-G to concatenate the MACSE-cleaned nucleotide alignments and prepare the concatenated dataset for MrBayes. |
+| MrBayes | Bayesian phylogenetic inference program that uses MCMC to estimate posterior distributions of trees and model parameters. | Provides posterior probabilities for clades; allows partitioned models; estimates uncertainty by sampling trees from the posterior distribution. | Can be slower than ML methods; results depend on MCMC convergence and adequate sampling. | The substitution model, partitioning scheme, priors, and MCMC settings adequately describe the data. | I used codon-position partitioning for the concatenated coding-sequence alignment and rooted the final tree with `Ip`. |
+
 
 ## PREPARE INPUT TO MRBAYES : FASconCAT-G
 
@@ -277,6 +284,8 @@ https://github.com/beast-dev/tracer/releases/tag/v1.7.2 > Tracer.v1.7.2.zip
   ## Comparison of IQ-TREE and MrBayes tree visualizations
 
 - I compared the IQ-TREE nucleotide maximum-likelihood tree with the MrBayes bayesian consensus tree by running the `visualize_trees_mrbayes.ipynb` notebook which plots the unrooted and rooted trees for both MrBayes and compares the topologies between IQTREE and MrBayes.
+    - The results are saved in `Botany563/results/mrbayes/full_run/tree_plots/` and
+    - `Botany563/results/mrbayes/full_run/tree_plots/comparison_iqtree_mrbayes`.
 
 - The two analyses used different partitioning strategies:
   - **IQ-TREE used gene-based partitions** with automatic model selection and partition merging.

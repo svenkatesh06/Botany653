@@ -1,0 +1,85 @@
+ASTRAL-IV analysis started at Tue Apr 28 23:16:52 CDT 2026
+Input gene trees: all_gene_trees_nt.tre
+Output species tree: astral4_species_tree_nt.tre
+
+Accurate Species TRee ALgorithm IV (ASTRAL-IV)
+*** NOW with integrated CASTLES-2 ***
+Version: v1.25.4.8
+#Genetrees: 50
+#Species: 5
+#Rounds: 16
+#Samples: 16
+#Threads: 2
+#NNI moves:0/30
+((((Bg,Ee),Ip),Pk),Bb);
+#NNI moves:0/30
+(((Pk,Bb),(Ee,Bg)),Ip);
+#NNI moves:0/30
+((((Bg,Ee),Ip),Bb),Pk);
+#NNI moves:0/30
+((((Pk,Bb),Ip),Ee),Bg);
+#NNI moves:0/30
+((((Pk,Bb),Ip),Ee),Bg);
+#NNI moves:0/30
+((((Bb,Pk),Ip),Bg),Ee);
+#NNI moves:0/30
+((((Ee,Bg),Ip),Pk),Bb);
+#NNI moves:0/30
+((((Bb,Pk),Ip),Bg),Ee);
+#NNI moves:0/30
+((((Ee,Bg),Ip),Pk),Bb);
+#NNI moves:0/30
+((((Bb,Pk),Ip),Ee),Bg);
+#NNI moves:0/30
+((((Bb,Pk),Ip),Ee),Bg);
+#NNI moves:0/30
+(((Bg,Ee),(Pk,Bb)),Ip);
+#NNI moves:0/30
+((((Ee,Bg),Ip),Bb),Pk);
+#NNI moves:0/30
+((((Bg,Ee),Ip),Bb),Pk);
+#NNI moves:0/30
+((((Bb,Pk),Ip),Bg),Ee);
+#NNI moves:0/30
+((((Bb,Pk),Ip),Bg),Ee);
+Initial score: 232
+Initial tree: (((Bb,Pk),(Bg,Ee)),Ip);
+*** Subsample Process ***
+#NNI moves:0/30
+((((Bg,Ee),Ip),Bb),Pk);
+#NNI moves:0/30
+(((Bb,Pk),(Bg,Ee)),Ip);
+#NNI moves:0/30
+((((Ee,Bg),Ip),Pk),Bb);
+#NNI moves:0/30
+((((Pk,Bb),Ip),Bg),Ee);
+#NNI moves:0/30
+(((Ee,Bg),(Pk,Bb)),Ip);
+#NNI moves:0/30
+((((Bb,Pk),Ip),Ee),Bg);
+#NNI moves:0/30
+(((Ee,Bg),(Bb,Pk)),Ip);
+#NNI moves:0/30
+((((Bg,Ee),Ip),Bb),Pk);
+#NNI moves:0/30
+((((Pk,Bb),Ip),Ee),Bg);
+#NNI moves:0/30
+(((Ee,Bg),(Bb,Pk)),Ip);
+#NNI moves:0/30
+(((Bb,Pk),(Ee,Bg)),Ip);
+#NNI moves:0/30
+((((Bb,Pk),Ip),Ee),Bg);
+#NNI moves:0/30
+((((Bg,Ee),Ip),Pk),Bb);
+#NNI moves:0/30
+((((Bg,Ee),Ip),Pk),Bb);
+#NNI moves:0/30
+((((Pk,Bb),Ip),Bg),Ee);
+#NNI moves:0/30
+((((Ee,Bg),Ip),Bb),Pk);
+Current score: 232
+Current tree: (((Ee,Bg),(Bb,Pk)),Ip);
+Final Tree: (((Ee,Bg),(Bb,Pk)),Ip);
+Score: 232
+
+ASTRAL-IV analysis finished at Tue Apr 28 23:16:52 CDT 2026
