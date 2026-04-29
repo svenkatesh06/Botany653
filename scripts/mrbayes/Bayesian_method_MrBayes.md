@@ -273,3 +273,38 @@ https://github.com/beast-dev/tracer/releases/tag/v1.7.2 > Tracer.v1.7.2.zip
   - These are `m{1}`, `m{2}`, and `m{3}`.
   - **The estimated rates showed that codon position 3 evolved fastest, codon position 1 was intermediate, and codon position 2 evolved slowest.**
   - **This matches the expected pattern for protein-coding nucleotide sequences, where third codon positions are often less constrained.**
+
+  ## Comparison of IQ-TREE and MrBayes tree visualizations
+
+- I compared the IQ-TREE nucleotide maximum-likelihood tree with the MrBayes bayesian consensus tree by running the `visualize_trees_mrbayes.ipynb` notebook which plots the unrooted and rooted trees for both MrBayes and compares the topologies between IQTREE and MrBayes.
+
+- The two analyses used different partitioning strategies:
+  - **IQ-TREE used gene-based partitions** with automatic model selection and partition merging.
+  - **MrBayes used codon-position partitions** across the concatenated coding-sequence alignment.
+
+- Both trees were rooted using `Ip` as the outgroup before visualization and comparison.
+
+- Tips were colored by major lineage/group:
+  - `Bg` and `Ee`: Gymnotiformes / South American electric fishes
+  - `Bb` and `Pk`: Mormyridae / African weakly electric fishes
+  - `Ip`: Ictaluridae outgroup
+
+- I used `comparePhylo()` to check whether the two trees had the same taxa and topology.
+  - Both trees had the same number of tips: 5.
+  - Both trees had the same tip labels.
+  - Both trees had the same number of internal nodes: 3.
+  - The comparison found 3 splits in common.
+
+- I also calculated the Robinson-Foulds distance between the IQ-TREE and MrBayes trees.
+  - The RF distance was `0`.
+  - An RF distance of `0` means the two trees have the same topology.
+
+- I used `cophylo()` to visualize the two trees as a tanglegram.
+  - `cophylo()` plots two trees facing each other and connects matching taxa.
+  - **If the connecting lines do not cross, the trees have the same or very similar topology.**
+  - In this comparison, the matching taxa aligned consistently between the IQ-TREE and MrBayes trees.
+
+- Overall, the IQ-TREE and MrBayes analyses recovered the same topology.
+  - Both methods supported a close relationship between `Bg` and `Ee`.
+  - Both methods also supported a close relationship between `Bb` and `Pk`.
+  - This indicates that the maximum-likelihood and Bayesian analyses were topologically consistent for this dataset.

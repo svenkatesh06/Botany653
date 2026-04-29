@@ -1,0 +1,8 @@
+=> Comparing iq_rooted with mb_rooted_compare.
+Both trees have the same number of tips: 5.
+Both trees have the same tip labels.
+Both trees have the same number of nodes: 3.
+Both trees are unrooted.
+Both trees are not ultrametric.
+3 splits in common.
+

@@ -39,7 +39,7 @@ The `-B` 1000 option runs 1000 ultrafast bootstrap replicates. These values prov
 
 The `-o Ip` option writes the final tree with Ip as the outgroup. This is appropriate because ML tree searches produce unrooted trees by default.
 
-#### WHY PARTITIONING?
+#### WHY GENE PARTITIONING?
 The dataset contains multiple genes, and each gene may have a different evolutionary rate or substitution pattern. If all genes were forced into one unpartitioned model, the analysis would assume that every site across all genes evolved under the same model. That is probably too simplistic for a multi-gene coding-sequence dataset.
 
 
@@ -136,7 +136,7 @@ install.packages("BiocManager")
 BiocManager::install(c("ggtree", "treeio","tidytree","ggplot2"))
 install.packages(c("phytools", "dendextend"))
 ```
-After this, I ran the chunks in `visualize_trees.ipynb` to read the tree files, plot the trees, and save the figures. The final output includes separate plots for the AA and NT trees, as well as a combined figure comparing both trees side by side.
+After this, I ran the chunks in `visualize_trees_iqtree.ipynb` to read the tree files, plot the trees, and save the figures. The final output includes separate plots for the AA and NT trees, as well as a combined figure comparing both trees side by side.
 
 > The branch lengths differed between the two analyses, with the nucleotide tree showing a longer overall scale than the amino-acid tree. This is expected because nucleotide sequences contain more sites and include synonymous substitutions that are not represented in the amino-acid alignment.
 
