@@ -1,0 +1,8 @@
+=> Comparing astral_rooted with mb_rooted.
+Both trees have the same number of tips: 5.
+Both trees have the same tip labels.
+Both trees have the same number of nodes: 4.
+Both trees are rooted.
+Both trees are not ultrametric.
+3 splits in common.
+
