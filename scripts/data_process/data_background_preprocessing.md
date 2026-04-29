@@ -5,18 +5,14 @@ The primary reference papers for this project are:
 
 For this project, I am **not attempting to reproduce the 2014 transcriptome analysis exactly**. Instead, I am using the 2014 paper as the biological starting point, specifically its EO-associated gene sets from cluster 1 and cluster 9, and building an updated comparative sequence analysis around them.
 
-2.  *[Genomic Evidence for Convergent Molecular Adaptation in Electric Fishes, Wang and Yang (2021)](https://pmc.ncbi.nlm.nih.gov/articles/PMC7952227/)*. That study moved from transcriptomic comparisons toward comparative genomics and found evidence for convergent molecular evolution across electric-fish lineages, including accelerated protein evolution, positive selection, and convergent amino acid substitutions. Across 4,657 orthologs, they reported 702 positively selected genes and highlighted functional categories such as cell membrane structure, ion channels, and transmembrane transporters, with **scn4aa** standing out as an especially relevant candidate for electrical and muscular activity.
+2.  *[Genomic Evidence for Convergent Molecular Adaptation in Electric Fishes, Wang and Yang (2021)](https://pmc.ncbi.nlm.nih.gov/articles/PMC7952227/)*. This study moved from transcriptomic comparisons toward comparative genomics and found evidence for convergent molecular evolution across electric-fish lineages, including accelerated protein evolution, positive selection, and convergent amino acid substitutions. Across 4,657 orthologs, they reported 702 positively selected genes and highlighted functional categories such as cell membrane structure, ion channels, and transmembrane transporters relevant to electrical and muscular activity.
 
-Together, these 2 papers suggest a useful updated project question:
+I am trying to build on the insights from both papers by asking:
 
 > **How do modern orthologous coding sequences of EO-associated genes compare across a selected set of electric fish genomes?**
 
-This reframes the original transcriptome-centered question into a genome-based comparative analysis of coding sequences while still staying anchored to EO-associated genes identified by Gallant et al. (2014). In other words:
 
-> **This project is an updated genome-based comparative analysis of EO-associated cluster genes, inspired by the original paper.**
-
-> **I used the gene sets defined in cluster 1 and cluster 9 of the original EO transcriptomic study, but performed an updated comparative sequence analysis using currently available annotated genomes from selected electric fish species.**
-
+> This project is an updated coding sequence(CDS) comparative analysis of EO-associated cluster genes, inspired by the original paper.
 
 # PROJECT DATA AND BIG PICTURE
 
@@ -30,20 +26,20 @@ Because of that, I am **not using the 2014 species set unchanged**. Instead, I a
 2. species for which CDS/transcript products can be obtained in a relatively uniform format,
 3. retention of the broader evolutionary question of electric-organ convergence.
 
-So, rather than reproducing the original RNA-seq dataset directly, I am using the **cluster 1 and cluster 9 gene names** from Gallant et al. (2014) as the biologically meaningful input gene set, and then retrieving modern orthologous coding sequences from currently available genome annotations.
+So, rather than reproducing the original RNA-seq dataset directly, I am using the **cluster 1 and cluster 9 gene names** from Gallant et al. (2014) as the biologically meaningful input gene set, and then retrieving modern coding sequences (CDS) from currently available genome annotations.
 
 ## Big-picture biological question
 
-This project is motivated by two related questions:
+This project is motivated by 2 related questions:
 
 1. **Do EO-associated genes identified in the original transcriptomic study show recognizable coding-sequence conservation or divergence across electric-fish genomes?**
 2. **Can a modern comparative CDS-based view of these genes reveal patterns consistent with convergent molecular adaptation across electric fish lineages?**
 
-The first question is anchored directly in Gallant et al. (2014), while the second is motivated by Wang and Yang (2021), who showed that electric fishes from multiple lineages exhibit convergent molecular signals at the genome level, including positive selection and convergent substitutions in genes relevant to electrical and muscular function.
+Even though these questions cannot be fully asnwered with my current limited taxa and gene set, I am using them as a guiding framework for the project and to contextualize the analyses.
 
 ### Planned project design
 
-My plan is to use the EO-associated gene names from **cluster 1** and **cluster 9** of Gallant et al. (2014), identify orthologous coding sequences for those genes in a selected set of electric-fish genomes, and then perform per-gene comparative analyses on the CDS sequences. These analyses may include gene-wise alignments and exploratory phylogenetic comparisons across the selected species.
+My plan is to use the EO-associated gene names from **cluster 1** and **cluster 9** of Gallant et al. (2014), identify CDS for those genes in a selected set of electric-fish genomes, and then perform per-gene comparative analyses on the CDS sequences. ss
 
 ## Species choice
 
@@ -51,7 +47,6 @@ The working logic is:
 
 - include representative electric fishes from more than one lineage,
 - include at least one non-electric annotated outgroup,
-- avoid species that require heavy manual rescue from older transcriptome-only resources.
 
 With that in mind, the updated species list is:
 
@@ -72,7 +67,7 @@ Here, *Electrophorus electricus* and *Brachyhypopomus gauderio* represent the gy
 
 ## Install the necessary packages for project in conda environment
 
-I initially tried setting up the conda environment on my Windows system, but some of the required tools are much easier to manage on Linux. I then tried WSL Ubuntu, but it was slow for this workflow, so I finally set up the environment on the WID server.
+I initially tried setting up the conda environment on my Windows system, but some of the required tools are much easier to manage on Linux. I then tried WSL Ubuntu, but it was slow for this workflow, so I finally set up the environment on a server I had the access to.
 
 ```bash
 conda create -p "<...path_to_env>/e_phylo" \
