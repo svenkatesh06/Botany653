@@ -12,6 +12,7 @@ scripts/gene_seq_alignment/filter_common_genes.py
 ## results
 results/msa_macse/aa
 results/msa_macse/nt/images
+results/coalescent_astral/gene_trees_nt
 
 # tracer
 scripts/Tracer.v1.7.2/
