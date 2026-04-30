@@ -1,18 +1,18 @@
 # DATA BACKGROUND
 
 The primary reference papers for this project are:
-1.  *[Genomic basis for the convergent evolution of electric organs, Gallant et al. (2014)](https://pmc.ncbi.nlm.nih.gov/articles/PMC5541775/)*. Gallant et al. studied how a myogenic electric organ, a muscle-derived organ, evolved repeatedly across distantly related fish lineages. The paper assembled the genome of the electric eel (*Electrophorus electricus*) and compared electric organ (EO) and skeletal muscle transcriptomes across five electric-fish species representing multiple independent origins of electrogenesis. A major result of that study was the identification of EO-associated gene sets, including genes in **cluster 9** that were highly upregulated in EO and genes in **cluster 1** that were downregulated in EO relative to muscle.
+1.  *[Genomic basis for the convergent evolution of electric organs, Gallant et al. (2014)](https://www.science.org/doi/10.1126/science.1254432)*. Gallant et al. studied how a myogenic electric organ, a muscle-derived organ, evolved repeatedly across distantly related fish lineages. The paper assembled the genome of the electric eel (*Electrophorus electricus*) and compared electric organ (EO) and skeletal muscle transcriptomes across five electric-fish species representing multiple independent origins of electrogenesis. A major result of that study was the identification of EO-associated gene sets, including genes in **cluster 9** that were highly upregulated in EO and genes in **cluster 1** that were downregulated in EO relative to muscle.
 
 For this project, I am **not attempting to reproduce the 2014 transcriptome analysis exactly**. Instead, I am using the 2014 paper as the biological starting point, specifically its EO-associated gene sets from cluster 1 and cluster 9, and building an updated comparative sequence analysis around them.
 
-2.  *[Genomic Evidence for Convergent Molecular Adaptation in Electric Fishes, Wang and Yang (2021)](https://pmc.ncbi.nlm.nih.gov/articles/PMC7952227/)*. This study moved from transcriptomic comparisons toward comparative genomics and found evidence for convergent molecular evolution across electric-fish lineages, including accelerated protein evolution, positive selection, and convergent amino acid substitutions. Across 4,657 orthologs, they reported 702 positively selected genes and highlighted functional categories such as cell membrane structure, ion channels, and transmembrane transporters relevant to electrical and muscular activity.
+2.  *[Genomic Evidence for Convergent Molecular Adaptation in Electric Fishes, Wang and Yang (2021)](https://academic.oup.com/gbe/article/13/3/evab038/6151746)*. This study moved from transcriptomic comparisons toward comparative genomics and found evidence for convergent molecular evolution across electric-fish lineages, including accelerated protein evolution, positive selection, and convergent amino acid substitutions. Across 4,657 orthologs, they reported 702 positively selected genes and highlighted functional categories such as cell membrane structure, ion channels, and transmembrane transporters relevant to electrical and muscular activity.
 
 I am trying to build on the insights from both papers by asking:
 
 > **How do modern orthologous coding sequences of EO-associated genes compare across a selected set of electric fish genomes?**
 
 
-> This project is an updated coding sequence(CDS) comparative analysis of EO-associated cluster genes, inspired by the original paper.
+> This project is an updated coding DNA sequence (CDS) comparative analysis of EO-associated cluster genes, inspired by the original paper.
 
 # PROJECT DATA AND BIG PICTURE
 
@@ -54,7 +54,7 @@ With that in mind, the updated species list is:
 | ---- | -------------------------- | ------------------------------------------------- |
 | `Ee` | *Electrophorus electricus* | electric eel / strongly electric gymnotiform      |
 | `Bg` | *Brachyhypopomus gauderio* | bluntnose knifefish / weakly electric gymnotiform |
-| `Pk` | *Paramormyrops kingsleyae* | weakly electric mormyrid                          |
+| `Pk` | *Paramormyrops kingsleyae* | elephantfish / weakly electric mormyrid           |
 | `Bb` | *Brienomyrus brachyistius* | baby whale fish / baby whale mormyrid             |
 | `Ip` | *Ictalurus punctatus*      | channel catfish, non-electric outgroup            |
 
