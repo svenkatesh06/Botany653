@@ -2,7 +2,7 @@
 
 This repository contains my final project for **Botany 563: Phylogenetic Analysis of Molecular Data [Spring 2026]**.
 
-The project uses electric-organ-associated coding sequences to compare phylogenetic signal across electric and non-electric fishes. The biological marker set was motivated by **Gallant et al. 2014**, which identified electric-organ-associated gene clusters, and the species/context choices were also guided by **Wang and Yang 2021**, which provides an updated comparative phylogenetic framework for electric fishes.
+The project uses electric-organ-associated coding sequences to compare phylogenetic signal across electric and non-electric fishes. The biological marker set was motivated by **[Gallant et al. 2014](https://www.science.org/doi/10.1126/science.1254432)**, which identified electric-organ-associated gene clusters, and the species/context choices were also guided by **[Wang and Yang 2021](https://academic.oup.com/gbe/article/13/3/evab038/6151746)**, which provides an updated comparative phylogenetic framework for electric fishes.
 
 ## Overview:
 
@@ -30,6 +30,9 @@ where:
 | `Pk` | *Paramormyrops kingsleyae* | Mormyroidea |
 | `Ip` | *Ictalurus punctatus* | non-electric outgroup |
 
+## Final report
+
+The final written report for this project is available here: [Report: Phylogenetic Analysis of Electric Organ–Associated Genes in Electric Fishes](./project_report.pdf).
 
 ## Workflow summary
 
